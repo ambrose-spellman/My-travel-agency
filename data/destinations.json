@@ -1,0 +1,166 @@
+{
+  "destinations": [
+    {
+      "id": "at-bashy",
+      "slug": "at-bashy",
+      "name": "At-Bashy",
+      "short": "Our home valley: gorges, pastures and the road to Tash-Rabat",
+      "heroImage": "/assets/images/destinations/kel-suu-valley.jpg",
+      "tileImage": "/assets/images/destinations/kel-suu-valley.jpg",
+      "about": "At-Bashy is our home: a valley in the Naryn region between the At-Bashy and Jaman-Too ranges, with gorges, summer pastures and the road south to Tash-Rabat and Chatyr-Kol. It is also the gateway to Kel-Suu Lake in the Kok-Kiya valley near the Chinese border.",
+      "info": [
+        { "k": "Best time", "v": "May–September" },
+        { "k": "From Bishkek", "v": "≈ 6–7 hours by car" },
+        { "k": "Activities", "v": "Horse riding, 4x4, hiking" },
+        { "k": "Difficulty", "v": "Easy to Challenging" }
+      ],
+      "highlights": [
+        { "t": "Tash-Rabat", "d": "Stone caravanserai in a quiet side valley, once a stop on the Silk Road.", "img": "/assets/images/destinations/kel-suu-valley.jpg" },
+        { "t": "Chatyr-Kol", "d": "High plateau lake near the Torugart road, with wide views of the ranges.", "img": "/assets/images/general/mountain-lake-yurts.webp" },
+        { "t": "Achakaiyndy Gorges", "d": "The valley where our horse routes begin, with dramatic rock walls.", "img": "/assets/images/general/camel-pastures.webp" }
+      ],
+      "gettingThere": "We pick you up in Bishkek and drive via Kochkor and Naryn to At-Bashy. The drive takes most of a day with stops on the way.",
+      "gettingThereBullets": [
+        "Private car transfer from Bishkek (included in tours)",
+        "Shared taxi to Naryn from Bishkek's western bus station",
+        "4x4 for mountain roads beyond At-Bashy"
+      ],
+      "ctaTitle": "Ready to Visit At-Bashy?"
+    },
+    {
+      "id": "naryn",
+      "slug": "naryn",
+      "name": "Naryn",
+      "short": "The high inner Tien Shan — gateway to Kel-Suu and Song-Kul",
+      "heroImage": "/assets/images/general/camel-pastures.webp",
+      "tileImage": "/assets/images/general/camel-pastures.webp",
+      "about": "Naryn region covers the high inner Tien Shan: wide river valleys, summer pastures above 3,000 m and the roads that lead to Song-Kul, Kel-Suu and the old Silk Road post of Tash-Rabat. It is the least visited and most scenic part of Kyrgyzstan.",
+      "info": [
+        { "k": "Best time", "v": "June–September" },
+        { "k": "From Bishkek", "v": "≈ 5–6 hours by car" },
+        { "k": "Activities", "v": "Horse riding, 4x4, hiking" },
+        { "k": "Difficulty", "v": "Easy to Challenging" }
+      ],
+      "highlights": [
+        { "t": "Naryn Town", "d": "The regional hub and starting point for most high-mountain routes.", "img": "/assets/images/general/camel-pastures.webp" },
+        { "t": "Eki-Naryn Gorge", "d": "Where the two Naryn rivers meet, surrounded by steep canyon walls.", "img": "/assets/images/general/sheep-pastures.jpg" },
+        { "t": "Summer Pastures", "d": "Jailoos where shepherd families move with their herds every summer.", "img": "/assets/images/general/mountain-lake-yurts.webp" }
+      ],
+      "gettingThere": "Naryn town is reached via the Bishkek–Torugart highway, a scenic drive over the Dolon pass. From there, smaller roads and 4x4 tracks lead into the mountains.",
+      "gettingThereBullets": [
+        "Private car transfer from Bishkek (included in tours)",
+        "Shared taxi from Bishkek's western bus station",
+        "4x4 required beyond Naryn town for most routes"
+      ],
+      "ctaTitle": "Ready to Visit Naryn?"
+    },
+    {
+      "id": "kel-suu",
+      "slug": "kel-suu",
+      "name": "Kel-Suu",
+      "short": "A turquoise lake at 3,500 m between granite walls",
+      "heroImage": "/assets/images/destinations/kel-suu-valley.jpg",
+      "tileImage": "/assets/images/destinations/kel-suu-valley.jpg",
+      "about": "Kel-Suu is a turquoise alpine lake sitting at about 3,500 m in the Kok-Kiya valley, close to the Chinese border. It is reached on horseback over the Bogoshtu Pass or by 4x4 via Tash-Rabat and Aksay — one of the most remote and dramatic places in Kyrgyzstan.",
+      "info": [
+        { "k": "Best time", "v": "July–August" },
+        { "k": "From Bishkek", "v": "≈ 8–9 hours by car, plus a ride or drive in" },
+        { "k": "Activities", "v": "Horse riding, 4x4" },
+        { "k": "Difficulty", "v": "Moderate to Challenging" }
+      ],
+      "highlights": [
+        { "t": "Bogoshtu Pass", "d": "The high pass crossed on the direct horse trek from At-Bashy.", "img": "/assets/images/destinations/kel-suu-valley.jpg" },
+        { "t": "The Lake Itself", "d": "Turquoise water between granite walls, with almost no other visitors.", "img": "/assets/images/general/mountain-lake-yurts.webp" },
+        { "t": "Border Zone Permit", "d": "Kel-Suu sits in a restricted border area; we arrange the permit for you.", "img": "/assets/images/general/camel-pastures.webp" }
+      ],
+      "gettingThere": "Kel-Suu is reached either by a multi-day horse trek over the Bogoshtu Pass, or by 4x4 via Tash-Rabat, Arpa and Aksay, arriving at the shore directly.",
+      "gettingThereBullets": [
+        "Horse trek via Bogoshtu Pass (3–4 days from At-Bashy)",
+        "4x4 route via Tash-Rabat and Aksay (1–2 days from Bishkek)",
+        "Border permit arranged by us — passport details needed in advance"
+      ],
+      "ctaTitle": "Ready to Visit Kel-Suu?"
+    },
+    {
+      "id": "song-kul",
+      "slug": "song-kul",
+      "name": "Song-Kul",
+      "short": "Alpine lake and summer yurt camps of shepherd families",
+      "heroImage": "/assets/images/destinations/song-kul-horseman.webp",
+      "tileImage": "/assets/images/destinations/song-kul-horseman.webp",
+      "about": "Song-Kul is a high alpine lake at about 3,000 m surrounded by open pastures. Every summer, shepherd families move up with their herds and set up yurt camps along the shore — it is one of the best places in Kyrgyzstan to experience nomadic life firsthand.",
+      "info": [
+        { "k": "Best time", "v": "June–September" },
+        { "k": "From Bishkek", "v": "≈ 5–6 hours by car" },
+        { "k": "Activities", "v": "Horse riding, 4x4" },
+        { "k": "Difficulty", "v": "Easy to Moderate" }
+      ],
+      "highlights": [
+        { "t": "Yurt Camps", "d": "Stay with shepherd families in traditional yurts by the lake.", "img": "/assets/images/destinations/song-kul-horseman.webp" },
+        { "t": "Horseback Rides", "d": "Easy rides around the shore and up into the surrounding pastures.", "img": "/assets/images/general/mountain-lake-yurts.webp" },
+        { "t": "Sunrise & Sunset", "d": "The light over the lake at dawn and dusk is a highlight for photographers.", "img": "/assets/images/general/sheep-pastures.jpg" }
+      ],
+      "gettingThere": "Song-Kul is reached via Kochkor by 4x4 or on horseback, climbing over the Kalmak-Ashuu or Moldo-Ashuu passes onto the plateau.",
+      "gettingThereBullets": [
+        "Private car/4x4 transfer from Bishkek (included in tours)",
+        "Shared taxi to Kochkor from Bishkek, then 4x4 onward",
+        "Horseback approach available from several trailheads"
+      ],
+      "ctaTitle": "Ready to Visit Song-Kul?"
+    },
+    {
+      "id": "issyk-kul",
+      "slug": "issyk-kul",
+      "name": "Issyk-Kul",
+      "short": "The great lake, canyons and gorges of the Tien Shan",
+      "heroImage": "/assets/images/destinations/issyk-kul-skazka-canyon-1.jpg",
+      "tileImage": "/assets/images/destinations/issyk-kul-skazka-canyon-1.jpg",
+      "about": "Issyk-Kul is one of the largest alpine lakes in the world, ringed by the Kungey and Terskey Ala-Too ranges. Around it are red-rock canyons, gorges, hot springs and the town of Karakol — a good add-on to a mountain trip or a relaxed stop on the way east.",
+      "info": [
+        { "k": "Best time", "v": "April–October" },
+        { "k": "From Bishkek", "v": "≈ 4–5 hours by car" },
+        { "k": "Activities", "v": "4x4, hiking, swimming" },
+        { "k": "Difficulty", "v": "Easy" }
+      ],
+      "highlights": [
+        { "t": "Skazka (Fairy Tale) Canyon", "d": "Red sandstone formations on the lake's southern shore.", "img": "/assets/images/destinations/issyk-kul-skazka-canyon-1.jpg" },
+        { "t": "Jety-Oguz", "d": "The 'Seven Bulls' red rock ridge near Karakol.", "img": "/assets/images/destinations/issyk-kul-skazka-canyon-2.jpg" },
+        { "t": "Karakol", "d": "The regional town, gateway to the Terskey Ala-Too for onward trekking.", "img": "/assets/images/general/mountain-lake-yurts.webp" }
+      ],
+      "gettingThere": "Issyk-Kul is reached via the Bishkek–Balykchy road along either the northern or southern shore, both scenic drives of half a day.",
+      "gettingThereBullets": [
+        "Private car transfer from Bishkek (included in tours)",
+        "Shared taxi or marshrutka from Bishkek's Vostok-5 station",
+        "Northern shore (Cholpon-Ata) or southern shore (Bokonbaevo) routes"
+      ],
+      "ctaTitle": "Ready to Visit Issyk-Kul?"
+    },
+    {
+      "id": "south",
+      "slug": "sary-chelek-arslanbob-osh",
+      "name": "Sary-Chelek, Arslanbob & Osh",
+      "short": "Forests, walnut groves and the ancient south",
+      "heroImage": "/assets/images/general/sheep-pastures.jpg",
+      "tileImage": "/assets/images/general/sheep-pastures.jpg",
+      "about": "The south of Kyrgyzstan is a different country again: the Sary-Chelek Biosphere Reserve's mountain lakes, the world's largest walnut forest at Arslanbob, and the ancient city of Osh with its bazaar and Sulaiman-Too. A green, forested contrast to the high Naryn plateau.",
+      "info": [
+        { "k": "Best time", "v": "May–October" },
+        { "k": "From Bishkek", "v": "≈ 10–12 hours by car, or a short flight to Osh" },
+        { "k": "Activities", "v": "Hiking, 4x4, culture" },
+        { "k": "Difficulty", "v": "Moderate" }
+      ],
+      "highlights": [
+        { "t": "Sary-Chelek Lakes", "d": "A chain of mountain lakes inside a UNESCO biosphere reserve.", "img": "/assets/images/general/sheep-pastures.jpg" },
+        { "t": "Arslanbob Walnut Forest", "d": "The largest natural walnut forest in the world, with waterfalls and viewpoints.", "img": "/assets/images/general/mountain-lake-yurts.webp" },
+        { "t": "Osh Bazaar & Sulaiman-Too", "d": "Central Asia's oldest city, its bazaar and the sacred Sulaiman-Too mountain.", "img": "/assets/images/general/camel-pastures.webp" }
+      ],
+      "gettingThere": "Most travelers fly from Bishkek to Osh (about 1 hour), then continue by car to Arslanbob and Sary-Chelek. Overland travel from Bishkek is also possible via the Osh highway.",
+      "gettingThereBullets": [
+        "Domestic flight Bishkek–Osh (about 1 hour)",
+        "Private car transfer from Osh (included in tours)",
+        "Overland via the Bishkek–Osh highway (10–12 hours)"
+      ],
+      "ctaTitle": "Ready to Visit the South?"
+    }
+  ]
+}

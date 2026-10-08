@@ -1,0 +1,527 @@
+{
+  "tours": [
+    {
+      "id": "achakaiyndy-tash-rabat-chatyr-kol-horse",
+      "title": "Achakaiyndy → Tash-Rabat → Chatyr-Kol Horse Trek",
+      "slug": "achakaiyndy-tash-rabat-chatyr-kol-horse",
+      "region": ["At-Bashy", "Naryn"],
+      "activity": "Horse",
+      "durationMin": 3,
+      "durationMax": 10,
+      "durationUnit": "days",
+      "difficulty": "Moderate to Challenging",
+      "format": ["Private", "Group"],
+      "season": ["May", "June", "July", "August", "September"],
+      "priceFrom": 98,
+      "currency": "USD",
+      "image": "/assets/images/general/mountain-lake-yurts.webp",
+      "gallery": [],
+      "description": "Multi-day horse expedition through the stunning At-Bashy gorges to Tash-Rabat caravanserai and Chatyr-Kol lake.",
+      "highlights": [
+        "Ride through At-Bashy mountains and gorges",
+        "Visit historic Tash-Rabat caravanserai",
+        "Camping by alpine Chatyr-Kol lake",
+        "Authentic nomadic hospitality",
+        "Professional English-speaking guide",
+        "Quality horses and equipment"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Bishkek – Achakaiyndy – First Ride",
+          "description": "Early morning departure from Bishkek. Drive to Achakaiyndy village (approx. 5-6 hours). Meet your horses and guide. Begin horse trek through scenic valleys. Overnight in yurt camp or guesthouse."
+        },
+        {
+          "day": 2,
+          "title": "Through At-Bashy Gorges",
+          "description": "Full day of horse riding through dramatic At-Bashy gorges. Stunning mountain views, alpine meadows, and traditional nomadic settlements. Camping under the stars."
+        },
+        {
+          "day": 3,
+          "title": "At-Bashy Mountains",
+          "description": "Continue through high mountain passes. Encounter local nomadic families. Learn about traditional Kyrgyz culture and hospitality. Overnight in yurt camp."
+        },
+        {
+          "day": 4,
+          "title": "Tash-Rabat Caravanserai",
+          "description": "Ride to the historic Tash-Rabat caravanserai (15th century). Explore the ancient Silk Road trading post. Overnight near Tash-Rabat."
+        },
+        {
+          "day": 5,
+          "title": "Tash-Rabat – Chatyr-Kol",
+          "description": "Depart Tash-Rabat and ride towards Chatyr-Kol lake. High altitude plateau with breathtaking views. Overnight by the lake."
+        },
+        {
+          "day": 6,
+          "title": "Chatyr-Kol Lake",
+          "description": "Explore Chatyr-Kol lake and surrounding area. Optional short hikes. Relax and enjoy the pristine nature. Overnight in yurt camp."
+        },
+        {
+          "day": 7,
+          "title": "Return Journey",
+          "description": "Begin return journey through At-Bashy. Farewell dinner with local family. Overnight in guesthouse."
+        },
+        {
+          "day": 8,
+          "title": "Achakaiyndy – Bishkek",
+          "description": "Final ride to Achakaiyndy. Drive back to Bishkek (5-6 hours). Tour ends in the evening."
+        }
+      ],
+      "included": [
+        "Professional English-speaking guide",
+        "Horses and equipment (saddle, bridle, helmet)",
+        "3 meals per day during tour",
+        "Accommodation (yurt camp, guesthouse, camping)",
+        "4x4 support vehicle (where applicable)",
+        "Organizer fee (30%) for logistics and coordination"
+      ],
+      "notIncluded": [
+        "Flights to Bishkek",
+        "Travel insurance",
+        "Visa fees",
+        "Personal expenses",
+        "Tips for guide"
+      ],
+      "accommodation": "Yurt camps, guesthouses, camping",
+      "transport": "Horses + 4x4 support",
+      "startingPoint": "Bishkek or Achakaiyndy",
+      "endingPoint": "Bishkek",
+      "groupSize": {
+        "min": 2,
+        "max": 8
+      },
+      "pricing": {
+        "perDayBase": 100,
+        "organizerMarkup": 0.30,
+        "minBillableParticipants": 4,
+        "displayFromPrice": 98
+      },
+      "whatsappMessage": "Hello! I'm interested in the Achakaiyndy → Tash-Rabat → Chatyr-Kol Horse Trek.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
+      "faq": [
+        {
+          "question": "What is the difficulty level?",
+          "answer": "Moderate to Challenging. Suitable for riders with some experience. Long days in the saddle and high altitude."
+        },
+        {
+          "question": "Do I need previous horse riding experience?",
+          "answer": "Yes, basic horse riding experience is recommended. Our guides will provide instruction, but comfort on horseback is important for multi-day treks."
+        },
+        {
+          "question": "What is the best time to visit?",
+          "answer": "May to September offers the best weather and trail conditions. July and August are warmest, but also most popular."
+        },
+        {
+          "question": "What should I pack?",
+          "answer": "Riding boots or sturdy shoes, warm layers, waterproof jacket, sun protection, personal medications, and a small daypack."
+        },
+        {
+          "question": "Is travel insurance required?",
+          "answer": "Yes, we strongly recommend comprehensive travel insurance that covers horse riding and emergency evacuation."
+        }
+      ]
+    },
+    {
+      "id": "tash-rabat-arpa-aksay-kelsuu-4x4",
+      "title": "Tash-Rabat – Arpa – Aksay – Kel-Suu 4x4",
+      "slug": "tash-rabat-arpa-aksay-kelsuu-4x4",
+      "region": ["Naryn", "Kel-Suu"],
+      "activity": "4x4",
+      "durationMin": 3,
+      "durationMax": 5,
+      "durationUnit": "days",
+      "difficulty": "Moderate",
+      "format": ["Private", "Group"],
+      "season": ["June", "July", "August", "September"],
+      "priceFrom": 98,
+      "currency": "USD",
+      "image": "/assets/images/destinations/kel-suu-valley.jpg",
+      "gallery": [],
+      "description": "Off-road loop via high mountain passes to the turquoise Kel-Suu lake with scenic stops along the way.",
+      "highlights": [
+        "Tash-Rabat caravanserai",
+        "Arpa valley and high passes",
+        "Aksay canyon",
+        "Kel-Suu lake shores",
+        "Remote mountain scenery",
+        "Professional driver-guide"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Bishkek – Tash-Rabat",
+          "description": "Early departure from Bishkek. Drive via Bishkek – Osh highway to Tash-Rabat caravanserai (approx. 8-9 hours). Explore the ancient Silk Road site. Overnight near Tash-Rabat."
+        },
+        {
+          "day": 2,
+          "title": "Tash-Rabat – Arpa – Aksay",
+          "description": "Off-road adventure through Arpa valley and high mountain passes. Stunning views of Naryn region. Drive through Aksay canyon. Overnight in guesthouse or yurt camp."
+        },
+        {
+          "day": 3,
+          "title": "Aksay – Kel-Suu – Bishkek",
+          "description": "Morning visit to Kel-Suu lake. Time for photos and short walks by the turquoise waters. Return journey to Bishkek (approx. 7-8 hours)."
+        }
+      ],
+      "included": [
+        "Professional driver-guide",
+        "4x4 vehicle and fuel",
+        "3 meals per day during tour",
+        "Accommodation (guesthouse, yurt camp)",
+        "Pick-up and drop-off in Bishkek",
+        "Organizer fee (30%) for logistics and coordination"
+      ],
+      "notIncluded": [
+        "Flights to Bishkek",
+        "Travel insurance",
+        "Visa fees",
+        "Personal expenses",
+        "Tips for guide"
+      ],
+      "accommodation": "Guesthouses, yurt camps",
+      "transport": "4x4 vehicle",
+      "startingPoint": "Bishkek",
+      "endingPoint": "Bishkek",
+      "groupSize": {
+        "min": 2,
+        "max": 6
+      },
+      "pricing": {
+        "perDayBase": 100,
+        "organizerMarkup": 0.30,
+        "minBillableParticipants": 4,
+        "displayFromPrice": 98
+      },
+      "whatsappMessage": "Hello! I'm interested in the Tash-Rabat – Arpa – Aksay – Kel-Suu 4x4 tour.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
+      "faq": [
+        {
+          "question": "What type of vehicle is used?",
+          "answer": "We use comfortable 4x4 vehicles (Toyota Land Cruiser or similar) suitable for mountain roads and off-road sections."
+        },
+        {
+          "question": "Are the roads difficult?",
+          "answer": "Some sections are unpaved and can be rough, especially after rain. Our experienced drivers ensure a safe and comfortable journey."
+        },
+        {
+          "question": "Can we extend the tour?",
+          "answer": "Yes, this tour can be customized to 4-5 days with additional stops. Contact us on WhatsApp to discuss options."
+        }
+      ]
+    },
+    {
+      "id": "chuy-issyk-kul-roadtrip",
+      "title": "Chuy – Issyk-Kul Road Trip",
+      "slug": "chuy-issyk-kul-roadtrip",
+      "region": ["Chuy", "Issyk-Kul"],
+      "activity": "4x4",
+      "durationMin": 1,
+      "durationMax": 3,
+      "durationUnit": "days",
+      "difficulty": "Easy",
+      "format": ["Private", "Group"],
+      "season": ["April", "May", "June", "July", "August", "September", "October"],
+      "priceFrom": 33,
+      "currency": "USD",
+      "image": "/assets/images/destinations/issyk-kul-skazka-canyon-1.jpg",
+      "gallery": [],
+      "description": "Flexible road trip: Bishkek → Tokmok → Burana → Tash-Moinok → Issyk-Kul (Grigoryevka, Semenovka, Karakol, Jety-Oguz, Jomok-Say, Aksay, etc.). Fully customizable.",
+      "highlights": [
+        "Burana Tower and petroglyphs",
+        "Tash-Moinok canyon viewpoints",
+        "Issyk-Kul lakeside stops",
+        "Jety-Oguz rock formations",
+        "Optional detours (Jomok-Say, Aksay)",
+        "Flexible itinerary"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Bishkek – Tokmok – Burana – Tash-Moinok – Issyk-Kul",
+          "description": "Depart Bishkek. Visit Tokmok city and Burana Tower (11th century minaret). Continue to Tash-Moinok canyon for spectacular views. Drive to Issyk-Kul lakeside (Grigoryevka or Semenovka). Overnight at lake."
+        },
+        {
+          "day": 2,
+          "title": "Issyk-Kul Exploration",
+          "description": "Explore Issyk-Kul lake area. Options: Karakol city, Jety-Oguz rock formations, Grigoryevka gorge, Semenovka beach, or Jomok-Say canyon. Customizable based on preferences. Overnight at lake."
+        },
+        {
+          "day": 3,
+          "title": "Issyk-Kul – Bishkek",
+          "description": "Morning at leisure by the lake. Return journey to Bishkek via scenic route. Optional stops en route. Tour ends in Bishkek in the evening."
+        }
+      ],
+      "included": [
+        "Professional driver-guide",
+        "4x4 or minivan and fuel",
+        "Pick-up and drop-off in Bishkek",
+        "Organizer fee (30%) for logistics and coordination"
+      ],
+      "notIncluded": [
+        "Meals",
+        "Accommodation",
+        "Entrance fees",
+        "Travel insurance",
+        "Personal expenses",
+        "Tips for guide"
+      ],
+      "accommodation": "Optional (guesthouses, hotels, yurt camps)",
+      "transport": "4x4 or minivan",
+      "startingPoint": "Bishkek",
+      "endingPoint": "Bishkek",
+      "groupSize": {
+        "min": 2,
+        "max": 6
+      },
+      "pricing": {
+        "perDayBase": 100,
+        "organizerMarkup": 0.30,
+        "minBillableParticipants": 4,
+        "displayFromPrice": 33
+      },
+      "whatsappMessage": "Hello! I'm interested in the Chuy – Issyk-Kul Road Trip.\n\nPreferred dates:\nNumber of travelers:\nMy country:\nPlaces I want to visit:",
+      "faq": [
+        {
+          "question": "Can we customize the itinerary?",
+          "answer": "Yes, this is a flexible road trip. Tell us which places you want to visit, and we'll build a custom itinerary for you."
+        },
+        {
+          "question": "Are meals included?",
+          "answer": "No, meals are not included. Your guide will recommend local cafes and restaurants along the route."
+        },
+        {
+          "question": "Can we add more days?",
+          "answer": "Yes, the tour can be extended to 4-5 days to explore more of Issyk-Kul region. Contact us for details."
+        }
+      ]
+    },
+    {
+      "id": "bogoshtu-kelsuu-horse",
+      "title": "Bogoshtu Pass → Kel-Suu Horse Trek",
+      "slug": "bogoshtu-kelsuu-horse",
+      "region": ["Kel-Suu", "Naryn"],
+      "activity": "Horse",
+      "durationMin": 4,
+      "durationMax": 7,
+      "durationUnit": "days",
+      "difficulty": "Moderate to Challenging",
+      "format": ["Private", "Group"],
+      "season": ["June", "July", "August", "September"],
+      "priceFrom": 130,
+      "currency": "USD",
+      "image": "/assets/images/destinations/kel-suu-valley.jpg",
+      "gallery": [],
+      "description": "Direct horse trek to Kel-Suu via the scenic Bogoshtu Pass — a true high-mountain adventure.",
+      "highlights": [
+        "Cross Bogoshtu Pass",
+        "Remote high-mountain pastures",
+        "Kel-Suu turquoise waters",
+        "Nomadic culture en route",
+        "Camping under stars",
+        "Professional guide"
+      ],
+      "itinerary": [],
+      "included": [
+        "Professional English-speaking guide",
+        "Horses and equipment (saddle, bridle, helmet)",
+        "3 meals per day during tour",
+        "Accommodation (yurt camp, camping)",
+        "Organizer fee (30%) for logistics and coordination"
+      ],
+      "notIncluded": [
+        "Flights to Bishkek",
+        "Travel insurance",
+        "Visa fees",
+        "Personal expenses",
+        "Tips for guide"
+      ],
+      "accommodation": "Yurt camps, camping",
+      "transport": "Horses",
+      "startingPoint": "Bishkek or Kyzart",
+      "endingPoint": "Bishkek",
+      "groupSize": {
+        "min": 2,
+        "max": 8
+      },
+      "pricing": {
+        "perDayBase": 100,
+        "organizerMarkup": 0.30,
+        "minBillableParticipants": 4,
+        "displayFromPrice": 130
+      },
+      "whatsappMessage": "Hello! I'm interested in the Bogoshtu Pass → Kel-Suu Horse Trek.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
+      "faq": []
+    },
+    {
+      "id": "song-kul-horse-4x4",
+      "title": "Song-Kul Horse & 4x4 Adventure",
+      "slug": "song-kul-horse-4x4",
+      "region": ["Song-Kul", "Naryn"],
+      "activity": "Horse",
+      "durationMin": 2,
+      "durationMax": 5,
+      "durationUnit": "days",
+      "difficulty": "Easy to Moderate",
+      "format": ["Private", "Group"],
+      "season": ["May", "June", "July", "August", "September", "October"],
+      "priceFrom": 65,
+      "currency": "USD",
+      "image": "/assets/images/destinations/song-kul-horseman.webp",
+      "gallery": [],
+      "description": "Combined horse and vehicle tour to Song-Kul high pastures — perfect introduction to nomadic Kyrgyzstan.",
+      "highlights": [
+        "Song-Kul alpine lake",
+        "Jailoo pastures and yurts",
+        "Short horse rides + 4x4 comfort",
+        "Sunrise/sunset viewpoints",
+        "Meet nomadic families",
+        "Flexible itinerary"
+      ],
+      "itinerary": [],
+      "included": [
+        "Professional guide",
+        "Horses (as per program)",
+        "4x4 transport",
+        "3 meals per day during tour",
+        "Accommodation (yurt camp, guesthouse)",
+        "Organizer fee (30%) for logistics and coordination"
+      ],
+      "notIncluded": [
+        "Flights to Bishkek",
+        "Travel insurance",
+        "Visa fees",
+        "Personal expenses",
+        "Tips for guide"
+      ],
+      "accommodation": "Yurt camps, guesthouses",
+      "transport": "4x4 + horses",
+      "startingPoint": "Bishkek",
+      "endingPoint": "Bishkek",
+      "groupSize": {
+        "min": 2,
+        "max": 10
+      },
+      "pricing": {
+        "perDayBase": 100,
+        "organizerMarkup": 0.30,
+        "minBillableParticipants": 4,
+        "displayFromPrice": 65
+      },
+      "whatsappMessage": "Hello! I'm interested in the Song-Kul Horse & 4x4 Adventure.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
+      "faq": []
+    },
+    {
+      "id": "south-eshenkul-sary-chelek-arslanbob-osh",
+      "title": "South Loop: Eshen-Kul – Sary-Chelek – Arslanbob – Osh",
+      "slug": "south-eshenkul-sary-chelek-arslanbob-osh",
+      "region": ["Jalal-Abad", "Osh"],
+      "activity": "Hiking",
+      "durationMin": 4,
+      "durationMax": 7,
+      "durationUnit": "days",
+      "difficulty": "Moderate",
+      "format": ["Private", "Group"],
+      "season": ["May", "June", "July", "August", "September", "October"],
+      "priceFrom": 130,
+      "currency": "USD",
+      "image": "/assets/images/general/sheep-pastures.jpg",
+      "gallery": [],
+      "description": "Southern circuit with mountain lakes, the famous walnut forest of Arslanbob and the vibrant city of Osh.",
+      "highlights": [
+        "Eshen-Kul alpine lake",
+        "Sary-Chelek Biosphere Reserve",
+        "Arslanbob walnut forest",
+        "Osh bazaar and Sulaiman-Too",
+        "Southern Kyrgyz culture",
+        "Scenic mountain roads"
+      ],
+      "itinerary": [],
+      "included": [
+        "Professional driver-guide",
+        "4x4 vehicle and fuel",
+        "3 meals per day during tour",
+        "Accommodation (guesthouse, hotel, yurt camp)",
+        "Pick-up and drop-off (Bishkek or Osh)",
+        "Organizer fee (30%) for logistics and coordination"
+      ],
+      "notIncluded": [
+        "Flights to Bishkek/Osh",
+        "Travel insurance",
+        "Visa fees",
+        "Personal expenses",
+        "Tips for guide"
+      ],
+      "accommodation": "Guesthouses, hotels, yurt camps",
+      "transport": "4x4",
+      "startingPoint": "Bishkek or Osh",
+      "endingPoint": "Bishkek or Osh",
+      "groupSize": {
+        "min": 2,
+        "max": 6
+      },
+      "pricing": {
+        "perDayBase": 100,
+        "organizerMarkup": 0.30,
+        "minBillableParticipants": 4,
+        "displayFromPrice": 130
+      },
+      "whatsappMessage": "Hello! I'm interested in the South Loop: Eshen-Kul – Sary-Chelek – Arslanbob – Osh.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
+      "faq": []
+    },
+    {
+      "id": "grand-kyrgyzstan-custom",
+      "title": "Grand Kyrgyzstan Custom Tour",
+      "slug": "grand-kyrgyzstan-custom",
+      "region": ["All regions"],
+      "activity": "Custom",
+      "durationMin": 5,
+      "durationMax": 14,
+      "durationUnit": "days",
+      "difficulty": "Custom",
+      "format": ["Private"],
+      "season": ["April", "May", "June", "July", "August", "September", "October"],
+      "priceFrom": 163,
+      "currency": "USD",
+      "image": "/assets/images/general/camel-pastures.webp",
+      "gallery": [],
+      "description": "Tailor-made itinerary combining any of our routes (At-Bashy, Kel-Suu, Song-Kul, Issyk-Kul, Sary-Chelek, Arslanbob, Osh) based on your preferences.",
+      "highlights": [
+        "Fully customizable route",
+        "Mix of horse, 4x4 and hiking",
+        "Local guides and authentic stays",
+        "Flexible pace and comfort level",
+        "Personal itinerary planner",
+        "Best of Kyrgyzstan"
+      ],
+      "itinerary": [],
+      "included": [
+        "Professional guide(s)",
+        "Transport as per program (4x4, horses)",
+        "3 meals per day during tour",
+        "Accommodation as per program",
+        "Organizer fee (30%) for logistics and coordination"
+      ],
+      "notIncluded": [
+        "Flights",
+        "Travel insurance",
+        "Visa fees",
+        "Personal expenses",
+        "Tips for guide"
+      ],
+      "accommodation": "Mixed (yurt, guesthouse, hotel)",
+      "transport": "4x4 + horses (as per program)",
+      "startingPoint": "Bishkek (or Osh)",
+      "endingPoint": "Bishkek (or Osh)",
+      "groupSize": {
+        "min": 2,
+        "max": 8
+      },
+      "pricing": {
+        "perDayBase": 100,
+        "organizerMarkup": 0.30,
+        "minBillableParticipants": 4,
+        "displayFromPrice": 163
+      },
+      "whatsappMessage": "Hello! I want to build a custom Grand Kyrgyzstan tour.\n\nPreferred dates:\nNumber of travelers:\nMy country:\nPlaces/activities I want:",
+      "faq": []
+    }
+  ]
+}
