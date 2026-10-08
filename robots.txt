@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ashuu.tours/sitemap.xml
+Sitemap: https://atbashy.tours/sitemap.xml

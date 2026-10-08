@@ -19,11 +19,11 @@ const DESTINATIONS = require(path.join(ROOT, 'data/destinations.json')).destinat
 const SITE = {
   name: 'Ashuu Travel',
   tagline: 'Horse and 4x4 adventures from At-Bashy',
-  url: 'https://ashuu.tours',
+  url: 'https://atbashy.tours',
   whatsapp: '996700000000',
-  email: 'hello@ashuu.tours',
-  instagram: 'ashuu.travel',
-  facebook: 'facebook.com/ashuutravel',
+  email: 'hello@atbashy.tours',
+  instagram: 'atbashy.travel',
+  facebook: 'facebook.com/atbashytravel',
   perDayBase: 100,
   markup: 0.30,
   minBillable: 4
@@ -168,7 +168,7 @@ function renderHeader(activeHref) {
 <a class="skip-link" href="#main-content">Skip to main content</a>
 <header class="site-header">
   <div class="site-header__bar">
-    <a href="/" class="site-header__logo"><img src="/assets/images/logo.svg" alt="${SITE.name}"></a>
+    <a href="/" class="site-header__logo"><img src="/assets/images/logoat4.svg" alt="${SITE.name}"></a>
     <nav class="site-nav" aria-label="Main navigation">
         ${navLinks}
     </nav>
@@ -201,7 +201,7 @@ function renderFooter() {
 <footer class="site-footer">
   <div class="container site-footer__grid">
     <div class="site-footer__col">
-      <img src="/assets/images/logo.svg" alt="${SITE.name}" class="site-footer__logo">
+      <img src="/assets/images/logoat4.svg" alt="${SITE.name}" class="site-footer__logo">
       <span class="site-footer__tagline">${SITE.tagline}</span>
     </div>
     <div class="site-footer__col">
@@ -735,7 +735,7 @@ function buildTourDetail(tour, index) {
     provider: {
       '@type': 'LocalBusiness',
       name: SITE.name,
-      image: SITE.url + '/assets/images/logo.svg',
+      image: SITE.url + '/assets/images/logoat4.svg',
       telephone: '+' + SITE.whatsapp,
       url: SITE.url,
       address: { '@type': 'PostalAddress', addressCountry: 'KG' }

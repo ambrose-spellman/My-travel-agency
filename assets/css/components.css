@@ -72,7 +72,7 @@
 .btn {
   display: inline-flex; align-items: center; justify-content: center;
   height: 48px; padding: 0 28px;
-  border-radius: 4px; border: 0;
+  border-radius: 999px; border: 0;
   font: 600 16px var(--font-body);
   cursor: pointer; text-decoration: none;
   transition: background-color .2s ease, color .2s ease, border-color .2s ease;
@@ -81,14 +81,14 @@
 .btn--lg { height: 56px; padding: 0 32px; }
 .btn--sm { height: 44px; padding: 0 16px; font-size: 15px; }
 
-.btn--primary { background: var(--color-terracotta); color: #2B140A; }
-.btn--primary:hover { background: var(--color-terracotta-dark); color: #2B140A; }
+.btn--primary { background: var(--color-accent); color: #fff; }
+.btn--primary:hover { background: var(--color-accent-dark); color: #fff; }
 
 .btn--outline {
-  background: transparent; color: var(--color-sage-dark);
-  border: 2px solid var(--color-sage); border-radius: 4px;
+  background: transparent; color: var(--color-accent-2-dark);
+  border: 2px solid var(--color-accent-2); border-radius: 999px;
 }
-.btn--outline:hover { background: var(--color-mint); color: var(--color-sage-dark); }
+.btn--outline:hover { background: var(--color-peach); color: var(--color-accent-2-dark); }
 
 .btn--whatsapp {
   background: var(--color-whatsapp); color: #fff; border-radius: 50px;
@@ -99,10 +99,10 @@
 .btn--whatsapp svg { flex-shrink: 0; }
 
 .btn--pill-outline {
-  background: transparent; color: var(--color-ink);
-  border: 2px solid var(--color-forest); border-radius: 4px;
+  background: transparent; color: var(--color-accent-2-dark);
+  border: 2px solid var(--color-accent-2); border-radius: 999px;
 }
-.btn--pill-outline:hover { background: #fff; }
+.btn--pill-outline:hover { background: var(--color-peach); }
 
 .btn--link {
   background: none; border: 0; color: var(--color-forest);
@@ -330,8 +330,8 @@
    ========================================================================== */
 .stepper { display: flex; align-items: center; gap: 16px; }
 .stepper__btn {
-  width: 48px; height: 48px; border: 2px solid var(--color-sage); border-radius: 4px;
-  background: #fff; font: 600 22px var(--font-body); color: var(--color-sage-dark); cursor: pointer;
+  width: 48px; height: 48px; border: 2px solid var(--color-accent); border-radius: 50%;
+  background: #fff; font: 600 22px var(--font-body); color: var(--color-accent-dark); cursor: pointer;
 }
 .stepper__value { min-width: 56px; text-align: center; font: 700 32px var(--font-body); }
 .stepper__hint { font-size: 14px; color: var(--color-text-mute-2); }
