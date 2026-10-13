@@ -1,10 +1,27 @@
 /* ==========================================================================
+   Custom fonts (self-hosted, see assets/fonts/)
+   ========================================================================== */
+@font-face {
+  font-family: 'Iosevka Slab';
+  src: url('/assets/fonts/Iosevka-Slab.woff2') format('woff2'),
+       url('/assets/fonts/Iosevka-Slab.woff') format('woff');
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: 'Iosevka Slab';
+  src: url('/assets/fonts/Iosevka-Slab-Bold-Italic.woff2') format('woff2'),
+       url('/assets/fonts/Iosevka-Slab-Bold-Italic.woff') format('woff');
+  font-weight: 700; font-style: italic; font-display: swap;
+}
+
+/* ==========================================================================
    Design tokens
    ========================================================================== */
 :root {
   /* Brand palette */
   --color-bg: #F7F6F1;
   --color-white: #FFFFFF;
+  --color-light-bg:#fff1e7;
   --color-ink: #172317;
   --color-forest-dark: #13322A;
   --color-forest: #2F6B56;
@@ -35,10 +52,11 @@
   --color-accent-light: #8CD867;
   --color-accent-2: #ED7D3A;
   --color-accent-2-dark: #D4651F;
+  --color-pink: #EF2D56;
 
   /* Typography */
-  --font-heading: 'DM Serif Display', serif;
-  --font-body: 'Manrope', sans-serif;
+  --font-heading: 'Iosevka Slab', 'DM Serif Display', serif;
+  --font-body: 'Golos Text', 'Manrope', sans-serif;
 
   --font-size-xs: 0.75rem;
   --font-size-sm: 0.875rem;
@@ -70,7 +88,7 @@
   --space-4xl: 6rem;
 
   /* Layout */
-  --container-max: 1200px;
+  --container-max: 1320px;
   --page-pad: clamp(16px, 3.4vw, 48px);
   --section-pad: clamp(56px, 7vw, 96px);
   --header-h: 82px;
@@ -106,7 +124,8 @@ a:hover { color: var(--color-rose); }
 
 h1, h2, h3, h4 {
   font-family: var(--font-heading);
-  font-weight: var(--font-weight-normal);
+  font-weight: 700;
+  font-style: italic;
   line-height: var(--line-height-tight);
   margin: 0 0 var(--space-md);
   color: var(--color-heading);
@@ -141,10 +160,17 @@ main { flex: 1; }
 .section--forest { background: var(--color-forest); color: var(--color-white); }
 .section--forest-dark { background: var(--color-forest-dark); color: var(--color-white); }
 .section--peach { background: var(--color-peach); }
+.section--black { background: #000; color: var(--color-white); }
+.section--photo { position: relative; overflow: hidden; color: var(--color-white); }
+.section--photo .section__bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.section--photo .section__scrim { position: absolute; inset: 0; background: rgba(19,50,42,.6); }
+.section--photo > .container { position: relative; }
 
 .section--forest h2,
 .section--forest-dark h1,
-.section--forest-dark h2 { color: var(--color-white); }
+.section--forest-dark h2,
+.section--black h2,
+.section--photo h2 { color: var(--color-white); }
 
 .text-center { text-align: center; }
 .visually-hidden {

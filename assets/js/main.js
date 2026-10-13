@@ -2,6 +2,11 @@
 (function () {
   'use strict';
 
+  function i18n() {
+    var locale = window.SITE_LOCALE || 'en';
+    return (window.I18N_STRINGS && window.I18N_STRINGS[locale]) || (window.I18N_STRINGS && window.I18N_STRINGS.en) || {};
+  }
+
   /* ---------- Mobile menu ---------- */
   function initMobileMenu() {
     var toggle = document.querySelector('[data-menu-toggle]');
@@ -48,6 +53,24 @@
     return true;
   }
 
+  function formatResultsLabel(n) {
+    var s = i18n();
+    var words = s.resultsWords || ['tour', 'tours', 'tours'];
+    var locale = window.SITE_LOCALE || 'en';
+    var word;
+    if (locale === 'ru') {
+      var mod10 = n % 10, mod100 = n % 100;
+      word = (mod10 === 1 && mod100 !== 11) ? words[0] : (mod10 >= 2 && mod10 <= 4 && (mod100 < 10 || mod100 >= 20)) ? words[1] : words[2];
+    } else {
+      word = n === 1 ? words[0] : words[1];
+    }
+    var parts = [];
+    if (s.resultsPrefix) parts.push(s.resultsPrefix);
+    parts.push(n, word);
+    if (s.resultsSuffix) parts.push(s.resultsSuffix);
+    return parts.join(' ');
+  }
+
   function initTourFilters() {
     var grid = document.querySelector('[data-tour-grid]');
     if (!grid) return;
@@ -58,7 +81,7 @@
     var noResults = document.querySelector('[data-no-results]');
     var builderPanel = document.querySelector('[data-builder-panel]');
 
-    var state = { activity: (grid.dataset.defaultActivity || 'Horse'), duration: 'All', region: 'All' };
+    var state = { activity: (grid.dataset.defaultActivity || 'All'), duration: 'All', region: 'All' };
 
     function apply() {
       tabs.forEach(function (t) { t.classList.toggle('is-active', t.dataset.filterTab === state.activity); });
@@ -77,7 +100,7 @@
 
       var visibleCount = 0;
       cards.forEach(function (card) {
-        var matchesActivity = card.dataset.activity === state.activity;
+        var matchesActivity = state.activity === 'All' || card.dataset.activity === state.activity;
         var matchesRegion = state.region === 'All' || (card.dataset.regions || '').split('|').indexOf(state.region) !== -1;
         var matchesDuration = durationMatches(card, state.duration);
         var visible = matchesActivity && matchesRegion && matchesDuration;
@@ -85,7 +108,7 @@
         if (visible) visibleCount++;
       });
 
-      if (resultsLabel) resultsLabel.textContent = 'Showing ' + visibleCount + ' tour' + (visibleCount === 1 ? '' : 's');
+      if (resultsLabel) resultsLabel.textContent = formatResultsLabel(visibleCount);
       if (noResults) noResults.hidden = visibleCount !== 0;
     }
 
@@ -112,37 +135,22 @@
     var el = document.querySelector('[data-builder]');
     if (!el) return;
 
-    var perDayBase = parseInt(el.dataset.perDayBase, 10) || 100;
-    var markup = parseFloat(el.dataset.markup);
-    if (isNaN(markup)) markup = 0.30;
-    var minBillable = parseInt(el.dataset.minBillable, 10) || 4;
-
-    var days = 7;
-    var pax = 2;
     var regions = [];
     var activities = [];
 
-    var daysValueEl = el.querySelector('[data-b-days-value]');
-    var paxValueEl = el.querySelector('[data-b-pax-value]');
-    var estimateEl = el.querySelector('[data-b-estimate]');
     var waLinkEl = el.querySelector('[data-b-wa]');
 
     function render() {
-      if (daysValueEl) daysValueEl.textContent = days;
-      if (paxValueEl) paxValueEl.textContent = pax;
-      var result = window.TourCalculator.calculateTourPrice(days, pax, { perDayBase: perDayBase, markup: markup, minBillable: minBillable });
-      if (estimateEl) estimateEl.textContent = 'Estimate from ' + window.TourCalculator.formatUsd(result.total) + ' for the group';
+      var s = i18n();
       if (waLinkEl && window.SiteWhatsApp) {
-        var msg = 'Hello! I\'d like to build a custom tour.\nRegions: ' + (regions.join(', ') || 'open to suggestions') +
-          '\nActivities: ' + (activities.join(', ') || 'open to suggestions') + '\nDays: ' + days + '\nTravelers: ' + pax;
+        var bl = s.builderWaLabels || {};
+        var open = bl.openToSuggestions || 'open to suggestions';
+        var msg = (bl.hello || "Hello! I'd like to build a custom tour.") +
+          '\n' + (bl.regions || 'Regions') + ': ' + (regions.join(', ') || open) +
+          '\n' + (bl.activities || 'Activities') + ': ' + (activities.join(', ') || open);
         waLinkEl.setAttribute('href', window.SiteWhatsApp.buildWaLink(msg));
       }
     }
-
-    el.querySelectorAll('[data-b-days-dec]').forEach(function (b) { b.addEventListener('click', function () { days = Math.max(1, days - 1); render(); }); });
-    el.querySelectorAll('[data-b-days-inc]').forEach(function (b) { b.addEventListener('click', function () { days = Math.min(30, days + 1); render(); }); });
-    el.querySelectorAll('[data-b-pax-dec]').forEach(function (b) { b.addEventListener('click', function () { pax = Math.max(1, pax - 1); render(); }); });
-    el.querySelectorAll('[data-b-pax-inc]').forEach(function (b) { b.addEventListener('click', function () { pax = Math.min(12, pax + 1); render(); }); });
 
     el.querySelectorAll('[data-b-chip]').forEach(function (chip) {
       chip.addEventListener('click', function () {
@@ -167,21 +175,22 @@
     form.addEventListener('submit', function (e) {
       e.preventDefault();
       var data = new FormData(form);
+      var cf = i18n().contactForm || {};
       var lines = [
-        'Hello! I would like to plan a trip.',
-        'Name: ' + (data.get('name') || ''),
-        'Country: ' + (data.get('country') || ''),
-        'Email: ' + (data.get('email') || ''),
-        'WhatsApp: ' + (data.get('whatsapp') || ''),
-        'Preferred dates: ' + (data.get('dates') || ''),
-        'Travelers: ' + (data.get('travelers') || ''),
-        'Tour or region: ' + (data.get('interest') || ''),
-        'Message: ' + (data.get('message') || '')
+        cf.hello || 'Hello! I would like to plan a trip.',
+        (cf.name || 'Name') + ': ' + (data.get('name') || ''),
+        (cf.country || 'Country') + ': ' + (data.get('country') || ''),
+        (cf.email || 'Email') + ': ' + (data.get('email') || ''),
+        (cf.whatsapp || 'WhatsApp') + ': ' + (data.get('whatsapp') || ''),
+        (cf.dates || 'Preferred dates') + ': ' + (data.get('dates') || ''),
+        (cf.travelers || 'Travelers') + ': ' + (data.get('travelers') || ''),
+        (cf.interest || 'Tour or region') + ': ' + (data.get('interest') || ''),
+        (cf.message || 'Message') + ': ' + (data.get('message') || '')
       ];
       var link = window.SiteWhatsApp.buildWaLink(lines.join('\n'));
       if (successEl) {
         successEl.hidden = false;
-        successEl.innerHTML = 'Thank you! <a href="' + link + '" target="_blank" rel="noopener">Continue on WhatsApp</a> to finish your request — we reply within 24 hours.';
+        successEl.innerHTML = (cf.thankYou || 'Thank you!') + ' <a href="' + link + '" target="_blank" rel="noopener">' + (cf.continueOnWhatsapp || 'Continue on WhatsApp') + '</a> ' + (cf.toFinish || 'to finish your request — we reply within 24 hours.');
         successEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
       window.open(link, '_blank', 'noopener');
@@ -189,10 +198,35 @@
     });
   }
 
+  /* ---------- Practical-info sidebar: highlight the section in view ---------- */
+  function initInfoNavScrollSpy() {
+    var nav = document.querySelector('.info-nav');
+    if (!nav) return;
+    var links = Array.prototype.slice.call(nav.querySelectorAll('a[href^="#"]'));
+    var sections = links
+      .map(function (a) { return document.getElementById(a.getAttribute('href').slice(1)); })
+      .filter(Boolean);
+    if (!sections.length) return;
+
+    function setActive(id) {
+      links.forEach(function (a) { a.classList.toggle('is-active', a.getAttribute('href') === '#' + id); });
+    }
+
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) setActive(entry.target.id);
+      });
+    }, { rootMargin: '-96px 0px -70% 0px', threshold: 0 });
+
+    sections.forEach(function (s) { observer.observe(s); });
+    setActive(sections[0].id);
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     initMobileMenu();
     initAccordions();
     initTourFilters();
+    initInfoNavScrollSpy();
     initTourBuilder();
     initContactForm();
   });

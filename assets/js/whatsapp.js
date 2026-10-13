@@ -2,16 +2,13 @@
 (function (window) {
   'use strict';
 
-  var SITE = {
-    whatsappNumber: '996700000000',
-    email: 'hello@example.com',
-    instagram: 'yourinstagram',
-    facebook: 'facebook.com/yourpage'
-  };
+  var FALLBACK_NUMBER = '996557475741';
 
   function buildWaLink(message) {
-    var digits = SITE.whatsappNumber.replace(/\D/g, '');
-    return 'https://wa.me/' + digits + '?text=' + encodeURIComponent(message || 'Hello! I would like to plan a trip in Kyrgyzstan.');
+    var digits = (window.SITE_WHATSAPP || FALLBACK_NUMBER).replace(/\D/g, '');
+    var strings = (window.I18N_STRINGS && window.I18N_STRINGS[window.SITE_LOCALE]) || {};
+    var fallbackMessage = strings.waDefaultMessage || 'Hello! I would like to plan a trip in Kyrgyzstan.';
+    return 'https://wa.me/' + digits + '?text=' + encodeURIComponent(message || fallbackMessage);
   }
 
   function applyStaticLinks(root) {
@@ -26,7 +23,6 @@
   });
 
   window.SiteWhatsApp = {
-    config: SITE,
     buildWaLink: buildWaLink,
     applyStaticLinks: applyStaticLinks
   };

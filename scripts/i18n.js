@@ -1,0 +1,705 @@
+/* UI string translations for en/ru/ky. Consumed by build.js. */
+'use strict';
+
+const UI = {
+  en: {
+    common: {
+      skipLink: 'Skip to main content',
+      waDefaultMessage: 'Hello! I would like to plan a trip in Kyrgyzstan.',
+      whatsapp: 'WhatsApp',
+      chatOnWhatsapp: 'Chat on WhatsApp',
+      openMenu: 'Open menu',
+      closeMenu: 'Close menu',
+      explore: 'Explore',
+      terms: 'Terms',
+      privacy: 'Privacy',
+      bishkekLocation: 'Bishkek · At-Bashy, Kyrgyzstan',
+      follow: 'Follow',
+      viewTour: 'View tour',
+      viewAllTours: 'View All Tours',
+      viewAllDestinations: 'View All Destinations',
+      fromPricePerPerson: function (price) { return 'From $' + price + ' per person'; },
+      minRateNote: '(min. 4 people rate)',
+      exploreArrow: 'View Tours →',
+      tagline: 'Horse and 4x4 adventures from At-Bashy'
+    },
+    nav: { tours: 'Tours', destinations: 'Destinations', about: 'About', practicalInfo: 'Practical Info', contact: 'Contact' },
+    home: {
+      heroTitle: 'Authentic horseriding, hiking and offroad adventures in the heart of Kyrgyzstan',
+      heroSubtitle: 'From At-Bashy gorges to Kel-Suu and Song-Kul — we want to show you our region in all its beauty',
+      heroCta: 'Explore Tours',
+      founderGreeting: 'Hello! I am Saikal!',
+      founderRole: 'I am the local guide and tour organizer',
+      founderBio: [
+        "For years, I lived abroad and worked in an office. I almost never got outside.",
+        "Then I started traveling, and something changed — I didn't want to go back to office life. When I returned to Kyrgyzstan, I fell in love with my country all over again. I decided to explore it for myself and share it with others.",
+        "One of my goals is to help tourism grow in my hometown, At-Bashy. I want local people to meet travelers from all over the world — and earn a living from it.",
+        "I'll put my whole heart into making your time in Kyrgyzstan amazing. I'm not just your guide. I'm your travel buddy."
+      ],
+      chooseAdventureHeading: 'Choose Your Adventure',
+      categories: [
+        { t: 'Horse Riding Tours', d: 'Multi-day rides through the At-Bashy gorges, to Kel-Suu and Song-Kul, with yurt nights.' },
+        { t: '4x4 Adventures', d: 'Mountain roads to Tash-Rabat, Arpa and Kel-Suu for travelers who prefer wheels to saddles.' },
+        { t: 'Hiking', d: 'Walking routes to Sary-Chelek, Arslanbob and the high lakes.' },
+        { t: 'Build Your Tour', d: 'Pick regions, activities and days — we plan the route around you.' }
+      ],
+      popularToursHeading: 'Popular Tours',
+      exploreRegionsHeading: 'Explore Our Regions',
+      oblasts: ['Chuy', 'Issyk-Kul', 'Naryn', 'Talas', 'Jalal-Abad', 'Osh', 'Batken'],
+      whyTravelHeading: 'Why Travel With Us',
+      whyUs: [
+        ['Local Knowledge', 'At-Bashy is our home. We know the valleys, the families and the weather.'],
+        ['Personal Journeys', 'Every itinerary is built around your dates, pace and interests.'],
+        ['Beyond the Usual Route', 'Kel-Suu via Bogoshtu Pass, Achakaiyndy and routes few agencies run.'],
+        ['Safety First', 'Experienced horsemen, calm horses and guides who know the terrain.'],
+        ['Flexible Itineraries', 'Add or drop days, switch from horse to 4x4 — tell us on WhatsApp.'],
+        ['Responsible Travel', 'We work with local families, camps and horse owners.']
+      ],
+      lifeOnTrailHeading: 'Life on the Trail',
+      galleryAlt: 'Kyrgyzstan mountain landscape',
+      whatTravelersSayHeading: 'What Travelers Say',
+      testimonialPlaceholder: "We're collecting our first traveler reviews. Real testimonials from Google and TripAdvisor will appear here soon.",
+      testimonials: [
+        { quote: "Saikal was amazing throughout our trip in Kyrgyzstan. She helped us a lot as a translator and made everything much easier and more enjoyable. We did some incredible experiences together, including Kel-Suu and the horse trip, and she was always kind, patient, helpful and fun to be around. She made us feel comfortable and helped us connect better with the local people and culture. I'm really happy we had her with us and I would definitely recommend her to anyone traveling in Kyrgyzstan. \u{1F499}", name: 'Afik', avatar: '/assets/images/reviews/review1.jpeg' }
+      ],
+      commonQuestionsHeading: 'Common Questions',
+      faqHome: [
+        { q: 'What is the best time to visit?', a: 'May to October for high pastures and lakes. Kel-Suu horse routes are best in July and August; lower valleys are good from May to October.' },
+        { q: 'Do I need previous horse riding experience?', a: 'No. Kyrgyz horses are calm and a horseman rides with the group. If it is your first ride, we suggest a route of up to 1 day.' },
+        { q: 'What is included in the price?', a: 'Transport, guide and horseman, horses, meals on the route, accommodation and the border permit for Kel-Suu. See each tour page for the full list.' },
+        { q: 'Is travel insurance required?', a: "We don't provide or cover travel insurance ourselves — whether to arrange coverage for horse riding and trekking at altitude is up to you to consider." }
+      ],
+      viewAllFaqs: 'View All FAQs',
+      ctaHeading: 'Ready to Explore Kyrgyzstan?',
+      ctaSubheading: "Let's plan your adventure together",
+      ctaButton: 'Plan Your Trip on WhatsApp',
+      pageTitle: 'Authentic Horse & 4x4 Adventures in Kyrgyzstan',
+      pageDescription: 'Tailor-made horse riding and 4x4 tours through At-Bashy, Kel-Suu, Song-Kul and beyond. Local guides, transparent pricing. Plan your adventure on WhatsApp.'
+    },
+    toursIndex: {
+      heroTitle: 'All Tours',
+      heroSubtitle: 'Horse riding, 4x4 and hiking adventures through Kyrgyzstan',
+      activities: { All: 'All Tours', Horse: 'Horse Riding', '4x4': 'By Car (4x4)', Hiking: 'Hiking', Custom: 'Build Your Tour' },
+      routeWord: 'route', routesWord: 'routes', customWord: 'Custom',
+      durations: { All: 'All', '1-3': '1–3 days', '4-6': '4–6 days', '7-10': '7–10 days', '11+': '11+ days' },
+      durationLabel: 'Duration',
+      regionLabel: 'Region',
+      resultsLabel: function (n) { return 'Showing ' + n + ' tour' + (n === 1 ? '' : 's'); },
+      noResults: 'No routes match these filters — ask us for a custom route.',
+      builder: {
+        heading: 'Build Your Tour',
+        whereHeading: 'Where do you want to go?',
+        whatHeading: 'What do you want to do?',
+        activityChips: ['Horse riding', '4x4 drive', 'Hiking', 'Yurt stay', 'Culture & crafts', 'Photography'],
+        daysLabel: 'Days',
+        travelersLabel: 'Travelers',
+        estimate: function (amount) { return 'Estimate from ' + amount + ' for the group'; },
+        sendPlanBtn: 'Send My Plan on WhatsApp',
+        replyNote: "We reply within 24 hours with a route and exact price.",
+        exampleLabel: 'Example of a custom route'
+      },
+      cantFindHeading: "Can't find what you're looking for?",
+      cantFindText: 'We create custom tours based on your preferences',
+      customTourBtn: 'Build Your Custom Tour',
+      pageTitle: 'All Tours: Horse Riding, 4x4 & Custom Adventures in Kyrgyzstan',
+      pageDescription: 'Browse our collection of horse treks, 4x4 adventures and custom tours. From At-Bashy gorges to Kel-Suu lake. Book on WhatsApp.'
+    },
+    tourDetail: {
+      factsDuration: 'Duration', factsLevel: 'Level', factsSeason: 'Season', factsGroup: 'Group',
+      infoDuration: 'Duration', infoDifficulty: 'Difficulty', infoBestSeason: 'Best season', infoStartingPoint: 'Starting point', infoGroupSize: 'Group size', infoFormat: 'Format',
+      peopleUnit: 'people',
+      dayLabel: 'Day',
+      itineraryFallback: "Send us your dates on WhatsApp and we'll share the detailed day-by-day itinerary and exact route for this tour.",
+      calcHeading: 'Calculate Your Price',
+      numDaysLabel: 'Number of days',
+      numTravelersLabel: 'Number of travelers',
+      minRateApplies: 'Minimum 4-people rate applies for private tours.',
+      totalForGroup: 'Total for group',
+      perPerson: 'Per person',
+      priceNote: 'Final price may vary based on season and customization',
+      bookBtn: 'Book This Tour on WhatsApp',
+      overviewHeading: 'Overview',
+      highlightsHeading: 'Highlights',
+      includedHeading: "What's Included",
+      notIncludedHeading: "What's Not Included",
+      photosHeading: 'Photos from the Route',
+      accommodationHeading: 'Accommodation',
+      accommodationSuffix: '. Bedding and mats are provided; bring a warm sleeping bag for nights above 3,000 m.',
+      transportHeading: 'Transport',
+      transportSuffix: function (start, end) { return '. Starting point: ' + start + '. Ending point: ' + end + '.'; },
+      itineraryHeading: 'Day-by-Day Itinerary',
+      horseSafetyHeading: 'Horse Riding &amp; Safety',
+      roadSafetyHeading: 'On the Road &amp; Safety',
+      horseSafetyText: 'Kyrgyz horses are calm, sure-footed and used to mountain trails. Beginners are welcome: a horseman leads your horse on the first day and stays with the group on every ride.',
+      roadSafetyText: 'Our drivers know these roads well and carry recovery and first-aid equipment for remote mountain routes.',
+      safetyWeightLimit: 'Weight limit', safetyHelmet: 'Helmet', safetyGuide: 'Guide', safetyInsurance: 'Insurance', safetyVehicle: 'Vehicle',
+      safetyWeightVal: 'Max 100 kg / 220 lbs', safetyHelmetVal: 'Provided', safetyGuideVal: 'English-speaking', safetyInsuranceVal: 'Required', safetyVehicleVal: '4x4, maintained and equipped for mountain roads',
+      faqHeading: 'Frequently Asked Questions',
+      similarToursHeading: 'Similar Tours',
+      readyToBookHeading: 'Ready to Book?',
+      readyToBookText: 'Contact us on WhatsApp to check availability and finalize your booking',
+      checkAvailabilityBtn: 'Check Availability on WhatsApp',
+      accommodationAlt: function (title) { return 'Accommodation on the ' + title + ' route'; },
+      transportAlt: function (title) { return 'Transport on the ' + title + ' route'; },
+      pageDescription: function (desc, durLabel, price) { return desc.slice(0, 140) + ' ' + durLabel + ' days, from $' + price + ' pp. Book on WhatsApp.'; }
+    },
+    destinationsIndex: {
+      heroTitle: 'Destinations',
+      heroSubtitle: 'Explore the regions we know best',
+      pageTitle: 'Destinations: Explore At-Bashy, Kel-Suu, Song-Kul & More',
+      pageDescription: 'Discover the best regions for adventure travel in Kyrgyzstan. Local knowledge, authentic experiences.'
+    },
+    destinationDetail: {
+      aboutHeading: function (name) { return 'About ' + name; },
+      highlightsHeading: 'Highlights',
+      gettingThereHeading: 'Getting There',
+      toursInHeading: function (name) { return 'Tours in ' + name; },
+      planYourTripBtn: 'Plan Your Trip',
+      waMessage: function (name) { return 'Hello! I would like to plan a trip to ' + name + '.'; },
+      routeToAlt: function (name) { return 'Route to ' + name; }
+    },
+    about: {
+      heroTitle: 'About Us',
+      heroSubtitle: 'Local guides, authentic experiences',
+      ourStoryHeading: 'Our Story',
+      ourStoryText: 'We are a small, local team based in At-Bashy, Naryn region. We grew up riding these valleys and know the gorges, passes and families along the route to Tash-Rabat, Chatyr-Kol and Kel-Suu firsthand. We started this company to share those routes the way we experience them: at a personal pace, with real local hospitality, not as a stop on a fixed group itinerary.',
+      ourStoryPersonal: "I spent years living abroad and working in an office, until I started traveling and realized I didn't want to go back. Coming home to Kyrgyzstan, I fell in love with my country all over again and decided to show it to the world. One of my goals is to help tourism grow in my hometown, At-Bashy, so local people can meet travelers and earn a living from it.",
+      ourStoryNote: 'More of our story, photos and founder details coming soon — this section will be updated with your input.',
+      ourValuesHeading: 'Our Values',
+      values: [
+        ['Local Guides', "Our guides are local residents who spend their lives on horseback and behind the wheel in these mountains — herding livestock and working with travelers for more than 10 years. They know the weather, the terrain and how to handle the animals."],
+        ['Personal Approach', "We want every tour to leave a great impression of our country and our company. That means understanding what you want, and doing our best to build the trip around your preferences."],
+        ['Safety First', 'First-aid certified team, calm and reliable horses, a safety briefing for beginners, and clear, honest communication throughout your trip.'],
+        ['Local Development', 'We want tourism to benefit local families directly — meeting new people, offering services, and earning an income from it.']
+      ],
+      meetGuidesHeading: 'Meet Your Guides',
+      meetGuidesText: 'Guide profiles and photos will be added here — send us names, roles, languages and a short bio for each guide.',
+      meetUsHeading: 'Meet Us in Person',
+      meetUsText: 'Have questions? Chat with us on WhatsApp',
+      pageTitle: 'About Us: Local Adventure Company in Kyrgyzstan',
+      pageDescription: 'We are a local tour company specializing in horse riding and 4x4 adventures through At-Bashy, Kel-Suu and Song-Kul. Meet our team.'
+    },
+    practicalInfo: {
+      heroTitle: 'Practical Information',
+      heroSubtitle: 'Everything you need to know before your trip',
+      sections: [
+        ['getting', 'Getting to Kyrgyzstan', 'Most travelers fly to Manas International Airport in Bishkek. Check the visa rules for your nationality on the official e-visa portal before you travel.', ['Flights to Bishkek (FRU) via Istanbul, Dubai, Almaty and Moscow', 'Visa-free entry or e-visa depending on nationality', 'Land borders with Kazakhstan, Uzbekistan and China']],
+        ['time', 'Best Time to Visit', 'The mountain season runs from late May to early October. High routes and Kel-Suu are best from July to August.', ['Spring: green valleys, cool nights', 'Summer: pastures, yurt camps, all routes open', 'Autumn: golden colours, fewer travelers']],
+        ['pack', 'What to Pack', 'Layers are key: days can be hot and nights near freezing above 3,000 m.', ['Warm jacket, rain shell, fleece', 'Hiking boots and comfortable riding trousers', 'Sunscreen, personal medicine']],
+        ['altitude', 'Altitude & Weather', 'Many routes run between 2,000 and 4,000 m. Drink water, go slowly on the first day and tell your guide if you feel unwell.', []],
+        ['riding', 'Horse Riding Experience', 'Beginners are welcome. We match horses to riders and start with shorter distances.', []],
+        ['safety', 'Safety', 'Our guides carry a first-aid kit and know the routes. Some areas have no signal; the guide keeps in touch with the base where possible.', []],
+        ['payment', 'Payment & Cancellation', 'Deposit to confirm the booking, balance in cash on arrival or by bank transfer.', ['Payment in USD or KGS', 'Cancellation terms sent with your booking', 'Weather changes: route adjusted on the spot']],
+        ['responsible', 'Responsible Travel', 'We work with local families in At-Bashy and Naryn, use local horses and camps, and take all rubbish back from the mountains.', []]
+      ],
+      faqMore: [
+        { q: 'How do I book?', a: 'Send us your dates and group size on WhatsApp. We confirm availability and send the itinerary and payment details.' },
+        { q: 'Do I need a permit for Kel-Suu?', a: 'Yes, Kel-Suu is in the border zone. We arrange the permit; send us your passport details at least two weeks before the trip.' },
+        { q: 'Can you pick me up in Bishkek?', a: 'Yes, transfers from Bishkek to At-Bashy and back are part of our tours.' },
+        { q: 'Is there mobile signal on the route?', a: 'In villages, yes. On the high pastures and at Kel-Suu it is usually weak.' }
+      ],
+      stillQuestionsHeading: 'Still Have Questions?',
+      stillQuestionsText: "We're here to help! Contact us on WhatsApp",
+      askUsBtn: 'Ask Us Anything',
+      pageTitle: 'Practical Information: Travel Guide to Kyrgyzstan',
+      pageDescription: 'Everything you need to know: visa, packing, safety, payment, responsible travel. Plan your trip with confidence.'
+    },
+    contact: {
+      heroTitle: 'Contact Us',
+      heroSubtitle: "Let's plan your adventure together",
+      getInTouchHeading: 'Get in Touch',
+      contactLabels: { whatsapp: 'WhatsApp', email: 'Email', instagram: 'Instagram', facebook: 'Facebook' },
+      replyNote: 'We reply within 24 hours',
+      sendMessageHeading: 'Send Us a Message',
+      formIntro: "This form opens a pre-filled WhatsApp chat with your details — we don't have a mail server behind this yet, so WhatsApp is how we'll actually see your message.",
+      fields: {
+        name: { label: 'Name', placeholder: 'Your name' },
+        country: { label: 'Country', placeholder: 'Where are you from?' },
+        email: { label: 'Email', placeholder: 'you@email.com' },
+        whatsapp: { label: 'WhatsApp Number', placeholder: '+1 555 000 0000' },
+        dates: { label: 'Preferred Dates', placeholder: '' },
+        travelers: { label: 'Number of Travelers', placeholder: '2' },
+        interest: { label: 'Tour or Region of Interest', placeholder: 'e.g. Kel-Suu horse trek' }
+      },
+      messageLabel: 'Message',
+      messagePlaceholder: 'Tell us about the trip you have in mind',
+      sendBtn: 'Send Message',
+      pageTitle: 'Contact Us: Plan Your Kyrgyzstan Adventure',
+      pageDescription: 'Get in touch to plan your custom tour. We reply on WhatsApp within 24 hours.'
+    }
+  },
+  ru: {
+    common: {
+      skipLink: 'Перейти к основному содержимому',
+      waDefaultMessage: 'Здравствуйте! Я хочу спланировать поездку в Кыргызстан.',
+      whatsapp: 'WhatsApp',
+      chatOnWhatsapp: 'Написать в WhatsApp',
+      openMenu: 'Открыть меню',
+      closeMenu: 'Закрыть меню',
+      explore: 'Навигация',
+      terms: 'Условия',
+      privacy: 'Конфиденциальность',
+      bishkekLocation: 'Бишкек · Ат-Баши, Кыргызстан',
+      follow: 'Мы в соцсетях',
+      viewTour: 'Подробнее',
+      viewAllTours: 'Все туры',
+      viewAllDestinations: 'Все направления',
+      fromPricePerPerson: function (price) { return 'От $' + price + ' за человека'; },
+      minRateNote: '(мин. ставка на 4 человека)',
+      exploreArrow: 'Смотреть туры →',
+      tagline: 'Конные и 4x4 приключения из Ат-Баши'
+    },
+    nav: { tours: 'Туры', destinations: 'Направления', about: 'О нас', practicalInfo: 'Полезная информация', contact: 'Контакты' },
+    home: {
+      heroTitle: 'Настоящие конные, пешие и внедорожные приключения в сердце Кыргызстана',
+      heroSubtitle: 'От ущелий Ат-Баши до Кёль-Суу и Сон-Куля — мы хотим показать вам наш регион во всей его красе',
+      heroCta: 'Смотреть туры',
+      founderGreeting: 'Привет! Я Сайкал!',
+      founderRole: 'Я местный гид и организатор туров',
+      founderBio: [
+        'Много лет я жила в другой стране и работала в офисе, редко выбираясь на природу. В какой-то момент я начала путешествовать — и поняла, что больше не хочу возвращаться в офис. Когда я снова приехала в Кыргызстан, заново влюбилась в свою страну и решила открыть её для себя и показывать другим.',
+        'Также одна из моих миссий — развивать туризм в моём родном городе Ат-Башы: дать местным возможность знакомиться с людьми со всего мира и зарабатывать на этом.',
+        'Я буду всей душой стараться, чтобы ваше время в Кыргызстане было приятным. Я не просто гид, а ваш travel buddy.'
+      ],
+      chooseAdventureHeading: 'Выберите своё приключение',
+      categories: [
+        { t: 'Конные туры', d: 'Многодневные конные походы через ущелья Ат-Баши, к Кёль-Суу и Сон-Кулю, с ночёвками в юртах.' },
+        { t: 'Приключения на 4x4', d: 'Горные дороги к Таш-Рабату, Арпе и Кёль-Суу для тех, кто предпочитает колёса сёдлам.' },
+        { t: 'Пешие походы', d: 'Пешие маршруты к Сары-Челеку, Арсланбобу и высокогорным озёрам.' },
+        { t: 'Соберите свой тур', d: 'Выберите регионы, активности и количество дней — маршрут спланируем мы.' }
+      ],
+      popularToursHeading: 'Популярные туры',
+      exploreRegionsHeading: 'Наши регионы',
+      oblasts: ['Чуй', 'Иссык-Куль', 'Нарын', 'Талас', 'Джалал-Абад', 'Ош', 'Баткен'],
+      whyTravelHeading: 'Почему мы',
+      whyUs: [
+        ['Знание местности', 'Ат-Баши — наш дом. Мы знаем долины, семьи и погоду.'],
+        ['Персональные путешествия', 'Каждый маршрут строится под ваши даты, темп и интересы.'],
+        ['Не только проторённые тропы', 'Кёль-Суу через перевал Богошту, Ачакайынды и маршруты, которые редко предлагают другие агентства.'],
+        ['Безопасность прежде всего', 'Опытные конюхи, спокойные лошади и гиды, знающие местность.'],
+        ['Гибкие маршруты', 'Добавьте или уберите дни, смените лошадей на 4x4 — просто напишите нам в WhatsApp.'],
+        ['Ответственный туризм', 'Мы работаем с местными семьями, лагерями и владельцами лошадей.']
+      ],
+      lifeOnTrailHeading: 'Жизнь на маршруте',
+      galleryAlt: 'Горный пейзаж Кыргызстана',
+      whatTravelersSayHeading: 'Отзывы путешественников',
+      testimonialPlaceholder: 'Мы собираем первые отзывы путешественников. Реальные отзывы с Google и TripAdvisor появятся здесь совсем скоро.',
+      testimonials: [
+        { quote: 'Сайкал была потрясающей на протяжении всей нашей поездки по Кыргызстану. Она очень помогла нам как переводчик и сделала всё намного проще и приятнее. Мы пережили вместе невероятные моменты, включая Кёль-Суу и конный поход, и она всегда была доброй, терпеливой, отзывчивой и весёлой. Она помогла нам чувствовать себя комфортно и лучше узнать местных людей и культуру. Я очень рада, что она была с нами, и определённо порекомендую её всем, кто путешествует по Кыргызстану. \u{1F499}', name: 'Afik', avatar: '/assets/images/reviews/review1.jpeg' }
+      ],
+      commonQuestionsHeading: 'Частые вопросы',
+      faqHome: [
+        { q: 'Когда лучше всего приезжать?', a: 'С мая по октябрь — для высокогорных пастбищ и озёр. Конные маршруты к Кёль-Суу лучше всего в июле и августе; нижние долины хороши с мая по октябрь.' },
+        { q: 'Нужен ли опыт верховой езды?', a: 'Нет. Кыргызские лошади спокойные, и с группой едет конюх. Если это ваша первая поездка верхом, мы рекомендуем маршрут до 1 дня.' },
+        { q: 'Что включено в стоимость?', a: 'Транспорт, гид и конюх, лошади, питание на маршруте, проживание и пропуск в погранзону для Кёль-Суу. Полный список смотрите на странице каждого тура.' },
+        { q: 'Нужна ли туристическая страховка?', a: 'Мы сами не оформляем и не покрываем страховку — решение, брать ли полис, покрывающий верховую езду и треккинг на высоте, остаётся на ваше усмотрение.' }
+      ],
+      viewAllFaqs: 'Все вопросы',
+      ctaHeading: 'Готовы исследовать Кыргызстан?',
+      ctaSubheading: 'Давайте спланируем ваше приключение вместе',
+      ctaButton: 'Планировать поездку в WhatsApp',
+      pageTitle: 'Аутентичные конные и 4x4 приключения в Кыргызстане',
+      pageDescription: 'Индивидуальные конные и 4x4 туры через Ат-Баши, Кёль-Суу, Сон-Куль и другие регионы. Местные гиды, прозрачные цены. Планируйте путешествие в WhatsApp.'
+    },
+    toursIndex: {
+      heroTitle: 'Все туры',
+      heroSubtitle: 'Конные, 4x4 и пешие приключения по Кыргызстану',
+      activities: { All: 'Все туры', Horse: 'Верховая езда', '4x4': 'На машине (4x4)', Hiking: 'Пешие походы', Custom: 'Соберите свой тур' },
+      routeWord: 'маршрут', routesWord: 'маршрутов', customWord: 'Индивидуально',
+      durations: { All: 'Все', '1-3': '1–3 дня', '4-6': '4–6 дней', '7-10': '7–10 дней', '11+': '11+ дней' },
+      durationLabel: 'Длительность',
+      regionLabel: 'Регион',
+      resultsLabel: function (n) {
+        var mod10 = n % 10, mod100 = n % 100;
+        var word = (mod10 === 1 && mod100 !== 11) ? 'тур' : (mod10 >= 2 && mod10 <= 4 && (mod100 < 10 || mod100 >= 20)) ? 'тура' : 'туров';
+        return 'Показано ' + n + ' ' + word;
+      },
+      noResults: 'Нет маршрутов по этим фильтрам — напишите нам, подберём индивидуальный маршрут.',
+      builder: {
+        heading: 'Соберите свой тур',
+        whereHeading: 'Куда вы хотите поехать?',
+        whatHeading: 'Чем вы хотите заняться?',
+        activityChips: ['Верховая езда', 'Поездка на 4x4', 'Пешие походы', 'Проживание в юрте', 'Культура и ремёсла', 'Фотография'],
+        daysLabel: 'Дни',
+        travelersLabel: 'Путешественники',
+        estimate: function (amount) { return 'Ориентировочно от ' + amount + ' за группу'; },
+        sendPlanBtn: 'Отправить план в WhatsApp',
+        replyNote: 'Мы ответим в течение 24 часов с маршрутом и точной ценой.',
+        exampleLabel: 'Пример индивидуального маршрута'
+      },
+      cantFindHeading: 'Не нашли то, что искали?',
+      cantFindText: 'Мы создаём индивидуальные туры под ваши пожелания',
+      customTourBtn: 'Собрать индивидуальный тур',
+      pageTitle: 'Все туры: конные, 4x4 и индивидуальные приключения в Кыргызстане',
+      pageDescription: 'Коллекция конных походов, 4x4 приключений и индивидуальных туров. От ущелий Ат-Баши до озера Кёль-Суу. Бронирование в WhatsApp.'
+    },
+    tourDetail: {
+      factsDuration: 'Длительность', factsLevel: 'Уровень', factsSeason: 'Сезон', factsGroup: 'Группа',
+      infoDuration: 'Длительность', infoDifficulty: 'Сложность', infoBestSeason: 'Лучший сезон', infoStartingPoint: 'Точка старта', infoGroupSize: 'Размер группы', infoFormat: 'Формат',
+      peopleUnit: 'человек',
+      dayLabel: 'День',
+      itineraryFallback: 'Пришлите нам даты в WhatsApp, и мы вышлем подробный маршрут по дням для этого тура.',
+      calcHeading: 'Рассчитайте стоимость',
+      numDaysLabel: 'Количество дней',
+      numTravelersLabel: 'Количество путешественников',
+      minRateApplies: 'Для индивидуальных туров действует минимальная ставка на 4 человека.',
+      totalForGroup: 'Всего за группу',
+      perPerson: 'За человека',
+      priceNote: 'Итоговая цена может отличаться в зависимости от сезона и пожеланий',
+      bookBtn: 'Забронировать в WhatsApp',
+      overviewHeading: 'Обзор',
+      highlightsHeading: 'Основные моменты',
+      includedHeading: 'Что включено',
+      notIncludedHeading: 'Что не включено',
+      photosHeading: 'Фото с маршрута',
+      accommodationHeading: 'Проживание',
+      accommodationSuffix: '. Постельное бельё и коврики предоставляются; возьмите тёплый спальный мешок для ночей выше 3000 м.',
+      transportHeading: 'Транспорт',
+      transportSuffix: function (start, end) { return '. Точка старта: ' + start + '. Точка окончания: ' + end + '.'; },
+      itineraryHeading: 'Маршрут по дням',
+      horseSafetyHeading: 'Верховая езда и безопасность',
+      roadSafetyHeading: 'В пути и безопасность',
+      horseSafetyText: 'Кыргызские лошади спокойные, уверенно идут по горным тропам и привычны к маршрутам. Новичкам рады: в первый день конюх ведёт вашу лошадь в поводу и остаётся с группой на каждой поездке.',
+      roadSafetyText: 'Наши водители хорошо знают эти дороги и берут с собой оборудование для эвакуации и первой помощи на удалённых горных маршрутах.',
+      safetyWeightLimit: 'Ограничение по весу', safetyHelmet: 'Шлем', safetyGuide: 'Гид', safetyInsurance: 'Страховка', safetyVehicle: 'Автомобиль',
+      safetyWeightVal: 'Макс. 100 кг', safetyHelmetVal: 'Предоставляется', safetyGuideVal: 'Англоговорящий', safetyInsuranceVal: 'Обязательна', safetyVehicleVal: '4x4, обслуженный и оборудованный для горных дорог',
+      faqHeading: 'Часто задаваемые вопросы',
+      similarToursHeading: 'Похожие туры',
+      readyToBookHeading: 'Готовы забронировать?',
+      readyToBookText: 'Свяжитесь с нами в WhatsApp, чтобы уточнить наличие мест и завершить бронирование',
+      checkAvailabilityBtn: 'Узнать о наличии в WhatsApp',
+      accommodationAlt: function (title) { return 'Проживание на маршруте «' + title + '»'; },
+      transportAlt: function (title) { return 'Транспорт на маршруте «' + title + '»'; },
+      pageDescription: function (desc, durLabel, price) { return desc.slice(0, 140) + ' ' + durLabel + ' дней, от $' + price + ' с человека. Бронирование в WhatsApp.'; }
+    },
+    destinationsIndex: {
+      heroTitle: 'Направления',
+      heroSubtitle: 'Исследуйте регионы, которые мы знаем лучше всего',
+      pageTitle: 'Направления: Ат-Баши, Кёль-Суу, Сон-Куль и другие',
+      pageDescription: 'Откройте для себя лучшие регионы для приключенческого туризма в Кыргызстане. Местные знания, настоящие впечатления.'
+    },
+    destinationDetail: {
+      aboutHeading: function (name) { return 'О регионе ' + name; },
+      highlightsHeading: 'Главное',
+      gettingThereHeading: 'Как добраться',
+      toursInHeading: function (name) { return 'Туры в регионе ' + name; },
+      planYourTripBtn: 'Спланировать поездку',
+      waMessage: function (name) { return 'Здравствуйте! Хочу спланировать поездку в ' + name + '.'; },
+      routeToAlt: function (name) { return 'Дорога до ' + name; }
+    },
+    about: {
+      heroTitle: 'О нас',
+      heroSubtitle: 'Местные гиды, настоящие впечатления',
+      ourStoryHeading: 'Наша история',
+      ourStoryText: 'Мы небольшая местная команда из Ат-Баши, Нарынская область. Мы выросли, катаясь верхом по этим долинам, и знаем ущелья, перевалы и семьи вдоль маршрута к Таш-Рабату, Чатыр-Кулю и Кёль-Суу не понаслышке. Мы основали эту компанию, чтобы делиться этими маршрутами так, как переживаем их сами: в своём темпе, с настоящим местным гостеприимством, а не как остановкой в типовом групповом туре.',
+      ourStoryPersonal: 'Много лет я жила за границей и работала в офисе, пока не начала путешествовать и не поняла, что больше не хочу возвращаться. Вернувшись в Кыргызстан, я заново влюбилась в свою страну и решила показать её миру. Одна из моих целей — развивать туризм в моём родном городе Ат-Баши, чтобы местные жители могли знакомиться с путешественниками и зарабатывать на этом.',
+      ourStoryNote: 'Больше о нашей истории, фото и основателях — совсем скоро; этот раздел будет дополнен по вашим материалам.',
+      ourValuesHeading: 'Наши ценности',
+      values: [
+        ['Местные гиды', 'Наши гиды — местные жители, которые постоянно верхом или за рулём ездят по этим горам, пасут скот и работают с туристами уже больше 10 лет. Они знают погоду, местность и умеют обращаться с животными.'],
+        ['Индивидуальный подход', 'Мы хотим, чтобы каждый тур оставлял приятное впечатление о нашей стране и компании. Для этого важно понять, чего хотите именно вы, — и мы постараемся учесть ваши предпочтения.'],
+        ['Безопасность прежде всего', 'Сертификат по оказанию первой помощи, спокойные лошади, инструктаж для новичков и честная, прозрачная коммуникация на всём протяжении поездки.'],
+        ['Развитие региона', 'Мы стараемся приносить пользу местным жителям: знакомить их с новыми людьми, давать возможность оказывать услуги и зарабатывать.']
+      ],
+      meetGuidesHeading: 'Познакомьтесь с гидами',
+      meetGuidesText: 'Здесь появятся профили и фото гидов — пришлите нам имена, роли, языки и короткую биографию каждого гида.',
+      meetUsHeading: 'Встретимся лично',
+      meetUsText: 'Есть вопросы? Напишите нам в WhatsApp',
+      pageTitle: 'О нас: местная туристическая компания в Кыргызстане',
+      pageDescription: 'Мы местная туристическая компания, специализирующаяся на конных и 4x4 турах через Ат-Баши, Кёль-Суу и Сон-Куль. Познакомьтесь с нашей командой.'
+    },
+    practicalInfo: {
+      heroTitle: 'Полезная информация',
+      heroSubtitle: 'Всё, что нужно знать перед поездкой',
+      sections: [
+        ['getting', 'Как добраться до Кыргызстана', 'Большинство путешественников прилетают в международный аэропорт Манас в Бишкеке. Перед поездкой проверьте визовые правила для вашей страны на официальном портале электронных виз.', ['Рейсы до Бишкека (FRU) через Стамбул, Дубай, Алматы и Москву', 'Безвизовый въезд или электронная виза в зависимости от гражданства', 'Сухопутные границы с Казахстаном, Узбекистаном и Китаем']],
+        ['time', 'Лучшее время для поездки', 'Горный сезон длится с конца мая до начала октября. Высокогорные маршруты и Кёль-Суу лучше всего посещать с июля по август.', ['Весна: зелёные долины, прохладные ночи', 'Лето: пастбища, юрточные лагеря, открыты все маршруты', 'Осень: золотые краски, меньше туристов']],
+        ['pack', 'Что взять с собой', 'Главное — слои одежды: днём может быть жарко, а ночью выше 3000 м — почти заморозки.', ['Тёплая куртка, дождевик, флис', 'Треккинговые ботинки и удобные брюки для верховой езды', 'Солнцезащитный крем, личные лекарства']],
+        ['altitude', 'Высота и погода', 'Многие маршруты проходят на высоте от 2000 до 4000 м. Пейте больше воды, не торопитесь в первый день и сообщите гиду, если почувствуете себя плохо.', []],
+        ['riding', 'Опыт верховой езды', 'Новичкам рады. Мы подбираем лошадей под всадников и начинаем с коротких дистанций.', []],
+        ['safety', 'Безопасность', 'Наши гиды берут с собой аптечку и знают маршруты. В некоторых местах нет связи; гид поддерживает контакт с базой, когда это возможно.', []],
+        ['payment', 'Оплата и отмена', 'Депозит для подтверждения брони, остаток — наличными по прибытии или банковским переводом.', ['Оплата в USD или KGS', 'Условия отмены высылаются вместе с бронью', 'Изменения погоды: маршрут корректируется на месте']],
+        ['responsible', 'Ответственный туризм', 'Мы работаем с местными семьями в Ат-Баши и Нарыне, используем местных лошадей и лагеря и забираем весь мусор из гор.', []]
+      ],
+      faqMore: [
+        { q: 'Как забронировать?', a: 'Пришлите нам даты и размер группы в WhatsApp. Мы подтвердим наличие мест и вышлем маршрут и детали оплаты.' },
+        { q: 'Нужен ли пропуск для Кёль-Суу?', a: 'Да, Кёль-Суу находится в приграничной зоне. Мы оформляем пропуск — пришлите данные паспорта минимум за две недели до поездки.' },
+        { q: 'Можете забрать меня в Бишкеке?', a: 'Да, трансферы из Бишкека в Ат-Баши и обратно включены в наши туры.' },
+        { q: 'Есть ли сотовая связь на маршруте?', a: 'В сёлах — да. На высокогорных пастбищах и у Кёль-Суу сигнал обычно слабый.' }
+      ],
+      stillQuestionsHeading: 'Остались вопросы?',
+      stillQuestionsText: 'Мы всегда готовы помочь! Напишите нам в WhatsApp',
+      askUsBtn: 'Задать вопрос',
+      pageTitle: 'Полезная информация: гид путешественника по Кыргызстану',
+      pageDescription: 'Всё, что нужно знать: виза, сборы, безопасность, оплата, ответственный туризм. Планируйте поездку уверенно.'
+    },
+    contact: {
+      heroTitle: 'Контакты',
+      heroSubtitle: 'Давайте спланируем ваше приключение вместе',
+      getInTouchHeading: 'Свяжитесь с нами',
+      contactLabels: { whatsapp: 'WhatsApp', email: 'Email', instagram: 'Instagram', facebook: 'Facebook' },
+      replyNote: 'Мы отвечаем в течение 24 часов',
+      sendMessageHeading: 'Отправьте нам сообщение',
+      formIntro: 'Эта форма открывает предзаполненный чат в WhatsApp с вашими данными — у нас пока нет почтового сервера, поэтому WhatsApp — это то, как мы на самом деле увидим ваше сообщение.',
+      fields: {
+        name: { label: 'Имя', placeholder: 'Ваше имя' },
+        country: { label: 'Страна', placeholder: 'Откуда вы?' },
+        email: { label: 'Email', placeholder: 'you@email.com' },
+        whatsapp: { label: 'Номер WhatsApp', placeholder: '+1 555 000 0000' },
+        dates: { label: 'Желаемые даты', placeholder: '' },
+        travelers: { label: 'Количество путешественников', placeholder: '2' },
+        interest: { label: 'Интересующий тур или регион', placeholder: 'напр. конный поход к Кёль-Суу' }
+      },
+      messageLabel: 'Сообщение',
+      messagePlaceholder: 'Расскажите о поездке, которую вы задумали',
+      sendBtn: 'Отправить сообщение',
+      pageTitle: 'Контакты: спланируйте приключение в Кыргызстане',
+      pageDescription: 'Свяжитесь с нами, чтобы спланировать индивидуальный тур. Отвечаем в WhatsApp в течение 24 часов.'
+    }
+  },
+  ky: {
+    common: {
+      skipLink: 'Негизги мазмунга өтүү',
+      waDefaultMessage: 'Салам! Мен Кыргызстанга саякатты пландаштыргым келет.',
+      whatsapp: 'WhatsApp',
+      chatOnWhatsapp: 'WhatsAppта жазуу',
+      openMenu: 'Менюду ачуу',
+      closeMenu: 'Менюду жабуу',
+      explore: 'Багыттар',
+      terms: 'Шарттар',
+      privacy: 'Купуялуулук',
+      bishkekLocation: 'Бишкек · Ат-Башы, Кыргызстан',
+      follow: 'Бизди соцтордуктарда',
+      viewTour: 'Турду көрүү',
+      viewAllTours: 'Бардык турлар',
+      viewAllDestinations: 'Бардык багыттар',
+      fromPricePerPerson: function (price) { return '$' + price + 'дан бир адамга'; },
+      minRateNote: '(мин. 4 адамга баа)',
+      exploreArrow: 'Турларды көрсөтүү →',
+      tagline: 'Ат-Башыдан ат жана 4x4 укмуштуулары'
+    },
+    nav: { tours: 'Турлар', destinations: 'Багыттар', about: 'Биз жөнүндө', practicalInfo: 'Пайдалуу бар акпарат', contact: 'Байланыш' },
+    home: {
+      heroTitle: 'Кыргызстандын жүрөгүндөгү чыныгый ат, жөө жана 4x4 укмуштуулары',
+      heroSubtitle: 'Ат-Башы капчыгайларынан Көл-Суу жана Соң-Көлгө чейин — биз сизге өз аймагыбызды бүткүл сулуулугунда көрсөткүбүз келет',
+      heroCta: 'Турларды көрүү',
+      founderGreeting: 'Салам! Мен Сайкалмын!',
+      founderRole: 'Мен жергиликтүү гид жана тур уюштуруучумун',
+      founderBio: [
+        'Мен көп жылдар бою чет өлкөдө жашап, кеңседе иштедим, табиятка сейрек чыгаар элем. Бир кезде саякаттай баштадым — жана кеңсеге кайра кайткым келбей тургандыгын түшүндүм. Кыргызстанга кайра кайтканда, өз өлкөмө кайрадан ашык болдум жана аны өзүм үчүн ачып, башкаларга көрсөтүүнү чечтим.',
+        'Менин максаттарымдын бири — туулган шаарым Ат-Башыда туризмди өнүктүрүү: жергиликтүү элге дүйнөнүн ар кайсы жеринен келген саякатчылар менен таанышуу жана акча табуу мүмкүнчүлүгүн берүү.',
+        'Мен Кыргызстандагы убактыңыз жагымдуу болушу үчүн бүт жүрөгүм менен аракет кылам. Мен жөн гана гид эмесмин — мен сиздин travel buddy-ңызмын.'
+      ],
+      chooseAdventureHeading: 'Укмуштуңузду тандаңыз',
+      categories: [
+        { t: 'Ат үстүндөгү турлар', d: 'Ат-Башы капчыгайлары, Көл-Суу жана Соң-Көлгө көп күндүк саякаттар, боз үйдө түнөө менен.' },
+        { t: '4x4 укмуштуулары', d: 'Ээрден дөңгөлөктү жактырган саякатчылар үчүн Таш-Рабатка, Арпага жана Көл-Сууга тоо жолдору.' },
+        { t: 'Жөө жүрүш', d: 'Сары-Челекке, Арстанбапка жана бийик көлдөргө жөө маршруттар.' },
+        { t: 'Туруң өзүң курa', d: 'Аймактарды, иш-аракеттерди жана күндөрдү тандаңыз — маршрутту биз пландайбыз.' }
+      ],
+      popularToursHeading: 'Популярдуу турлар',
+      exploreRegionsHeading: 'Биздин аймактарыбыз',
+      oblasts: ['Чүй', 'Ысык-Көл', 'Нарын', 'Талас', 'Жалал-Абад', 'Ош', 'Баткен'],
+      whyTravelHeading: 'Бизди неге тандашуу керек',
+      whyUs: [
+        ['Жергиликтүү билим', 'Ат-Башы — биздин үй. Биз өрөөндөрдү, үй-бүлөлөрдү жана аба ырайын билебиз.'],
+        ['Жеке саякаттар', 'Ар бир маршрут сиздин күндөрүңүзгө, темпиңизге жана кызыкчылыктарыңызга жараша түзүлөт.'],
+        ['Кадимки жолдон тышкары', 'Богошту ашуусу аркылуу Көл-Суу, Ачакайынды жана көп агенттиктер сунуштабаган маршруттар.'],
+        ['Коопсуздук биринчи орунда', 'Тажрыйбалуу чабандестер, тынч аттар жана жерди билген гиддер.'],
+        ['Ийкемдүү маршруттар', 'Күндөрдү кошуңуз же алып салыңыз, аттан 4x4кө которулуңуз — WhatsApp аркылуу жазыңыз.'],
+        ['Жоопкерчиликтүү саякат', 'Биз жергиликтүү үй-бүлөлөр, лагерлер жана ат ээлери менен иштейбиз.']
+      ],
+      lifeOnTrailHeading: 'Жолдогу жашоо',
+      galleryAlt: 'Кыргызстандын тоо ландшафты',
+      whatTravelersSayHeading: 'Саякатчылардын пикирлери',
+      testimonialPlaceholder: 'Биз биринчи саякатчылардын пикирлерин жыйнап жатабыз. Google жана TripAdvisorдагы чын пикирлер жакында бул жерде пайда болот.',
+      testimonials: [
+        { quote: 'Сайкал Кыргызстан боюнча бүткүл сапарыбызда укмуштуудай болду. Ал которуучу катары бизге көп жардам берди жана бардыгын алда канча жеңил жана жагымдуу кылды. Биз чогуу укмуштуудай тажрыйбаларды — Көл-Суу менен ат саякатын өткөрдүк, жана ал ар дайым боорукер, сабырдуу, жардамчыл жана көңүлдүү болду. Ал бизди ыңгайлуу сезимге бөлөп, жергиликтүү элдер жана маданият менен жакшыраак байланышууга жардам берди. Аны биз менен болгонуна абдан кубанычтабыз жана Кыргызстанда саякаттаган ар кимге аны сунуштайм. \u{1F499}', name: 'Afik', avatar: '/assets/images/reviews/review1.jpeg' }
+      ],
+      commonQuestionsHeading: 'Жии берилген суроолар',
+      faqHome: [
+        { q: 'Баруу үчүн эң жакшы убакыт качан?', a: 'Бийик жайлоолор жана көлдөр үчүн майдан октябрга чейин. Көл-Сууга ат маршруттары июль менен августта эң жакшы; төмөнкү өрөөндөр майдан октябрга чейин жакшы.' },
+        { q: 'Мурдагы ат минүү тажрыйбасы керекпи?', a: 'Жок. Кыргыз аттары тынч, топ менен чабандес жүрөт. Эгер бул сиздин биринчи ат минүүңүз болсо, 1 күнгө чейинки маршрутту сунуштайбыз.' },
+        { q: 'Баага эмне кирет?', a: 'Транспорт, гид жана чабандес, аттар, маршруттагы тамактануу, жашоо жана Көл-Суу үчүн чек ара уруксаты. Толук тизмени ар бир тур барагынан караңыз.' },
+        { q: 'Саякат камсыздандыруусу керекпи?', a: 'Биз камсыздандырууну өзүбүз тариздебейбиз жана камтыбайбыз — ат минүүнү жана бийиктикте жөө жүрүштү камтыган камсыздандырууну алуу же албоо сиздин чечиминиз.' }
+      ],
+      viewAllFaqs: 'Бардык суроолар',
+      ctaHeading: 'Кыргызстанды изилдөөгө даярсызби?',
+      ctaSubheading: 'Укмуштуңузду бирге пландайлы',
+      ctaButton: 'WhatsAppта саякатыңызды пландаңыз',
+      pageTitle: 'Кыргызстандагы чыныгый ат жана 4x4 укмуштуулары',
+      pageDescription: 'Ат-Башы, Көл-Суу, Соң-Көл жана башка аймактар аркылуу жеке ат жана 4x4 турлар. Жергиликтүү гиддер, тиник баалар. WhatsApp аркылуу саякатыңызды пландаңыз.'
+    },
+    toursIndex: {
+      heroTitle: 'Бардык турлар',
+      heroSubtitle: 'Кыргызстан боюнча ат, 4x4 жана жөө жүрүш укмуштуулары',
+      activities: { All: 'Бардык турлар', Horse: 'Ат минүү', '4x4': 'Унаа менен (4x4)', Hiking: 'Жөө жүрүш', Custom: 'Туруң өзүң курa' },
+      routeWord: 'маршрут', routesWord: 'маршрут', customWord: 'Жеке тартипте',
+      durations: { All: 'Баары', '1-3': '1–3 күн', '4-6': '4–6 күн', '7-10': '7–10 күн', '11+': '11+ күн' },
+      durationLabel: 'Узактыгы',
+      regionLabel: 'Аймак',
+      resultsLabel: function (n) { return n + ' маршрут көрсөтүлдү'; },
+      noResults: 'Бул чыпкалар боюнча маршрут табылган жок — жеке маршрут үчүн бизге жазыңыз.',
+      builder: {
+        heading: 'Туруң өзүң курa',
+        whereHeading: 'Кайда баргыңыз келет?',
+        whatHeading: 'Эмне кылгыңыз келет?',
+        activityChips: ['Ат минүү', '4x4 айдоо', 'Жөө жүрүш', 'Боз үйдө жашоо', 'Маданият жана кол өнөрчүлүк', 'Сүрөткө тартуу'],
+        daysLabel: 'Күндөр',
+        travelersLabel: 'Саякатчылар',
+        estimate: function (amount) { return 'Болжол менен топ үчүн ' + amount + 'дан'; },
+        sendPlanBtn: 'Планымды WhatsAppка жөнөтүү',
+        replyNote: 'Биз 24 сааттын ичинде маршрут жана так баа менен жооп беребиз.',
+        exampleLabel: 'Жеке маршруттун мисалы'
+      },
+      cantFindHeading: 'Издегениңизди таппадыңызбы?',
+      cantFindText: 'Биз каалооңузго жараша жеке турларды түзөбүз',
+      customTourBtn: 'Жеке турду куруу',
+      pageTitle: 'Бардык турлар: Кыргызстандагы ат, 4x4 жана жеке укмуштуулар',
+      pageDescription: 'Ат үстүндөгү жүрүштөрдүн, 4x4 укмуштуулардын жана жеке турлардын жыйнагы. Ат-Башы капчыгайларынан Көл-Суу көлүнө чейин. WhatsApp аркылуу брондоо.'
+    },
+    tourDetail: {
+      factsDuration: 'Узактыгы', factsLevel: 'Деңгээл', factsSeason: 'Мезгил', factsGroup: 'Топ',
+      infoDuration: 'Узактыгы', infoDifficulty: 'Кыйынчылык', infoBestSeason: 'Эң жакшы мезгил', infoStartingPoint: 'Башталыш чекити', infoGroupSize: 'Топтун өлчөмү', infoFormat: 'Формат',
+      peopleUnit: 'адам',
+      dayLabel: 'Күн',
+      itineraryFallback: 'Күндөрүңүздү WhatsApp аркылуу жибериңиз, биз бул тур үчүн күн сайынкы толук маршрутту жөнөтөбүз.',
+      calcHeading: 'Баанызды эсептеңиз',
+      numDaysLabel: 'Күндөрдүн саны',
+      numTravelersLabel: 'Саякатчылардын саны',
+      minRateApplies: 'Жеке турлар үчүн 4 адамга минималдуу баа колдонулат.',
+      totalForGroup: 'Топ үчүн жалпы баа',
+      perPerson: 'Бир адамга',
+      priceNote: 'Акыркы баа мезгилге жана ыңгайлаштырууга жараша өзгөрүшү мүмкүн',
+      bookBtn: 'WhatsApp аркылуу брондоо',
+      overviewHeading: 'Обзор',
+      highlightsHeading: 'Негизги учурлар',
+      includedHeading: 'Эмне кирет',
+      notIncludedHeading: 'Эмне кирбейт',
+      photosHeading: 'Маршруттун сүрөттөрү',
+      accommodationHeading: 'Жашоо',
+      accommodationSuffix: '. Төшөк жана төшөнчү берилет; 3000 м бийиктиктен жогорку түндөр үчүн жылуу уйку баштыгын алып келиңиз.',
+      transportHeading: 'Транспорт',
+      transportSuffix: function (start, end) { return '. Башталыш чекити: ' + start + '. Аякталыш чекити: ' + end + '.'; },
+      itineraryHeading: 'Күн сайынкы маршрут',
+      horseSafetyHeading: 'Ат минүү жана коопсуздук',
+      roadSafetyHeading: 'Жолдо жана коопсуздук',
+      horseSafetyText: 'Кыргыз аттары тынч, тоо жолдоруна көнгөн жана ишенимдүү басышат. Жаңы баштагандар кабыл алынат: биринчи күнү чабандес атыңызды жетелейт жана ар бир сапарда топ менен бирге болот.',
+      roadSafetyText: 'Биздин айдоочулар бул жолдорду жакшы билишет жана алыскы тоо маршруттары үчүн куткаруу жана биринчи жардам жабдууларын алып жүрүшөт.',
+      safetyWeightLimit: 'Салмак чеги', safetyHelmet: 'Шлем', safetyGuide: 'Гид', safetyInsurance: 'Камсыздандыруу', safetyVehicle: 'Унаа',
+      safetyWeightVal: 'Макс. 100 кг', safetyHelmetVal: 'Берилет', safetyGuideVal: 'Англисче сүйлөйт', safetyInsuranceVal: 'Талап кылынат', safetyVehicleVal: '4x4, тоо жолдору үчүн жабдылган жана тейленген',
+      faqHeading: 'Жии берилген суроолор',
+      similarToursHeading: 'Окшош турлар',
+      readyToBookHeading: 'Брондоого даярсызбы?',
+      readyToBookText: 'Орундардын барын текшерүү жана брондоону бүтүрүү үчүн WhatsApp аркылуу байланышыңыз',
+      checkAvailabilityBtn: 'WhatsAppтан орунду текшерүү',
+      accommodationAlt: function (title) { return '«' + title + '» маршрутундагы жашоо'; },
+      transportAlt: function (title) { return '«' + title + '» маршрутундагы транспорт'; },
+      pageDescription: function (desc, durLabel, price) { return desc.slice(0, 140) + ' ' + durLabel + ' күн, $' + price + 'дан. WhatsApp аркылуу брондоо.'; }
+    },
+    destinationsIndex: {
+      heroTitle: 'Багыттар',
+      heroSubtitle: 'Биз эң жакшы билген аймактарды изилдеңиз',
+      pageTitle: 'Багыттар: Ат-Башы, Көл-Суу, Соң-Көл жана башкалар',
+      pageDescription: 'Кыргызстандагы укмуштуу саякат үчүн эң мыкты аймактарды ачыңыз. Жергиликтүү билим, чыныгы таасирлер.'
+    },
+    destinationDetail: {
+      aboutHeading: function (name) { return name + ' жөнүндө'; },
+      highlightsHeading: 'Негизги жерлер',
+      gettingThereHeading: 'Кантип жетүү керек',
+      toursInHeading: function (name) { return name + ' аймагындагы турлар'; },
+      planYourTripBtn: 'Саякатыңызды пландаңыз',
+      waMessage: function (name) { return 'Салам! Мен ' + name + ' жакка саякатты пландаштыргым келет.'; },
+      routeToAlt: function (name) { return name + 'га жол'; }
+    },
+    about: {
+      heroTitle: 'Биз жөнүндө',
+      heroSubtitle: 'Жергиликтүү гиддер, чыныгы таасирлер',
+      ourStoryHeading: 'Биздин тарых',
+      ourStoryText: 'Биз Нарын облусундагы Ат-Башыда жайгашкан кичине, жергиликтүү команда. Биз бул өрөөндөрдө ат минип чоңойдук жана Таш-Рабат, Чатыр-Көл жана Көл-Суу маршрутундагы капчыгайларды, ашууларды жана үй-бүлөлөрдү өз көзүбүз менен билебиз. Биз бул компанияны ошол маршруттарды өзүбүз сезгендей бөлүшүү үчүн негиздедик: жеке темпте, чыныгы жергиликтүү меймандостук менен, белгиленген топтук маршруттун бир токтоосу катары эмес.',
+      ourStoryPersonal: 'Мен көп жылдар бою чет өлкөдө жашап, кеңседе иштедим, бир кезде саякаттай баштап, кеңсеге кайра кайткым келбей тургандыгын түшүндүм. Кыргызстанга кайтканда, өз өлкөмө кайрадан ашык болдум жана аны дүйнөгө көрсөтүүнү чечтим. Менин максаттарымдын бири — туулган шаарым Ат-Башыда туризмди өнүктүрүп, жергиликтүү элге саякатчылар менен таанышып, акча табууга мүмкүнчүлүк берүү.',
+      ourStoryNote: 'Биздин тарых, сүрөттөр жана негиздөөчүлөр жөнүндө көбүрөөк маалымат жакында кошулат — бул бөлүм сиздин материалдарыңыз менен жаңыланат.',
+      ourValuesHeading: 'Биздин баалуулуктарыбыз',
+      values: [
+        ['Жергиликтүү гиддер', 'Биздин гиддер — бул тоолордо дайыма ат менен же унаа менен жүргөн, мал кайтарган жана 10 жылдан ашык саякатчылар менен иштеген жергиликтүү тургундар. Алар аба ырайын, жерди жана малга кандай мамиле кылууну билишет.'],
+        ['Жеке мамиле', 'Биз ар бир тур өлкөбүз жана компаниябыз жөнүндө жагымдуу таасир калтырышын каалайбыз. Бул үчүн так сиз эмнени каалаганыңызды түшүнүү маанилүү — биз каалооңузду эске алууга аракет кылабыз.'],
+        ['Коопсуздук биринчи орунда', 'Биринчи жардам сертификаты, тынч жана ишенимдүү аттар, жаңы баштагандар үчүн инструктаж жана сапар бою ачык, таза баарлашуу.'],
+        ['Аймакты өнүктүрүү', 'Биз жергиликтүү тургундарга пайда алып келүүгө аракет кылабыз: жаңы адамдар менен таанышуу, кызмат көрсөтүү жана акча табуу мүмкүнчүлүгү.']
+      ],
+      meetGuidesHeading: 'Гиддериңиз менен таанышыңыз',
+      meetGuidesText: 'Бул жерде гиддердин профилдери жана сүрөттөрү кошулат — ар бир гид үчүн ысымдарды, ролдорду, тилдерди жана кыскача биографияны бизге жибериңиз.',
+      meetUsHeading: 'Жеке жолугушалы',
+      meetUsText: 'Суроолоруңуз барбы? Бизге WhatsAppта жазыңыз',
+      pageTitle: 'Биз жөнүндө: Кыргызстандагы жергиликтүү саякат компаниясы',
+      pageDescription: 'Биз Ат-Башы, Көл-Суу жана Соң-Көл аркылуу ат жана 4x4 турларга адистешкен жергиликтүү саякат компаниясыбыз. Командабыз менен таанышыңыз.'
+    },
+    practicalInfo: {
+      heroTitle: 'Пайдалуу маалымат',
+      heroSubtitle: 'Сапарга чейин билишиңиз керек болгон бардык нерсе',
+      sections: [
+        ['getting', 'Кыргызстанга кантип жетүү керек', 'Көпчүлүк саякатчылар Бишкектеги Манас эл аралык аэропортуна учуп келишет. Сапарга чыгаардан мурун расмий электрондук виза порталынан өлкөңүз үчүн виза эрежелерин текшериңиз.', ['Стамбул, Дубай, Алматы жана Москва аркылуу Бишкекке учактар (FRU)', 'Жарандыгыңызга жараша визасыз кирүү же электрондук виза', 'Казакстан, Өзбекстан жана Кытай менен кургактык чек аралар']],
+        ['time', 'Баруу үчүн эң жакшы убакыт', 'Тоо мезгили майдын аягынан октябрдын башына чейин созулат. Бийик маршруттар жана Көл-Суу июль-августта эң жакшы.', ['Жаз: жашыл өрөөндөр, салкын түндөр', 'Жай: жайлоолор, боз үй лагерлери, бардык маршруттар ачык', 'Күз: алтын түстөр, саякатчылар азыраак']],
+        ['pack', 'Эмне алып жүрүү керек', 'Негизгиси — кийимдин катмары: күндүз ысык болушу мүмкүн, ал эми 3000 м бийиктиктен жогору түндөрү дээрлик тоңуп кетет.', ['Жылуу курткa, жамгырдан коргоочу плащ, флис', 'Жөө жүрүү өтүгү жана ыңгайлуу ат минүү шымы', 'Күн кремі, жеке дарылар']],
+        ['altitude', 'Бийиктик жана аба ырайы', 'Көптөгөн маршруттар 2000ден 4000 метрге чейинки бийиктикте өтөт. Суу ичиңиз, биринчи күнү шашылбаңыз жана өзүңүздү жаман сезсеңиз гидиңизге айтыңыз.', []],
+        ['riding', 'Ат минүү тажрыйбасы', 'Жаңы баштагандар кабыл алынат. Биз аттарды чабандестерге ылайыкташтырып, кыска аралыктан баштайбыз.', []],
+        ['safety', 'Коопсуздук', 'Биздин гиддер дайыма дары-дармек алып жүрүшөт жана маршруттарды билишет. Кээ бир жерлерде байланыш жок; мүмкүн болушунча гид база менен байланышта болот.', []],
+        ['payment', 'Төлөм жана жокко чыгаруу', 'Брондоону тастыктоо үчүн депозит, калган сумма — келгенде накталай же банк аркылуу которуу менен.', ['USD же KGS менен төлөм', 'Жокко чыгаруу шарттары брондоо менен бирге жөнөтүлөт', 'Аба ырайынын өзгөрүшү: маршрут ошол жерде тууралайт']],
+        ['responsible', 'Жоопкерчиликтүү саякат', 'Биз Ат-Башы жана Нарындагы жергиликтүү үй-бүлөлөр менен иштейбиз, жергиликтүү аттарды жана лагерлерди колдонобуз жана тоолордон бардык таштандыны алып чыгабыз.', []]
+      ],
+      faqMore: [
+        { q: 'Кантип брондойм?', a: 'Күндөрүңүздү жана топтун өлчөмүн WhatsApp аркылуу жибериңиз. Биз орундардын барын тастыктап, маршрут менен төлөм чоо-жайын жөнөтөбүз.' },
+        { q: 'Көл-Суу үчүн уруксат керекпи?', a: 'Ооба, Көл-Суу чек ара аймагында жайгашкан. Биз уруксатты даярдайбыз — паспорт маалыматыңызды сапардан кеминде эки жума мурун жибериңиз.' },
+        { q: 'Бишкектен алып кете аласыздарбы?', a: 'Ооба, Бишкектен Ат-Башыга жана артка трансферлер биздин турларга кирет.' },
+        { q: 'Маршрутта уюлдук байланыш барбы?', a: 'Айылдарда — ооба. Бийик жайлоолордо жана Көл-Суудa сигнал адатта алсыз.' }
+      ],
+      stillQuestionsHeading: 'Суроолоруңуз калдыбы?',
+      stillQuestionsText: 'Биз жардам берүүгө дайымда даярбыз! WhatsAppта жазыңыз',
+      askUsBtn: 'Суроо берүү',
+      pageTitle: 'Пайдалуу маалымат: Кыргызстан боюнча саякатчынын гиди',
+      pageDescription: 'Билишиңиз керек болгон бардык нерсе: виза, жабдуулар, коопсуздук, төлөм, жоопкерчиликтүү саякат. Сапарыңызды ишенимдүү пландаңыз.'
+    },
+    contact: {
+      heroTitle: 'Байланыш',
+      heroSubtitle: 'Укмуштуңузду бирге пландайлы',
+      getInTouchHeading: 'Биз менен байланышыңыз',
+      contactLabels: { whatsapp: 'WhatsApp', email: 'Email', instagram: 'Instagram', facebook: 'Facebook' },
+      replyNote: 'Биз 24 сааттын ичинде жооп беребиз',
+      sendMessageHeading: 'Бизге билдирүү жөнөтүңүз',
+      formIntro: 'Бул форма сиздин маалыматтарыңыз менен алдын ала толтурулган WhatsApp чатын ачат — бизде азырынча почта сервери жок, ошондуктан билдирүүңүздү биз WhatsApp аркылуу көрөбүз.',
+      fields: {
+        name: { label: 'Атыңыз', placeholder: 'Атыңыз' },
+        country: { label: 'Өлкө', placeholder: 'Кайсы жерденсиз?' },
+        email: { label: 'Email', placeholder: 'you@email.com' },
+        whatsapp: { label: 'WhatsApp номери', placeholder: '+1 555 000 0000' },
+        dates: { label: 'Калаган күндөр', placeholder: '' },
+        travelers: { label: 'Саякатчылардын саны', placeholder: '2' },
+        interest: { label: 'Кызыккан тур же аймак', placeholder: 'мис. Көл-Суу ат саякаты' }
+      },
+      messageLabel: 'Билдирүү',
+      messagePlaceholder: 'Көз алдыңыздагы сапар жөнүндө айтып бериңиз',
+      sendBtn: 'Билдирүү жөнөтүү',
+      pageTitle: 'Байланыш: Кыргызстандагы укмуштууңузду пландаңыз',
+      pageDescription: 'Жеке турду пландаштыруу үчүн биз менен байланышыңыз. WhatsAppта 24 сааттын ичинде жооп беребиз.'
+    }
+  }
+};
+
+const REGION_LABELS = {
+  en: { All: 'All', 'At-Bashy': 'At-Bashy', Naryn: 'Naryn', 'Kel-Suu': 'Kel-Suu', 'Song-Kul': 'Song-Kul', 'Issyk-Kul': 'Issyk-Kul', Chuy: 'Chuy', 'Jalal-Abad': 'Jalal-Abad', Osh: 'Osh', 'Tash-Rabat': 'Tash-Rabat', 'Chatyr-Kol': 'Chatyr-Kol', 'Sary-Chelek': 'Sary-Chelek', Arslanbob: 'Arslanbob', 'All regions': 'All regions' },
+  ru: { All: 'Все', 'At-Bashy': 'Ат-Баши', Naryn: 'Нарын', 'Kel-Suu': 'Кёль-Суу', 'Song-Kul': 'Сон-Куль', 'Issyk-Kul': 'Иссык-Куль', Chuy: 'Чуй', 'Jalal-Abad': 'Джалал-Абад', Osh: 'Ош', 'Tash-Rabat': 'Таш-Рабат', 'Chatyr-Kol': 'Чатыр-Куль', 'Sary-Chelek': 'Сары-Челек', Arslanbob: 'Арсланбоб', 'All regions': 'Все регионы' },
+  ky: { All: 'Баары', 'At-Bashy': 'Ат-Башы', Naryn: 'Нарын', 'Kel-Suu': 'Көл-Суу', 'Song-Kul': 'Соң-Көл', 'Issyk-Kul': 'Ысык-Көл', Chuy: 'Чүй', 'Jalal-Abad': 'Жалал-Абад', Osh: 'Ош', 'Tash-Rabat': 'Таш-Рабат', 'Chatyr-Kol': 'Чатыр-Көл', 'Sary-Chelek': 'Сары-Челек', Arslanbob: 'Арстанбап', 'All regions': 'Бардык аймактар' }
+};
+
+const MONTH_LABELS = {
+  en: { January: 'January', February: 'February', March: 'March', April: 'April', May: 'May', June: 'June', July: 'July', August: 'August', September: 'September', October: 'October', November: 'November', December: 'December' },
+  ru: { January: 'январь', February: 'февраль', March: 'март', April: 'апрель', May: 'май', June: 'июнь', July: 'июль', August: 'август', September: 'сентябрь', October: 'октябрь', November: 'ноябрь', December: 'декабрь' },
+  ky: { January: 'январь', February: 'февраль', March: 'март', April: 'апрель', May: 'май', June: 'июнь', July: 'июль', August: 'август', September: 'сентябрь', October: 'октябрь', November: 'ноябрь', December: 'декабрь' }
+};
+
+const FORMAT_LABELS = {
+  en: { Private: 'Private', Group: 'Group' },
+  ru: { Private: 'Индивидуально', Group: 'Группа' },
+  ky: { Private: 'Жеке', Group: 'Топ' }
+};
+
+module.exports = { UI: UI, REGION_LABELS: REGION_LABELS, MONTH_LABELS: MONTH_LABELS, FORMAT_LABELS: FORMAT_LABELS };

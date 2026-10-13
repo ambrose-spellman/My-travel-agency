@@ -50,7 +50,10 @@
       if (perPersonEl) perPersonEl.textContent = formatUsd(result.perPerson);
       if (minNoteEl) minNoteEl.hidden = pax >= minBillable;
       if (waLinkEl && window.SiteWhatsApp) {
-        var msg = 'Hello! I\'d like to book "' + tourTitle + '" for ' + pax + ' traveler(s), ' + days + ' days. Estimated total ' + formatUsd(result.total) + '.';
+        var locale = window.SITE_LOCALE || 'en';
+        var strings = (window.I18N_STRINGS && window.I18N_STRINGS[locale]) || {};
+        var bookingLabel = strings.bookingWaLabel || "Hello! I'd like to book";
+        var msg = bookingLabel + ' "' + tourTitle + '" for ' + pax + ' traveler(s), ' + days + ' days. Estimated total ' + formatUsd(result.total) + '.';
         waLinkEl.setAttribute('href', window.SiteWhatsApp.buildWaLink(msg));
       }
     }
