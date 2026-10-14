@@ -1,5 +1,5 @@
 /*
- * Static site generator for the Ashuu Travel website.
+ * Static site generator for the At-Bashy Tours website.
  * Reads data/tours.json and data/destinations.json, renders every page from
  * shared header/footer/card templates, and writes plain static HTML into the
  * project root (tours/, destinations/, about/, practical-info/, contact/, index.html)
@@ -30,7 +30,7 @@ const SHOW_CALCULATOR = false; /* tour detail price calculator temporarily hidde
 const SHOW_DURATION_FILTER = false; /* duration filter pills temporarily hidden on request, needs rework */
 
 const SITE = {
-  name: 'Ashuu Travel',
+  name: 'At-Bashy Tours',
   url: 'https://atbashy.tours',
   whatsapp: '996557475741',
   email: 'kaparbekovasaikal@gmail.com',
@@ -55,7 +55,9 @@ const ICONS = {
   telegram: 'M21 4 3 11l6 2 2 6 3-4 5 4zM9 13l12-9',
   email: 'M3 6h18v12H3zM3 7l9 6 9-6',
   instagram: 'M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zM12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zM17.5 6.5h.01',
-  facebook: 'M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v7h4v-7h3l1-4h-4V8z'
+  facebook: 'M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v7h4v-7h3l1-4h-4V8z',
+  mountain: 'M3 20h18L14.5 7 10 14l-2.5-3L3 20z',
+  heart: 'M12 21s-7.5-4.6-10-9.3C.5 7.8 3 4 7 4c2 0 3.6 1.1 5 3 1.4-1.9 3-3 5-3 4 0 6.5 3.8 5 7.7C19.5 16.4 12 21 12 21z'
 };
 
 const IMAGE_POOL = [
@@ -147,6 +149,10 @@ function writeFile(urlPath, html) {
 function icon(name, size) {
   size = size || 22;
   return '<svg width="' + size + '" height="' + size + '" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="' + ICONS[name] + '"></path></svg>';
+}
+function iconColor(name, color, size) {
+  size = size || 22;
+  return '<svg width="' + size + '" height="' + size + '" viewBox="0 0 24 24" fill="none" stroke="' + color + '" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="' + ICONS[name] + '"></path></svg>';
 }
 
 /* ------------------------------------------------------------------ */
@@ -405,23 +411,69 @@ function buildHome(locale) {
   const gallery = IMAGE_POOL.slice(0, 6);
   const masonryImages = IMAGE_POOL;
 
+  const galleryCols = [
+    masonryImages.filter(function (_, i) { return i % 3 === 0; }),
+    masonryImages.filter(function (_, i) { return i % 3 === 1; }),
+    masonryImages.filter(function (_, i) { return i % 3 === 2; })
+  ];
+  const founderFlowing = h.founderBio.slice(0, h.founderBio.length - 2);
+  const founderCard1Body = h.founderBio[h.founderBio.length - 2];
+  const founderCard2Body = h.founderBio[h.founderBio.length - 1];
+
   const body = `
 <section class="hero hero--intro">
   <div class="hero-intro">
-    <div class="hero-intro__sticky">
+    <div class="hero-intro__content">
+      <p class="eyebrow">${h.heroEyebrow}</p>
       <h1>${h.heroTitle}</h1>
-      <p>${h.heroSubtitle}</p>
+      <p class="hero-intro__lead">${h.heroSubtitle}</p>
       <div class="hero__actions">
-        <a href="${localePath(locale, '/tours/')}" class="btn btn--primary btn--lg">${h.heroCta}</a>
+        <a href="${localePath(locale, '/tours/')}" class="btn btn--primary btn--lg">${h.heroCta} →</a>
+        <a href="#" data-wa-message="${attr(t(locale, 'common.waDefaultMessage'))}" target="_blank" rel="noopener" class="btn btn--outline btn--lg">${iconColor('whatsapp', 'currentColor', 18)}<span>${t(locale, 'common.chatOnWhatsapp')}</span></a>
       </div>
-      <div class="hero-intro__founder">
-        <h2>${h.founderGreeting}</h2>
-        <p class="hero-intro__role">${h.founderRole}</p>
-        ${h.founderBio.map(function (p) { return '<p>' + p + '</p>'; }).join('\n        ')}
+      <div class="hero-intro__pills">
+        ${h.heroPills.map(function (p) { return '<span class="hero-intro__pill">' + p + '</span>'; }).join('\n        ')}
       </div>
     </div>
     <div class="hero-intro__gallery">
-      ${masonryImages.map(function (src) { return '<img src="' + src + '" alt="Kyrgyzstan mountain landscape" loading="lazy">'; }).join('\n      ')}
+      ${galleryCols.map(function (col, idx) {
+        const doubled = col.concat(col);
+        return '<div class="hero-intro__col' + (idx % 2 === 1 ? ' hero-intro__col--reverse' : '') + '">' +
+          doubled.map(function (src) { return '<img src="' + src + '" alt="Kyrgyzstan mountain landscape" loading="lazy">'; }).join('') +
+          '</div>';
+      }).join('\n      ')}
+    </div>
+  </div>
+</section>
+
+<section class="section guide-section">
+  <div class="container guide-grid">
+    <div class="guide-grid__media">
+      <img class="guide-grid__photo" src="/assets/images/tours/mount1.jpg" alt="${h.founderGreeting}">
+      <img class="guide-grid__photo-inset" src="/assets/images/tours/mount2.jpg" alt="${h.founderGreeting}">
+      <div class="guide-grid__badge"><strong>${h.guideSeasonsBadge}</strong><span>${h.guideSeasonsLabel}</span></div>
+    </div>
+    <div class="guide-grid__text">
+      <p class="eyebrow">${h.guideEyebrow}</p>
+      <h2>${h.founderGreeting}</h2>
+      <p class="guide-grid__role">${h.founderRole}</p>
+      ${founderFlowing.map(function (p) { return '<p>' + p + '</p>'; }).join('\n      ')}
+      <div class="guide-grid__cards">
+        <div class="guide-card">
+          <span class="guide-card__icon">${iconColor('mountain', 'var(--color-accent-2)', 24)}</span>
+          <h3>${h.guideCardTitles[0]}</h3>
+          <p>${founderCard1Body}</p>
+        </div>
+        <div class="guide-card guide-card--dark">
+          <span class="guide-card__icon">${iconColor('heart', 'var(--color-accent-2)', 24)}</span>
+          <h3>${h.guideCardTitles[1]}</h3>
+          <p>${founderCard2Body}</p>
+        </div>
+      </div>
+      <div class="guide-grid__cta">
+        <a href="#" data-wa-message="${attr(t(locale, 'common.waDefaultMessage'))}" target="_blank" rel="noopener" class="btn btn--primary btn--lg">${h.guideCta} →</a>
+        <span class="guide-grid__languages">${h.guideLanguages}</span>
+      </div>
     </div>
   </div>
 </section>
