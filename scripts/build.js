@@ -947,7 +947,7 @@ function buildAbout(locale) {
   const a = UI[locale].about;
   const body = `
 <section class="hero hero--page">
-  <img class="hero__media" src="/assets/images/general/IND04269.JPG" alt="Founder with horses in Kyrgyzstan">
+  <img class="hero__media" src="/assets/images/general/IND04269.JPG" alt="Founder with horses in Kyrgyzstan" style="object-position: center bottom;">
   <div class="hero__scrim"></div>
   <div class="hero__content">
     <h1>${a.heroTitle}</h1>
@@ -1067,16 +1067,6 @@ function buildContact(locale) {
     { k: c.contactLabels.facebook, v: SITE.facebook, href: 'https://' + SITE.facebook, bg: '#385A68', iconName: 'facebook' }
   ];
 
-  const fields = [
-    { name: 'name', f: c.fields.name, required: true, type: 'text' },
-    { name: 'country', f: c.fields.country, required: true, type: 'text' },
-    { name: 'email', f: c.fields.email, required: true, type: 'email' },
-    { name: 'whatsapp', f: c.fields.whatsapp, required: true, type: 'tel' },
-    { name: 'dates', f: c.fields.dates, required: false, type: 'date' },
-    { name: 'travelers', f: c.fields.travelers, required: false, type: 'number' },
-    { name: 'interest', f: c.fields.interest, required: false, type: 'text' }
-  ];
-
   const body = `
 <section class="hero hero--page">
   <img class="hero__media" src="/assets/images/general/pexels-liuguangxi-12836297.jpg" alt="Team photo placeholder">
@@ -1100,27 +1090,6 @@ function buildContact(locale) {
       }).join('\n      ')}
     </div>
     <div style="font-size:14px;color:var(--color-text-mute-2)">${c.replyNote}</div>
-  </div>
-</section>
-
-<section class="section section--bg">
-  <div class="container max-w-800">
-    <h2>${c.sendMessageHeading}</h2>
-    <p style="color:var(--color-text-muted)">${c.formIntro}</p>
-    <div class="form-success" data-contact-success hidden></div>
-    <form data-contact-form>
-      ${fields.map(function (fl) {
-        return `<div class="form-field">
-  <label for="field-${fl.name}">${fl.f.label}${fl.required ? ' *' : ''}</label>
-  <input type="${fl.type}" id="field-${fl.name}" name="${fl.name}" placeholder="${attr(fl.f.placeholder)}"${fl.required ? ' required' : ''}>
-</div>`;
-      }).join('\n      ')}
-      <div class="form-field">
-        <label for="field-message">${c.messageLabel}</label>
-        <textarea id="field-message" name="message" placeholder="${attr(c.messagePlaceholder)}"></textarea>
-      </div>
-      <button type="submit" class="btn btn--whatsapp btn--lg btn--block">${c.sendBtn}</button>
-    </form>
   </div>
 </section>`;
 
