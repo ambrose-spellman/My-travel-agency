@@ -36,6 +36,7 @@ const SITE = {
   email: 'kaparbekovasaikal@gmail.com',
   instagram: 'atbashytours',
   facebook: 'facebook.com/atbashytours',
+  gtmId: 'GTM-MDL89XJD',
   perDayBase: 100,
   markup: 0.30,
   minBillable: 4
@@ -155,12 +156,28 @@ function renderHead(opts, locale) {
   const url = SITE.url + localePath(locale, opts.path);
   const ogImage = SITE.url + (opts.image || '/assets/images/general/mountain-lake-yurts.webp');
   const ld = opts.structuredData ? '\n<script type="application/ld+json">' + JSON.stringify(opts.structuredData) + '</script>' : '';
+  const orgSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'TravelAgency',
+    name: SITE.name,
+    url: SITE.url,
+    logo: SITE.url + '/assets/images/logoat12.svg',
+    image: SITE.url + '/assets/images/general/IND04269.JPG',
+    telephone: '+' + SITE.whatsapp,
+    email: SITE.email,
+    address: { '@type': 'PostalAddress', addressLocality: 'At-Bashy', addressRegion: 'Naryn Region', addressCountry: 'KG' },
+    sameAs: ['https://instagram.com/' + SITE.instagram, 'https://' + SITE.facebook]
+  };
+  const orgLd = '\n<script type="application/ld+json">' + JSON.stringify(orgSchema) + '</script>';
   const alternates = LOCALES.map(function (l) {
     return '<link rel="alternate" hreflang="' + (l === 'ky' ? 'ky' : l) + '" href="' + SITE.url + localePath(l, opts.path) + '">';
   }).join('\n') + '\n<link rel="alternate" hreflang="x-default" href="' + SITE.url + localePath(DEFAULT_LOCALE, opts.path) + '">';
+  const gtmScript = SITE.gtmId ? "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','" + SITE.gtmId + "');</script>" : '';
   return [
     '<meta charset="UTF-8">',
+    gtmScript,
     '<meta name="viewport" content="width=device-width, initial-scale=1.0">',
+    '<meta name="robots" content="index, follow">',
     '<title>' + opts.title + ' | ' + SITE.name + '</title>',
     '<meta name="description" content="' + attr(opts.description) + '">',
     '<link rel="canonical" href="' + url + '">',
@@ -175,13 +192,18 @@ function renderHead(opts, locale) {
     '<meta name="twitter:title" content="' + attr(opts.title) + '">',
     '<meta name="twitter:description" content="' + attr(opts.description) + '">',
     '<meta name="twitter:image" content="' + ogImage + '">',
-    '<link rel="icon" href="/favicon.ico" sizes="any">',
+    '<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">',
+    '<link rel="icon" type="image/svg+xml" href="/favicon.svg">',
+    '<link rel="shortcut icon" href="/favicon.ico">',
+    '<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">',
+    '<link rel="manifest" href="/site.webmanifest">',
     '<link rel="preconnect" href="https://fonts.googleapis.com">',
     '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>',
     '<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Golos+Text:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">',
     '<link rel="stylesheet" href="/assets/css/main.css">',
     '<link rel="stylesheet" href="/assets/css/components.css">',
     '<link rel="stylesheet" href="/assets/css/utilities.css">',
+    orgLd,
     ld
   ].join('\n');
 }
@@ -277,12 +299,14 @@ function renderFooter(locale) {
 
 function layout(opts, locale) {
   const currentPath = opts.path;
+  const gtmNoscript = SITE.gtmId ? '<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=' + SITE.gtmId + '" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>' : '';
   const html = `<!DOCTYPE html>
 <html lang="${locale}">
 <head>
 ${renderHead(opts, locale)}
 </head>
 <body>
+${gtmNoscript}
 ${renderHeader(opts.activeHref || '', locale, currentPath)}
 <main id="main-content">
 ${opts.body}
