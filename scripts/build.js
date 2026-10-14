@@ -449,8 +449,8 @@ function buildHome(locale) {
 <section class="section guide-section">
   <div class="container guide-grid">
     <div class="guide-grid__media">
-      <img class="guide-grid__photo" src="/assets/images/tours/mount1.jpg" alt="${h.founderGreeting}">
-      <img class="guide-grid__photo-inset" src="/assets/images/tours/mount2.jpg" alt="${h.founderGreeting}">
+      <img class="guide-grid__photo" src="/assets/images/general/saikal.JPG" alt="${h.founderGreeting}">
+      <img class="guide-grid__photo-inset" src="/assets/images/general/saikal2.jpg" alt="${h.founderGreeting}">
       <div class="guide-grid__badge"><strong>${h.guideSeasonsBadge}</strong><span>${h.guideSeasonsLabel}</span></div>
     </div>
     <div class="guide-grid__text">
