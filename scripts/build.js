@@ -66,8 +66,8 @@ const IMAGE_POOL = [
   '/assets/images/general/sheep-pastures.jpg',
   '/assets/images/destinations/kel-suu-valley.jpg',
   '/assets/images/destinations/song-kul-horseman.webp',
-  '/assets/images/destinations/issyk-kul-skazka-canyon-1.jpg',
-  '/assets/images/destinations/issyk-kul-skazka-canyon-2.jpg'
+  '/assets/images/destinations/jomoksai.jpg',
+  '/assets/images/destinations/jomoksai3.jpg'
 ];
 function poolImage(seed) { return IMAGE_POOL[((seed % IMAGE_POOL.length) + IMAGE_POOL.length) % IMAGE_POOL.length]; }
 
@@ -1038,7 +1038,7 @@ function buildAbout(locale) {
       <p style="font-size:18px;line-height:1.7;color:var(--color-text-mute-3)">${a.ourStoryText}</p>
       <p style="font-size:18px;line-height:1.7;color:var(--color-text-mute-3)">${a.ourStoryPersonal}</p>
     </div>
-    <div style="position:relative;aspect-ratio:4/5;border-radius:8px;overflow:hidden"><img src="/assets/images/general/IND05308.JPG" alt="Kyrgyzstan mountain landscape" style="width:100%;height:100%;object-fit:cover"></div>
+    <div style="position:relative;aspect-ratio:4/5;border-radius:8px;overflow:hidden"><img src="/assets/images/general/IND03973.JPG" alt="Kyrgyzstan mountain landscape" style="width:100%;height:100%;object-fit:cover"></div>
   </div>
 </section>
 

@@ -1,6 +1,204 @@
 {
   "tours": [
     {
+      "id": "arpa-aksay-cattle-drive-horse",
+      "slug": "arpa-aksay-cattle-drive-horse",
+      "region": [
+        "At-Bashy",
+        "Naryn"
+      ],
+      "activity": "Horse",
+      "durationMin": 3,
+      "durationMax": 6,
+      "durationUnit": "days",
+      "format": [
+        "Private",
+        "Group"
+      ],
+      "season": [
+        "May",
+        "June"
+      ],
+      "priceFrom": 98,
+      "currency": "USD",
+      "image": "/assets/images/tours/mal-aidoo1.jpg",
+      "gallery": [],
+      "groupSize": {
+        "min": 2,
+        "max": 6
+      },
+      "pricing": {
+        "perDayBase": 100,
+        "organizerMarkup": 0.3,
+        "minBillableParticipants": 4,
+        "displayFromPrice": 98
+      },
+      "i18n": {
+        "en": {
+          "title": "Arpa & Aksai Cattle Drive",
+          "description": "Join a real seasonal cattle drive (перегон скота) with local chabans as they move their herds to the Arpa and Aksai valleys — this isn't a staged tourist route, it's genuine participation in the seasonal life of Kyrgyz nomadic herders. The drive happens twice a year, in spring and in winter; this departure follows the spring migration, which usually falls in a window from late May to early June and lasts about 2-3 weeks in total. Travelers join for 3-6 days on horseback within that window. Spots and dates are very limited, so we're currently taking names for a waitlist — message us on WhatsApp and we'll confirm as soon as dates are set. This is a fairly wild, rustic experience — not for travelers who prioritize comfort, but for those who want to see the real conditions chabans live and work in, combined with some of the most beautiful mountain scenery along the way.",
+          "difficulty": "Challenging",
+          "highlights": [
+            "Join a real seasonal cattle drive with local chabans",
+            "Ride 3-6 days through the Arpa and Aksai valleys",
+            "Overnight with the herding group in tents or yurts",
+            "A rare, limited-availability departure — waitlist only for now",
+            "Authentic nomadic life, not a staged tourist route",
+            "Dramatic high-mountain scenery along the way"
+          ],
+          "itinerary": [],
+          "included": [
+            "Horse for the ride",
+            "2-3 meals per day during the trek (depends on weather conditions)",
+            "Overnight accommodation with the group (tent or yurt)",
+            "Riding alongside local chabans during the drive"
+          ],
+          "notIncluded": [
+            "Flights to Bishkek",
+            "Travel insurance",
+            "Visa fees",
+            "Personal expenses"
+          ],
+          "accommodation": "Tents or yurts with the herding group along the route",
+          "transport": "Horseback",
+          "startingPoint": "Depends on the herd's route that season — confirmed closer to your dates",
+          "endingPoint": "Arpa or Aksai valley — exact point depends on that season's route",
+          "whatsappMessage": "Hello! I'd like to join the waitlist for the Arpa & Aksai Cattle Drive.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
+          "faq": [
+            {
+              "question": "Why is this a waitlist instead of a regular booking?",
+              "answer": "Dates depend on when the chabans actually move the herd, and spots are very limited. Join the waitlist on WhatsApp and we'll confirm exact dates and availability as the season approaches."
+            },
+            {
+              "question": "How is this different from your other horse treks?",
+              "answer": "This isn't a planned tourist itinerary — you're riding alongside local chabans during their real seasonal cattle drive. The route and pace follow the herd, not a fixed tourist schedule."
+            },
+            {
+              "question": "How comfortable is this tour?",
+              "answer": "It's a fairly wild, rustic experience — nights in tents or yurts with the herding group, not tourist-standard comfort. It suits travelers who want to see real chaban life, not those who prioritize comfort."
+            },
+            {
+              "question": "When exactly does it happen?",
+              "answer": "This departure follows the spring livestock drive, usually within a window from late May to early June. The window lasts about 2-3 weeks in total, and you join for 3-6 days of it on horseback — exact dates are confirmed closer to the season."
+            },
+            {
+              "question": "Do I need horse riding experience?",
+              "answer": "Yes — basic horse riding experience is recommended, since you'll be riding for several days alongside a working herd in remote terrain."
+            }
+          ]
+        },
+        "ru": {
+          "title": "Перегон скота в долину Арпа и Аксай",
+          "description": "Присоединяйтесь к настоящему сезонному перегону скота вместе с местными чабанами, которые перегоняют отары в долины Арпа и Аксай — это не постановочный туристический маршрут, а настоящее участие в сезонной жизни кыргызских кочевников. Перегон происходит два раза в год — весной и зимой; этот выезд проходит во время весенней миграции, которая обычно приходится на период с конца мая по начало июня и длится в целом около 2–3 недель. Путешественники присоединяются на 3–6 дней верхом в рамках этого периода. Мест и дат очень мало, поэтому сейчас открыт wait-лист — напишите нам в WhatsApp, и мы подтвердим даты, как только они будут определены. Это довольно дикий, нецивилизованный опыт — не для тех, кто ценит комфорт, а для тех, кто готов увидеть настоящие условия жизни чабанов, совместив это с одними из самых красивых горных пейзажей по пути.",
+          "difficulty": "Сложный",
+          "highlights": [
+            "Настоящий сезонный перегон скота вместе с местными чабанами",
+            "3–6 дней верхом через долины Арпа и Аксай",
+            "Ночёвки вместе с группой чабанов в палатках или юртах",
+            "Редкий выезд с очень ограниченным числом мест — пока только wait-лист",
+            "Настоящая жизнь кочевников, а не постановочный маршрут",
+            "Потрясающие горные пейзажи по пути"
+          ],
+          "itinerary": [],
+          "included": [
+            "Лошадь на весь маршрут",
+            "2–3-разовое питание в день на маршруте (в зависимости от погодных условий)",
+            "Ночлег вместе с группой (палатка или юрта)",
+            "Сопровождение местных чабанов во время перегона"
+          ],
+          "notIncluded": [
+            "Авиаперелёт до Бишкека",
+            "Туристическая страховка",
+            "Визовые сборы",
+            "Личные расходы"
+          ],
+          "accommodation": "Палатки или юрты вместе с группой чабанов по пути",
+          "transport": "Верхом на лошади",
+          "startingPoint": "Зависит от маршрута перегона в этом сезоне — уточняется ближе к датам",
+          "endingPoint": "Долина Арпа или Аксай — точная точка зависит от маршрута перегона в этом сезоне",
+          "whatsappMessage": "Здравствуйте! Хочу записаться в wait-лист на перегон скота в долину Арпа и Аксай.\n\nЖелаемые даты:\nКоличество путешественников:\nМоя страна:",
+          "faq": [
+            {
+              "question": "Почему это wait-лист, а не обычное бронирование?",
+              "answer": "Даты зависят от того, когда чабаны фактически начинают перегон скота, а мест очень мало. Запишитесь в wait-лист в WhatsApp, и мы подтвердим точные даты и наличие мест ближе к сезону."
+            },
+            {
+              "question": "Чем это отличается от ваших других конных туров?",
+              "answer": "Это не спланированный туристический маршрут — вы едете вместе с местными чабанами во время настоящего сезонного перегона скота. Маршрут и темп задаёт стадо, а не туристическое расписание."
+            },
+            {
+              "question": "Насколько комфортен этот тур?",
+              "answer": "Это довольно дикий, нецивилизованный опыт — ночёвки в палатках или юртах вместе с группой чабанов, без туристического комфорта. Подходит тем, кто хочет увидеть настоящую жизнь чабанов, а не тем, кто ценит комфорт."
+            },
+            {
+              "question": "Когда именно это происходит?",
+              "answer": "Этот выезд проходит во время весеннего перегона скота, обычно в период с конца мая по начало июня. В целом окно длится около 2–3 недель, а вы присоединяетесь на 3–6 дней верхом в рамках этого периода — точные даты подтверждаются ближе к сезону."
+            },
+            {
+              "question": "Нужен ли опыт верховой езды?",
+              "answer": "Да, рекомендуется базовый опыт верховой езды, так как вам предстоит ехать верхом несколько дней вместе с работающим стадом по труднодоступной местности."
+            }
+          ]
+        },
+        "ky": {
+          "title": "Арпа жана Аксай өрөөнүнө мал айдоо",
+          "description": "Жергиликтүү чабандар менен бирге малды Арпа жана Аксай өрөөндөрүнө айдап бара турган чыныгы мезгилдик мал айдоого кошулуңуз — бул ойлонулуп чыгарылган туристтик маршрут эмес, кыргыз көчмөндөрүнүн мезгилдик жашоосуна чыныгы катышуу. Мал айдоо жылына эки жолу болот — жазында жана кышында; бул сапар жазгы көчүү учурунда өтөт, ал адатта май айынын аягынан июндун башына чейинки мезгилге туура келет жана жалпысынан 2–3 жума созулат. Саякатчылар ушул мезгил ичинде 3–6 күн ат үстүндө кошулушат. Орундар жана күндөр өтө чектелүү, ошондуктан азыр wait-лист ачылды — WhatsApp аркылуу бизге жазыңыз, күндөр так аныкталгандан кийин тастыктайбыз. Бул бир топ жапайы, оор шарттуу тажрыйба — ыңгайлуулукту баалаган адамдар үчүн эмес, чабандардын чыныгы жашоо шарттарын көрүүгө даяр жана жол боюнда эң кооз тоо пейзаждарын да көргүсү келгендер үчүн.",
+          "difficulty": "Кыйын",
+          "highlights": [
+            "Жергиликтүү чабандар менен чыныгы мезгилдик мал айдоого катышуу",
+            "Арпа жана Аксай өрөөндөрү аркылуу 3–6 күн ат үстүндө",
+            "Чабандар тобу менен палаткада же боз үйдө түнөө",
+            "Орду өтө чектелген сейрек сапар — азырынча wait-лист гана",
+            "Ойдон чыгарылбаган, чыныгы көчмөн жашоо",
+            "Жол боюнда укмуштуудай тоо көрүнүштөрү"
+          ],
+          "itinerary": [],
+          "included": [
+            "Бүт маршрут үчүн ат",
+            "Маршрутта күнүнө 2-3 мертебе тамактануу (аба ырайына жараша)",
+            "Топ менен түнөө (палатка же боз үй)",
+            "Мал айдоо учурунда жергиликтүү чабандар менен коштолуу"
+          ],
+          "notIncluded": [
+            "Бишкекке чейинки авиа каттам",
+            "Саякат камсыздандыруусу",
+            "Виза төлөмдөрү",
+            "Жеке чыгымдар"
+          ],
+          "accommodation": "Маршрут боюнча чабандар тобу менен палатка же боз үйдө",
+          "transport": "Ат үстүндө",
+          "startingPoint": "Ошол сезондогу мал айдоо маршрутуна жараша — күндөргө жакындаганда тактталат",
+          "endingPoint": "Арпа же Аксай өрөөнү — так жери ошол сезондогу маршрутка жараша",
+          "whatsappMessage": "Салам! Арпа жана Аксай өрөөнүнө мал айдоо турунун wait-листине жазылгым келет.\n\nКалаган күндөр:\nСаякатчылардын саны:\nМенин өлкөм:",
+          "faq": [
+            {
+              "question": "Эмне үчүн бул wait-лист, кадимки брондоо эмес?",
+              "answer": "Күндөр чабандардын малды чын эле качан айдай баштаганына жараша болот, ал эми орундар өтө аз. WhatsApp аркылуу wait-листке жазылыңыз, биз сезонго жакындаганда так күндөрдү жана бош орундарды тастыктайбыз."
+            },
+            {
+              "question": "Бул башка ат үстүндөгү турларыңыздан эмнеси менен айырмаланат?",
+              "answer": "Бул алдын ала пландалган туристтик маршрут эмес — сиз жергиликтүү чабандар менен чыныгы мезгилдик мал айдоого катышасыз. Маршрут жана ылдамдык стадого жараша болот, туристтик тартипке эмес."
+            },
+            {
+              "question": "Бул тур канчалык ыңгайлуу?",
+              "answer": "Бул бир топ жапайы, жөнөкөй тажрыйба — чабандар тобу менен палаткада же боз үйдө түнөө, туристтик ыңгайлуулуксуз. Бул чабандардын чыныгы жашоосун көргүсү келгендерге ылайыктуу, ыңгайлуулукту баалагандарга эмес."
+            },
+            {
+              "question": "Бул так качан болот?",
+              "answer": "Бул сапар жазгы мал айдоо учурунда өтөт, адатта май айынын аягынан июндун башына чейинки мезгилде. Жалпы терезе болжол менен 2–3 жумага созулат, сиз ошол мезгилдин ичинде 3–6 күн ат үстүндө кошулуңуз — так күндөр сезонго жакындаганда тастыкталат."
+            },
+            {
+              "question": "Ат минүү тажрыйбасы керекпи?",
+              "answer": "Ооба, негизги ат минүү тажрыйбасы сунушталат, анткени сиз бир нече күн алыскы жерлерде иштеп жаткан стадо менен бирге ат үстүндө жүрөсүз."
+            }
+          ]
+        }
+      },
+      "photos": [
+        "/assets/images/tours/mal-aidoo2.jpg"
+      ]
+    },
+    {
       "id": "achakaiyndy-tash-rabat-chatyr-kol-horse",
       "slug": "achakaiyndy-tash-rabat-chatyr-kol-horse",
       "region": [
@@ -29,7 +227,7 @@
       "routeMap": "/assets/images/tours/acha-kayindy.png",
       "photos": [
         "/assets/images/tours/mount1.jpg",
-        "/assets/images/tours/mount2.jpg",
+        "/assets/images/tours/mount1.jpg",
         "/assets/images/destinations/tash-rabat2.jpg"
       ],
       "groupSize": {
@@ -205,6 +403,156 @@
             {
               "question": "Саякат камсыздандыруусу керекпи?",
               "answer": "Ооба, биз ат минүүнү жана шашылыш эвакуацияны камтыган толук саякат камсыздандыруусун катуу сунуштайбыз."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "kazybek-tash-rabat-horse",
+      "slug": "kazybek-tash-rabat-horse",
+      "region": [
+        "At-Bashy",
+        "Naryn"
+      ],
+      "activity": "Horse",
+      "durationMin": 4,
+      "durationMax": 4,
+      "durationUnit": "days",
+      "format": [
+        "Private",
+        "Group"
+      ],
+      "season": [
+        "May",
+        "June",
+        "July",
+        "August",
+        "September"
+      ],
+      "priceFrom": 130,
+      "currency": "USD",
+      "image": "/assets/images/tours/kazybek.jpg",
+      "gallery": [],
+      "groupSize": {
+        "min": 2,
+        "max": 8
+      },
+      "pricing": {
+        "perDayBase": 100,
+        "organizerMarkup": 0.3,
+        "minBillableParticipants": 4,
+        "displayFromPrice": 130
+      },
+      "i18n": {
+        "en": {
+          "title": "Kazybek → Tash-Rabat Horse Trek",
+          "description": "A 4-day horseback version of the Kazybek to Tash-Rabat route — riding through the mountains of the At-Bashy region to the historic Tash-Rabat caravanserai. A faster, horseback alternative to our 6-day hiking trek on the same route.",
+          "difficulty": "Moderate",
+          "highlights": [
+            "Ride from Kazybek toward Tash-Rabat",
+            "Remote At-Bashy mountain scenery",
+            "Camp along the way",
+            "Finish at the historic Tash-Rabat caravanserai",
+            "English-speaking guide and support team"
+          ],
+          "itinerary": [],
+          "included": [
+            "English-speaking guide",
+            "Horses and equipment (saddle, bridle, helmet on request)",
+            "2-3 meals per day during the trek (depends on weather conditions)",
+            "Camping equipment and overnight stays along the route",
+            "Car transfer from Tash-Rabat to Bishkek or Naryn"
+          ],
+          "notIncluded": [
+            "Flights to Bishkek",
+            "Travel insurance",
+            "Visa fees",
+            "Personal expenses"
+          ],
+          "accommodation": "Camping along the route, with a final night near Tash-Rabat",
+          "transport": "Horseback, car transfer from Tash-Rabat",
+          "startingPoint": "Bishkek or Kazybek",
+          "endingPoint": "Bishkek or Naryn",
+          "whatsappMessage": "Hello! I'm interested in the Kazybek → Tash-Rabat Horse Trek.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
+          "faq": [
+            {
+              "question": "How is this different from your hiking trek on the same route?",
+              "answer": "Same route from Kazybek to Tash-Rabat, but on horseback and faster — 4 days instead of 6 on foot."
+            }
+          ]
+        },
+        "ru": {
+          "title": "Казыбек → Таш-Рабат: конный поход",
+          "description": "4-дневная конная версия маршрута от Казыбека до Таш-Рабата — верхом через горы региона Ат-Баши к историческому каравансараю Таш-Рабат. Более быстрая, конная альтернатива нашему 6-дневному пешему походу по тому же маршруту.",
+          "difficulty": "Средний",
+          "highlights": [
+            "Конный переход от Казыбека к Таш-Рабату",
+            "Удалённые горные пейзажи Ат-Баши",
+            "Ночёвки по пути",
+            "Финиш у исторического каравансарая Таш-Рабат",
+            "Англоговорящий гид и команда сопровождения"
+          ],
+          "itinerary": [],
+          "included": [
+            "Англоговорящий гид",
+            "Лошади и снаряжение (седло, уздечка, шлем по запросу)",
+            "2–3-разовое питание в день на маршруте (в зависимости от погодных условий)",
+            "Снаряжение для кемпинга и ночёвки по маршруту",
+            "Трансфер на автомобиле от Таш-Рабата до Бишкека или Нарына"
+          ],
+          "notIncluded": [
+            "Авиаперелёт до Бишкека",
+            "Туристическая страховка",
+            "Визовые сборы",
+            "Личные расходы"
+          ],
+          "accommodation": "Кемпинг по маршруту, последняя ночь рядом с Таш-Рабатом",
+          "transport": "Верхом на лошади, автомобильный трансфер от Таш-Рабата",
+          "startingPoint": "Бишкек или Казыбек",
+          "endingPoint": "Бишкек или Нарын",
+          "whatsappMessage": "Здравствуйте! Меня интересует конный поход Казыбек → Таш-Рабат.\n\nЖелаемые даты:\nКоличество путешественников:\nМоя страна:",
+          "faq": [
+            {
+              "question": "Чем это отличается от пешего похода по этому же маршруту?",
+              "answer": "Тот же маршрут от Казыбека до Таш-Рабата, но верхом и быстрее — 4 дня вместо 6 пешком."
+            }
+          ]
+        },
+        "ky": {
+          "title": "Казыбек → Таш-Рабат: ат үстүндөгү саякат",
+          "description": "Казыбектен Таш-Рабатка чейинки маршруттун 4 күндүк ат үстүндөгү версиясы — Ат-Башы аймагынын тоолору аркылуу тарыхый Таш-Рабат кербен-сарайына чейин ат менен. Ошол эле маршрут боюнча 6 күндүк жөө жүрүшүбүзгө тезирээк, ат үстүндөгү альтернатива.",
+          "difficulty": "Орточо",
+          "highlights": [
+            "Казыбектен Таш-Рабатка ат менен",
+            "Ат-Башынын алыскы тоо пейзаждары",
+            "Жол боюнда түнөө",
+            "Тарыхый Таш-Рабат кербен-сарайында аяктоо",
+            "Англисче сүйлөгөн гид жана коштоочу команда"
+          ],
+          "itinerary": [],
+          "included": [
+            "Англисче сүйлөгөн гид",
+            "Аттар жана жабдуулар (ээр, жүгөн, сурам боюнча шлем)",
+            "Маршрутта күнүнө 2-3 мертебе тамактануу (аба ырайына жараша)",
+            "Жол боюнда кемпинг жабдуулары жана түнөөлөр",
+            "Таш-Рабаттан Бишкекке же Нарынга чейин унаа менен трансфер"
+          ],
+          "notIncluded": [
+            "Бишкекке чейинки авиа каттам",
+            "Саякат камсыздандыруусу",
+            "Виза төлөмдөрү",
+            "Жеке чыгымдар"
+          ],
+          "accommodation": "Жол боюнда кемпинг, Таш-Рабаттын жанында акыркы түн",
+          "transport": "Ат үстүндө, Таш-Рабаттан унаа менен трансфер",
+          "startingPoint": "Бишкек же Казыбек",
+          "endingPoint": "Бишкек же Нарын",
+          "whatsappMessage": "Салам! Мени Казыбек → Таш-Рабат ат үстүндөгү саякаты кызыктырат.\n\nКалаган күндөр:\nСаякатчылардын саны:\nМенин өлкөм:",
+          "faq": [
+            {
+              "question": "Бул ошол эле маршруттагы жөө жүрүштөн эмнеси менен айырмаланат?",
+              "answer": "Казыбектен Таш-Рабатка чейинки ошол эле маршрут, бирок ат үстүндө жана тезирээк — жөө 6 күндүн ордуна 4 күн."
             }
           ]
         }
@@ -435,6 +783,140 @@
       }
     },
     {
+      "id": "bogoshtu-kelsuu-horse",
+      "slug": "bogoshtu-kelsuu-horse",
+      "region": [
+        "Kel-Suu",
+        "Naryn"
+      ],
+      "activity": "Horse",
+      "durationMin": 3,
+      "durationMax": 3,
+      "durationUnit": "days",
+      "format": [
+        "Private",
+        "Group"
+      ],
+      "season": [
+        "June",
+        "July",
+        "August",
+        "September"
+      ],
+      "priceFrom": 98,
+      "currency": "USD",
+      "image": "/assets/images/destinations/kel-suu-valley.jpg",
+      "gallery": [],
+      "groupSize": {
+        "min": 2,
+        "max": 8
+      },
+      "pricing": {
+        "perDayBase": 100,
+        "organizerMarkup": 0.3,
+        "minBillableParticipants": 4,
+        "displayFromPrice": 98
+      },
+      "i18n": {
+        "en": {
+          "title": "Bogoshtu Pass → Kel-Suu Horse Trek",
+          "description": "A direct horse trek to Kel-Suu lake via the Bogoshtu pass — one of the most scenic and remote routes in the At-Bashy district of Naryn region. The route connects Naryn and the Ak-Sai valley to the high-altitude Kel-Suu lake, crossing the Bogoshtu pass at close to 4,000 m. Along the way you ride through the Tuyuk Bogoshtu gorge, known for its narrow trails and rocky ridges including the Zhany-Zher ridge, and past authentic jailoo pastures where nomadic families set up yurts for the summer.",
+          "difficulty": "Moderate to Challenging",
+          "highlights": [
+            "Cross the Bogoshtu pass (close to 4,000 m)",
+            "Ride through the Tuyuk Bogoshtu gorge and Zhany-Zher ridge",
+            "Route connects Naryn and the Ak-Sai valley to Kel-Suu lake",
+            "Authentic jailoo pastures with summer yurts",
+            "Kel-Suu turquoise waters",
+            "Remote, wild high-mountain scenery"
+          ],
+          "itinerary": [],
+          "included": [
+            "Professional English-speaking guide",
+            "Horses and equipment (saddle, bridle, helmet on request)",
+            "2-3 meals per day during the trek (depends on weather conditions)",
+            "Accommodation (yurt camp, camping)"
+          ],
+          "notIncluded": [
+            "Flights to Bishkek",
+            "Travel insurance",
+            "Visa fees",
+            "Personal expenses"
+          ],
+          "accommodation": "Yurt camps, camping",
+          "transport": "Horses",
+          "startingPoint": "Bishkek or Kyzart",
+          "endingPoint": "Bishkek",
+          "whatsappMessage": "Hello! I'm interested in the Bogoshtu Pass → Kel-Suu Horse Trek.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
+          "faq": []
+        },
+        "ru": {
+          "title": "Перевал Богошту → Кёль-Суу: конный поход",
+          "description": "Прямой конный поход к озеру Кёль-Суу через перевал Богошту — один из самых живописных и труднодоступных маршрутов в Ат-Башинском районе Нарынской области. Маршрут связывает Нарын и долину Ак-Сай с высокогорным озером Кёль-Суу, проходя через перевал Богошту на высоте почти 4000 метров. По пути маршрут проходит через ущелье Туюк Богошту, известное узкими тропами и скалистыми хребтами, включая хребет Жаны-Жер, а также аутентичные джайлоо-пастбища, где кочевые семьи разбивают юрты летом.",
+          "difficulty": "Средний – сложный",
+          "highlights": [
+            "Перевал Богошту (почти 4000 м)",
+            "Ущелье Туюк Богошту и хребет Жаны-Жер",
+            "Маршрут связывает Нарын и долину Ак-Сай с озером Кёль-Суу",
+            "Аутентичные джайлоо-пастбища с летними юртами",
+            "Бирюзовые воды Кёль-Суу",
+            "Дикие, удалённые высокогорные пейзажи"
+          ],
+          "itinerary": [],
+          "included": [
+            "Профессиональный англоговорящий гид",
+            "Лошади и снаряжение (седло, уздечка, шлем по запросу)",
+            "2–3-разовое питание в день на маршруте (в зависимости от погодных условий)",
+            "Проживание (юрточный лагерь, кемпинг)"
+          ],
+          "notIncluded": [
+            "Авиаперелёт до Бишкека",
+            "Туристическая страховка",
+            "Визовые сборы",
+            "Личные расходы"
+          ],
+          "accommodation": "Юрточные лагеря, кемпинг",
+          "transport": "Лошади",
+          "startingPoint": "Бишкек или Кызарт",
+          "endingPoint": "Бишкек",
+          "whatsappMessage": "Здравствуйте! Меня интересует конный поход через перевал Богошту к Кёль-Суу.\n\nЖелаемые даты:\nКоличество путешественников:\nМоя страна:",
+          "faq": []
+        },
+        "ky": {
+          "title": "Богошту ашуусу → Көл-Суу ат үстүндөгү саякат",
+          "description": "Кёль-Суу көлүнө Богошту ашуусу аркылуу түз ат үстүндөгү саякат — Нарын облусунун Ат-Башы районундагы эң кооз жана кыйын жеткиликтүү маршруттардын бири. Маршрут Нарын менен Ак-Сай өрөөнүн болжол менен 4000 метр бийиктиктеги Богошту ашуусу аркылуу өтүп, бийик тоодогу Кёль-Суу көлүнө байланыштырат. Жол боюнда тар жолдору жана Жаны-Жер кыркасын кошкондо аска-зоокалуу кыркалары менен белгилүү Туюк Богошту капчыгайы, ошондой эле жайында көчмөн үй-бүлөлөр боз үй тиккен чыныгы жайлоолор аркылуу өтөт.",
+          "difficulty": "Орточо – кыйын",
+          "highlights": [
+            "Богошту ашуусу (болжол менен 4000 м)",
+            "Туюк Богошту капчыгайы жана Жаны-Жер кыркасы",
+            "Маршрут Нарын менен Ак-Сай өрөөнүн Кёль-Суу көлүнө байланыштырат",
+            "Жайкы боз үйлөр менен чыныгы жайлоолор",
+            "Көл-Суунун түркүн-көк суулары",
+            "Жапайы, алыскы бийик тоо пейзаждары"
+          ],
+          "itinerary": [],
+          "included": [
+            "Англисче сүйлөгөн кесипкөй гид",
+            "Аттар жана жабдуулар (ээр, жүгөн, сурам боюнча шлем)",
+            "Маршрутта күнүнө 2-3 мертебе тамактануу (аба ырайына жараша)",
+            "Жашоо (боз үй лагери, кемпинг)"
+          ],
+          "notIncluded": [
+            "Бишкекке чейинки авиа каттам",
+            "Саякат камсыздандыруусу",
+            "Виза төлөмдөрү",
+            "Жеке чыгымдар"
+          ],
+          "accommodation": "Боз үй лагерлери, кемпинг",
+          "transport": "Аттар",
+          "startingPoint": "Бишкек же Кызарт",
+          "endingPoint": "Бишкек",
+          "whatsappMessage": "Салам! Мени Богошту ашуусу → Көл-Суу ат үстүндөгү саякаты кызыктырат.\n\nКалаган күндөр:\nСаякатчылардын саны:\nМенин өлкөм:",
+          "faq": []
+        }
+      }
+    },
+    {
       "id": "chuy-issyk-kul-roadtrip",
       "slug": "chuy-issyk-kul-roadtrip",
       "region": [
@@ -460,7 +942,7 @@
       ],
       "priceFrom": 33,
       "currency": "USD",
-      "image": "/assets/images/destinations/issyk-kul-skazka-canyon-1.jpg",
+      "image": "/assets/images/destinations/jomoksai2.jpg",
       "gallery": [],
       "groupSize": {
         "min": 2,
@@ -659,149 +1141,15 @@
       }
     },
     {
-      "id": "bogoshtu-kelsuu-horse",
-      "slug": "bogoshtu-kelsuu-horse",
-      "region": [
-        "Kel-Suu",
-        "Naryn"
-      ],
-      "activity": "Horse",
-      "durationMin": 4,
-      "durationMax": 7,
-      "durationUnit": "days",
-      "format": [
-        "Private",
-        "Group"
-      ],
-      "season": [
-        "June",
-        "July",
-        "August",
-        "September"
-      ],
-      "priceFrom": 130,
-      "currency": "USD",
-      "image": "/assets/images/destinations/kel-suu-valley.jpg",
-      "gallery": [],
-      "groupSize": {
-        "min": 2,
-        "max": 8
-      },
-      "pricing": {
-        "perDayBase": 100,
-        "organizerMarkup": 0.3,
-        "minBillableParticipants": 4,
-        "displayFromPrice": 130
-      },
-      "i18n": {
-        "en": {
-          "title": "Bogoshtu Pass → Kel-Suu Horse Trek",
-          "description": "Direct horse trek to Kel-Suu via the scenic Bogoshtu Pass — a true high-mountain adventure.",
-          "difficulty": "Moderate to Challenging",
-          "highlights": [
-            "Cross Bogoshtu Pass",
-            "Remote high-mountain pastures",
-            "Kel-Suu turquoise waters",
-            "Nomadic culture en route",
-            "Camping under stars",
-            "Professional guide"
-          ],
-          "itinerary": [],
-          "included": [
-            "Professional English-speaking guide",
-            "Horses and equipment (saddle, bridle, helmet on request)",
-            "2-3 meals per day during the trek (depends on weather conditions)",
-            "Accommodation (yurt camp, camping)"
-          ],
-          "notIncluded": [
-            "Flights to Bishkek",
-            "Travel insurance",
-            "Visa fees",
-            "Personal expenses"
-          ],
-          "accommodation": "Yurt camps, camping",
-          "transport": "Horses",
-          "startingPoint": "Bishkek or Kyzart",
-          "endingPoint": "Bishkek",
-          "whatsappMessage": "Hello! I'm interested in the Bogoshtu Pass → Kel-Suu Horse Trek.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
-          "faq": []
-        },
-        "ru": {
-          "title": "Перевал Богошту → Кёль-Суу: конный поход",
-          "description": "Прямой конный поход к Кёль-Суу через живописный перевал Богошту — настоящее высокогорное приключение.",
-          "difficulty": "Средний – сложный",
-          "highlights": [
-            "Переход через перевал Богошту",
-            "Удалённые высокогорные пастбища",
-            "Бирюзовые воды Кёль-Суу",
-            "Кочевая культура по пути",
-            "Ночёвка под звёздами",
-            "Профессиональный гид"
-          ],
-          "itinerary": [],
-          "included": [
-            "Профессиональный англоговорящий гид",
-            "Лошади и снаряжение (седло, уздечка, шлем по запросу)",
-            "2–3-разовое питание в день на маршруте (в зависимости от погодных условий)",
-            "Проживание (юрточный лагерь, кемпинг)"
-          ],
-          "notIncluded": [
-            "Авиаперелёт до Бишкека",
-            "Туристическая страховка",
-            "Визовые сборы",
-            "Личные расходы"
-          ],
-          "accommodation": "Юрточные лагеря, кемпинг",
-          "transport": "Лошади",
-          "startingPoint": "Бишкек или Кызарт",
-          "endingPoint": "Бишкек",
-          "whatsappMessage": "Здравствуйте! Меня интересует конный поход через перевал Богошту к Кёль-Суу.\n\nЖелаемые даты:\nКоличество путешественников:\nМоя страна:",
-          "faq": []
-        },
-        "ky": {
-          "title": "Богошту ашуусу → Көл-Суу ат үстүндөгү саякат",
-          "description": "Кооз Богошту ашуусу аркылуу Көл-Суу көлүнө түз ат үстүндөгү саякат — чыныгы бийик тоо укмуштуусу.",
-          "difficulty": "Орточо – кыйын",
-          "highlights": [
-            "Богошту ашуусунан өтүү",
-            "Алыскы бийик тоо жайлоолору",
-            "Көл-Суунун түркүн-көк суулары",
-            "Жол боюндагы көчмөн маданияты",
-            "Жылдыздардын астында түнөө",
-            "Кесипкөй гид"
-          ],
-          "itinerary": [],
-          "included": [
-            "Англисче сүйлөгөн кесипкөй гид",
-            "Аттар жана жабдуулар (ээр, жүгөн, сурам боюнча шлем)",
-            "Маршрутта күнүнө 2-3 мертебе тамактануу (аба ырайына жараша)",
-            "Жашоо (боз үй лагери, кемпинг)"
-          ],
-          "notIncluded": [
-            "Бишкекке чейинки авиа каттам",
-            "Саякат камсыздандыруусу",
-            "Виза төлөмдөрү",
-            "Жеке чыгымдар"
-          ],
-          "accommodation": "Боз үй лагерлери, кемпинг",
-          "transport": "Аттар",
-          "startingPoint": "Бишкек же Кызарт",
-          "endingPoint": "Бишкек",
-          "whatsappMessage": "Салам! Мени Богошту ашуусу → Көл-Суу ат үстүндөгү саякаты кызыктырат.\n\nКалаган күндөр:\nСаякатчылардын саны:\nМенин өлкөм:",
-          "faq": []
-        }
-      }
-    },
-    {
-      "id": "song-kul-horse-4x4",
-      "slug": "song-kul-horse-4x4",
+      "id": "kyzart-song-kul-horse",
+      "slug": "kyzart-song-kul-horse",
       "region": [
         "Song-Kul",
         "Naryn"
       ],
       "activity": "Horse",
-      "durationMin": 2,
-      "durationMax": 5,
+      "durationMin": 3,
+      "durationMax": 3,
       "durationUnit": "days",
       "format": [
         "Private",
@@ -815,7 +1163,7 @@
         "September",
         "October"
       ],
-      "priceFrom": 65,
+      "priceFrom": 98,
       "currency": "USD",
       "image": "/assets/images/destinations/song-kul-horseman.webp",
       "gallery": [],
@@ -827,26 +1175,156 @@
         "perDayBase": 100,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 4,
-        "displayFromPrice": 65
+        "displayFromPrice": 98
       },
       "i18n": {
         "en": {
-          "title": "Song-Kul Horse & 4x4 Adventure",
-          "description": "Combined horse and vehicle tour to Song-Kul high pastures — perfect introduction to nomadic Kyrgyzstan.",
+          "title": "Kyzart – Song-Kul Horse Trek",
+          "description": "A 3-day horseback ride from the village of Kyzart up to the high alpine pastures around Song-Kul lake — a classic, approachable introduction to nomadic Kyrgyzstan. Ride through jailoo pastures, stay near yurt camps, and catch sunrise or sunset over the lake.",
           "difficulty": "Easy to Moderate",
           "highlights": [
+            "Horseback ride from Kyzart to Song-Kul",
             "Song-Kul alpine lake",
             "Jailoo pastures and yurts",
-            "Short horse rides + 4x4 comfort",
             "Sunrise/sunset viewpoints",
-            "Meet nomadic families",
-            "Flexible itinerary"
+            "Meet nomadic families"
           ],
           "itinerary": [],
           "included": [
             "Professional guide",
-            "Horses (as per program)",
-            "4x4 transport",
+            "Horses and equipment",
+            "2-3 meals per day during the trek (depends on weather conditions)",
+            "Accommodation (yurt camp)"
+          ],
+          "notIncluded": [
+            "Flights to Bishkek",
+            "Travel insurance",
+            "Visa fees",
+            "Personal expenses"
+          ],
+          "accommodation": "Yurt camps",
+          "transport": "Horseback",
+          "startingPoint": "Kyzart",
+          "endingPoint": "Song-Kul",
+          "whatsappMessage": "Hello! I'm interested in the Kyzart – Song-Kul Horse Trek.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
+          "faq": []
+        },
+        "ru": {
+          "title": "Кызарт – Сон-Куль: конный поход",
+          "description": "3-дневный конный поход из села Кызарт к высокогорным пастбищам озера Сон-Куль — классическое и доступное знакомство с кочевым Кыргызстаном. Маршрут проходит через джайлоо-пастбища, ночёвки рядом с юрточными лагерями, рассветы и закаты над озером.",
+          "difficulty": "Лёгкий – средний",
+          "highlights": [
+            "Конный переход из Кызарта к Сон-Кулю",
+            "Альпийское озеро Сон-Куль",
+            "Джайлоо-пастбища и юрты",
+            "Смотровые точки рассвета и заката",
+            "Встреча с кочевыми семьями"
+          ],
+          "itinerary": [],
+          "included": [
+            "Профессиональный гид",
+            "Лошади и снаряжение",
+            "2–3-разовое питание в день на маршруте (в зависимости от погодных условий)",
+            "Проживание (юрточный лагерь)"
+          ],
+          "notIncluded": [
+            "Авиаперелёт до Бишкека",
+            "Туристическая страховка",
+            "Визовые сборы",
+            "Личные расходы"
+          ],
+          "accommodation": "Юрточные лагеря",
+          "transport": "Верхом на лошади",
+          "startingPoint": "Кызарт",
+          "endingPoint": "Сон-Куль",
+          "whatsappMessage": "Здравствуйте! Меня интересует конный поход Кызарт – Сон-Куль.\n\nЖелаемые даты:\nКоличество путешественников:\nМоя страна:",
+          "faq": []
+        },
+        "ky": {
+          "title": "Кызарт – Соң-Көл: ат үстүндөгү саякат",
+          "description": "Кызарт айылынан Соң-Көл көлүнүн айланасындагы бийик альп жайлоолоруна чейинки 3 күндүк ат үстүндөгү саякат — көчмөн Кыргызстан менен классикалык жана жеткиликтүү таанышуу. Маршрут жайлоолор аркылуу өтөт, боз үй лагерлеринин жанында түнөө, көлдүн үстүндөгү таң атыш жана күн батыш.",
+          "difficulty": "Жеңил – орточо",
+          "highlights": [
+            "Кызарттан Соң-Көлгө чейин ат үстүндө",
+            "Альп бийиктигиндеги Соң-Көл",
+            "Жайлоолор жана боз үйлөр",
+            "Таң атыш/күн батыш көрүнүш жерлери",
+            "Көчмөн үй-бүлөлөр менен жолугушуу"
+          ],
+          "itinerary": [],
+          "included": [
+            "Кесипкөй гид",
+            "Аттар жана жабдуулар",
+            "Маршрутта күнүнө 2-3 мертебе тамактануу (аба ырайына жараша)",
+            "Жашоо (боз үй лагери)"
+          ],
+          "notIncluded": [
+            "Бишкекке чейинки авиа каттам",
+            "Саякат камсыздандыруусу",
+            "Виза төлөмдөрү",
+            "Жеке чыгымдар"
+          ],
+          "accommodation": "Боз үй лагерлери",
+          "transport": "Ат үстүндө",
+          "startingPoint": "Кызарт",
+          "endingPoint": "Соң-Көл",
+          "whatsappMessage": "Салам! Мени Кызарт – Соң-Көл ат үстүндөгү саякаты кызыктырат.\n\nКалаган күндөр:\nСаякатчылардын саны:\nМенин өлкөм:",
+          "faq": []
+        }
+      }
+    },
+    {
+      "id": "song-kul-kelsuu-roadtrip",
+      "slug": "song-kul-kelsuu-roadtrip",
+      "region": [
+        "Song-Kul",
+        "Kel-Suu",
+        "Naryn"
+      ],
+      "activity": "4x4",
+      "durationMin": 3,
+      "durationMax": 3,
+      "durationUnit": "days",
+      "format": [
+        "Private",
+        "Group"
+      ],
+      "season": [
+        "June",
+        "July",
+        "August",
+        "September"
+      ],
+      "priceFrom": 98,
+      "currency": "USD",
+      "image": "/assets/images/destinations/kel-suu-valley.jpg",
+      "gallery": [],
+      "groupSize": {
+        "min": 2,
+        "max": 6
+      },
+      "pricing": {
+        "perDayBase": 100,
+        "organizerMarkup": 0.3,
+        "minBillableParticipants": 4,
+        "displayFromPrice": 98
+      },
+      "i18n": {
+        "en": {
+          "title": "Song-Kul – Kel-Suu Car Road Trip",
+          "description": "A 3-day 4x4 road trip from the high pastures of Song-Kul lake onward to the remote turquoise waters of Kel-Suu — scenic mountain driving connecting two of Naryn's most striking lakes.",
+          "difficulty": "Easy",
+          "highlights": [
+            "Song-Kul alpine lake",
+            "Kel-Suu turquoise waters",
+            "Remote mountain driving routes",
+            "Jailoo pastures and yurts",
+            "Comfortable 4x4 travel"
+          ],
+          "itinerary": [],
+          "included": [
+            "Professional driver-guide",
+            "4x4 vehicle and fuel",
             "2-3 meals per day during the trek (depends on weather conditions)",
             "Accommodation (yurt camp, guesthouse)"
           ],
@@ -857,29 +1335,27 @@
             "Personal expenses"
           ],
           "accommodation": "Yurt camps, guesthouses",
-          "transport": "4x4 + horses",
-          "startingPoint": "Bishkek",
-          "endingPoint": "Bishkek",
-          "whatsappMessage": "Hello! I'm interested in the Song-Kul Horse & 4x4 Adventure.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
+          "transport": "4x4 vehicle",
+          "startingPoint": "Song-Kul",
+          "endingPoint": "Kel-Suu or Bishkek",
+          "whatsappMessage": "Hello! I'm interested in the Song-Kul – Kel-Suu Car Road Trip.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
           "faq": []
         },
         "ru": {
-          "title": "Сон-Куль: конное и 4x4 приключение",
-          "description": "Комбинированный тур на лошадях и автомобиле к высокогорным пастбищам Сон-Куля — идеальное знакомство с кочевым Кыргызстаном.",
-          "difficulty": "Лёгкий – средний",
+          "title": "Сон-Куль – Кёль-Суу на машине",
+          "description": "Трёхдневный внедорожный маршрут от высокогорных пастбищ озера Сон-Куль до удалённых бирюзовых вод Кёль-Суу — живописная горная дорога, соединяющая два самых впечатляющих озера Нарынской области.",
+          "difficulty": "Лёгкий",
           "highlights": [
             "Альпийское озеро Сон-Куль",
+            "Бирюзовые воды Кёль-Суу",
+            "Удалённые горные дороги",
             "Джайлоо-пастбища и юрты",
-            "Короткие конные прогулки + комфорт 4x4",
-            "Смотровые точки рассвета и заката",
-            "Встреча с кочевыми семьями",
-            "Гибкий маршрут"
+            "Комфортное путешествие на 4x4"
           ],
           "itinerary": [],
           "included": [
-            "Профессиональный гид",
-            "Лошади (согласно программе)",
-            "Транспорт 4x4",
+            "Профессиональный водитель-гид",
+            "Автомобиль 4x4 и топливо",
             "2–3-разовое питание в день на маршруте (в зависимости от погодных условий)",
             "Проживание (юрточный лагерь, гостевой дом)"
           ],
@@ -890,29 +1366,27 @@
             "Личные расходы"
           ],
           "accommodation": "Юрточные лагеря, гостевые дома",
-          "transport": "4x4 + лошади",
-          "startingPoint": "Бишкек",
-          "endingPoint": "Бишкек",
-          "whatsappMessage": "Здравствуйте! Меня интересует тур Сон-Куль: конное и 4x4 приключение.\n\nЖелаемые даты:\nКоличество путешественников:\nМоя страна:",
+          "transport": "Автомобиль 4x4",
+          "startingPoint": "Сон-Куль",
+          "endingPoint": "Кёль-Суу или Бишкек",
+          "whatsappMessage": "Здравствуйте! Меня интересует маршрут Сон-Куль – Кёль-Суу на машине.\n\nЖелаемые даты:\nКоличество путешественников:\nМоя страна:",
           "faq": []
         },
         "ky": {
-          "title": "Соң-Көл: ат жана 4x4 укмуштуусу",
-          "description": "Соң-Көлдүн бийик жайлоолоруна ат жана унаа менен айкалышкан тур — көчмөн Кыргызстан менен эң мыкты таанышуу.",
-          "difficulty": "Жеңил – орточо",
+          "title": "Соң-Көл – Көл-Суу унаа менен",
+          "description": "Соң-Көлдүн бийик жайлоолорунан Көл-Суунун алыскы түркүн-көк суусуна чейинки 3 күндүк жол четинен сырткары саякат — Нарын облусунун эң таасирдүү эки көлүн бириктирген кооз тоо жолу.",
+          "difficulty": "Жеңил",
           "highlights": [
             "Альп бийиктигиндеги Соң-Көл",
+            "Көл-Суунун түркүн-көк суулары",
+            "Алыскы тоо жолдору",
             "Жайлоолор жана боз үйлөр",
-            "Кыска ат минүү + 4x4 ыңгайлуулугу",
-            "Таң атыш/күн батыш көрүнүш жерлери",
-            "Көчмөн үй-бүлөлөр менен жолугушуу",
-            "Ийкемдүү маршрут"
+            "Ыңгайлуу 4x4 саякат"
           ],
           "itinerary": [],
           "included": [
-            "Кесипкөй гид",
-            "Аттар (программага жараша)",
-            "4x4 унаа",
+            "Кесипкөй айдоочу-гид",
+            "4x4 унаа жана отун",
             "Маршрутта күнүнө 2-3 мертебе тамактануу (аба ырайына жараша)",
             "Жашоо (боз үй лагери, конок үй)"
           ],
@@ -923,11 +1397,608 @@
             "Жеке чыгымдар"
           ],
           "accommodation": "Боз үй лагерлери, конок үйлөр",
-          "transport": "4x4 + аттар",
-          "startingPoint": "Бишкек",
-          "endingPoint": "Бишкек",
-          "whatsappMessage": "Салам! Мени Соң-Көл: ат жана 4x4 укмуштуусу кызыктырат.\n\nКалаган күндөр:\nСаякатчылардын саны:\nМенин өлкөм:",
+          "transport": "4x4 унаа",
+          "startingPoint": "Соң-Көл",
+          "endingPoint": "Көл-Суу же Бишкек",
+          "whatsappMessage": "Салам! Мени Соң-Көл – Көл-Суу унаа менен туру кызыктырат.\n\nКалаган күндөр:\nСаякатчылардын саны:\nМенин өлкөм:",
           "faq": []
+        }
+      }
+    },
+    {
+      "id": "osh-murgab-dushanbe-mix",
+      "slug": "osh-murgab-dushanbe-mix",
+      "region": [
+        "Osh"
+      ],
+      "activity": "Custom",
+      "durationMin": 10,
+      "durationMax": 14,
+      "durationUnit": "days",
+      "format": [
+        "Private",
+        "Group"
+      ],
+      "season": [
+        "June",
+        "July",
+        "August",
+        "September"
+      ],
+      "priceFrom": 325,
+      "currency": "USD",
+      "image": "/assets/images/tours/murgab.jpg",
+      "gallery": [],
+      "groupSize": {
+        "min": 2,
+        "max": 6
+      },
+      "pricing": {
+        "perDayBase": 100,
+        "organizerMarkup": 0.3,
+        "minBillableParticipants": 4,
+        "displayFromPrice": 325
+      },
+      "i18n": {
+        "en": {
+          "title": "Osh – Murgab – Dushanbe (Pamir Highway)",
+          "description": "A multi-day mixed-format journey along the Pamir Highway, from Osh in Kyrgyzstan through Murgab to Dushanbe, the capital of Tajikistan. The detailed day-by-day program is still being finalized — message us on WhatsApp for the latest route details and availability.",
+          "difficulty": "To be confirmed",
+          "highlights": [
+            "Pamir Highway route from Osh to Dushanbe",
+            "Crosses into Tajikistan via Murgab",
+            "Multi-day mixed-format journey",
+            "Exact itinerary being finalized"
+          ],
+          "itinerary": [],
+          "included": [
+            "Details being finalized — contact us on WhatsApp for the latest information"
+          ],
+          "notIncluded": [
+            "Flights to/from Osh and Dushanbe",
+            "Travel insurance",
+            "Visa fees",
+            "Personal expenses"
+          ],
+          "accommodation": "To be confirmed",
+          "transport": "Mixed — to be confirmed",
+          "startingPoint": "Osh",
+          "endingPoint": "Dushanbe",
+          "whatsappMessage": "Hello! I'm interested in the Osh – Murgab – Dushanbe route.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
+          "faq": [
+            {
+              "question": "Is this route fully planned yet?",
+              "answer": "We're still finalizing the exact day-by-day program for this route. Message us on WhatsApp and we'll share the latest details and available dates."
+            }
+          ]
+        },
+        "ru": {
+          "title": "Ош – Мургаб – Душанбе (Памирский тракт)",
+          "description": "Многодневное путешествие смешанного формата по Памирскому тракту — от Оша в Кыргызстане через Мургаб до Душанбе, столицы Таджикистана. Подробная программа по дням пока уточняется — напишите нам в WhatsApp за актуальными деталями маршрута и датами.",
+          "difficulty": "Уточняется",
+          "highlights": [
+            "Памирский тракт от Оша до Душанбе",
+            "Пересечение границы с Таджикистаном через Мургаб",
+            "Многодневное путешествие смешанного формата",
+            "Точный маршрут уточняется"
+          ],
+          "itinerary": [],
+          "included": [
+            "Программа уточняется — напишите нам в WhatsApp за актуальной информацией"
+          ],
+          "notIncluded": [
+            "Авиаперелёты до Оша и из Душанбе",
+            "Туристическая страховка",
+            "Визовые сборы",
+            "Личные расходы"
+          ],
+          "accommodation": "Уточняется",
+          "transport": "Смешанный — уточняется",
+          "startingPoint": "Ош",
+          "endingPoint": "Душанбе",
+          "whatsappMessage": "Здравствуйте! Меня интересует маршрут Ош – Мургаб – Душанбе.\n\nЖелаемые даты:\nКоличество путешественников:\nМоя страна:",
+          "faq": [
+            {
+              "question": "Этот маршрут уже полностью спланирован?",
+              "answer": "Мы пока уточняем точную программу по дням для этого маршрута. Напишите нам в WhatsApp, и мы поделимся актуальными деталями и доступными датами."
+            }
+          ]
+        },
+        "ky": {
+          "title": "Ош – Мургаб – Душанбе (Памир жолу)",
+          "description": "Памир жолу боюнча көп күндүк аралаш форматтагы саякат — Кыргызстандагы Оштон Мургаб аркылуу Тажикстандын борбору Душанбеге чейин. Күн сайынкы толук программа азырынча тактоодо — актуалдуу маршрут чоо-жайын жана күндөрдү билүү үчүн WhatsApp аркылуу бизге жазыңыз.",
+          "difficulty": "Тактоодо",
+          "highlights": [
+            "Оштон Душанбеге чейинки Памир жолу",
+            "Мургаб аркылуу Тажикстанга өтүү",
+            "Көп күндүк аралаш форматтагы саякат",
+            "Так маршрут тактоодо"
+          ],
+          "itinerary": [],
+          "included": [
+            "Программа тактоодо — актуалдуу маалымат үчүн WhatsApp аркылуу бизге жазыңыз"
+          ],
+          "notIncluded": [
+            "Ошко жана Душанбеден авиа каттамдар",
+            "Саякат камсыздандыруусу",
+            "Виза төлөмдөрү",
+            "Жеке чыгымдар"
+          ],
+          "accommodation": "Тактоодо",
+          "transport": "Аралаш — тактоодо",
+          "startingPoint": "Ош",
+          "endingPoint": "Душанбе",
+          "whatsappMessage": "Салам! Мени Ош – Мургаб – Душанбе маршруту кызыктырат.\n\nКалаган күндөр:\nСаякатчылардын саны:\nМенин өлкөм:",
+          "faq": [
+            {
+              "question": "Бул маршрут толук пландалганбы?",
+              "answer": "Биз бул маршрут үчүн так күн сайынкы программаны азырынча тактап жатабыз. WhatsApp аркылуу бизге жазыңыз, биз актуалдуу чоо-жайын жана бош күндөрдү бөлүшөбүз."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "suusamyr-kyzyl-oy-son-kul-horse",
+      "slug": "suusamyr-kyzyl-oy-son-kul-horse",
+      "region": [
+        "Chuy",
+        "Naryn",
+        "Song-Kul"
+      ],
+      "activity": "Horse",
+      "durationMin": 6,
+      "durationMax": 6,
+      "durationUnit": "days",
+      "format": [
+        "Private",
+        "Group"
+      ],
+      "season": [
+        "June",
+        "July",
+        "August",
+        "September"
+      ],
+      "priceFrom": 195,
+      "currency": "USD",
+      "image": "/assets/images/tours/suusamyr.jpg",
+      "gallery": [],
+      "groupSize": {
+        "min": 2,
+        "max": 8
+      },
+      "pricing": {
+        "perDayBase": 100,
+        "organizerMarkup": 0.3,
+        "minBillableParticipants": 4,
+        "displayFromPrice": 195
+      },
+      "i18n": {
+        "en": {
+          "title": "Suusamyr – Kyzyl-Oy – Son-Kul Horse Expedition",
+          "description": "The full extension from Kyzyl-Oy to Son-Kul lake — a demanding 6-day high-altitude horse expedition, continuing from our Suusamyr – Kyzyl-Oy Horse Trek (or starting directly from Kyzyl-Oy). The route climbs over the Jumgal-Too foothills and the Kok-Oyrok ridge, approaches Son-Kul from the Kyzart/Kilemche side, then crosses the Jalgyz-Karagay (Chil-Bel) pass at around 3,300-3,400 m — leading horses by hand in places — before descending to camp by the lake. A rest day at Son-Kul (3,016 m) lets you gallop along the shoreline, hike up to the petroglyphs, or just relax, before a 4x4 transfer back to Bishkek via Kochkor and the Boom gorge.",
+          "difficulty": "Challenging",
+          "highlights": [
+            "Kyzyl-Oy to the Jumgal valley",
+            "Crossing the Kok-Oyrok ridge",
+            "Approach to Son-Kul (Kyzart / Kilemche gorge)",
+            "Jalgyz-Karagay (Chil-Bel) pass to Son-Kul",
+            "Rest day at Son-Kul",
+            "Finish and return to Bishkek"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Kyzyl-Oy to the Jumgal valley",
+              "description": "Ride out from Kyzyl-Oy, crossing the river and climbing through the gentle foothills of the Jumgal-Too ridge. Gradual altitude gain. Overnight in tents by a stream."
+            },
+            {
+              "day": 2,
+              "title": "Crossing the Kok-Oyrok ridge",
+              "description": "Climb rocky trails to a panoramic point on the ridge, then descend into the Jumgal river valley, through wild pastures and scattered chaban camps. About 5-6 hours in the saddle."
+            },
+            {
+              "day": 3,
+              "title": "Approach to Son-Kul (Kyzart / Kilemche gorge)",
+              "description": "Ride toward the main ridge enclosing the lake; the landscape softens into the Kilemche jailoo hills. Overnight in tents at around 2,500 m, before the pass crossing."
+            },
+            {
+              "day": 4,
+              "title": "Jalgyz-Karagay (Chil-Bel) pass to Son-Kul",
+              "description": "A steep, extended climb to the pass (around 3,300-3,400 m) — in places you'll lead your horse on foot. From the top, a dramatic view opens over the vast Son-Kul lake. Descend to the shore. Overnight in yurts, dinner with fresh fish."
+            },
+            {
+              "day": 5,
+              "title": "Rest day at Son-Kul",
+              "description": "Horses and riders rest. A free day: gallop along the flat shoreline, hike up to the petroglyphs, watch a yurt being set up, or simply relax at 3,016 m. Overnight in yurts."
+            },
+            {
+              "day": 6,
+              "title": "Finish and return to Bishkek",
+              "description": "Say goodbye to the horses. A 4x4 minivan or SUV picks you up at Son-Kul. Transfer to Bishkek via Kochkor and the Boom gorge (about 5-6 hours)."
+            }
+          ],
+          "included": [
+            "Experienced guides and horsemen",
+            "Horses and riding equipment (saddle, bridle, helmet on request)",
+            "2-3 meals per day during the trek (depends on weather conditions)",
+            "Camping equipment and tent stays along the route",
+            "Yurt stays at Son-Kul",
+            "Transfer: Son-Kul–Bishkek"
+          ],
+          "notIncluded": [
+            "Flights to Bishkek",
+            "Travel insurance",
+            "Visa fees",
+            "Personal expenses"
+          ],
+          "accommodation": "Tents along the route, yurts at Son-Kul",
+          "transport": "Horseback, with a 4x4 transfer at the end",
+          "startingPoint": "Kyzyl-Oy",
+          "endingPoint": "Bishkek, via Son-Kul",
+          "whatsappMessage": "Hello! I'm interested in the Suusamyr – Kyzyl-Oy – Son-Kul Horse Expedition.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
+          "faq": [
+            {
+              "question": "Can I start this directly without the Suusamyr – Kyzyl-Oy leg?",
+              "answer": "Yes — we can arrange a transfer straight to Kyzyl-Oy to start this 6-day expedition on its own."
+            },
+            {
+              "question": "How hard is this expedition?",
+              "answer": "Demanding — it crosses the Jalgyz-Karagay (Chil-Bel) pass at around 3,300-3,400 m, with rocky trails and long days in the saddle. Good fitness and prior riding experience are needed."
+            }
+          ]
+        },
+        "ru": {
+          "title": "Экспедиция Суусамыр – Кызыл-Ой – Сон-Куль",
+          "description": "Полное продолжение маршрута от Кызыл-Оя до озера Сон-Куль — сложная 6-дневная высокогорная конная экспедиция, продолжающая наш конный поход Суусамыр – Кызыл-Ой (или начинающаяся прямо из Кызыл-Оя). Маршрут поднимается через предгорья хребта Джумгал-Тоо и хребет Кёк-Ойрок, подходит к Сон-Кулю со стороны Кызарта/Килемче, затем поднимается на перевал Джалгыз-Карагай (Чиль-Бель) на высоте около 3300–3400 м — местами лошадей ведут в поводу — и спускается к лагерю на берегу озера. День отдыха на Сон-Куле (3016 м) — можно поскакать галопом по берегу, подняться к петроглифам или просто отдохнуть, затем трансфер на внедорожнике в Бишкек через Кочкор и Боомское ущелье.",
+          "difficulty": "Сложный",
+          "highlights": [
+            "Из Кызыл-Оя в долину Жумгал",
+            "Переход через хребет Кёк-Ойрок",
+            "Подход к Сон-Кулю (Кызарт / ущелье Килемче)",
+            "Перевал Джалгыз-Карагай (Чиль-Бель) — выход к Сон-Кулю",
+            "День отдыха на озере Сон-Куль",
+            "Финиш и возвращение в Бишкек"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Из Кызыл-Оя в долину Жумгал",
+              "description": "Старт верхом из Кызыл-Оя. Маршрут пересекает реку и уходит через пологие предгорья хребта Джумгал-Тоо. Постепенный набор высоты. Ночёвка в палатках у ручья."
+            },
+            {
+              "day": 2,
+              "title": "Переход через хребет Кёк-Ойрок",
+              "description": "Подъём по каменистым тропам на панорамную точку хребта, спуск в долину реки Жумгал среди диких пастбищ и редких стоянок чабанов. Около 5–6 часов в седле."
+            },
+            {
+              "day": 3,
+              "title": "Подход к Сон-Кулю (Кызарт / ущелье Килемче)",
+              "description": "Движение в сторону главного хребта, запирающего озеро. Пейзажи сменяются мягкими холмами джайлоо Килемче. Ночёвка в палатках на высоте около 2500 м перед перевалом."
+            },
+            {
+              "day": 4,
+              "title": "Перевал Джалгыз-Карагай (Чиль-Бель) — выход к Сон-Кулю",
+              "description": "Крутой и затяжной подъём на перевал (около 3300–3400 м) — местами лошадей ведут в поводу. С вершины открывается вид на огромное озеро Сон-Куль. Спуск к побережью. Ночёвка в юртах, ужин со свежей рыбой."
+            },
+            {
+              "day": 5,
+              "title": "День отдыха на озере Сон-Куль",
+              "description": "Лошади и всадники отдыхают. Свободный день: можно поскакать галопом по ровной береговой линии, подняться пешком к петроглифам, понаблюдать за сборкой юрт или просто отдохнуть на высоте 3016 м. Ночёвка в юртах."
+            },
+            {
+              "day": 6,
+              "title": "Финиш и возвращение в Бишкек",
+              "description": "Прощание с лошадьми. На Сон-Куле вас забирает полноприводный минивэн или внедорожник. Трансфер в Бишкек через Кочкор и Боомское ущелье (около 5–6 часов в пути)."
+            }
+          ],
+          "included": [
+            "Опытные гиды и конюхи",
+            "Лошади и снаряжение для верховой езды (седло, уздечка, шлем по запросу)",
+            "2–3-разовое питание в день на маршруте (в зависимости от погодных условий)",
+            "Снаряжение для кемпинга и ночёвки в палатках по маршруту",
+            "Ночёвки в юртах на Сон-Куле",
+            "Трансфер: Сон-Куль–Бишкек"
+          ],
+          "notIncluded": [
+            "Авиаперелёт до Бишкека",
+            "Туристическая страховка",
+            "Визовые сборы",
+            "Личные расходы"
+          ],
+          "accommodation": "Палатки по маршруту, юрты на Сон-Куле",
+          "transport": "Верхом на лошади, с автомобильным трансфером в конце",
+          "startingPoint": "Кызыл-Ой",
+          "endingPoint": "Бишкек, через Сон-Куль",
+          "whatsappMessage": "Здравствуйте! Меня интересует экспедиция Суусамыр – Кызыл-Ой – Сон-Куль.\n\nЖелаемые даты:\nКоличество путешественников:\nМоя страна:",
+          "faq": [
+            {
+              "question": "Можно ли начать сразу без этапа Суусамыр – Кызыл-Ой?",
+              "answer": "Да — мы можем организовать трансфер прямо в Кызыл-Ой, чтобы начать эту 6-дневную экспедицию отдельно."
+            },
+            {
+              "question": "Насколько сложна эта экспедиция?",
+              "answer": "Сложная — маршрут проходит через перевал Джалгыз-Карагай (Чиль-Бель) на высоте около 3300–3400 м, с каменистыми тропами и долгими днями в седле. Нужна хорошая физическая форма и опыт верховой езды."
+            }
+          ]
+        },
+        "ky": {
+          "title": "Суусамыр – Кызыл-Ой – Соң-Көл ат үстүндөгү экспедициясы",
+          "description": "Кызыл-Ойдон Соң-Көл көлүнө чейинки толук улануу — биздин Суусамыр – Кызыл-Ой ат үстүндөгү саякатыбыздан улануучу (же түз эле Кызыл-Ойдон башталуучу) оор 6 күндүк бийик тоо экспедициясы. Маршрут Жумгал-Тоо тоо этектери жана Көк-Ойрок кыркасы аркылуу көтөрүлүп, Соң-Көлгө Кызарт/Килемче тарабынан жакындайт, андан соң болжол менен 3300–3400 м бийиктиктеги Жалгыз-Карагай (Чил-Бел) ашуусуна чыгат — кээ жерде аттарды жетелеп өтүшөт — жана көлдүн жээгиндеги лагерге түшөт. Соң-Көлдө (3016 м) эс алуу күнү — жээк боюнча чаап жүрүүгө, петроглифтерге жөө чыгууга же жөн эле эс алууга болот, андан кийин Кочкор жана Боом капчыгайы аркылуу Бишкекке внедорожник менен трансфер.",
+          "difficulty": "Кыйын",
+          "highlights": [
+            "Кызыл-Ойдон Жумгал өрөөнүнө",
+            "Көк-Ойрок кыркасы аркылуу өтүү",
+            "Соң-Көлгө жакындоо (Кызарт / Килемче капчыгайы)",
+            "Жалгыз-Карагай (Чил-Бел) ашуусу — Соң-Көлгө чыгуу",
+            "Соң-Көл көлүндө эс алуу күнү",
+            "Финиш жана Бишкекке кайтуу"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Кызыл-Ойдон Жумгал өрөөнүнө",
+              "description": "Кызыл-Ойдон ат менен старт. Маршрут дарыядан өтүп, Жумгал-Тоо кыркасынын жумшак этектери аркылуу жол улантат. Бийиктик акырындык менен көтөрүлөт. Булактын жанында палаткада түнөө."
+            },
+            {
+              "day": 2,
+              "title": "Көк-Ойрок кыркасы аркылуу өтүү",
+              "description": "Ташталуу жолдор менен кырканын панорамалык чекитине чыгуу, андан соң жапайы жайыттар жана чабандардын сейрек конуштары арасындагы Жумгал дарыясынын өрөөнүнө түшүү. Ээрде болжол менен 5–6 саат."
+            },
+            {
+              "day": 3,
+              "title": "Соң-Көлгө жакындоо (Кызарт / Килемче капчыгайы)",
+              "description": "Көлдү курчаган негизги кыркага карай жылуу. Пейзаждар Килемче жайлоосунун жумшак дөбөлөрүнө айланат. Ашууга чейин болжол менен 2500 м бийиктикте палаткада түнөө."
+            },
+            {
+              "day": 4,
+              "title": "Жалгыз-Карагай (Чил-Бел) ашуусу — Соң-Көлгө чыгуу",
+              "description": "Ашууга (болжол менен 3300–3400 м) тик жана узак көтөрүлүү — кээ жерде аттарды жетелеп өтүшөт. Чокудан зор Соң-Көл көлүнүн укмуштуудай көрүнүшү ачылат. Жээкке түшүү. Боз үйдө түнөө, таза балык менен кечки тамак."
+            },
+            {
+              "day": 5,
+              "title": "Соң-Көл көлүндө эс алуу күнү",
+              "description": "Аттар жана чабандестер эс алышат. Эркин күн: жээк боюнча чаап жүрүүгө, петроглифтерге жөө чыгууга, боз үй тигилишин байкоого же жөн эле 3016 м бийиктикте эс алууга болот. Боз үйдө түнөө."
+            },
+            {
+              "day": 6,
+              "title": "Финиш жана Бишкекке кайтуу",
+              "description": "Аттар менен коштошуу. Соң-Көлдө сизди толук приводдуу минивэн же внедорожник алып кетет. Кочкор жана Боом капчыгайы аркылуу Бишкекке трансфер (болжол менен 5–6 саат жол)."
+            }
+          ],
+          "included": [
+            "Тажрыйбалуу гиддер жана чабандестер",
+            "Ат минүү үчүн аттар жана жабдуулар (ээр, жүгөн, сурам боюнча шлем)",
+            "Маршрутта күнүнө 2-3 мертебе тамактануу (аба ырайына жараша)",
+            "Жол боюнда кемпинг жабдуулары жана палаткада түнөөлөр",
+            "Соң-Көлдө боз үйлөрдө түнөө",
+            "Трансфер: Соң-Көл–Бишкек"
+          ],
+          "notIncluded": [
+            "Бишкекке чейинки авиа каттам",
+            "Саякат камсыздандыруусу",
+            "Виза төлөмдөрү",
+            "Жеке чыгымдар"
+          ],
+          "accommodation": "Маршрут боюнча палаткалар, Соң-Көлдө боз үйлөр",
+          "transport": "Ат үстүндө, аягында унаа трансфери менен",
+          "startingPoint": "Кызыл-Ой",
+          "endingPoint": "Соң-Көл аркылуу Бишкек",
+          "whatsappMessage": "Салам! Мени Суусамыр – Кызыл-Ой – Соң-Көл ат үстүндөгү экспедициясы кызыктырат.\n\nКалаган күндөр:\nСаякатчылардын саны:\nМенин өлкөм:",
+          "faq": [
+            {
+              "question": "Суусамыр – Кызыл-Ой бөлүгүсүз түз эле башасам болобу?",
+              "answer": "Ооба — биз бул 6 күндүк экспедицияны өз алдынча баштоо үчүн түз эле Кызыл-Ойго трансфер уюштура алабыз."
+            },
+            {
+              "question": "Бул экспедиция канчалык кыйын?",
+              "answer": "Оор — маршрут болжол менен 3300–3400 м бийиктиктеги Жалгыз-Карагай (Чил-Бел) ашуусу аркылуу, ташталуу жолдор жана ээрде узак күндөр менен өтөт. Жакшы физикалык форма жана ат минүү тажрыйбасы керек."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "suusamyr-kyzyl-oy-horse",
+      "slug": "suusamyr-kyzyl-oy-horse",
+      "region": [
+        "Chuy",
+        "Naryn"
+      ],
+      "activity": "Horse",
+      "durationMin": 3,
+      "durationMax": 3,
+      "durationUnit": "days",
+      "format": [
+        "Private",
+        "Group"
+      ],
+      "season": [
+        "June",
+        "July",
+        "August",
+        "September"
+      ],
+      "priceFrom": 98,
+      "currency": "USD",
+      "image": "/assets/images/tours/suusamyr.jpg",
+      "gallery": [],
+      "groupSize": {
+        "min": 2,
+        "max": 8
+      },
+      "pricing": {
+        "perDayBase": 100,
+        "organizerMarkup": 0.3,
+        "minBillableParticipants": 4,
+        "displayFromPrice": 98
+      },
+      "i18n": {
+        "en": {
+          "title": "Suusamyr – Kyzyl-Oy Horse Trek",
+          "description": "A 3-day horseback ride from Suusamyr to Kyzyl-Oy. The route crosses the wide Suusamyr plain before the valley narrows into the Kokomoron river canyon, riding alongside one of Kyrgyzstan's most powerful rivers beneath huge red-clay cliffs, finishing at the clay-built village of Kyzyl-Oy. This is the easier, standalone version of our Suusamyr – Kyzyl-Oy – Son-Kul Horse Expedition — suitable for riders with basic experience. It can also be used as the first stage before continuing on to Son-Kul.",
+          "difficulty": "Easy to Moderate",
+          "highlights": [
+            "Bishkek – Suusamyr – start of the ride",
+            "Into the Kokomoron canyon",
+            "Finish at Kyzyl-Oy"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Bishkek – Suusamyr – start of the ride",
+              "description": "Morning transfer by car from Bishkek via the Too-Ashuu pass to the Suusamyr valley (3-4 hours). Meet your guides and horses, safety briefing, and a first test ride (about 3-4 hours in the saddle) across the flat Suusamyr plateau along the river. Overnight in a tented camp by the water."
+            },
+            {
+              "day": 2,
+              "title": "Into the Kokomoron canyon",
+              "description": "The valley narrows into a canyon. You ride alongside the Kokomoron, one of Kyrgyzstan's most powerful rivers, surrounded by colorful cliffs. About 5-6 hours in the saddle. Overnight in tents in a scenic spot."
+            },
+            {
+              "day": 3,
+              "title": "Finish at Kyzyl-Oy",
+              "description": "A short ride (3-4 hours) to the clay-built village of Kyzyl-Oy, in the heart of the canyon. Lunch and rest. A car meets you here: return to Bishkek, or stay overnight in a local guesthouse to start the Son-Kul expedition the next day."
+            }
+          ],
+          "included": [
+            "Experienced guides and horsemen",
+            "Horses and riding equipment (saddle, bridle, helmet on request)",
+            "2-3 meals per day during the trek (depends on weather conditions)",
+            "Camping equipment and tent stays along the route",
+            "Transfer: Bishkek–Suusamyr"
+          ],
+          "notIncluded": [
+            "Flights to Bishkek",
+            "Travel insurance",
+            "Visa fees",
+            "Personal expenses"
+          ],
+          "accommodation": "Tents along the route",
+          "transport": "Horseback, with a car transfer at the start",
+          "startingPoint": "Bishkek (transfer to Suusamyr)",
+          "endingPoint": "Kyzyl-Oy",
+          "whatsappMessage": "Hello! I'm interested in the Suusamyr – Kyzyl-Oy Horse Trek.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
+          "faq": [
+            {
+              "question": "Can I continue to Son-Kul afterwards?",
+              "answer": "Yes — this route connects directly with our Suusamyr – Kyzyl-Oy – Son-Kul Horse Expedition (6 more days from Kyzyl-Oy). Let us know if you want to combine both."
+            },
+            {
+              "question": "Do I need horse riding experience?",
+              "answer": "Basic experience is enough for this route — it is easier than the extension to Son-Kul."
+            }
+          ]
+        },
+        "ru": {
+          "title": "Суусамыр – Кызыл-Ой: конный поход",
+          "description": "Трёхдневный конный поход от Суусамыра до Кызыл-Оя. Маршрут проходит через широкую равнину Суусамырской долины, которая переходит в каньон реки Кёкёмерен — вдоль одной из самых мощных рек Кыргызстана среди огромных красно-глиняных скал, финиш — в глиняном селе Кызыл-Ой. Это более лёгкая, самостоятельная версия нашей экспедиции Суусамыр – Кызыл-Ой – Сон-Куль, подходит всадникам с базовым опытом. Также может использоваться как первый этап перед продолжением маршрута до Сон-Куля.",
+          "difficulty": "Лёгкий – средний",
+          "highlights": [
+            "Бишкек – Суусамыр – старт маршрута",
+            "Вход в ущелье Кёкёмерен",
+            "Финиш в Кызыл-Ое"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Бишкек – Суусамыр – старт маршрута",
+              "description": "Утренний трансфер на авто из Бишкека через перевал Тоо-Ашуу в Суусамырскую долину (3–4 часа). Встреча с гидами и лошадьми, инструктаж и первый тестовый переход (около 3–4 часов в седле) по ровному плато Суусамыра вдоль реки. Ночёвка в палаточном лагере у воды."
+            },
+            {
+              "day": 2,
+              "title": "Вход в ущелье Кёкёмерен",
+              "description": "Долина сужается и уходит в каньон. Маршрут проходит вдоль реки Кёкёмерен — одной из самых мощных рек Кыргызстана, среди разноцветных скал. Переход занимает 5–6 часов. Ночёвка в палатках в живописном урочище."
+            },
+            {
+              "day": 3,
+              "title": "Финиш в Кызыл-Ое",
+              "description": "Короткий переход (3–4 часа) до глиняного села Кызыл-Ой в самом сердце каньона. Обед, отдых. Здесь вас встречает машина: можно вернуться в Бишкек либо остаться на ночь в гостевом доме, чтобы на следующий день начать маршрут до Сон-Куля."
+            }
+          ],
+          "included": [
+            "Опытные гиды и конюхи",
+            "Лошади и снаряжение для верховой езды (седло, уздечка, шлем по запросу)",
+            "2–3-разовое питание в день на маршруте (в зависимости от погодных условий)",
+            "Снаряжение для кемпинга и ночёвки в палатках по маршруту",
+            "Трансфер: Бишкек–Суусамыр"
+          ],
+          "notIncluded": [
+            "Авиаперелёт до Бишкека",
+            "Туристическая страховка",
+            "Визовые сборы",
+            "Личные расходы"
+          ],
+          "accommodation": "Палатки по маршруту",
+          "transport": "Верхом на лошади, с автомобильным трансфером в начале",
+          "startingPoint": "Бишкек (трансфер в Суусамыр)",
+          "endingPoint": "Кызыл-Ой",
+          "whatsappMessage": "Здравствуйте! Меня интересует конный поход Суусамыр – Кызыл-Ой.\n\nЖелаемые даты:\nКоличество путешественников:\nМоя страна:",
+          "faq": [
+            {
+              "question": "Можно ли продолжить маршрут до Сон-Куля?",
+              "answer": "Да — этот маршрут напрямую соединяется с нашей экспедицией Суусамыр – Кызыл-Ой – Сон-Куль (ещё 6 дней от Кызыл-Оя). Сообщите нам, если хотите объединить оба маршрута."
+            },
+            {
+              "question": "Нужен ли опыт верховой езды?",
+              "answer": "Для этого маршрута достаточно базового опыта — он легче, чем продолжение до Сон-Куля."
+            }
+          ]
+        },
+        "ky": {
+          "title": "Суусамыр – Кызыл-Ой: ат үстүндөгү саякат",
+          "description": "Суусамырдан Кызыл-Ойго чейинки 3 күндүк ат үстүндөгү саякат. Маршрут Суусамыр өрөөнүнүн кенен тегиздиги аркылуу өтүп, Кёкөмөрөн дарыясынын капчыгайына айланат — Кыргызстандын эң күчтүү дарыяларынын бири боюнча, зор кызыл-чополуу аскалардын арасында, финиш — Кызыл-Ой чополуу айылында. Бул биздин Суусамыр – Кызыл-Ой – Соң-Көл экспедициябыздын жеңилирээк, өз алдынча версиясы, негизги тажрыйбасы бар чабандестерге ылайыктуу. Ошондой эле Соң-Көлгө чейинки маршрутту улантуудан мурунку биринчи этап катары колдонсо болот.",
+          "difficulty": "Жеңил – орточо",
+          "highlights": [
+            "Бишкек – Суусамыр – маршруттун башталышы",
+            "Кёкөмөрөн капчыгайына кирүү",
+            "Кызыл-Ойдо финиш"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Бишкек – Суусамыр – маршруттун башталышы",
+              "description": "Бишкектен Тоо-Ашуу ашуусу аркылуу Суусамыр өрөөнүнө эртең мененки унаа менен трансфер (3–4 саат). Гиддер жана аттар менен таанышуу, көрсөтмө жана биринчи сыноо жүрүшү (ээрде болжол менен 3–4 саат) Суусамырдын тегиз платосу боюнча дарыянын жээгинде. Суунун жанында палатка лагеринде түнөө."
+            },
+            {
+              "day": 2,
+              "title": "Кёкөмөрөн капчыгайына кирүү",
+              "description": "Өрөөн тарыйып, капчыгайга өтөт. Маршрут Кыргызстандын эң күчтүү дарыяларынын бири болгон Кёкөмөрөн боюнча, түркүн түстүү аскалардын арасы менен өтөт. Жол 5–6 саатты алат. Кооз жерде палаткада түнөө."
+            },
+            {
+              "day": 3,
+              "title": "Кызыл-Ойдо финиш",
+              "description": "Капчыгайдын так жүрөгүндө жайгашкан Кызыл-Ой чополуу айылына чейин кыска жүрүш (3–4 саат). Түшкү тамак, эс алуу. Бул жерде сизди унаа тосуп алат: Бишкекке кайтсаңыз болот, же эртеси күнү Соң-Көлгө чейинки маршрутту баштоо үчүн конок үйдө түнөп калсаңыз болот."
+            }
+          ],
+          "included": [
+            "Тажрыйбалуу гиддер жана чабандестер",
+            "Ат минүү үчүн аттар жана жабдуулар (ээр, жүгөн, сурам боюнча шлем)",
+            "Маршрутта күнүнө 2-3 мертебе тамактануу (аба ырайына жараша)",
+            "Жол боюнда кемпинг жабдуулары жана палаткада түнөөлөр",
+            "Трансфер: Бишкек–Суусамыр"
+          ],
+          "notIncluded": [
+            "Бишкекке чейинки авиа каттам",
+            "Саякат камсыздандыруусу",
+            "Виза төлөмдөрү",
+            "Жеке чыгымдар"
+          ],
+          "accommodation": "Маршрут боюнча палаткалар",
+          "transport": "Ат үстүндө, башында унаа трансфери менен",
+          "startingPoint": "Бишкек (Суусамырга трансфер)",
+          "endingPoint": "Кызыл-Ой",
+          "whatsappMessage": "Салам! Мени Суусамыр – Кызыл-Ой ат үстүндөгү саякаты кызыктырат.\n\nКалаган күндөр:\nСаякатчылардын саны:\nМенин өлкөм:",
+          "faq": [
+            {
+              "question": "Андан кийин Соң-Көлгө чейин уланта аламбы?",
+              "answer": "Ооба — бул маршрут биздин Суусамыр – Кызыл-Ой – Соң-Көл экспедициясы менен түздөн-түз уланат (Кызыл-Ойдон дагы 6 күн). Эки маршрутту бириктиргиңиз келсе, бизге билдириңиз."
+            },
+            {
+              "question": "Ат минүү тажрыйбасы керекпи?",
+              "answer": "Бул маршрут үчүн негизги тажрыйба жетиштүү — ал Соң-Көлгө чейинки уланган бөлүккө караганда жеңилирээк."
+            }
+          ]
         }
       }
     },
@@ -955,7 +2026,7 @@
       ],
       "priceFrom": 325,
       "currency": "USD",
-      "image": "/assets/images/tours/mount2.jpg",
+      "image": "/assets/images/tours/mount1.jpg",
       "gallery": [],
       "groupSize": {
         "min": 2,
