@@ -227,8 +227,11 @@
       "routeMap": "/assets/images/tours/acha-kayindy.png",
       "photos": [
         "/assets/images/tours/mount1.jpg",
-        "/assets/images/tours/mount1.jpg",
-        "/assets/images/destinations/tash-rabat2.jpg"
+        "/assets/images/destinations/tash-rabat2.jpg",
+        "/assets/images/destinations/tash-rabat/gorge-tash-rabat.jpg",
+        "/assets/images/destinations/tash-rabat/tash-rabat-inside.jpg",
+        "/assets/images/destinations/tash-rabat/eagles-in-tash-rabat.jpg",
+        "/assets/images/destinations/tash-rabat/tash-rabat-before-restoration.jpg"
       ],
       "groupSize": {
         "min": 2,
@@ -293,6 +296,10 @@
             {
               "question": "Is travel insurance required?",
               "answer": "Yes, we strongly recommend comprehensive travel insurance that covers horse riding and emergency evacuation."
+            },
+            {
+              "question": "Is Tash-Rabat fully open right now?",
+              "answer": "Tash-Rabat is partway through a government restoration program running through 2027, and some areas are temporarily fenced off while work is underway. We follow the official updates and will tell you the current access situation for your specific dates — message us on WhatsApp to check before booking."
             }
           ]
         },
@@ -348,6 +355,10 @@
             {
               "question": "Нужна ли туристическая страховка?",
               "answer": "Да, мы настоятельно рекомендуем полную туристическую страховку, покрывающую верховую езду и экстренную эвакуацию."
+            },
+            {
+              "question": "Таш-Рабат сейчас полностью открыт?",
+              "answer": "Таш-Рабат сейчас проходит через государственную программу реставрации, которая продлится до 2027 года, и пока идут работы, некоторые участки временно огорожены. Мы следим за официальными обновлениями и расскажем текущую ситуацию с доступом на ваши даты — напишите нам в WhatsApp перед бронированием, чтобы уточнить."
             }
           ]
         },
@@ -403,6 +414,10 @@
             {
               "question": "Саякат камсыздандыруусу керекпи?",
               "answer": "Ооба, биз ат минүүнү жана шашылыш эвакуацияны камтыган толук саякат камсыздандыруусун катуу сунуштайбыз."
+            },
+            {
+              "question": "Таш-Рабат азыр толугу менен ачыкпы?",
+              "answer": "Таш-Рабат азыр 2027-жылга чейин созулган мамлекеттик реставрация программасынын ортосунда турат, жана иштер жүрүп жатканда айрым бөлүктөр убактылуу тосулган. Биз расмий жаңылыктарды көзөмөлдөп, сиздин так күндөрүңүз үчүн учурдагы кирүү жагдайын айтып беребиз — брондоодон мурун WhatsApp аркылуу бизге жазып тактаңыз."
             }
           ]
         }
@@ -479,6 +494,10 @@
             {
               "question": "How is this different from your hiking trek on the same route?",
               "answer": "Same route from Kazybek to Tash-Rabat, but on horseback and faster — 4 days instead of 6 on foot."
+            },
+            {
+              "question": "Is Tash-Rabat fully open right now?",
+              "answer": "Tash-Rabat is partway through a government restoration program running through 2027, and some areas are temporarily fenced off while work is underway. We follow the official updates and will tell you the current access situation for your specific dates — message us on WhatsApp to check before booking."
             }
           ]
         },
@@ -516,6 +535,10 @@
             {
               "question": "Чем это отличается от пешего похода по этому же маршруту?",
               "answer": "Тот же маршрут от Казыбека до Таш-Рабата, но верхом и быстрее — 4 дня вместо 6 пешком."
+            },
+            {
+              "question": "Таш-Рабат сейчас полностью открыт?",
+              "answer": "Таш-Рабат сейчас проходит через государственную программу реставрации, которая продлится до 2027 года, и пока идут работы, некоторые участки временно огорожены. Мы следим за официальными обновлениями и расскажем текущую ситуацию с доступом на ваши даты — напишите нам в WhatsApp перед бронированием, чтобы уточнить."
             }
           ]
         },
@@ -553,6 +576,10 @@
             {
               "question": "Бул ошол эле маршруттагы жөө жүрүштөн эмнеси менен айырмаланат?",
               "answer": "Казыбектен Таш-Рабатка чейинки ошол эле маршрут, бирок ат үстүндө жана тезирээк — жөө 6 күндүн ордуна 4 күн."
+            },
+            {
+              "question": "Таш-Рабат азыр толугу менен ачыкпы?",
+              "answer": "Таш-Рабат азыр 2027-жылга чейин созулган мамлекеттик реставрация программасынын ортосунда турат, жана иштер жүрүп жатканда айрым бөлүктөр убактылуу тосулган. Биз расмий жаңылыктарды көзөмөлдөп, сиздин так күндөрүңүз үчүн учурдагы кирүү жагдайын айтып беребиз — брондоодон мурун WhatsApp аркылуу бизге жазып тактаңыз."
             }
           ]
         }
@@ -653,6 +680,10 @@
             {
               "question": "Can we extend the tour?",
               "answer": "Yes, this tour can be customized to 4-5 days with additional stops. Contact us on WhatsApp to discuss options."
+            },
+            {
+              "question": "Is Tash-Rabat fully open right now?",
+              "answer": "Tash-Rabat is partway through a government restoration program running through 2027, and some areas are temporarily fenced off while work is underway. We follow the official updates and will tell you the current access situation for your specific dates — message us on WhatsApp to check before booking."
             }
           ]
         },
@@ -715,6 +746,10 @@
             {
               "question": "Можно ли продлить тур?",
               "answer": "Да, этот тур можно адаптировать до 4–5 дней с дополнительными остановками. Свяжитесь с нами в WhatsApp, чтобы обсудить варианты."
+            },
+            {
+              "question": "Таш-Рабат сейчас полностью открыт?",
+              "answer": "Таш-Рабат сейчас проходит через государственную программу реставрации, которая продлится до 2027 года, и пока идут работы, некоторые участки временно огорожены. Мы следим за официальными обновлениями и расскажем текущую ситуацию с доступом на ваши даты — напишите нам в WhatsApp перед бронированием, чтобы уточнить."
             }
           ]
         },
@@ -777,6 +812,10 @@
             {
               "question": "Турду узартсак болобу?",
               "answer": "Ооба, бул турду кошумча токтоолор менен 4-5 күнгө ылайыкташтырууга болот. Варианттарды талкуулоо үчүн WhatsApp аркылуу байланышыңыз."
+            },
+            {
+              "question": "Таш-Рабат азыр толугу менен ачыкпы?",
+              "answer": "Таш-Рабат азыр 2027-жылга чейин созулган мамлекеттик реставрация программасынын ортосунда турат, жана иштер жүрүп жатканда айрым бөлүктөр убактылуу тосулган. Биз расмий жаңылыктарды көзөмөлдөп, сиздин так күндөрүңүз үчүн учурдагы кирүү жагдайын айтып беребиз — брондоодон мурун WhatsApp аркылуу бизге жазып тактаңыз."
             }
           ]
         }
@@ -2207,7 +2246,12 @@
           "startingPoint": "Bishkek or Kazybek",
           "endingPoint": "Bishkek or Naryn",
           "whatsappMessage": "Hello! I'm interested in the Kazybek → Tash-Rabat Hiking Trek.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
-          "faq": []
+          "faq": [
+            {
+              "question": "Is Tash-Rabat fully open right now?",
+              "answer": "Tash-Rabat is partway through a government restoration program running through 2027, and some areas are temporarily fenced off while work is underway. We follow the official updates and will tell you the current access situation for your specific dates — message us on WhatsApp to check before booking."
+            }
+          ]
         },
         "ru": {
           "title": "Казыбек → Таш-Рабат: пеший поход",
@@ -2239,7 +2283,12 @@
           "startingPoint": "Бишкек или Казыбек",
           "endingPoint": "Бишкек или Нарын",
           "whatsappMessage": "Здравствуйте! Меня интересует пеший поход Казыбек → Таш-Рабат.\n\nЖелаемые даты:\nКоличество путешественников:\nМоя страна:",
-          "faq": []
+          "faq": [
+            {
+              "question": "Таш-Рабат сейчас полностью открыт?",
+              "answer": "Таш-Рабат сейчас проходит через государственную программу реставрации, которая продлится до 2027 года, и пока идут работы, некоторые участки временно огорожены. Мы следим за официальными обновлениями и расскажем текущую ситуацию с доступом на ваши даты — напишите нам в WhatsApp перед бронированием, чтобы уточнить."
+            }
+          ]
         },
         "ky": {
           "title": "Казыбек → Таш-Рабат: жөө жүрүш",
@@ -2271,7 +2320,12 @@
           "startingPoint": "Бишкек же Казыбек",
           "endingPoint": "Бишкек же Нарын",
           "whatsappMessage": "Салам! Мени Казыбек → Таш-Рабат жөө жүрүшү кызыктырат.\n\nКалаган күндөр:\nСаякатчылардын саны:\nМенин өлкөм:",
-          "faq": []
+          "faq": [
+            {
+              "question": "Таш-Рабат азыр толугу менен ачыкпы?",
+              "answer": "Таш-Рабат азыр 2027-жылга чейин созулган мамлекеттик реставрация программасынын ортосунда турат, жана иштер жүрүп жатканда айрым бөлүктөр убактылуу тосулган. Биз расмий жаңылыктарды көзөмөлдөп, сиздин так күндөрүңүз үчүн учурдагы кирүү жагдайын айтып беребиз — брондоодон мурун WhatsApp аркылуу бизге жазып тактаңыз."
+            }
+          ]
         }
       }
     },

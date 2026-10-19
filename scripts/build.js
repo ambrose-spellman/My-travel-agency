@@ -13,6 +13,7 @@ const path = require('path');
 const ROOT = path.join(__dirname, '..');
 const TOURS = require(path.join(ROOT, 'data/tours.json')).tours;
 const DESTINATIONS = require(path.join(ROOT, 'data/destinations.json')).destinations;
+const ARTICLES = require(path.join(ROOT, 'data/articles.json')).articles;
 const I18N = require('./i18n.js');
 const UI = I18N.UI;
 const REGION_LABELS = I18N.REGION_LABELS;
@@ -47,6 +48,7 @@ const NAV_ITEMS = [
   { key: 'destinations', href: '/destinations/' },
   { key: 'about', href: '/about/' },
   { key: 'practicalInfo', href: '/practical-info/' },
+  { key: 'blog', href: '/blog/' },
   { key: 'contact', href: '/contact/' }
 ];
 
@@ -968,9 +970,10 @@ function buildDestinationDetail(dest, locale) {
     <h2>${dd.highlightsHeading}</h2>
     <div class="grid-3">
       ${dt.highlights.map(function (h) {
+        const readMore = h.blogSlug ? `<a href="${localePath(locale, '/blog/' + h.blogSlug + '/')}" class="btn btn--outline btn--sm" style="align-self:flex-start;margin-top:4px">${UI[locale].blogIndex.readMore} →</a>` : '';
         return `<div style="background:#fff;border-radius:8px;overflow:hidden;display:flex;flex-direction:column">
   <div style="position:relative;aspect-ratio:16/10"><img src="${h.img}" alt="${attr(h.t)}" loading="lazy" style="width:100%;height:100%;object-fit:cover"></div>
-  <div style="padding:24px;display:flex;flex-direction:column;gap:8px"><div style="font:600 20px var(--font-body)">${h.t}</div><div style="font-size:16px;line-height:1.6;color:var(--color-text-muted)">${h.d}</div></div>
+  <div style="padding:24px;display:flex;flex-direction:column;gap:8px"><div style="font:600 20px var(--font-body)">${h.t}</div><div style="font-size:16px;line-height:1.6;color:var(--color-text-muted)">${h.d}</div>${readMore}</div>
 </div>`;
       }).join('\n      ')}
     </div>
@@ -1132,6 +1135,120 @@ function buildPracticalInfo(locale) {
 }
 
 /* ------------------------------------------------------------------ */
+/* Page: Blog index + article detail
+/* ------------------------------------------------------------------ */
+function articleListItemHtml(article, locale) {
+  const at = tr(article, locale);
+  return `
+<article class="article-list__item">
+  <h3 class="article-list__title"><a href="${localePath(locale, '/blog/' + article.slug + '/')}" style="color:inherit">${at.title}</a></h3>
+  <p class="article-list__excerpt">${at.excerpt}</p>
+  <a href="${localePath(locale, '/blog/' + article.slug + '/')}" class="btn btn--outline btn--sm" style="align-self:flex-start">${UI[locale].blogIndex.readMore} →</a>
+</article>`;
+}
+
+function buildBlogIndex(locale) {
+  const bi = UI[locale].blogIndex;
+  const body = `
+<section class="section section--white text-center">
+  <div class="container stack--sm" style="align-items:center">
+    <h1 style="margin:0">${bi.heroTitle}</h1>
+    <p style="margin:0;font-size:18px;color:var(--color-text-muted);max-width:640px">${bi.heroSubtitle}</p>
+  </div>
+</section>
+
+<section class="section--tight section--bg">
+  <div class="container article-list">
+    ${ARTICLES.map(function (a) { return articleListItemHtml(a, locale); }).join('\n')}
+  </div>
+</section>`;
+
+  layout({
+    path: '/blog/',
+    title: bi.pageTitle,
+    description: bi.pageDescription,
+    image: '/assets/images/destinations/kel-suu-valley.jpg',
+    activeHref: '/blog/',
+    body: body
+  }, locale);
+}
+
+function buildArticleDetail(article, locale) {
+  const at = tr(article, locale);
+  const bd = UI[locale].blogDetail;
+  const relatedTours = (article.relatedTourSlugs || []).map(function (slug) { return TOURS.find(function (t_) { return t_.slug === slug; }); }).filter(Boolean);
+
+  const articleLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: at.title,
+    description: at.seoDescription || at.excerpt,
+    image: SITE.url + article.image,
+    datePublished: article.publishDate,
+    author: { '@type': 'Organization', name: SITE.name },
+    publisher: { '@type': 'Organization', name: SITE.name, logo: { '@type': 'ImageObject', url: SITE.url + '/assets/images/logoat12.svg' } }
+  };
+
+  const body = `
+<section class="hero-detail hero-detail--dest">
+  <img class="hero-detail__media" src="${article.image}" alt="${attr(at.title)}">
+  <div class="hero-detail__scrim"></div>
+  <div class="hero-detail__content">
+    <div class="container stack--sm">
+      <h1 style="margin:0">${at.title}</h1>
+    </div>
+  </div>
+</section>
+
+<section class="section section--white">
+  <div class="container">
+    <a href="${localePath(locale, '/blog/')}" class="btn--link" style="display:inline-block;margin-bottom:24px">${bd.backToBlog}</a>
+    <div class="article-body">
+      ${at.body.map(function (p) { return '<p>' + p + '</p>'; }).join('\n      ')}
+    </div>
+  </div>
+</section>
+
+${article.gallery && article.gallery.length ? `
+<section class="section section--bg">
+  <div class="container stack">
+    <h2 class="text-center">${bd.galleryHeading}</h2>
+    <div class="gallery-grid">
+      ${article.gallery.map(function (src) { return '<div class="gallery-grid__item"><img src="' + src + '" alt="' + attr(at.title) + '" loading="lazy"></div>'; }).join('\n      ')}
+    </div>
+  </div>
+</section>` : ''}
+
+${relatedTours.length ? `
+<section class="section section--bg">
+  <div class="container stack">
+    <h2 class="text-center">${t(locale, 'common.viewRelatedTours')}</h2>
+    <div class="grid-3">
+      ${relatedTours.map(function (tour) { return tourCardHtml(tour, locale); }).join('\n')}
+    </div>
+  </div>
+</section>` : ''}
+
+<section class="section section--forest text-center">
+  <div class="container max-w-800 stack--sm" style="align-items:center;display:flex;flex-direction:column">
+    <h2 style="color:#fff">${bd.ctaHeading}</h2>
+    <p style="color:rgba(255,255,255,.9);font-size:18px;margin:0">${bd.ctaText}</p>
+    <a href="#" data-wa-message="${attr(t(locale, 'common.waDefaultMessage'))}" target="_blank" rel="noopener" class="btn btn--whatsapp btn--lg">${bd.ctaBtn}</a>
+  </div>
+</section>`;
+
+  layout({
+    path: '/blog/' + article.slug + '/',
+    title: at.title,
+    description: at.seoDescription || at.excerpt,
+    image: article.image,
+    activeHref: '/blog/',
+    structuredData: articleLd,
+    body: body
+  }, locale);
+}
+
+/* ------------------------------------------------------------------ */
 /* Page: Contact
 /* ------------------------------------------------------------------ */
 function buildContact(locale) {
@@ -1183,9 +1300,10 @@ function buildContact(locale) {
 /* sitemap.xml & robots.txt (cover all locales) */
 /* ------------------------------------------------------------------ */
 function buildSitemapAndRobots() {
-  const urlPaths = ['/', '/tours/', '/destinations/', '/about/', '/practical-info/', '/contact/']
+  const urlPaths = ['/', '/tours/', '/destinations/', '/about/', '/practical-info/', '/blog/', '/contact/']
     .concat(TOURS.map(function (t_) { return '/tours/' + t_.slug + '/'; }))
-    .concat(DESTINATIONS.map(function (d) { return '/destinations/' + d.slug + '/'; }));
+    .concat(DESTINATIONS.map(function (d) { return '/destinations/' + d.slug + '/'; }))
+    .concat(ARTICLES.map(function (a) { return '/blog/' + a.slug + '/'; }));
 
   const today = new Date().toISOString().slice(0, 10);
   const entries = [];
@@ -1271,7 +1389,9 @@ LOCALES.forEach(function (locale) {
   DESTINATIONS.forEach(function (dest) { buildDestinationDetail(dest, locale); });
   buildAbout(locale);
   buildPracticalInfo(locale);
+  buildBlogIndex(locale);
+  ARTICLES.forEach(function (article) { buildArticleDetail(article, locale); });
   buildContact(locale);
 });
 buildSitemapAndRobots();
-console.log('\nBuild complete:', TOURS.length, 'tours,', DESTINATIONS.length, 'destinations,', LOCALES.length, 'locales.');
+console.log('\nBuild complete:', TOURS.length, 'tours,', DESTINATIONS.length, 'destinations,', ARTICLES.length, 'articles,', LOCALES.length, 'locales.');

@@ -11,19 +11,51 @@
           "short": "Bishkek's backyard — alpine peaks just an hour from the capital",
           "about": "Chuy is the region around Bishkek itself: a wide valley backed by the Kyrgyz Ala-Too range, with glaciers less than an hour from the city center. It's where most journeys into the mountains begin — and where the ancient Silk Road left its mark at Burana Tower.",
           "info": [
-            { "k": "Best time", "v": "May–September" },
-            { "k": "From Bishkek", "v": "30 min – 2 hours" },
-            { "k": "Activities", "v": "Hiking, sightseeing, hot springs" },
-            { "k": "Difficulty", "v": "Easy to Moderate" }
+            {
+              "k": "Best time",
+              "v": "May–September"
+            },
+            {
+              "k": "From Bishkek",
+              "v": "30 min – 2 hours"
+            },
+            {
+              "k": "Activities",
+              "v": "Hiking, sightseeing, hot springs"
+            },
+            {
+              "k": "Difficulty",
+              "v": "Easy to Moderate"
+            }
           ],
           "highlights": [
-            { "t": "Ala-Archa National Park", "d": "Glaciated peaks rise straight out of a pine forest barely 40 km from Bishkek. Day hikes lead to waterfalls and alpine meadows, with routes up to technical climbing for the experienced.", "img": "/assets/images/general/mountain-lake-yurts.webp" },
-            { "t": "Burana Tower", "d": "An 11th-century minaret and the last trace of the Silk Road city of Balasagun. Climb the narrow stairs inside for views over the valley, then walk among the scattered balbal stone figures in the open-air museum.", "img": "https://images.unsplash.com/photo-1690269788422-08de80377501?auto=format&fit=crop&w=1000&q=80" },
-            { "t": "Chong-Kemin Valley", "d": "A quieter alternative to Ala-Archa, with forested slopes, trout-filled rivers and small guesthouses run by local families. Good for a relaxed day away from the city.", "img": "https://images.pexels.com/photos/12077036/pexels-photo-12077036.jpeg?auto=compress&cs=tinysrgb&w=1000" },
-            { "t": "Issyk-Ata Gorge", "d": "Hot mineral springs have drawn visitors here for centuries, set in a narrow gorge with old Soviet-era sanatoriums and newer guesthouses. A popular weekend trip from Bishkek.", "img": "/assets/images/general/sheep-pastures.jpg" }
+            {
+              "t": "Ala-Archa National Park",
+              "d": "Glaciated peaks rise straight out of a pine forest barely 40 km from Bishkek. Day hikes lead to waterfalls and alpine meadows, with routes up to technical climbing for the experienced.",
+              "img": "/assets/images/general/mountain-lake-yurts.webp"
+            },
+            {
+              "t": "Burana Tower",
+              "d": "An 11th-century minaret and the last trace of the Silk Road city of Balasagun. Climb the narrow stairs inside for views over the valley, then walk among the scattered balbal stone figures in the open-air museum.",
+              "img": "https://images.unsplash.com/photo-1690269788422-08de80377501?auto=format&fit=crop&w=1000&q=80"
+            },
+            {
+              "t": "Chong-Kemin Valley",
+              "d": "A quieter alternative to Ala-Archa, with forested slopes, trout-filled rivers and small guesthouses run by local families. Good for a relaxed day away from the city.",
+              "img": "https://images.pexels.com/photos/12077036/pexels-photo-12077036.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            },
+            {
+              "t": "Issyk-Ata Gorge",
+              "d": "Hot mineral springs have drawn visitors here for centuries, set in a narrow gorge with old Soviet-era sanatoriums and newer guesthouses. A popular weekend trip from Bishkek.",
+              "img": "/assets/images/general/sheep-pastures.jpg"
+            }
           ],
           "gettingThere": "Chuy surrounds Bishkek, so most of it is reachable by regular taxi or marshrutka directly from the city — no special transport needed for the closer sites.",
-          "gettingThereBullets": ["Ala-Archa: 40 km / about 1 hour by taxi from Bishkek", "Burana Tower: 80 km / about 1.5 hours via Tokmok", "Chong-Kemin and Issyk-Ata: 2–3 hours by car"],
+          "gettingThereBullets": [
+            "Ala-Archa: 40 km / about 1 hour by taxi from Bishkek",
+            "Burana Tower: 80 km / about 1.5 hours via Tokmok",
+            "Chong-Kemin and Issyk-Ata: 2–3 hours by car"
+          ],
           "ctaTitle": "Ready to Explore Chuy?"
         },
         "ru": {
@@ -31,19 +63,51 @@
           "short": "Задний двор Бишкека — альпийские пики в часе от столицы",
           "about": "Чуй — это регион вокруг самого Бишкека: широкая долина на фоне хребта Кыргызский Ала-Тоо, с ледниками меньше чем в часе от центра города. Отсюда начинается большинство путешествий в горы — и здесь же древний Шёлковый путь оставил свой след у башни Бурана.",
           "info": [
-            { "k": "Лучшее время", "v": "Май–сентябрь" },
-            { "k": "От Бишкека", "v": "30 мин – 2 часа" },
-            { "k": "Активности", "v": "Пешие походы, экскурсии, горячие источники" },
-            { "k": "Сложность", "v": "От лёгкой до средней" }
+            {
+              "k": "Лучшее время",
+              "v": "Май–сентябрь"
+            },
+            {
+              "k": "От Бишкека",
+              "v": "30 мин – 2 часа"
+            },
+            {
+              "k": "Активности",
+              "v": "Пешие походы, экскурсии, горячие источники"
+            },
+            {
+              "k": "Сложность",
+              "v": "От лёгкой до средней"
+            }
           ],
           "highlights": [
-            { "t": "Национальный парк Ала-Арча", "d": "Ледниковые пики поднимаются прямо из соснового леса всего в 40 км от Бишкека. Однодневные маршруты ведут к водопадам и альпийским лугам, а для опытных есть и технические восхождения.", "img": "/assets/images/general/mountain-lake-yurts.webp" },
-            { "t": "Башня Бурана", "d": "Минарет XI века — последний след города Баласагун на Шёлковом пути. Поднимитесь по узкой лестнице внутри ради вида на долину, затем прогуляйтесь среди каменных балбалов под открытым небом.", "img": "https://images.unsplash.com/photo-1690269788422-08de80377501?auto=format&fit=crop&w=1000&q=80" },
-            { "t": "Долина Чон-Кемин", "d": "Более тихая альтернатива Ала-Арче: лесистые склоны, реки с форелью и небольшие гостевые дома местных семей. Хороший вариант для спокойного дня вдали от города.", "img": "https://images.pexels.com/photos/12077036/pexels-photo-12077036.jpeg?auto=compress&cs=tinysrgb&w=1000" },
-            { "t": "Ущелье Иссык-Ата", "d": "Горячие минеральные источники веками привлекают сюда посетителей — узкое ущелье с советскими санаториями и новыми гостевыми домами. Популярная поездка на выходные из Бишкека.", "img": "/assets/images/general/sheep-pastures.jpg" }
+            {
+              "t": "Национальный парк Ала-Арча",
+              "d": "Ледниковые пики поднимаются прямо из соснового леса всего в 40 км от Бишкека. Однодневные маршруты ведут к водопадам и альпийским лугам, а для опытных есть и технические восхождения.",
+              "img": "/assets/images/general/mountain-lake-yurts.webp"
+            },
+            {
+              "t": "Башня Бурана",
+              "d": "Минарет XI века — последний след города Баласагун на Шёлковом пути. Поднимитесь по узкой лестнице внутри ради вида на долину, затем прогуляйтесь среди каменных балбалов под открытым небом.",
+              "img": "https://images.unsplash.com/photo-1690269788422-08de80377501?auto=format&fit=crop&w=1000&q=80"
+            },
+            {
+              "t": "Долина Чон-Кемин",
+              "d": "Более тихая альтернатива Ала-Арче: лесистые склоны, реки с форелью и небольшие гостевые дома местных семей. Хороший вариант для спокойного дня вдали от города.",
+              "img": "https://images.pexels.com/photos/12077036/pexels-photo-12077036.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            },
+            {
+              "t": "Ущелье Иссык-Ата",
+              "d": "Горячие минеральные источники веками привлекают сюда посетителей — узкое ущелье с советскими санаториями и новыми гостевыми домами. Популярная поездка на выходные из Бишкека.",
+              "img": "/assets/images/general/sheep-pastures.jpg"
+            }
           ],
           "gettingThere": "Чуй окружает Бишкек, поэтому большая часть региона доступна на обычном такси или маршрутке прямо из города — особый транспорт для ближних точек не нужен.",
-          "gettingThereBullets": ["Ала-Арча: 40 км / около часа на такси из Бишкека", "Башня Бурана: 80 км / около 1,5 часов через Токмок", "Чон-Кемин и Иссык-Ата: 2–3 часа на машине"],
+          "gettingThereBullets": [
+            "Ала-Арча: 40 км / около часа на такси из Бишкека",
+            "Башня Бурана: 80 км / около 1,5 часов через Токмок",
+            "Чон-Кемин и Иссык-Ата: 2–3 часа на машине"
+          ],
           "ctaTitle": "Готовы исследовать Чуй?"
         },
         "ky": {
@@ -51,19 +115,51 @@
           "short": "Бишкектин артка короосу — борбордон бир саат алыстыктагы альп чокулары",
           "about": "Чүй — бул Бишкектин өзүн курчаган аймак: Кыргыз Ала-Тоосунун артында жайгашкан кең өрөөн, шаардын борборунан бир сааттан аз жердеги мөңгүлөр менен. Тоолорго көпчүлүк саякаттар ушул жерден башталат — байыркы Жибек Жолу да Бурана мунарасында өз изин калтырган.",
           "info": [
-            { "k": "Эң жакшы убакыт", "v": "Май–сентябрь" },
-            { "k": "Бишкектен", "v": "30 мүнөт – 2 саат" },
-            { "k": "Иш-аракеттер", "v": "Жөө жүрүш, экскурсия, ысык булактар" },
-            { "k": "Кыйынчылык", "v": "Жеңилден орточого чейин" }
+            {
+              "k": "Эң жакшы убакыт",
+              "v": "Май–сентябрь"
+            },
+            {
+              "k": "Бишкектен",
+              "v": "30 мүнөт – 2 саат"
+            },
+            {
+              "k": "Иш-аракеттер",
+              "v": "Жөө жүрүш, экскурсия, ысык булактар"
+            },
+            {
+              "k": "Кыйынчылык",
+              "v": "Жеңилден орточого чейин"
+            }
           ],
           "highlights": [
-            { "t": "Ала-Арча улуттук паркы", "d": "Мөңгүлүү чокулар Бишкектен бар болгону 40 км алыстыктагы карагай токоюнан түз көтөрүлөт. Бир күндүк маршруттар шаркыратмаларга жана альп шалбааларына алып барат, ал эми тажрыйбалуулар үчүн техникалык чыгуулар да бар.", "img": "/assets/images/general/mountain-lake-yurts.webp" },
-            { "t": "Бурана мунарасы", "d": "XI кылымдагы минарет — Жибек Жолундагы Баласагын шаарынан калган акыркы из. Ичиндеги тар тепкич менен өрөөндүн көрүнүшүн көрүп, андан соң ачык асман астындагы музейде балбал таштардын арасында сейилдеңиз.", "img": "https://images.unsplash.com/photo-1690269788422-08de80377501?auto=format&fit=crop&w=1000&q=80" },
-            { "t": "Чоң-Кемин өрөөнү", "d": "Ала-Арчага караганда тынчыраак альтернатива: токойлуу беттер, форель балыгы бар дарыялар жана жергиликтүү үй-бүлөлөрдүн кичине конок үйлөрү. Шаардан алыс тынч күн өткөрүү үчүн жакшы вариант.", "img": "https://images.pexels.com/photos/12077036/pexels-photo-12077036.jpeg?auto=compress&cs=tinysrgb&w=1000" },
-            { "t": "Ысык-Ата капчыгайы", "d": "Ысык минералдык булактар бул жерге кылымдар бою коноктарды тартып келет — советтик санаторийлер жана жаңы конок үйлөр бар тар капчыгай. Бишкектен дем алыш күндөрү популярдуу сапар.", "img": "/assets/images/general/sheep-pastures.jpg" }
+            {
+              "t": "Ала-Арча улуттук паркы",
+              "d": "Мөңгүлүү чокулар Бишкектен бар болгону 40 км алыстыктагы карагай токоюнан түз көтөрүлөт. Бир күндүк маршруттар шаркыратмаларга жана альп шалбааларына алып барат, ал эми тажрыйбалуулар үчүн техникалык чыгуулар да бар.",
+              "img": "/assets/images/general/mountain-lake-yurts.webp"
+            },
+            {
+              "t": "Бурана мунарасы",
+              "d": "XI кылымдагы минарет — Жибек Жолундагы Баласагын шаарынан калган акыркы из. Ичиндеги тар тепкич менен өрөөндүн көрүнүшүн көрүп, андан соң ачык асман астындагы музейде балбал таштардын арасында сейилдеңиз.",
+              "img": "https://images.unsplash.com/photo-1690269788422-08de80377501?auto=format&fit=crop&w=1000&q=80"
+            },
+            {
+              "t": "Чоң-Кемин өрөөнү",
+              "d": "Ала-Арчага караганда тынчыраак альтернатива: токойлуу беттер, форель балыгы бар дарыялар жана жергиликтүү үй-бүлөлөрдүн кичине конок үйлөрү. Шаардан алыс тынч күн өткөрүү үчүн жакшы вариант.",
+              "img": "https://images.pexels.com/photos/12077036/pexels-photo-12077036.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            },
+            {
+              "t": "Ысык-Ата капчыгайы",
+              "d": "Ысык минералдык булактар бул жерге кылымдар бою коноктарды тартып келет — советтик санаторийлер жана жаңы конок үйлөр бар тар капчыгай. Бишкектен дем алыш күндөрү популярдуу сапар.",
+              "img": "/assets/images/general/sheep-pastures.jpg"
+            }
           ],
           "gettingThere": "Чүй Бишкекти курчап турат, ошондуктан аймактын көпчүлүгүнө шаардан түз кадимки такси же маршрутка менен жетүүгө болот — жакынкы жерлер үчүн атайын транспорт керек эмес.",
-          "gettingThereBullets": ["Ала-Арча: Бишкектен 40 км / болжол менен 1 саат такси менен", "Бурана мунарасы: Токмок аркылуу 80 км / болжол менен 1,5 саат", "Чоң-Кемин жана Ысык-Ата: унаа менен 2-3 саат"],
+          "gettingThereBullets": [
+            "Ала-Арча: Бишкектен 40 км / болжол менен 1 саат такси менен",
+            "Бурана мунарасы: Токмок аркылуу 80 км / болжол менен 1,5 саат",
+            "Чоң-Кемин жана Ысык-Ата: унаа менен 2-3 саат"
+          ],
           "ctaTitle": "Чүйдү изилдөөгө даярсызбы?"
         }
       }
@@ -79,18 +175,46 @@
           "short": "The great lake, red canyons and the gateway to the Tien Shan",
           "about": "Issyk-Kul is one of the largest alpine lakes in the world, ringed by the Kungey and Terskey Ala-Too ranges. Along its shores are red-rock canyons, waterfalls and the town of Karakol — a relaxed add-on to a mountain trip or a destination in its own right.",
           "info": [
-            { "k": "Best time", "v": "April–October" },
-            { "k": "From Bishkek", "v": "4–5 hours by car" },
-            { "k": "Activities", "v": "Swimming, hiking, sightseeing" },
-            { "k": "Difficulty", "v": "Easy" }
+            {
+              "k": "Best time",
+              "v": "April–October"
+            },
+            {
+              "k": "From Bishkek",
+              "v": "4–5 hours by car"
+            },
+            {
+              "k": "Activities",
+              "v": "Swimming, hiking, sightseeing"
+            },
+            {
+              "k": "Difficulty",
+              "v": "Easy"
+            }
           ],
           "highlights": [
-            { "t": "Skazka (Fairy Tale) Canyon", "d": "Wind-carved red sandstone ridges on the lake's southern shore, best explored in the late afternoon light. An easy walk suitable for all ages.", "img": "https://images.pexels.com/photos/26547778/pexels-photo-26547778.jpeg?auto=compress&cs=tinysrgb&w=1000" },
-            { "t": "Jety-Oguz", "d": "The 'Seven Bulls' — a row of red sandstone cliffs near Karakol, with a short, scenic valley walk continuing up toward alpine meadows and hot springs.", "img": "https://images.pexels.com/photos/12077027/pexels-photo-12077027.jpeg?auto=compress&cs=tinysrgb&w=1000" },
-            { "t": "Karakol", "d": "The region's main town, with a wooden Russian Orthodox cathedral, a lively Sunday animal market nearby, and easy access to the Terskey Ala-Too for further trekking.", "img": "https://images.pexels.com/photos/31833313/pexels-photo-31833313.jpeg?auto=compress&cs=tinysrgb&w=1000" }
+            {
+              "t": "Skazka (Fairy Tale) Canyon",
+              "d": "Wind-carved red sandstone ridges on the lake's southern shore, best explored in the late afternoon light. An easy walk suitable for all ages.",
+              "img": "https://images.pexels.com/photos/26547778/pexels-photo-26547778.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            },
+            {
+              "t": "Jety-Oguz",
+              "d": "The 'Seven Bulls' — a row of red sandstone cliffs near Karakol, with a short, scenic valley walk continuing up toward alpine meadows and hot springs.",
+              "img": "https://images.pexels.com/photos/12077027/pexels-photo-12077027.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            },
+            {
+              "t": "Karakol",
+              "d": "The region's main town, with a wooden Russian Orthodox cathedral, a lively Sunday animal market nearby, and easy access to the Terskey Ala-Too for further trekking.",
+              "img": "https://images.pexels.com/photos/31833313/pexels-photo-31833313.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            }
           ],
           "gettingThere": "Issyk-Kul is reached via the Bishkek-Balykchy road, continuing along either the northern (Cholpon-Ata) or southern (Bokonbaevo) shore.",
-          "gettingThereBullets": ["Private car transfer from Bishkek (included in tours)", "Shared taxi or marshrutka from Bishkek's Vostok-5 station", "Northern shore is faster; southern shore is quieter and more scenic"],
+          "gettingThereBullets": [
+            "Private car transfer from Bishkek (included in tours)",
+            "Shared taxi or marshrutka from Bishkek's Vostok-5 station",
+            "Northern shore is faster; southern shore is quieter and more scenic"
+          ],
           "ctaTitle": "Ready to Explore Issyk-Kul?"
         },
         "ru": {
@@ -98,18 +222,46 @@
           "short": "Великое озеро, красные каньоны и ворота в Тянь-Шань",
           "about": "Иссык-Куль — одно из крупнейших высокогорных озёр в мире, окружённое хребтами Кунгей и Терскей Ала-Тоо. Вдоль его берегов — каньоны из красного камня, водопады и город Каракол: спокойное дополнение к горному путешествию или самостоятельная цель поездки.",
           "info": [
-            { "k": "Лучшее время", "v": "Апрель–октябрь" },
-            { "k": "От Бишкека", "v": "4–5 часов на машине" },
-            { "k": "Активности", "v": "Купание, пешие походы, экскурсии" },
-            { "k": "Сложность", "v": "Лёгкая" }
+            {
+              "k": "Лучшее время",
+              "v": "Апрель–октябрь"
+            },
+            {
+              "k": "От Бишкека",
+              "v": "4–5 часов на машине"
+            },
+            {
+              "k": "Активности",
+              "v": "Купание, пешие походы, экскурсии"
+            },
+            {
+              "k": "Сложность",
+              "v": "Лёгкая"
+            }
           ],
           "highlights": [
-            { "t": "Каньон Сказка", "d": "Выточенные ветром красные песчаниковые гряды на южном берегу озера — лучше всего смотреть в предзакатном свете. Лёгкая прогулка, подходит для всех возрастов.", "img": "https://images.pexels.com/photos/26547778/pexels-photo-26547778.jpeg?auto=compress&cs=tinysrgb&w=1000" },
-            { "t": "Джеты-Огуз", "d": "«Семь быков» — ряд красных скал у Каракола, с короткой живописной прогулкой по долине, ведущей к альпийским лугам и горячим источникам.", "img": "https://images.pexels.com/photos/12077027/pexels-photo-12077027.jpeg?auto=compress&cs=tinysrgb&w=1000" },
-            { "t": "Каракол", "d": "Главный город региона: деревянный православный собор, оживлённый воскресный рынок скота неподалёку и удобный доступ к Терскей Ала-Тоо для дальнейшего треккинга.", "img": "https://images.pexels.com/photos/31833313/pexels-photo-31833313.jpeg?auto=compress&cs=tinysrgb&w=1000" }
+            {
+              "t": "Каньон Сказка",
+              "d": "Выточенные ветром красные песчаниковые гряды на южном берегу озера — лучше всего смотреть в предзакатном свете. Лёгкая прогулка, подходит для всех возрастов.",
+              "img": "https://images.pexels.com/photos/26547778/pexels-photo-26547778.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            },
+            {
+              "t": "Джеты-Огуз",
+              "d": "«Семь быков» — ряд красных скал у Каракола, с короткой живописной прогулкой по долине, ведущей к альпийским лугам и горячим источникам.",
+              "img": "https://images.pexels.com/photos/12077027/pexels-photo-12077027.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            },
+            {
+              "t": "Каракол",
+              "d": "Главный город региона: деревянный православный собор, оживлённый воскресный рынок скота неподалёку и удобный доступ к Терскей Ала-Тоо для дальнейшего треккинга.",
+              "img": "https://images.pexels.com/photos/31833313/pexels-photo-31833313.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            }
           ],
           "gettingThere": "До Иссык-Куля можно добраться по дороге Бишкек–Балыкчи, далее вдоль северного (Чолпон-Ата) или южного (Боконбаево) берега.",
-          "gettingThereBullets": ["Частный трансфер из Бишкека (включён в туры)", "Маршрутное такси или маршрутка от станции Восток-5 в Бишкеке", "Северный берег быстрее; южный — тише и живописнее"],
+          "gettingThereBullets": [
+            "Частный трансфер из Бишкека (включён в туры)",
+            "Маршрутное такси или маршрутка от станции Восток-5 в Бишкеке",
+            "Северный берег быстрее; южный — тише и живописнее"
+          ],
           "ctaTitle": "Готовы исследовать Иссык-Куль?"
         },
         "ky": {
@@ -117,18 +269,46 @@
           "short": "Улуу көл, кызыл каньондор жана Тянь-Шанга дарбаза",
           "about": "Ысык-Көл — дүйнөдөгү эң чоң бийик тоо көлдөрүнүн бири, Күнгөй жана Тескей Ала-Тоо кырка тоолору менен курчалган. Анын жээктеринде кызыл таштуу каньондор, шаркыратмалар жана Каракол шаары бар — тоо саякатына тынч кошумча же өзүнчө сапар максаты.",
           "info": [
-            { "k": "Эң жакшы убакыт", "v": "Апрель–октябрь" },
-            { "k": "Бишкектен", "v": "4–5 саат унаа менен" },
-            { "k": "Иш-аракеттер", "v": "Сүзүү, жөө жүрүш, экскурсия" },
-            { "k": "Кыйынчылык", "v": "Жеңил" }
+            {
+              "k": "Эң жакшы убакыт",
+              "v": "Апрель–октябрь"
+            },
+            {
+              "k": "Бишкектен",
+              "v": "4–5 саат унаа менен"
+            },
+            {
+              "k": "Иш-аракеттер",
+              "v": "Сүзүү, жөө жүрүш, экскурсия"
+            },
+            {
+              "k": "Кыйынчылык",
+              "v": "Жеңил"
+            }
           ],
           "highlights": [
-            { "t": "Сказка каньону", "d": "Көлдүн түштүк жээгиндеги шамал жонткон кызыл кум таш кырка тоолору — күүгүмдө көргөн эң сонун. Бардык курактагылар үчүн жеңил сейилдөө.", "img": "https://images.pexels.com/photos/26547778/pexels-photo-26547778.jpeg?auto=compress&cs=tinysrgb&w=1000" },
-            { "t": "Жети-Өгүз", "d": "«Жети Өгүз» — Караколдун жанындагы кызыл аска тоолордун катары, кыска жана кооз өрөөн сейилдөөсү альп шалбааларына жана ысык булактарга улантылат.", "img": "https://images.pexels.com/photos/12077027/pexels-photo-12077027.jpeg?auto=compress&cs=tinysrgb&w=1000" },
-            { "t": "Каракол", "d": "Аймактын негизги шаары: жыгач православ чиркөөсү, жанындагы жандуу жекшемби мал базары жана андан ары жүрүш үчүн Тескей Ала-Тоого ыңгайлуу жетүү.", "img": "https://images.pexels.com/photos/31833313/pexels-photo-31833313.jpeg?auto=compress&cs=tinysrgb&w=1000" }
+            {
+              "t": "Сказка каньону",
+              "d": "Көлдүн түштүк жээгиндеги шамал жонткон кызыл кум таш кырка тоолору — күүгүмдө көргөн эң сонун. Бардык курактагылар үчүн жеңил сейилдөө.",
+              "img": "https://images.pexels.com/photos/26547778/pexels-photo-26547778.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            },
+            {
+              "t": "Жети-Өгүз",
+              "d": "«Жети Өгүз» — Караколдун жанындагы кызыл аска тоолордун катары, кыска жана кооз өрөөн сейилдөөсү альп шалбааларына жана ысык булактарга улантылат.",
+              "img": "https://images.pexels.com/photos/12077027/pexels-photo-12077027.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            },
+            {
+              "t": "Каракол",
+              "d": "Аймактын негизги шаары: жыгач православ чиркөөсү, жанындагы жандуу жекшемби мал базары жана андан ары жүрүш үчүн Тескей Ала-Тоого ыңгайлуу жетүү.",
+              "img": "https://images.pexels.com/photos/31833313/pexels-photo-31833313.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            }
           ],
           "gettingThere": "Ысык-Көлгө Бишкек–Балыкчы жолу аркылуу, андан ары түндүк (Чолпон-Ата) же түштүк (Боконбаево) жээк менен жетүүгө болот.",
-          "gettingThereBullets": ["Бишкектен жеке унаа менен трансфер (турларга кирет)", "Бишкектин Восток-5 бекетинен бирге такси же маршрутка", "Түндүк жээк тезирек; түштүк жээк тынчыраак жана коозураак"],
+          "gettingThereBullets": [
+            "Бишкектен жеке унаа менен трансфер (турларга кирет)",
+            "Бишкектин Восток-5 бекетинен бирге такси же маршрутка",
+            "Түндүк жээк тезирек; түштүк жээк тынчыраак жана коозураак"
+          ],
           "ctaTitle": "Ысык-Көлдү изилдөөгө даярсызбы?"
         }
       }
@@ -144,19 +324,52 @@
           "short": "High inner Tien Shan — Tash-Rabat, Song-Kul and the road to Kel-Suu",
           "about": "Naryn region covers the high inner Tien Shan: wide river valleys, jailoo pastures above 3,000 m, and the roads that lead to Song-Kul, Kel-Suu and the old Silk Road post of Tash-Rabat. This is where most of our own tours run — it's the least visited and most dramatic part of Kyrgyzstan.",
           "info": [
-            { "k": "Best time", "v": "June–September" },
-            { "k": "From Bishkek", "v": "5–7 hours by car" },
-            { "k": "Activities", "v": "Horse riding, 4x4, hiking" },
-            { "k": "Difficulty", "v": "Easy to Challenging" }
+            {
+              "k": "Best time",
+              "v": "June–September"
+            },
+            {
+              "k": "From Bishkek",
+              "v": "5–7 hours by car"
+            },
+            {
+              "k": "Activities",
+              "v": "Horse riding, 4x4, hiking"
+            },
+            {
+              "k": "Difficulty",
+              "v": "Easy to Challenging"
+            }
           ],
           "highlights": [
-            { "t": "Tash-Rabat Caravanserai", "d": "A stone caravanserai from the 15th century, tucked into a quiet side valley that was once a stop on the Silk Road. One of the best-preserved historic buildings in the country.", "img": "/assets/images/destinations/tash-rabat2.jpg" },
-            { "t": "Song-Kul", "d": "A high alpine lake at about 3,000 m, surrounded by open pastures where shepherd families set up yurt camps every summer. One of the best places in Kyrgyzstan to experience nomadic life firsthand.", "img": "/assets/images/destinations/song-kul-horseman.webp" },
-            { "t": "Kel-Suu", "d": "A remote turquoise lake between granite walls near the Chinese border, reached on horseback over the Bogoshtu Pass or by 4x4. One of the most dramatic and least-visited places in the country.", "img": "/assets/images/destinations/kel-suu-valley.jpg" },
-            { "t": "At-Bashy Valley", "d": "Our home valley, between the At-Bashy and Jaman-Too ranges — gorges, summer pastures and the starting point for our horse treks toward Tash-Rabat.", "img": "/assets/images/tours/mount1.jpg" }
+            {
+              "t": "Tash-Rabat Caravanserai",
+              "d": "A stone caravanserai from the 15th century, tucked into a quiet side valley that was once a stop on the Silk Road. One of the best-preserved historic buildings in the country.",
+              "img": "/assets/images/destinations/tash-rabat/tash-rabat-view-from-top.jpg",
+              "blogSlug": "tash-rabat-history-and-restoration"
+            },
+            {
+              "t": "Song-Kul",
+              "d": "A high alpine lake at about 3,000 m, surrounded by open pastures where shepherd families set up yurt camps every summer. One of the best places in Kyrgyzstan to experience nomadic life firsthand.",
+              "img": "/assets/images/destinations/song-kul-horseman.webp"
+            },
+            {
+              "t": "Kel-Suu",
+              "d": "A remote turquoise lake between granite walls near the Chinese border, reached on horseback over the Bogoshtu Pass or by 4x4. One of the most dramatic and least-visited places in the country.",
+              "img": "/assets/images/destinations/kel-suu-valley.jpg"
+            },
+            {
+              "t": "At-Bashy Valley",
+              "d": "Our home valley, between the At-Bashy and Jaman-Too ranges — gorges, summer pastures and the starting point for our horse treks toward Tash-Rabat.",
+              "img": "/assets/images/tours/mount1.jpg"
+            }
           ],
           "gettingThere": "Naryn town is reached via the Bishkek-Torugart highway, a scenic drive over the Dolon Pass. From there, smaller roads and 4x4 tracks lead further into the mountains.",
-          "gettingThereBullets": ["Private car transfer from Bishkek (included in tours)", "Shared taxi from Bishkek's western bus station", "4x4 required beyond Naryn town for most routes"],
+          "gettingThereBullets": [
+            "Private car transfer from Bishkek (included in tours)",
+            "Shared taxi from Bishkek's western bus station",
+            "4x4 required beyond Naryn town for most routes"
+          ],
           "ctaTitle": "Ready to Explore Naryn?"
         },
         "ru": {
@@ -164,19 +377,52 @@
           "short": "Высокогорный внутренний Тянь-Шань — Таш-Рабат, Сон-Куль и дорога к Кёль-Суу",
           "about": "Нарынская область охватывает высокогорный внутренний Тянь-Шань: широкие речные долины, джайлоо-пастбища выше 3000 м и дороги, ведущие к Сон-Кулю, Кёль-Суу и старому посту Шёлкового пути Таш-Рабату. Именно здесь проходит большинство наших туров — это самая малопосещаемая и самая впечатляющая часть Кыргызстана.",
           "info": [
-            { "k": "Лучшее время", "v": "Июнь–сентябрь" },
-            { "k": "От Бишкека", "v": "5–7 часов на машине" },
-            { "k": "Активности", "v": "Верховая езда, 4x4, пешие походы" },
-            { "k": "Сложность", "v": "От лёгкой до сложной" }
+            {
+              "k": "Лучшее время",
+              "v": "Июнь–сентябрь"
+            },
+            {
+              "k": "От Бишкека",
+              "v": "5–7 часов на машине"
+            },
+            {
+              "k": "Активности",
+              "v": "Верховая езда, 4x4, пешие походы"
+            },
+            {
+              "k": "Сложность",
+              "v": "От лёгкой до сложной"
+            }
           ],
           "highlights": [
-            { "t": "Каравансарай Таш-Рабат", "d": "Каменный каравансарай XV века в тихой боковой долине, бывшая остановка на Шёлковом пути. Одно из лучше всего сохранившихся исторических зданий страны.", "img": "/assets/images/destinations/tash-rabat2.jpg" },
-            { "t": "Сон-Куль", "d": "Высокогорное озеро на высоте около 3000 м, окружённое открытыми пастбищами, где каждое лето семьи пастухов разбивают юрточные стоянки. Одно из лучших мест в Кыргызстане, чтобы увидеть кочевую жизнь вживую.", "img": "/assets/images/destinations/song-kul-horseman.webp" },
-            { "t": "Кёль-Суу", "d": "Удалённое бирюзовое озеро между гранитными стенами у границы с Китаем, куда добираются верхом через перевал Богошту или на 4x4. Одно из самых впечатляющих и малопосещаемых мест страны.", "img": "/assets/images/destinations/kel-suu-valley.jpg" },
-            { "t": "Долина Ат-Баши", "d": "Наша родная долина между хребтами Ат-Баши и Джаман-Тоо — ущелья, летние пастбища и отправная точка наших конных походов к Таш-Рабату.", "img": "/assets/images/tours/mount1.jpg" }
+            {
+              "t": "Каравансарай Таш-Рабат",
+              "d": "Каменный каравансарай XV века в тихой боковой долине, бывшая остановка на Шёлковом пути. Одно из лучше всего сохранившихся исторических зданий страны.",
+              "img": "/assets/images/destinations/tash-rabat/tash-rabat-view-from-top.jpg",
+              "blogSlug": "tash-rabat-history-and-restoration"
+            },
+            {
+              "t": "Сон-Куль",
+              "d": "Высокогорное озеро на высоте около 3000 м, окружённое открытыми пастбищами, где каждое лето семьи пастухов разбивают юрточные стоянки. Одно из лучших мест в Кыргызстане, чтобы увидеть кочевую жизнь вживую.",
+              "img": "/assets/images/destinations/song-kul-horseman.webp"
+            },
+            {
+              "t": "Кёль-Суу",
+              "d": "Удалённое бирюзовое озеро между гранитными стенами у границы с Китаем, куда добираются верхом через перевал Богошту или на 4x4. Одно из самых впечатляющих и малопосещаемых мест страны.",
+              "img": "/assets/images/destinations/kel-suu-valley.jpg"
+            },
+            {
+              "t": "Долина Ат-Баши",
+              "d": "Наша родная долина между хребтами Ат-Баши и Джаман-Тоо — ущелья, летние пастбища и отправная точка наших конных походов к Таш-Рабату.",
+              "img": "/assets/images/tours/mount1.jpg"
+            }
           ],
           "gettingThere": "В город Нарын ведёт трасса Бишкек–Торугарт — живописная дорога через перевал Долон. Оттуда более мелкие дороги и трассы для 4x4 уходят в горы.",
-          "gettingThereBullets": ["Частный трансфер из Бишкека (включён в туры)", "Маршрутное такси с западной автостанции Бишкека", "4x4 необходим за пределами города Нарын для большинства маршрутов"],
+          "gettingThereBullets": [
+            "Частный трансфер из Бишкека (включён в туры)",
+            "Маршрутное такси с западной автостанции Бишкека",
+            "4x4 необходим за пределами города Нарын для большинства маршрутов"
+          ],
           "ctaTitle": "Готовы исследовать Нарын?"
         },
         "ky": {
@@ -184,19 +430,52 @@
           "short": "Ички Тянь-Шандын бийик бөлүгү — Таш-Рабат, Соң-Көл жана Көл-Суугa жол",
           "about": "Нарын облусу ички Тянь-Шандын бийик бөлүгүн камтыйт: кеңири дарыя өрөөндөрү, 3000 метрден жогорку жайлоолор жана Соң-Көлгө, Көл-Суугa жана байыркы Жибек Жолу токтоосу Таш-Рабатка алып баруучу жолдор. Биздин турларыбыздын көбү ушул жерде өтөт — бул Кыргызстандын эң аз көрүлгөн жана эң таасирдүү бөлүгү.",
           "info": [
-            { "k": "Эң жакшы убакыт", "v": "Июнь–сентябрь" },
-            { "k": "Бишкектен", "v": "5–7 саат унаа менен" },
-            { "k": "Иш-аракеттер", "v": "Ат минүү, 4x4, жөө жүрүш" },
-            { "k": "Кыйынчылык", "v": "Жеңилден кыйынга чейин" }
+            {
+              "k": "Эң жакшы убакыт",
+              "v": "Июнь–сентябрь"
+            },
+            {
+              "k": "Бишкектен",
+              "v": "5–7 саат унаа менен"
+            },
+            {
+              "k": "Иш-аракеттер",
+              "v": "Ат минүү, 4x4, жөө жүрүш"
+            },
+            {
+              "k": "Кыйынчылык",
+              "v": "Жеңилден кыйынга чейин"
+            }
           ],
           "highlights": [
-            { "t": "Таш-Рабат кербен-сарайы", "d": "Тынч капталдагы өрөөндөгү XV кылымдагы таш кербен-сарай, мурда Жибек Жолундагы токтоо. Өлкөдөгү эң жакшы сакталган тарыхый курулуштардын бири.", "img": "/assets/images/destinations/tash-rabat2.jpg" },
-            { "t": "Соң-Көл", "d": "Ачык жайлоолор менен курчалган, болжол менен 3000 метр бийиктиктеги бийик көл, ар жылы жайда койчу үй-бүлөлөр боз үй конуштарын тигишет. Кыргызстандагы көчмөн жашоону өз көзү менен көрүүгө мыкты жерлердин бири.", "img": "/assets/images/destinations/song-kul-horseman.webp" },
-            { "t": "Көл-Суу", "d": "Кытай чек арасынын жанындагы гранит дубалдардын ортосундагы алыскы түркүн-көк көл, Богошту ашуусу аркылуу ат менен же 4x4 менен жетүүгө болот. Өлкөдөгү эң таасирдүү жана эң аз көрүлгөн жерлердин бири.", "img": "/assets/images/destinations/kel-suu-valley.jpg" },
-            { "t": "Ат-Башы өрөөнү", "d": "Ат-Башы жана Жаман-Тоо кырка тоолорунун ортосундагы биздин туулган өрөөн — капчыгайлар, жайкы жайлоолор жана Таш-Рабатка карай биздин ат үстүндөгү саякаттарыбыздын башталыш чекити.", "img": "/assets/images/tours/mount1.jpg" }
+            {
+              "t": "Таш-Рабат кербен-сарайы",
+              "d": "Тынч капталдагы өрөөндөгү XV кылымдагы таш кербен-сарай, мурда Жибек Жолундагы токтоо. Өлкөдөгү эң жакшы сакталган тарыхый курулуштардын бири.",
+              "img": "/assets/images/destinations/tash-rabat/tash-rabat-view-from-top.jpg",
+              "blogSlug": "tash-rabat-history-and-restoration"
+            },
+            {
+              "t": "Соң-Көл",
+              "d": "Ачык жайлоолор менен курчалган, болжол менен 3000 метр бийиктиктеги бийик көл, ар жылы жайда койчу үй-бүлөлөр боз үй конуштарын тигишет. Кыргызстандагы көчмөн жашоону өз көзү менен көрүүгө мыкты жерлердин бири.",
+              "img": "/assets/images/destinations/song-kul-horseman.webp"
+            },
+            {
+              "t": "Көл-Суу",
+              "d": "Кытай чек арасынын жанындагы гранит дубалдардын ортосундагы алыскы түркүн-көк көл, Богошту ашуусу аркылуу ат менен же 4x4 менен жетүүгө болот. Өлкөдөгү эң таасирдүү жана эң аз көрүлгөн жерлердин бири.",
+              "img": "/assets/images/destinations/kel-suu-valley.jpg"
+            },
+            {
+              "t": "Ат-Башы өрөөнү",
+              "d": "Ат-Башы жана Жаман-Тоо кырка тоолорунун ортосундагы биздин туулган өрөөн — капчыгайлар, жайкы жайлоолор жана Таш-Рабатка карай биздин ат үстүндөгү саякаттарыбыздын башталыш чекити.",
+              "img": "/assets/images/tours/mount1.jpg"
+            }
           ],
           "gettingThere": "Нарын шаарына Бишкек–Торугарт трассасы аркылуу жетүүгө болот — Долон ашуусу аркылуу кооз жол. Андан ары кичине жолдор жана 4x4 жолдору тоолорго алып барат.",
-          "gettingThereBullets": ["Бишкектен жеке унаа менен трансфер (турларга кирет)", "Бишкектин батыш автобекетинен бирге такси", "Көпчүлүк маршруттар үчүн Нарын шаарынан ары 4x4 талап кылынат"],
+          "gettingThereBullets": [
+            "Бишкектен жеке унаа менен трансфер (турларга кирет)",
+            "Бишкектин батыш автобекетинен бирге такси",
+            "Көпчүлүк маршруттар үчүн Нарын шаарынан ары 4x4 талап кылынат"
+          ],
           "ctaTitle": "Нарынды изилдөөгө даярсызбы?"
         }
       }
@@ -212,17 +491,41 @@
           "short": "The valley of Manas — quiet mountains and ancient history",
           "about": "Talas is the least-visited corner of northern Kyrgyzstan, a fertile valley wedged between the Talas Ala-Too and Kyrgyz Ala-Too ranges. It's best known as the legendary homeland of Manas, the hero of Kyrgyzstan's national epic, and for its quiet, uncrowded mountains.",
           "info": [
-            { "k": "Best time", "v": "May–September" },
-            { "k": "From Bishkek", "v": "5–6 hours by car" },
-            { "k": "Activities", "v": "Hiking, culture" },
-            { "k": "Difficulty", "v": "Easy to Moderate" }
+            {
+              "k": "Best time",
+              "v": "May–September"
+            },
+            {
+              "k": "From Bishkek",
+              "v": "5–6 hours by car"
+            },
+            {
+              "k": "Activities",
+              "v": "Hiking, culture"
+            },
+            {
+              "k": "Difficulty",
+              "v": "Easy to Moderate"
+            }
           ],
           "highlights": [
-            { "t": "Manas Ordo", "d": "A memorial complex said to mark the burial site of Manas, with a small museum on the epic poem that forms the core of Kyrgyz national identity. A meaningful stop for understanding Kyrgyz culture.", "img": "/assets/images/general/mountain-lake-yurts.webp" },
-            { "t": "Besh-Tash National Park", "d": "A forested valley in the Talas Ala-Too range, with glacial lakes and waterfalls reached by hiking trails. Far fewer visitors than the parks near Bishkek.", "img": "/assets/images/general/sheep-pastures.jpg" }
+            {
+              "t": "Manas Ordo",
+              "d": "A memorial complex said to mark the burial site of Manas, with a small museum on the epic poem that forms the core of Kyrgyz national identity. A meaningful stop for understanding Kyrgyz culture.",
+              "img": "/assets/images/general/mountain-lake-yurts.webp"
+            },
+            {
+              "t": "Besh-Tash National Park",
+              "d": "A forested valley in the Talas Ala-Too range, with glacial lakes and waterfalls reached by hiking trails. Far fewer visitors than the parks near Bishkek.",
+              "img": "/assets/images/general/sheep-pastures.jpg"
+            }
           ],
           "gettingThere": "Talas is reached via a scenic but long mountain road from Bishkek over the Too-Ashuu and Otmok passes, or via a longer route through Taraz in Kazakhstan.",
-          "gettingThereBullets": ["Shared taxi from Bishkek's western bus station (5–6 hours)", "Mountain road can close in heavy winter snow", "Best combined with a longer northern Kyrgyzstan itinerary"],
+          "gettingThereBullets": [
+            "Shared taxi from Bishkek's western bus station (5–6 hours)",
+            "Mountain road can close in heavy winter snow",
+            "Best combined with a longer northern Kyrgyzstan itinerary"
+          ],
           "ctaTitle": "Ready to Explore Talas?"
         },
         "ru": {
@@ -230,17 +533,41 @@
           "short": "Долина Манаса — тихие горы и древняя история",
           "about": "Талас — наименее посещаемый уголок северного Кыргызстана, плодородная долина между хребтами Таласский Ала-Тоо и Кыргызский Ала-Тоо. Известен как легендарная родина Манаса, героя кыргызского национального эпоса, и своими тихими, немноголюдными горами.",
           "info": [
-            { "k": "Лучшее время", "v": "Май–сентябрь" },
-            { "k": "От Бишкека", "v": "5–6 часов на машине" },
-            { "k": "Активности", "v": "Пешие походы, культура" },
-            { "k": "Сложность", "v": "От лёгкой до средней" }
+            {
+              "k": "Лучшее время",
+              "v": "Май–сентябрь"
+            },
+            {
+              "k": "От Бишкека",
+              "v": "5–6 часов на машине"
+            },
+            {
+              "k": "Активности",
+              "v": "Пешие походы, культура"
+            },
+            {
+              "k": "Сложность",
+              "v": "От лёгкой до средней"
+            }
           ],
           "highlights": [
-            { "t": "Манас-Ордо", "d": "Мемориальный комплекс на предполагаемом месте захоронения Манаса, с небольшим музеем об эпосе, лежащем в основе кыргызской национальной идентичности. Значимая остановка для понимания кыргызской культуры.", "img": "/assets/images/general/mountain-lake-yurts.webp" },
-            { "t": "Национальный парк Беш-Таш", "d": "Лесистая долина в Таласском Ала-Тоо, с ледниковыми озёрами и водопадами, до которых ведут пешие тропы. Гораздо меньше посетителей, чем в парках у Бишкека.", "img": "/assets/images/general/sheep-pastures.jpg" }
+            {
+              "t": "Манас-Ордо",
+              "d": "Мемориальный комплекс на предполагаемом месте захоронения Манаса, с небольшим музеем об эпосе, лежащем в основе кыргызской национальной идентичности. Значимая остановка для понимания кыргызской культуры.",
+              "img": "/assets/images/general/mountain-lake-yurts.webp"
+            },
+            {
+              "t": "Национальный парк Беш-Таш",
+              "d": "Лесистая долина в Таласском Ала-Тоо, с ледниковыми озёрами и водопадами, до которых ведут пешие тропы. Гораздо меньше посетителей, чем в парках у Бишкека.",
+              "img": "/assets/images/general/sheep-pastures.jpg"
+            }
           ],
           "gettingThere": "В Талас ведёт живописная, но долгая горная дорога из Бишкека через перевалы Тоо-Ашуу и Отмок, либо более длинный маршрут через Тараз в Казахстане.",
-          "gettingThereBullets": ["Маршрутное такси с западной автостанции Бишкека (5–6 часов)", "Горная дорога может быть закрыта из-за снега зимой", "Лучше сочетать с более длинным маршрутом по северу Кыргызстана"],
+          "gettingThereBullets": [
+            "Маршрутное такси с западной автостанции Бишкека (5–6 часов)",
+            "Горная дорога может быть закрыта из-за снега зимой",
+            "Лучше сочетать с более длинным маршрутом по северу Кыргызстана"
+          ],
           "ctaTitle": "Готовы исследовать Талас?"
         },
         "ky": {
@@ -248,17 +575,41 @@
           "short": "Манастын өрөөнү — тынч тоолор жана байыркы тарых",
           "about": "Талас — түндүк Кыргызстандын эң аз көрүлгөн бурчу, Талас Ала-Тоосу менен Кыргыз Ала-Тоосунун ортосундагы семиз өрөөн. Кыргыз элинин улуттук эпосунун каарманы Манастын легендарлуу туулган жери катары жана тынч, адам аз тоолору менен белгилүү.",
           "info": [
-            { "k": "Эң жакшы убакыт", "v": "Май–сентябрь" },
-            { "k": "Бишкектен", "v": "5–6 саат унаа менен" },
-            { "k": "Иш-аракеттер", "v": "Жөө жүрүш, маданият" },
-            { "k": "Кыйынчылык", "v": "Жеңилден орточого чейин" }
+            {
+              "k": "Эң жакшы убакыт",
+              "v": "Май–сентябрь"
+            },
+            {
+              "k": "Бишкектен",
+              "v": "5–6 саат унаа менен"
+            },
+            {
+              "k": "Иш-аракеттер",
+              "v": "Жөө жүрүш, маданият"
+            },
+            {
+              "k": "Кыйынчылык",
+              "v": "Жеңилден орточого чейин"
+            }
           ],
           "highlights": [
-            { "t": "Манас Ордо", "d": "Манас коюлган деп эсептелген жерде курулган эстелик комплекси, кыргыз улуттук инсандыгынын негизин түзгөн эпос жөнүндө кичине музей менен. Кыргыз маданиятын түшүнүү үчүн маанилүү токтоо.", "img": "/assets/images/general/mountain-lake-yurts.webp" },
-            { "t": "Беш-Таш улуттук паркы", "d": "Талас Ала-Тоосундагы токойлуу өрөөн, жөө жүрүш жолдору менен жетүүгө болгон мөңгү көлдөрү жана шаркыратмалары менен. Бишкектин жанындагы парктарга караганда алда канча аз келүүчүлөр.", "img": "/assets/images/general/sheep-pastures.jpg" }
+            {
+              "t": "Манас Ордо",
+              "d": "Манас коюлган деп эсептелген жерде курулган эстелик комплекси, кыргыз улуттук инсандыгынын негизин түзгөн эпос жөнүндө кичине музей менен. Кыргыз маданиятын түшүнүү үчүн маанилүү токтоо.",
+              "img": "/assets/images/general/mountain-lake-yurts.webp"
+            },
+            {
+              "t": "Беш-Таш улуттук паркы",
+              "d": "Талас Ала-Тоосундагы токойлуу өрөөн, жөө жүрүш жолдору менен жетүүгө болгон мөңгү көлдөрү жана шаркыратмалары менен. Бишкектин жанындагы парктарга караганда алда канча аз келүүчүлөр.",
+              "img": "/assets/images/general/sheep-pastures.jpg"
+            }
           ],
           "gettingThere": "Таласка Бишкектен Тоо-Ашуу жана Өтмөк ашуулары аркылуу кооз, бирок узак тоо жолу менен же Казакстандагы Тараз аркылуу узагыраак маршрут менен жетүүгө болот.",
-          "gettingThereBullets": ["Бишкектин батыш автобекетинен бирге такси (5-6 саат)", "Кышында тоо жолу калың кардан жабылышы мүмкүн", "Түндүк Кыргызстан боюнча узагыраак маршрут менен айкалыштырган жакшы"],
+          "gettingThereBullets": [
+            "Бишкектин батыш автобекетинен бирге такси (5-6 саат)",
+            "Кышында тоо жолу калың кардан жабылышы мүмкүн",
+            "Түндүк Кыргызстан боюнча узагыраак маршрут менен айкалыштырган жакшы"
+          ],
           "ctaTitle": "Таласты изилдөөгө даярсызбы?"
         }
       }
@@ -274,17 +625,41 @@
           "short": "Walnut forests, mountain lakes and the green south",
           "about": "Jalal-Abad region is a green, forested contrast to the high Naryn plateau: the world's largest walnut forest at Arslanbob, and the mountain lakes of the Sary-Chelek Biosphere Reserve.",
           "info": [
-            { "k": "Best time", "v": "May–October" },
-            { "k": "From Bishkek", "v": "10–12 hours by car, or a short flight to Osh" },
-            { "k": "Activities", "v": "Hiking, culture, relaxation" },
-            { "k": "Difficulty", "v": "Moderate" }
+            {
+              "k": "Best time",
+              "v": "May–October"
+            },
+            {
+              "k": "From Bishkek",
+              "v": "10–12 hours by car, or a short flight to Osh"
+            },
+            {
+              "k": "Activities",
+              "v": "Hiking, culture, relaxation"
+            },
+            {
+              "k": "Difficulty",
+              "v": "Moderate"
+            }
           ],
           "highlights": [
-            { "t": "Arslanbob", "d": "The largest natural walnut forest in the world, with waterfalls, viewpoints and a village where walnut harvesting has shaped life for centuries. Guided hikes lead up to panoramic ridges above the valley.", "img": "/assets/images/general/camel-pastures.webp" },
-            { "t": "Sary-Chelek", "d": "A chain of turquoise mountain lakes inside a UNESCO biosphere reserve, reached by a scenic approach road and short hikes between viewpoints.", "img": "https://images.pexels.com/photos/18156449/pexels-photo-18156449.jpeg?auto=compress&cs=tinysrgb&w=1000" }
+            {
+              "t": "Arslanbob",
+              "d": "The largest natural walnut forest in the world, with waterfalls, viewpoints and a village where walnut harvesting has shaped life for centuries. Guided hikes lead up to panoramic ridges above the valley.",
+              "img": "/assets/images/general/camel-pastures.webp"
+            },
+            {
+              "t": "Sary-Chelek",
+              "d": "A chain of turquoise mountain lakes inside a UNESCO biosphere reserve, reached by a scenic approach road and short hikes between viewpoints.",
+              "img": "https://images.pexels.com/photos/18156449/pexels-photo-18156449.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            }
           ],
           "gettingThere": "Most travelers fly from Bishkek to Osh (about 1 hour), then continue by car to Jalal-Abad, Arslanbob or Sary-Chelek. Overland travel from Bishkek is also possible via the Osh highway.",
-          "gettingThereBullets": ["Domestic flight Bishkek-Osh (about 1 hour), then onward by car", "Overland via the Bishkek-Osh highway (10–12 hours)", "Arslanbob and Sary-Chelek are 2–3 hours from Jalal-Abad city"],
+          "gettingThereBullets": [
+            "Domestic flight Bishkek-Osh (about 1 hour), then onward by car",
+            "Overland via the Bishkek-Osh highway (10–12 hours)",
+            "Arslanbob and Sary-Chelek are 2–3 hours from Jalal-Abad city"
+          ],
           "ctaTitle": "Ready to Explore Jalal-Abad?"
         },
         "ru": {
@@ -292,17 +667,41 @@
           "short": "Ореховые леса, горные озёра и зелёный юг",
           "about": "Джалал-Абадская область — зелёный, лесистый контраст высокогорному плато Нарына: крупнейший в мире ореховый лес в Арсланбобе и горные озёра Сары-Челекского биосферного заповедника.",
           "info": [
-            { "k": "Лучшее время", "v": "Май–октябрь" },
-            { "k": "От Бишкека", "v": "10–12 часов на машине или короткий перелёт до Оша" },
-            { "k": "Активности", "v": "Пешие походы, культура, отдых" },
-            { "k": "Сложность", "v": "Средняя" }
+            {
+              "k": "Лучшее время",
+              "v": "Май–октябрь"
+            },
+            {
+              "k": "От Бишкека",
+              "v": "10–12 часов на машине или короткий перелёт до Оша"
+            },
+            {
+              "k": "Активности",
+              "v": "Пешие походы, культура, отдых"
+            },
+            {
+              "k": "Сложность",
+              "v": "Средняя"
+            }
           ],
           "highlights": [
-            { "t": "Арсланбоб", "d": "Крупнейший в мире естественный ореховый лес, с водопадами, смотровыми площадками и селом, чья жизнь веками строится вокруг сбора орехов. Походы с гидом ведут на панорамные гребни над долиной.", "img": "/assets/images/general/camel-pastures.webp" },
-            { "t": "Сары-Челек", "d": "Цепь бирюзовых горных озёр внутри биосферного заповедника ЮНЕСКО, с живописной дорогой и короткими переходами между смотровыми точками.", "img": "https://images.pexels.com/photos/18156449/pexels-photo-18156449.jpeg?auto=compress&cs=tinysrgb&w=1000" }
+            {
+              "t": "Арсланбоб",
+              "d": "Крупнейший в мире естественный ореховый лес, с водопадами, смотровыми площадками и селом, чья жизнь веками строится вокруг сбора орехов. Походы с гидом ведут на панорамные гребни над долиной.",
+              "img": "/assets/images/general/camel-pastures.webp"
+            },
+            {
+              "t": "Сары-Челек",
+              "d": "Цепь бирюзовых горных озёр внутри биосферного заповедника ЮНЕСКО, с живописной дорогой и короткими переходами между смотровыми точками.",
+              "img": "https://images.pexels.com/photos/18156449/pexels-photo-18156449.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            }
           ],
           "gettingThere": "Большинство путешественников летят из Бишкека в Ош (около часа), затем едут на машине до Джалал-Абада, Арсланбоба или Сары-Челека. Наземный путь из Бишкека также возможен по трассе на Ош.",
-          "gettingThereBullets": ["Внутренний рейс Бишкек–Ош (около часа), далее на машине", "Наземный маршрут по трассе Бишкек–Ош (10–12 часов)", "Арсланбоб и Сары-Челек в 2–3 часах от города Джалал-Абад"],
+          "gettingThereBullets": [
+            "Внутренний рейс Бишкек–Ош (около часа), далее на машине",
+            "Наземный маршрут по трассе Бишкек–Ош (10–12 часов)",
+            "Арсланбоб и Сары-Челек в 2–3 часах от города Джалал-Абад"
+          ],
           "ctaTitle": "Готовы исследовать Джалал-Абад?"
         },
         "ky": {
@@ -310,17 +709,41 @@
           "short": "Жаңгак токойлору, тоо көлдөрү жана жашыл түштүк",
           "about": "Жалал-Абад облусу Нарындын бийик түздүгүнө жашыл, токойлуу карама-каршылык: Арстанбаптагы дүйнөдөгү эң чоң жаңгак токою жана Сары-Челек биосфералык коругунун тоо көлдөрү.",
           "info": [
-            { "k": "Эң жакшы убакыт", "v": "Май–октябрь" },
-            { "k": "Бишкектен", "v": "10–12 саат унаа менен же Ошко кыска аба каттамы" },
-            { "k": "Иш-аракеттер", "v": "Жөө жүрүш, маданият, эс алуу" },
-            { "k": "Кыйынчылык", "v": "Орточо" }
+            {
+              "k": "Эң жакшы убакыт",
+              "v": "Май–октябрь"
+            },
+            {
+              "k": "Бишкектен",
+              "v": "10–12 саат унаа менен же Ошко кыска аба каттамы"
+            },
+            {
+              "k": "Иш-аракеттер",
+              "v": "Жөө жүрүш, маданият, эс алуу"
+            },
+            {
+              "k": "Кыйынчылык",
+              "v": "Орточо"
+            }
           ],
           "highlights": [
-            { "t": "Арстанбап", "d": "Дүйнөдөгү эң чоң табигый жаңгак токою, шаркыратмалары, көрүнүш жерлери жана жашоосу кылымдар бою жаңгак терүүгө негизделген айылы менен. Гид менен жүрүштөр өрөөндүн үстүндөгү панорамалык кыркаларга алып барат.", "img": "/assets/images/general/camel-pastures.webp" },
-            { "t": "Сары-Челек", "d": "ЮНЕСКО биосфералык коругунун ичиндеги түркүн-көк тоо көлдөрүнүн чынжыры, кооз жол жана көрүнүш жерлеринин ортосундагы кыска сейилдөөлөр менен.", "img": "https://images.pexels.com/photos/18156449/pexels-photo-18156449.jpeg?auto=compress&cs=tinysrgb&w=1000" }
+            {
+              "t": "Арстанбап",
+              "d": "Дүйнөдөгү эң чоң табигый жаңгак токою, шаркыратмалары, көрүнүш жерлери жана жашоосу кылымдар бою жаңгак терүүгө негизделген айылы менен. Гид менен жүрүштөр өрөөндүн үстүндөгү панорамалык кыркаларга алып барат.",
+              "img": "/assets/images/general/camel-pastures.webp"
+            },
+            {
+              "t": "Сары-Челек",
+              "d": "ЮНЕСКО биосфералык коругунун ичиндеги түркүн-көк тоо көлдөрүнүн чынжыры, кооз жол жана көрүнүш жерлеринин ортосундагы кыска сейилдөөлөр менен.",
+              "img": "https://images.pexels.com/photos/18156449/pexels-photo-18156449.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            }
           ],
           "gettingThere": "Көпчүлүк саякатчылар Бишкектен Ошко учуп барышат (болжол менен 1 саат), андан кийин унаа менен Жалал-Абадга, Арстанбапка же Сары-Челекке барышат. Бишкектен Ош трассасы аркылуу кургактык жол менен да барууга болот.",
-          "gettingThereBullets": ["Бишкек–Ош ички авиа каттамы (болжол менен 1 саат), андан ары унаа менен", "Бишкек–Ош трассасы аркылуу кургактык жол (10-12 саат)", "Арстанбап жана Сары-Челек Жалал-Абад шаарынан 2-3 саат алыстыкта"],
+          "gettingThereBullets": [
+            "Бишкек–Ош ички авиа каттамы (болжол менен 1 саат), андан ары унаа менен",
+            "Бишкек–Ош трассасы аркылуу кургактык жол (10-12 саат)",
+            "Арстанбап жана Сары-Челек Жалал-Абад шаарынан 2-3 саат алыстыкта"
+          ],
           "ctaTitle": "Жалал-Абадды изилдөөгө даярсызбы?"
         }
       }
@@ -336,18 +759,46 @@
           "short": "Central Asia's oldest city, its bazaar and sacred mountain",
           "about": "Osh is one of the oldest continuously inhabited cities in Central Asia, built around the sacred Sulaiman-Too mountain on an ancient branch of the Silk Road. Its sprawling bazaar and layered history make it a vivid contrast to the high mountain regions.",
           "info": [
-            { "k": "Best time", "v": "April–October" },
-            { "k": "From Bishkek", "v": "Short flight, or 10–12 hours by road" },
-            { "k": "Activities", "v": "Culture, sightseeing" },
-            { "k": "Difficulty", "v": "Easy" }
+            {
+              "k": "Best time",
+              "v": "April–October"
+            },
+            {
+              "k": "From Bishkek",
+              "v": "Short flight, or 10–12 hours by road"
+            },
+            {
+              "k": "Activities",
+              "v": "Culture, sightseeing"
+            },
+            {
+              "k": "Difficulty",
+              "v": "Easy"
+            }
           ],
           "highlights": [
-            { "t": "Sulaiman-Too", "d": "A UNESCO World Heritage mountain rising directly out of the city, considered sacred for over a thousand years. Trails and old pilgrimage sites lead to the summit and a small museum built into the rock.", "img": "https://images.pexels.com/photos/12702443/pexels-photo-12702443.jpeg?auto=compress&cs=tinysrgb&w=1000" },
-            { "t": "Osh Bazaar", "d": "One of the oldest and largest markets in Central Asia, trading on this site for over a thousand years. Come for the spices, bread and the everyday rhythm of the city.", "img": "/assets/images/general/mountain-lake-yurts.webp" },
-            { "t": "Old Town Osh", "d": "Narrow streets around the bazaar and the Ak-Buura river preserve a layered mix of Silk Road history and Soviet-era architecture, best explored on foot.", "img": "/assets/images/general/camel-pastures.webp" }
+            {
+              "t": "Sulaiman-Too",
+              "d": "A UNESCO World Heritage mountain rising directly out of the city, considered sacred for over a thousand years. Trails and old pilgrimage sites lead to the summit and a small museum built into the rock.",
+              "img": "https://images.pexels.com/photos/12702443/pexels-photo-12702443.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            },
+            {
+              "t": "Osh Bazaar",
+              "d": "One of the oldest and largest markets in Central Asia, trading on this site for over a thousand years. Come for the spices, bread and the everyday rhythm of the city.",
+              "img": "/assets/images/general/mountain-lake-yurts.webp"
+            },
+            {
+              "t": "Old Town Osh",
+              "d": "Narrow streets around the bazaar and the Ak-Buura river preserve a layered mix of Silk Road history and Soviet-era architecture, best explored on foot.",
+              "img": "/assets/images/general/camel-pastures.webp"
+            }
           ],
           "gettingThere": "Osh has its own airport with regular domestic flights from Bishkek (about 1 hour). The overland route via the Bishkek-Osh highway takes 10–12 hours through dramatic mountain scenery.",
-          "gettingThereBullets": ["Domestic flight Bishkek-Osh (about 1 hour)", "Overland via the Bishkek-Osh highway (10–12 hours)", "Good base for continuing to Arslanbob or Sary-Chelek"],
+          "gettingThereBullets": [
+            "Domestic flight Bishkek-Osh (about 1 hour)",
+            "Overland via the Bishkek-Osh highway (10–12 hours)",
+            "Good base for continuing to Arslanbob or Sary-Chelek"
+          ],
           "ctaTitle": "Ready to Explore Osh?"
         },
         "ru": {
@@ -355,18 +806,46 @@
           "short": "Древнейший город Центральной Азии, его базар и священная гора",
           "about": "Ош — один из старейших непрерывно населённых городов Центральной Азии, выросший вокруг священной горы Сулайман-Тоо на древнем ответвлении Шёлкового пути. Его обширный базар и многослойная история создают яркий контраст высокогорным регионам.",
           "info": [
-            { "k": "Лучшее время", "v": "Апрель–октябрь" },
-            { "k": "От Бишкека", "v": "Короткий перелёт или 10–12 часов по дороге" },
-            { "k": "Активности", "v": "Культура, экскурсии" },
-            { "k": "Сложность", "v": "Лёгкая" }
+            {
+              "k": "Лучшее время",
+              "v": "Апрель–октябрь"
+            },
+            {
+              "k": "От Бишкека",
+              "v": "Короткий перелёт или 10–12 часов по дороге"
+            },
+            {
+              "k": "Активности",
+              "v": "Культура, экскурсии"
+            },
+            {
+              "k": "Сложность",
+              "v": "Лёгкая"
+            }
           ],
           "highlights": [
-            { "t": "Сулайман-Тоо", "d": "Гора из списка Всемирного наследия ЮНЕСКО, поднимающаяся прямо из города и считающаяся священной более тысячи лет. Тропы и старые места паломничества ведут к вершине и небольшому музею, встроенному в скалу.", "img": "https://images.pexels.com/photos/12702443/pexels-photo-12702443.jpeg?auto=compress&cs=tinysrgb&w=1000" },
-            { "t": "Ошский базар", "d": "Один из старейших и крупнейших рынков Центральной Азии, торговля на этом месте идёт уже более тысячи лет. Приезжайте ради специй, хлеба и живого ритма города.", "img": "/assets/images/general/mountain-lake-yurts.webp" },
-            { "t": "Старый Ош", "d": "Узкие улочки вокруг базара и реки Ак-Буура хранят смесь истории Шёлкового пути и советской архитектуры — лучше всего исследовать пешком.", "img": "/assets/images/general/camel-pastures.webp" }
+            {
+              "t": "Сулайман-Тоо",
+              "d": "Гора из списка Всемирного наследия ЮНЕСКО, поднимающаяся прямо из города и считающаяся священной более тысячи лет. Тропы и старые места паломничества ведут к вершине и небольшому музею, встроенному в скалу.",
+              "img": "https://images.pexels.com/photos/12702443/pexels-photo-12702443.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            },
+            {
+              "t": "Ошский базар",
+              "d": "Один из старейших и крупнейших рынков Центральной Азии, торговля на этом месте идёт уже более тысячи лет. Приезжайте ради специй, хлеба и живого ритма города.",
+              "img": "/assets/images/general/mountain-lake-yurts.webp"
+            },
+            {
+              "t": "Старый Ош",
+              "d": "Узкие улочки вокруг базара и реки Ак-Буура хранят смесь истории Шёлкового пути и советской архитектуры — лучше всего исследовать пешком.",
+              "img": "/assets/images/general/camel-pastures.webp"
+            }
           ],
           "gettingThere": "В Оше свой аэропорт с регулярными внутренними рейсами из Бишкека (около часа). Наземный маршрут по трассе Бишкек–Ош занимает 10–12 часов через впечатляющие горные пейзажи.",
-          "gettingThereBullets": ["Внутренний рейс Бишкек–Ош (около часа)", "Наземный маршрут по трассе Бишкек–Ош (10–12 часов)", "Удобная база для поездки в Арсланбоб или Сары-Челек"],
+          "gettingThereBullets": [
+            "Внутренний рейс Бишкек–Ош (около часа)",
+            "Наземный маршрут по трассе Бишкек–Ош (10–12 часов)",
+            "Удобная база для поездки в Арсланбоб или Сары-Челек"
+          ],
           "ctaTitle": "Готовы исследовать Ош?"
         },
         "ky": {
@@ -374,18 +853,46 @@
           "short": "Борбордук Азиянын эң байыркы шаары, анын базары жана ыйык тоосу",
           "about": "Ош — Борбордук Азиядагы токтоосуз жашап келе жаткан эң байыркы шаарлардын бири, байыркы Жибек Жолунун бир тармагындагы ыйык Сулайман-Тоо тоосунун тегерегинде курулган. Анын кеңири базары жана көп катмарлуу тарыхы бийик тоо аймактарына жандуу карама-каршылык түзөт.",
           "info": [
-            { "k": "Эң жакшы убакыт", "v": "Апрель–октябрь" },
-            { "k": "Бишкектен", "v": "Кыска авиа каттам же жол менен 10-12 саат" },
-            { "k": "Иш-аракеттер", "v": "Маданият, экскурсия" },
-            { "k": "Кыйынчылык", "v": "Жеңил" }
+            {
+              "k": "Эң жакшы убакыт",
+              "v": "Апрель–октябрь"
+            },
+            {
+              "k": "Бишкектен",
+              "v": "Кыска авиа каттам же жол менен 10-12 саат"
+            },
+            {
+              "k": "Иш-аракеттер",
+              "v": "Маданият, экскурсия"
+            },
+            {
+              "k": "Кыйынчылык",
+              "v": "Жеңил"
+            }
           ],
           "highlights": [
-            { "t": "Сулайман-Тоо", "d": "Шаардан түз көтөрүлгөн, миң жылдан ашык ыйык деп эсептелген ЮНЕСКО дүйнөлүк мурастар тизмесиндеги тоо. Жолдор жана эски зыярат орундары чокуга жана аска ичине курулган кичине музейге алып барат.", "img": "https://images.pexels.com/photos/12702443/pexels-photo-12702443.jpeg?auto=compress&cs=tinysrgb&w=1000" },
-            { "t": "Ош базары", "d": "Борбордук Азиядагы эң байыркы жана эң чоң базарлардын бири, бул жерде миң жылдан ашык убакыттан бери соода жүрүп келет. Даамдуулуктар, нан жана шаардын күндөлүк ритми үчүн келиңиз.", "img": "/assets/images/general/mountain-lake-yurts.webp" },
-            { "t": "Эски Ош", "d": "Базар жана Ак-Буура дарыясынын тегерегиндеги тар көчөлөр Жибек Жолу тарыхы менен советтик архитектуранын аралашмасын сактап калган — жөө басып изилдөө эң жакшы.", "img": "/assets/images/general/camel-pastures.webp" }
+            {
+              "t": "Сулайман-Тоо",
+              "d": "Шаардан түз көтөрүлгөн, миң жылдан ашык ыйык деп эсептелген ЮНЕСКО дүйнөлүк мурастар тизмесиндеги тоо. Жолдор жана эски зыярат орундары чокуга жана аска ичине курулган кичине музейге алып барат.",
+              "img": "https://images.pexels.com/photos/12702443/pexels-photo-12702443.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            },
+            {
+              "t": "Ош базары",
+              "d": "Борбордук Азиядагы эң байыркы жана эң чоң базарлардын бири, бул жерде миң жылдан ашык убакыттан бери соода жүрүп келет. Даамдуулуктар, нан жана шаардын күндөлүк ритми үчүн келиңиз.",
+              "img": "/assets/images/general/mountain-lake-yurts.webp"
+            },
+            {
+              "t": "Эски Ош",
+              "d": "Базар жана Ак-Буура дарыясынын тегерегиндеги тар көчөлөр Жибек Жолу тарыхы менен советтик архитектуранын аралашмасын сактап калган — жөө басып изилдөө эң жакшы.",
+              "img": "/assets/images/general/camel-pastures.webp"
+            }
           ],
           "gettingThere": "Оштун өз аэропорту бар, Бишкектен туруктуу ички авиа каттамдар менен (болжол менен 1 саат). Бишкек–Ош трассасы аркылуу кургактык жол укмуштуудай тоо пейзаждары аркылуу 10-12 саат алат.",
-          "gettingThereBullets": ["Бишкек–Ош ички авиа каттамы (болжол менен 1 саат)", "Бишкек–Ош трассасы аркылуу кургактык жол (10-12 саат)", "Арстанбапка же Сары-Челекке андан ары жүрүү үчүн ыңгайлуу база"],
+          "gettingThereBullets": [
+            "Бишкек–Ош ички авиа каттамы (болжол менен 1 саат)",
+            "Бишкек–Ош трассасы аркылуу кургактык жол (10-12 саат)",
+            "Арстанбапка же Сары-Челекке андан ары жүрүү үчүн ыңгайлуу база"
+          ],
           "ctaTitle": "Ошту изилдөөгө даярсызбы?"
         }
       }
@@ -401,17 +908,41 @@
           "short": "Kyrgyzstan's remote southwestern borderlands",
           "about": "Batken is Kyrgyzstan's southwesternmost and least-visited region, a patchwork of mountains and river valleys famous for their apricot orchards. Tourism infrastructure here is still minimal, which is part of its appeal for travelers looking for somewhere genuinely off the map.",
           "info": [
-            { "k": "Best time", "v": "May–September" },
-            { "k": "From Bishkek", "v": "Long overland trip or flight via Osh" },
-            { "k": "Activities", "v": "Culture, scenery" },
-            { "k": "Difficulty", "v": "Moderate" }
+            {
+              "k": "Best time",
+              "v": "May–September"
+            },
+            {
+              "k": "From Bishkek",
+              "v": "Long overland trip or flight via Osh"
+            },
+            {
+              "k": "Activities",
+              "v": "Culture, scenery"
+            },
+            {
+              "k": "Difficulty",
+              "v": "Moderate"
+            }
           ],
           "highlights": [
-            { "t": "Batken Valley", "d": "Quiet mountain valleys and villages where apricot orchards bloom in spring and dried fruit is a way of life. Few outside visitors make it this far.", "img": "https://images.pexels.com/photos/13328462/pexels-photo-13328462.jpeg?auto=compress&cs=tinysrgb&w=1000" },
-            { "t": "Apricot Orchards", "d": "Batken is known across Kyrgyzstan for its apricots — when the orchards bloom or fruit in season, the valleys turn into a patchwork of color.", "img": "https://images.pexels.com/photos/37085967/pexels-photo-37085967.jpeg?auto=compress&cs=tinysrgb&w=1000" }
+            {
+              "t": "Batken Valley",
+              "d": "Quiet mountain valleys and villages where apricot orchards bloom in spring and dried fruit is a way of life. Few outside visitors make it this far.",
+              "img": "https://images.pexels.com/photos/13328462/pexels-photo-13328462.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            },
+            {
+              "t": "Apricot Orchards",
+              "d": "Batken is known across Kyrgyzstan for its apricots — when the orchards bloom or fruit in season, the valleys turn into a patchwork of color.",
+              "img": "https://images.pexels.com/photos/37085967/pexels-photo-37085967.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            }
           ],
           "gettingThere": "Batken is reached by a long overland journey or a flight to Osh followed by a road trip further southwest. This is a region we can help arrange with advance notice rather than a standard tour.",
-          "gettingThereBullets": ["Flight to Osh, then onward by car", "Roads can be affected by border-area conditions — check current access before planning", "Best arranged directly with us in advance"],
+          "gettingThereBullets": [
+            "Flight to Osh, then onward by car",
+            "Roads can be affected by border-area conditions — check current access before planning",
+            "Best arranged directly with us in advance"
+          ],
           "ctaTitle": "Curious About Batken?"
         },
         "ru": {
@@ -419,17 +950,41 @@
           "short": "Отдалённые юго-западные окраины Кыргызстана",
           "about": "Баткен — самый юго-западный и наименее посещаемый регион Кыргызстана, мозаика гор и речных долин, известная своими абрикосовыми садами. Туристическая инфраструктура здесь пока минимальна — в этом и часть привлекательности для путешественников, ищущих по-настоящему нехоженые места.",
           "info": [
-            { "k": "Лучшее время", "v": "Май–сентябрь" },
-            { "k": "От Бишкека", "v": "Долгая поездка по земле или перелёт через Ош" },
-            { "k": "Активности", "v": "Культура, пейзажи" },
-            { "k": "Сложность", "v": "Средняя" }
+            {
+              "k": "Лучшее время",
+              "v": "Май–сентябрь"
+            },
+            {
+              "k": "От Бишкека",
+              "v": "Долгая поездка по земле или перелёт через Ош"
+            },
+            {
+              "k": "Активности",
+              "v": "Культура, пейзажи"
+            },
+            {
+              "k": "Сложность",
+              "v": "Средняя"
+            }
           ],
           "highlights": [
-            { "t": "Баткенская долина", "d": "Тихие горные долины и сёла, где весной цветут абрикосовые сады, а сушка фруктов — часть повседневной жизни. Мало кто из туристов добирается так далеко.", "img": "https://images.pexels.com/photos/13328462/pexels-photo-13328462.jpeg?auto=compress&cs=tinysrgb&w=1000" },
-            { "t": "Абрикосовые сады", "d": "Баткен известен по всему Кыргызстану своими абрикосами — когда сады цветут или плодоносят, долины превращаются в живое пёстрое полотно.", "img": "https://images.pexels.com/photos/37085967/pexels-photo-37085967.jpeg?auto=compress&cs=tinysrgb&w=1000" }
+            {
+              "t": "Баткенская долина",
+              "d": "Тихие горные долины и сёла, где весной цветут абрикосовые сады, а сушка фруктов — часть повседневной жизни. Мало кто из туристов добирается так далеко.",
+              "img": "https://images.pexels.com/photos/13328462/pexels-photo-13328462.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            },
+            {
+              "t": "Абрикосовые сады",
+              "d": "Баткен известен по всему Кыргызстану своими абрикосами — когда сады цветут или плодоносят, долины превращаются в живое пёстрое полотно.",
+              "img": "https://images.pexels.com/photos/37085967/pexels-photo-37085967.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            }
           ],
           "gettingThere": "До Баткена добираются долгим наземным путём или перелётом до Оша с дальнейшей дорогой на юго-запад. Это регион, который мы помогаем организовать по предварительной договорённости, а не в рамках стандартного тура.",
-          "gettingThereBullets": ["Перелёт до Оша, затем на машине", "Состояние дорог может зависеть от обстановки в приграничной зоне — уточняйте актуальный доступ заранее", "Лучше организовать напрямую с нами заранее"],
+          "gettingThereBullets": [
+            "Перелёт до Оша, затем на машине",
+            "Состояние дорог может зависеть от обстановки в приграничной зоне — уточняйте актуальный доступ заранее",
+            "Лучше организовать напрямую с нами заранее"
+          ],
           "ctaTitle": "Интересует Баткен?"
         },
         "ky": {
@@ -437,17 +992,41 @@
           "short": "Кыргызстандын алыскы түштүк-батыш чек арасы",
           "about": "Баткен — Кыргызстандын эң түштүк-батыш жана эң аз көрүлгөн региону, өрүк бактары менен белгилүү тоолор менен дарыя өрөөндөрүнүн жыйындысы. Бул жерде туристтик инфраструктура азырынча минималдуу — бул чындап эле картадан тышкаркы жерлерди издеген саякатчылар үчүн анын тартымдуулугунун бир бөлүгү.",
           "info": [
-            { "k": "Эң жакшы убакыт", "v": "Май–сентябрь" },
-            { "k": "Бишкектен", "v": "Узак кургактык сапар же Ош аркылуу авиа каттам" },
-            { "k": "Иш-аракеттер", "v": "Маданият, пейзаждар" },
-            { "k": "Кыйынчылык", "v": "Орточо" }
+            {
+              "k": "Эң жакшы убакыт",
+              "v": "Май–сентябрь"
+            },
+            {
+              "k": "Бишкектен",
+              "v": "Узак кургактык сапар же Ош аркылуу авиа каттам"
+            },
+            {
+              "k": "Иш-аракеттер",
+              "v": "Маданият, пейзаждар"
+            },
+            {
+              "k": "Кыйынчылык",
+              "v": "Орточо"
+            }
           ],
           "highlights": [
-            { "t": "Баткен өрөөнү", "d": "Жазында өрүк бактары гүлдөгөн, кургатылган мөмө-жемиш күнүмдүк жашоонун бир бөлүгү болгон тынч тоо өрөөндөрү жана айылдары. Сырттан келген коноктор бул жерге сейрек жетишет.", "img": "https://images.pexels.com/photos/13328462/pexels-photo-13328462.jpeg?auto=compress&cs=tinysrgb&w=1000" },
-            { "t": "Өрүк бактары", "d": "Баткен бүткүл Кыргызстанда өрүгү менен белгилүү — бактар гүлдөгөндө же мөмө байлаганда, өрөөндөр түркүн-түстүү жайкерчиликке айланат.", "img": "https://images.pexels.com/photos/37085967/pexels-photo-37085967.jpeg?auto=compress&cs=tinysrgb&w=1000" }
+            {
+              "t": "Баткен өрөөнү",
+              "d": "Жазында өрүк бактары гүлдөгөн, кургатылган мөмө-жемиш күнүмдүк жашоонун бир бөлүгү болгон тынч тоо өрөөндөрү жана айылдары. Сырттан келген коноктор бул жерге сейрек жетишет.",
+              "img": "https://images.pexels.com/photos/13328462/pexels-photo-13328462.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            },
+            {
+              "t": "Өрүк бактары",
+              "d": "Баткен бүткүл Кыргызстанда өрүгү менен белгилүү — бактар гүлдөгөндө же мөмө байлаганда, өрөөндөр түркүн-түстүү жайкерчиликке айланат.",
+              "img": "https://images.pexels.com/photos/37085967/pexels-photo-37085967.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            }
           ],
           "gettingThere": "Баткенге узак кургактык сапар же Ошко авиа каттам менен, андан ары түштүк-батышка карай унаа менен жетүүгө болот. Бул аймакты биз стандарттык тур эмес, алдын ала макулдашуу менен уюштурабыз.",
-          "gettingThereBullets": ["Ошко авиа каттам, андан ары унаа менен", "Жолдор чек ара аймагынын абалына жараша болушу мүмкүн — алдын ала актуалдуу жеткиликтүүлүктү текшериңиз", "Биз менен алдын ала түз макулдашуу менен уюштурган жакшы"],
+          "gettingThereBullets": [
+            "Ошко авиа каттам, андан ары унаа менен",
+            "Жолдор чек ара аймагынын абалына жараша болушу мүмкүн — алдын ала актуалдуу жеткиликтүүлүктү текшериңиз",
+            "Биз менен алдын ала түз макулдашуу менен уюштурган жакшы"
+          ],
           "ctaTitle": "Баткен кызыктырдыбы?"
         }
       }

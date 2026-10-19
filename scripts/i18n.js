@@ -17,13 +17,14 @@ const UI = {
       follow: 'Follow',
       viewTour: 'View tour',
       viewAllTours: 'View All Tours',
+      viewRelatedTours: 'View Related Tours',
       viewAllDestinations: 'View All Destinations',
       fromPricePerPerson: function (price) { return 'From $' + price + ' per person'; },
       minRateNote: '(min. 4 people rate)',
       exploreArrow: 'View Tours →',
       tagline: 'Horse and 4x4 adventures from At-Bashy'
     },
-    nav: { tours: 'Tours', destinations: 'Destinations', about: 'About', practicalInfo: 'Practical Info', contact: 'Contact' },
+    nav: { tours: 'Tours', destinations: 'Destinations', about: 'About', practicalInfo: 'Practical Info', blog: 'Blog', contact: 'Contact' },
     home: {
       heroTitle: 'Authentic horseriding, hiking and offroad adventures in the heart of Kyrgyzstan',
       heroSubtitle: 'From At-Bashy gorges to Kel-Suu and Song-Kul — we want to show you our region in all its beauty',
@@ -216,6 +217,20 @@ const UI = {
       pageTitle: 'Practical Information: Travel Guide to Kyrgyzstan',
       pageDescription: 'Everything you need to know: visa, packing, safety, payment, responsible travel. Plan your trip with confidence.'
     },
+    blogIndex: {
+      heroTitle: 'Travel Guides',
+      heroSubtitle: 'Practical guides on permits, routes and getting around — written from what we know on the ground',
+      readMore: 'Read More',
+      pageTitle: 'Travel Guides: Kyrgyzstan Tips & Routes',
+      pageDescription: 'Practical guides to Kyrgyzstan — permits, how to reach remote villages and viewpoints, and other travel tips from a local team.'
+    },
+    blogDetail: {
+      backToBlog: '← All Guides',
+      galleryHeading: 'Photos from the Location',
+      ctaHeading: 'Planning a trip?',
+      ctaText: "Message us on WhatsApp and we'll help with the details.",
+      ctaBtn: 'Ask Us on WhatsApp'
+    },
     contact: {
       heroTitle: 'Contact Us',
       heroSubtitle: "Let's plan your adventure together",
@@ -255,13 +270,14 @@ const UI = {
       follow: 'Мы в соцсетях',
       viewTour: 'Подробнее',
       viewAllTours: 'Все туры',
+      viewRelatedTours: 'Похожие туры',
       viewAllDestinations: 'Все направления',
       fromPricePerPerson: function (price) { return 'От $' + price + ' за человека'; },
       minRateNote: '(мин. ставка на 4 человека)',
       exploreArrow: 'Смотреть туры →',
       tagline: 'Конные и 4x4 приключения из Ат-Баши'
     },
-    nav: { tours: 'Туры', destinations: 'Направления', about: 'О нас', practicalInfo: 'Полезная информация', contact: 'Контакты' },
+    nav: { tours: 'Туры', destinations: 'Направления', about: 'О нас', practicalInfo: 'Полезная информация', blog: 'Блог', contact: 'Контакты' },
     home: {
       heroTitle: 'Настоящие конные, пешие и внедорожные приключения в сердце Кыргызстана',
       heroSubtitle: 'От ущелий Ат-Баши до Кёль-Суу и Сон-Куля — мы хотим показать вам наш регион во всей его красе',
@@ -457,6 +473,20 @@ const UI = {
       pageTitle: 'Полезная информация: гид путешественника по Кыргызстану',
       pageDescription: 'Всё, что нужно знать: виза, сборы, безопасность, оплата, ответственный туризм. Планируйте поездку уверенно.'
     },
+    blogIndex: {
+      heroTitle: 'Путеводители',
+      heroSubtitle: 'Практические гиды про пропуска, маршруты и то, как добраться — на основе того, что мы знаем на месте',
+      readMore: 'Читать далее',
+      pageTitle: 'Путеводители: советы и маршруты по Кыргызстану',
+      pageDescription: 'Практические гиды по Кыргызстану — пропуска, как добраться до отдалённых сёл и смотровых точек, и другие советы от местной команды.'
+    },
+    blogDetail: {
+      backToBlog: '← Все гиды',
+      galleryHeading: 'Фото локации',
+      ctaHeading: 'Планируете поездку?',
+      ctaText: 'Напишите нам в WhatsApp, и мы поможем с деталями.',
+      ctaBtn: 'Спросить в WhatsApp'
+    },
     contact: {
       heroTitle: 'Контакты',
       heroSubtitle: 'Давайте спланируем ваше приключение вместе',
@@ -493,16 +523,17 @@ const UI = {
       terms: 'Шарттар',
       privacy: 'Купуялуулук',
       bishkekLocation: 'Бишкек · Ат-Башы, Кыргызстан',
-      follow: 'Бизди соцтордуктарда',
+      follow: 'Биз соц тармактарда',
       viewTour: 'Турду көрүү',
       viewAllTours: 'Бардык турлар',
+      viewRelatedTours: 'Окшош турлар',
       viewAllDestinations: 'Бардык багыттар',
       fromPricePerPerson: function (price) { return '$' + price + 'дан бир адамга'; },
       minRateNote: '(мин. 4 адамга баа)',
       exploreArrow: 'Турларды көрсөтүү →',
       tagline: 'Ат-Башыдан ат жана 4x4 укмуштуулары'
     },
-    nav: { tours: 'Турлар', destinations: 'Багыттар', about: 'Биз жөнүндө', practicalInfo: 'Пайдалуу бар акпарат', contact: 'Байланыш' },
+    nav: { tours: 'Турлар', destinations: 'Багыттар', about: 'Биз жөнүндө', practicalInfo: 'Маалымат', blog: 'Блог', contact: 'Байланыш' },
     home: {
       heroTitle: 'Кыргызстандын жүрөгүндөгү чыныгый ат, жөө жана 4x4 укмуштуулары',
       heroSubtitle: 'Ат-Башы капчыгайларынан Көл-Суу жана Соң-Көлгө чейин — биз сизге өз аймагыбызды бүткүл сулуулугунда көрсөткүбүз келет',
@@ -693,6 +724,19 @@ const UI = {
       askUsBtn: 'Суроо берүү',
       pageTitle: 'Пайдалуу маалымат: Кыргызстан боюнча саякатчынын гиди',
       pageDescription: 'Билишиңиз керек болгон бардык нерсе: виза, жабдуулар, коопсуздук, төлөм, жоопкерчиликтүү саякат. Сапарыңызды ишенимдүү пландаңыз.'
+    },
+    blogIndex: {
+      heroTitle: 'Саякат гиддери',
+      heroSubtitle: 'Уруксаттар, маршруттар жана жол тууралуу практикалык гиддер — биз жерде билгенибиз боюнча жазылган',
+      readMore: 'Толугураак окуу',
+      pageTitle: 'Саякат гиддери: Кыргызстан боюнча кеңештер жана маршруттар',
+      pageDescription: 'Кыргызстан боюнча практикалык гиддер — уруксаттар, алыскы айылдарга жана көрүнүш жерлерине кантип баруу, жана жергиликтүү командадан башка кеңештер.'
+    },
+    blogDetail: {
+      backToBlog: '← Бардык гиддер',
+      ctaHeading: 'Сапар пландап жатасызбы?',
+      ctaText: 'WhatsApp аркылуу бизге жазыңыз, биз чоо-жайын аныктоого жардам беребиз.',
+      ctaBtn: 'WhatsApp аркылуу сурануу'
     },
     contact: {
       heroTitle: 'Байланыш',
