@@ -9,11 +9,12 @@
 'use strict';
 const fs = require('fs');
 const path = require('path');
+const matter = require('gray-matter');
+const { marked } = require('marked');
 
 const ROOT = path.join(__dirname, '..');
 const TOURS = require(path.join(ROOT, 'data/tours.json')).tours;
 const DESTINATIONS = require(path.join(ROOT, 'data/destinations.json')).destinations;
-const ARTICLES = require(path.join(ROOT, 'data/articles.json')).articles;
 const I18N = require('./i18n.js');
 const UI = I18N.UI;
 const REGION_LABELS = I18N.REGION_LABELS;
@@ -29,6 +30,41 @@ const LOCALE_NAMES = { en: 'En', ky: 'Kg', ru: 'Ru' };
 const SHOW_REGIONS_SECTION = false; /* "Explore Our Regions" temporarily hidden on request */
 const SHOW_CALCULATOR = false; /* tour detail price calculator temporarily hidden on request */
 const SHOW_DURATION_FILTER = false; /* duration filter pills temporarily hidden on request, needs rework */
+
+/* Blog articles live as Markdown + frontmatter under content/blog/<locale>/<slug>.md
+   (edited via the Decap CMS admin UI, or by hand) — loaded here into the same
+   shape the rest of the site expects (slug/image/gallery/... + i18n per locale). */
+function loadArticles() {
+  const enDir = path.join(ROOT, 'content/blog/en');
+  const slugs = fs.readdirSync(enDir)
+    .filter(function (f) { return f.endsWith('.md'); })
+    .map(function (f) { return f.replace(/\.md$/, ''); });
+
+  return slugs.map(function (slug) {
+    const i18n = {};
+    let shared = {};
+    LOCALES.forEach(function (locale) {
+      const file = path.join(ROOT, 'content/blog', locale, slug + '.md');
+      const parsed = matter(fs.readFileSync(file, 'utf8'));
+      i18n[locale] = {
+        title: parsed.data.title,
+        excerpt: parsed.data.excerpt,
+        seoDescription: parsed.data.seoDescription,
+        bodyHtml: marked.parse(parsed.content.trim())
+      };
+      if (locale === DEFAULT_LOCALE) {
+        shared = {
+          image: parsed.data.image,
+          gallery: parsed.data.gallery || [],
+          publishDate: parsed.data.publishDate,
+          relatedTourSlugs: parsed.data.relatedTourSlugs || []
+        };
+      }
+    });
+    return Object.assign({ id: slug, slug: slug }, shared, { i18n: i18n });
+  });
+}
+const ARTICLES = loadArticles();
 
 const SITE = {
   name: 'At-Bashy Tours',
@@ -1202,9 +1238,15 @@ function buildArticleDetail(article, locale) {
 
 <section class="section section--white">
   <div class="container">
-    <a href="${localePath(locale, '/blog/')}" class="btn--link" style="display:inline-block;margin-bottom:24px">${bd.backToBlog}</a>
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="${localePath(locale, '/')}">${t(locale, 'common.home')}</a>
+      <span class="breadcrumbs__sep">/</span>
+      <a href="${localePath(locale, '/blog/')}">${t(locale, 'nav.blog')}</a>
+      <span class="breadcrumbs__sep">/</span>
+      <span class="breadcrumbs__current">${at.title}</span>
+    </nav>
     <div class="article-body">
-      ${at.body.map(function (p) { return '<p>' + p + '</p>'; }).join('\n      ')}
+      ${at.bodyHtml}
     </div>
   </div>
 </section>

@@ -5,6 +5,7 @@ const UI = {
   en: {
     common: {
       skipLink: 'Skip to main content',
+      home: 'Home',
       waDefaultMessage: 'Hello! I would like to plan a trip in Kyrgyzstan.',
       whatsapp: 'WhatsApp',
       chatOnWhatsapp: 'Chat on WhatsApp',
@@ -258,6 +259,7 @@ const UI = {
   ru: {
     common: {
       skipLink: 'Перейти к основному содержимому',
+      home: 'Главная',
       waDefaultMessage: 'Здравствуйте! Я хочу спланировать поездку в Кыргызстан.',
       whatsapp: 'WhatsApp',
       chatOnWhatsapp: 'Написать в WhatsApp',
@@ -514,6 +516,7 @@ const UI = {
   ky: {
     common: {
       skipLink: 'Негизги мазмунга өтүү',
+      home: 'Башкы бет',
       waDefaultMessage: 'Салам! Мен Кыргызстанга саякатты пландаштыргым келет.',
       whatsapp: 'WhatsApp',
       chatOnWhatsapp: 'WhatsAppта жазуу',

@@ -1,0 +1,26 @@
+{
+  "name": "atbashytravel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ambrose-spellman/My-travel-agency.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ambrose-spellman/My-travel-agency/issues"
+  },
+  "homepage": "https://github.com/ambrose-spellman/My-travel-agency#readme",
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "marked": "^18.1.1"
+  }
+}

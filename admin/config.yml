@@ -1,0 +1,43 @@
+backend:
+  name: github
+  repo: ambrose-spellman/My-travel-agency
+  branch: master
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+
+# Used only by the CMS to preview/upload images you add through the editor.
+media_folder: "assets/images/blog"
+public_folder: "/assets/images/blog"
+
+i18n:
+  structure: multiple_folders
+  locales: [en, ru, ky]
+  default_locale: en
+
+collections:
+  - name: "blog"
+    label: "Blog Articles"
+    label_singular: "Article"
+    folder: "content/blog"
+    create: true
+    i18n: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Slug (used in the page URL, no spaces)", name: "slug", widget: "string", i18n: duplicate }
+      - { label: "Title", name: "title", widget: "string", i18n: true }
+      - { label: "Short excerpt (shown in the blog list)", name: "excerpt", widget: "text", i18n: true }
+      - { label: "SEO description (for Google)", name: "seoDescription", widget: "text", i18n: true }
+      - { label: "Hero image", name: "image", widget: "image", i18n: duplicate }
+      - label: "Extra photos (optional gallery)"
+        name: "gallery"
+        widget: "list"
+        field: { label: "Image", name: "src", widget: "image" }
+        required: false
+        i18n: duplicate
+      - { label: "Publish date", name: "publishDate", widget: "date", i18n: duplicate }
+      - label: "Related tour slugs (optional)"
+        name: "relatedTourSlugs"
+        widget: "list"
+        required: false
+        i18n: duplicate
+      - { label: "Article text", name: "body", widget: "markdown", i18n: true }
