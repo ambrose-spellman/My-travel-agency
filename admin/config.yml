@@ -33,11 +33,11 @@ collections:
         widget: "list"
         field: { label: "Image", name: "src", widget: "image" }
         required: false
-        i18n: duplicate
+        i18n: true
       - { label: "Publish date", name: "publishDate", widget: "date", i18n: duplicate }
       - label: "Related tour slugs (optional)"
         name: "relatedTourSlugs"
         widget: "list"
         required: false
-        i18n: duplicate
+        i18n: true
       - { label: "Article text", name: "body", widget: "markdown", i18n: true }

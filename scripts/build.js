@@ -1226,17 +1226,7 @@ function buildArticleDetail(article, locale) {
   };
 
   const body = `
-<section class="hero-detail hero-detail--dest">
-  <img class="hero-detail__media" src="${article.image}" alt="${attr(at.title)}">
-  <div class="hero-detail__scrim"></div>
-  <div class="hero-detail__content">
-    <div class="container stack--sm">
-      <h1 style="margin:0">${at.title}</h1>
-    </div>
-  </div>
-</section>
-
-<section class="section section--white">
+<section class="section section--white" style="padding-bottom:0">
   <div class="container">
     <nav class="breadcrumbs" aria-label="Breadcrumb">
       <a href="${localePath(locale, '/')}">${t(locale, 'common.home')}</a>
@@ -1245,6 +1235,12 @@ function buildArticleDetail(article, locale) {
       <span class="breadcrumbs__sep">/</span>
       <span class="breadcrumbs__current">${at.title}</span>
     </nav>
+    <h1 style="max-width:760px;margin:0 auto 28px">${at.title}</h1>
+  </div>
+</section>
+
+<section class="section section--white">
+  <div class="container">
     <div class="article-body">
       ${at.bodyHtml}
     </div>
