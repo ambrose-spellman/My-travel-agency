@@ -369,7 +369,6 @@ function tourCardHtml(tour, locale) {
   const tt = tr(tour, locale);
   const dur = durationLabel(locale, tour.durationMin, tour.durationMax);
   const activityLabel = t(locale, 'toursIndex.activities.' + tour.activity) || tour.activity;
-  const waMsg = tt.whatsappMessage;
   return `
 <article class="tour-card" data-activity="${tour.activity}" data-regions="${tour.region.join('|')}" data-duration-min="${tour.durationMin}" data-duration-max="${tour.durationMax}">
   <div class="tour-card__media"><img src="${tour.image}" alt="${attr(tt.title)}" loading="lazy"></div>
@@ -381,8 +380,7 @@ function tourCardHtml(tour, locale) {
     <h3 class="tour-card__title"><a href="${localePath(locale, '/tours/' + tour.slug + '/')}" style="color:inherit">${tt.title}</a></h3>
     <div class="tour-card__meta">${dur} &middot; ${tt.difficulty}</div>
     <div class="tour-card__actions">
-      <a href="${localePath(locale, '/tours/' + tour.slug + '/')}" class="btn btn--outline">${t(locale, 'common.viewTour')}</a>
-      <a href="#" data-wa-message="${attr(waMsg)}" target="_blank" rel="noopener" class="btn btn--whatsapp">${t(locale, 'common.whatsapp')}</a>
+      <a href="${localePath(locale, '/tours/' + tour.slug + '/')}" class="btn btn--primary btn--block">${t(locale, 'common.viewTour')}</a>
     </div>
   </div>
 </article>`;
@@ -492,7 +490,6 @@ function buildHome(locale) {
       <div class="guide-grid__badge"><strong>${h.guideSeasonsBadge}</strong><span>${h.guideSeasonsLabel}</span></div>
     </div>
     <div class="guide-grid__text">
-      <p class="eyebrow">${h.guideEyebrow}</p>
       <h2>${h.founderGreeting}</h2>
       <p class="guide-grid__role">${h.founderRole}</p>
       ${founderFlowing.map(function (p) { return '<p>' + p + '</p>'; }).join('\n      ')}
@@ -857,7 +854,7 @@ ${tour.photos && tour.photos.length ? `
   </div>
 </section>` : ''}
 
-<section class="section section--mint">
+<section class="section section--cream">
   <div class="container grid-2">
     <div class="stack--sm">
       <h2>${isHorse ? td.horseSafetyHeading : td.roadSafetyHeading}</h2>
@@ -1097,7 +1094,7 @@ function buildAbout(locale) {
   </div>
 </section>
 
-<section class="section section--peach text-center">
+<section class="section section--cream text-center">
   <div class="container max-w-800 stack--sm" style="align-items:center;display:flex;flex-direction:column">
     <h2 style="margin:0">${a.meetUsHeading}</h2>
     <p style="margin:0;font-size:18px;color:#8A3A1C">${a.meetUsText}</p>
@@ -1186,16 +1183,13 @@ function articleListItemHtml(article, locale) {
 function buildBlogIndex(locale) {
   const bi = UI[locale].blogIndex;
   const body = `
-<section class="section section--white text-center">
-  <div class="container stack--sm" style="align-items:center">
-    <h1 style="margin:0">${bi.heroTitle}</h1>
-    <p style="margin:0;font-size:18px;color:var(--color-text-muted);max-width:640px">${bi.heroSubtitle}</p>
-  </div>
-</section>
-
 <section class="section--tight section--bg">
-  <div class="container article-list">
-    ${ARTICLES.map(function (a) { return articleListItemHtml(a, locale); }).join('\n')}
+  <div class="container">
+    <h1 style="max-width:820px;margin:0 auto 8px">${bi.heroTitle}</h1>
+    <p style="max-width:820px;margin:0 auto 32px;font-size:16px;color:var(--color-text-muted)">${bi.heroSubtitle}</p>
+    <div class="article-list">
+      ${ARTICLES.map(function (a) { return articleListItemHtml(a, locale); }).join('\n')}
+    </div>
   </div>
 </section>`;
 

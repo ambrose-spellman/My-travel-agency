@@ -23,10 +23,10 @@
   --color-white: #FFFFFF;
   --color-light-bg:#F4EFE9;
   --color-ink: #172317;
-  --color-forest-dark: #13322A;
-  --color-forest: #2F6B56;
-  --color-forest-deep: #0F2922;
-  --color-mint: #E6F0EC;
+  --color-forest-dark: #4F1F10;
+  --color-forest: #4F1F10;
+  --color-forest-deep: #3A170B;
+  --color-mint: #F4EFE9;
   --color-sand: #F0D28D;
   --color-peach: #FDE9E0;
   --color-terracotta: #F78154;
@@ -34,22 +34,22 @@
   --color-gold: #FFB22C;
   --color-whatsapp: #5FAD56;
   --color-whatsapp-dark: #4A8F43;
-  --color-sage: #4D9078;
-  --color-sage-dark: #245543;
+  --color-sage: #FFB22C;
+  --color-sage-dark: #4F1F10;
   --color-border: #E3E6DF;
   --color-text: #172317;
   --color-text-muted: #5E6A60;
   --color-text-mute-2: #7D877F;
   --color-text-mute-3: #4F5A52;
-  --color-success: #28C76F;
+  --color-success: #FFB22C;
   --color-error: #EA5455;
 
-  /* Warm cream + amber + orange accents */
+  /* Warm cream + amber accent */
   --color-heading: #4F1F10;
-  --color-accent: #2FBF71;
-  --color-accent-dark: #1E8F55;
-  --color-accent-light: #8CD867;
-  --color-accent-2: #FF8C00;
+  --color-accent: #FFB22C;
+  --color-accent-dark: #4F1F10;
+  --color-accent-light: #FFB22C;
+  --color-accent-2: #FFB22C;
   --color-accent-2-dark: #4F1F10;
 
   /* Typography */
@@ -155,13 +155,14 @@ main { flex: 1; }
 .section--white { background: var(--color-white); }
 .section--bg { background: var(--color-bg); }
 .section--mint { background: var(--color-mint); }
-.section--forest { background: var(--color-forest); color: var(--color-white); }
+.section--cream { background: var(--color-light-bg); }
+.section--forest { background: var(--color-heading); color: var(--color-white); }
 .section--forest-dark { background: var(--color-forest-dark); color: var(--color-white); }
 .section--peach { background: var(--color-peach); }
 .section--black { background: #000; color: var(--color-white); }
 .section--photo { position: relative; overflow: hidden; color: var(--color-white); }
 .section--photo .section__bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-.section--photo .section__scrim { position: absolute; inset: 0; background: rgba(19,50,42,.6); }
+.section--photo .section__scrim { position: absolute; inset: 0; background: rgba(79,31,16,.6); }
 .section--photo > .container { position: relative; }
 
 .section--forest h2,
