@@ -28,8 +28,8 @@
   color: var(--color-ink);
   border-bottom: 2px solid transparent;
 }
-.site-nav a:hover { color: var(--color-accent-2-dark); border-bottom-color: var(--color-accent-2); }
-.site-nav a[aria-current="page"] { color: var(--color-accent-2-dark); border-bottom-color: var(--color-accent-2); }
+.site-nav a:hover { color: var(--color-accent-2-dark); border-bottom-color: var(--color-gold); }
+.site-nav a[aria-current="page"] { color: var(--color-accent-2-dark); border-bottom-color: var(--color-gold); }
 
 .site-header__actions { display: flex; align-items: center; gap: 16px; }
 
@@ -43,7 +43,7 @@
   color: var(--color-text-mute-2);
 }
 .lang-switcher a:hover { color: var(--color-ink); }
-.lang-switcher a.is-active { background: var(--color-accent-2); color: #fff; }
+.lang-switcher a.is-active { background: var(--color-accent-2); color: var(--color-accent-2-dark); }
 
 .mobile-menu .lang-switcher { justify-content: center; align-self: center; margin-top: 4px; padding: 4px; }
 .mobile-menu .lang-switcher a { padding: 7px 14px; font-size: 13px; }
@@ -96,7 +96,7 @@
 .btn--lg { height: 56px; padding: 0 32px; }
 .btn--sm { height: 44px; padding: 0 16px; font-size: 15px; }
 
-.btn--primary { background: var(--color-accent-2); color: #fff; }
+.btn--primary { background: var(--color-accent-2); color: var(--color-accent-2-dark); }
 .btn--primary:hover { background: var(--color-accent-2-dark); color: #fff; }
 
 .btn--outline {
@@ -229,8 +229,9 @@
 
 /* Meet Your Guide section (homepage) */
 .eyebrow {
-  display: block; font: 700 13px var(--font-body); text-transform: uppercase;
-  letter-spacing: .06em; color: var(--color-accent-2-dark); margin: 0 0 10px;
+  display: inline-block; font: 700 13px var(--font-body); text-transform: uppercase;
+  letter-spacing: .06em; color: var(--color-accent-2-dark); background: var(--color-gold);
+  padding: 6px 14px; border-radius: 999px; margin: 0 0 14px;
 }
 .guide-section { background: var(--color-light-bg); }
 .guide-grid { display: grid; grid-template-columns: minmax(280px, 460px) 1fr; gap: 56px; align-items: center; }
@@ -290,7 +291,7 @@
 .hero-detail__content .container { display: flex; flex-direction: column; gap: 14px; align-items: flex-start; }
 .hero-detail__badge {
   font-size: 13px; font-weight: 600; padding: 5px 10px; border-radius: 4px;
-  background: var(--color-gold); color: #3A2A05;
+  background: var(--color-gold); color: var(--color-heading);
 }
 .hero-detail__content h1 { color: #fff; text-shadow: 0 2px 12px rgba(0,0,0,.3); text-wrap: balance; margin: 0; max-width: 900px; }
 .hero-detail__facts { display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: 15px; font-weight: 500; color: #fff; }
@@ -464,13 +465,13 @@
    ========================================================================== */
 .value-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%,300px),1fr)); gap: 40px 48px; }
 .value-item { display: flex; flex-direction: column; gap: 10px; }
-.value-item .num { font: 700 40px/1 var(--font-heading); font-style: italic; color: var(--color-pink); }
+.value-item .num { font: 700 40px/1 var(--font-heading); font-style: italic; color: var(--color-gold); }
 .value-item h3 { font: 600 20px/1.35 var(--font-body); margin: 0; color: #fff; }
 .value-item p { font-size: 16px; line-height: 1.6; color: rgba(255,255,255,.9); margin: 0; }
 
 .value-card {
   background: #fff; border-radius: var(--radius); padding: 28px; display: flex;
-  flex-direction: column; gap: 10px; border-top: 4px solid var(--color-accent-2);
+  flex-direction: column; gap: 10px; border-top: 4px solid var(--color-gold);
 }
 .value-card .t { font: 600 20px var(--font-body); }
 .value-card .d { font-size: 16px; line-height: 1.6; color: var(--color-text-muted); }
@@ -494,7 +495,7 @@
 }
 .testimonial-card__avatar { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; }
 .testimonial-card__avatar--initial {
-  background: var(--color-accent-2); color: #fff; font: 700 22px var(--font-heading);
+  background: var(--color-accent-2); color: var(--color-accent-2-dark); font: 700 22px var(--font-heading);
   display: flex; align-items: center; justify-content: center;
 }
 .testimonial-card p { margin: 0; font-size: 15px; line-height: 1.6; color: var(--color-ink); }
@@ -513,7 +514,7 @@
 
 .price-box { background: var(--color-peach); border-radius: var(--radius); padding: 32px; display: flex; flex-direction: column; gap: 6px; }
 .price-box__label { font-size: 14px; color: #8A3A1C; }
-.price-box__total { font: 700 clamp(36px,4vw,48px)/1.1 var(--font-body); color: var(--color-rose); }
+.price-box__total { font: 700 clamp(36px,4vw,48px)/1.1 var(--font-body); color: var(--color-heading); }
 .price-box__per-person { font: 700 36px/1.1 var(--font-body); color: var(--color-ink); }
 .price-box__note { font-size: 12px; color: #8A3A1C; margin-top: 12px; }
 
@@ -545,7 +546,7 @@
   display: flex; align-items: center; gap: 16px; padding: 18px 0;
   border-bottom: 1px solid var(--color-border); color: var(--color-ink);
 }
-.contact-link:hover { color: var(--color-rose); }
+.contact-link:hover { color: var(--color-heading); }
 .contact-link__icon {
   width: 44px; height: 44px; border-radius: 50%; flex-shrink: 0;
   display: flex; align-items: center; justify-content: center;
@@ -564,7 +565,7 @@
 }
 .info-nav a { padding: 8px 0; font: 500 15px var(--font-body); color: var(--color-ink); border-bottom: 2px solid transparent; }
 .info-nav a:hover { color: var(--color-accent-2-dark); }
-.info-nav a.is-active { color: var(--color-accent-2-dark); font-weight: 700; border-bottom-color: var(--color-accent-2); }
+.info-nav a.is-active { color: var(--color-accent-2-dark); font-weight: 700; border-bottom-color: var(--color-gold); }
 .info-content { flex: 3 1 480px; display: flex; flex-direction: column; gap: 48px; }
 .info-section { display: flex; flex-direction: column; gap: 14px; padding-bottom: 40px; border-bottom: 1px solid var(--color-border); scroll-margin-top: 96px; }
 .info-section p { font-size: 18px; line-height: 1.7; color: var(--color-text-mute-3); }

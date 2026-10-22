@@ -205,7 +205,7 @@ function renderHead(opts, locale) {
     '@type': 'TravelAgency',
     name: SITE.name,
     url: SITE.url,
-    logo: SITE.url + '/assets/images/logoat12.svg',
+    logo: SITE.url + '/assets/images/logo.svg',
     image: SITE.url + '/assets/images/general/IND04269.JPG',
     telephone: '+' + SITE.whatsapp,
     email: SITE.email,
@@ -270,7 +270,7 @@ function renderHeader(activeHref, locale, currentPath) {
 <a class="skip-link" href="#main-content">${t(locale, 'common.skipLink')}</a>
 <header class="site-header">
   <div class="site-header__bar">
-    <a href="${localePath(locale, '/')}" class="site-header__logo"><img src="/assets/images/logoat12.svg" alt="${SITE.name}"></a>
+    <a href="${localePath(locale, '/')}" class="site-header__logo"><img src="/assets/images/logo.svg" alt="${SITE.name}"></a>
     <nav class="site-nav" aria-label="Main navigation">
         ${navLinks}
     </nav>
@@ -306,7 +306,7 @@ function renderFooter(locale) {
 <footer class="site-footer">
   <div class="container site-footer__grid">
     <div class="site-footer__col">
-      <img src="/assets/images/logoat12.svg" alt="${SITE.name}" class="site-footer__logo">
+      <img src="/assets/images/logo.svg" alt="${SITE.name}" class="site-footer__logo">
       <span class="site-footer__tagline">${t(locale, 'common.tagline')}</span>
     </div>
     <div class="site-footer__col">
@@ -899,7 +899,7 @@ ${tour.photos && tour.photos.length ? `
     provider: {
       '@type': 'LocalBusiness',
       name: SITE.name,
-      image: SITE.url + '/assets/images/logoat12.svg',
+      image: SITE.url + '/assets/images/logo.svg',
       telephone: '+' + SITE.whatsapp,
       url: SITE.url,
       address: { '@type': 'PostalAddress', addressCountry: 'KG' }
@@ -1222,7 +1222,7 @@ function buildArticleDetail(article, locale) {
     image: SITE.url + article.image,
     datePublished: article.publishDate,
     author: { '@type': 'Organization', name: SITE.name },
-    publisher: { '@type': 'Organization', name: SITE.name, logo: { '@type': 'ImageObject', url: SITE.url + '/assets/images/logoat12.svg' } }
+    publisher: { '@type': 'Organization', name: SITE.name, logo: { '@type': 'ImageObject', url: SITE.url + '/assets/images/logo.svg' } }
   };
 
   const body = `

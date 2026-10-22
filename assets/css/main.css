@@ -21,7 +21,7 @@
   /* Brand palette */
   --color-bg: #F7F6F1;
   --color-white: #FFFFFF;
-  --color-light-bg:#fff1e7;
+  --color-light-bg:#F4EFE9;
   --color-ink: #172317;
   --color-forest-dark: #13322A;
   --color-forest: #2F6B56;
@@ -31,8 +31,7 @@
   --color-peach: #FDE9E0;
   --color-terracotta: #F78154;
   --color-terracotta-dark: #E0663A;
-  --color-gold: #F2C14E;
-  --color-rose: #B4436C;
+  --color-gold: #FFB22C;
   --color-whatsapp: #5FAD56;
   --color-whatsapp-dark: #4A8F43;
   --color-sage: #4D9078;
@@ -45,14 +44,13 @@
   --color-success: #28C76F;
   --color-error: #EA5455;
 
-  /* Mystical Pink Afterglow accents */
-  --color-heading: #363537;
+  /* Warm cream + amber + orange accents */
+  --color-heading: #4F1F10;
   --color-accent: #2FBF71;
   --color-accent-dark: #1E8F55;
   --color-accent-light: #8CD867;
-  --color-accent-2: #ED7D3A;
-  --color-accent-2-dark: #D4651F;
-  --color-pink: #EF2D56;
+  --color-accent-2: #FF8C00;
+  --color-accent-2-dark: #4F1F10;
 
   /* Typography */
   --font-heading: 'Iosevka Slab', 'DM Serif Display', serif;
@@ -120,7 +118,7 @@ body {
 img { max-width: 100%; display: block; }
 
 a { color: var(--color-forest); text-decoration: none; }
-a:hover { color: var(--color-rose); }
+a:hover { color: var(--color-heading); }
 
 h1, h2, h3, h4 {
   font-family: var(--font-heading);
@@ -196,6 +194,6 @@ button:focus-visible,
 input:focus-visible,
 select:focus-visible,
 textarea:focus-visible {
-  outline: 2px solid var(--color-rose);
+  outline: 2px solid var(--color-accent-2);
   outline-offset: 2px;
 }
