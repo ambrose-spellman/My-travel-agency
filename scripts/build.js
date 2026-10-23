@@ -160,8 +160,14 @@ function groupLabel(locale, min, max) {
   return min + '–' + max + ' ' + unit;
 }
 
-/* Locale-prefixed URL path: en stays at root, others get /ru/ or /ky/ */
+/* Locale-prefixed URL path: en stays at root, others live under /locales/<locale>/ */
 function localePath(locale, urlPath) {
+  if (locale === DEFAULT_LOCALE) return urlPath;
+  if (urlPath === '/') return '/locales/' + locale + '/';
+  return '/locales/' + locale + urlPath;
+}
+/* Old pre-move URL (/<locale>/...), kept only to emit redirect stubs. */
+function oldLocalePath(locale, urlPath) {
   if (locale === DEFAULT_LOCALE) return urlPath;
   if (urlPath === '/') return '/' + locale + '/';
   return '/' + locale + urlPath;
@@ -1366,6 +1372,34 @@ Sitemap: ${SITE.url}/sitemap.xml
   console.log('wrote robots.txt');
 }
 
+/* Thin redirect pages at the pre-move /ru/ and /ky/ URLs, pointing at the
+   new /locales/<locale>/ location, so old links/bookmarks/search results
+   still land somewhere useful. */
+function buildLegacyLocaleRedirects() {
+  const urlPaths = ['/', '/tours/', '/destinations/', '/about/', '/practical-info/', '/blog/', '/contact/']
+    .concat(TOURS.map(function (t_) { return '/tours/' + t_.slug + '/'; }))
+    .concat(DESTINATIONS.map(function (d) { return '/destinations/' + d.slug + '/'; }))
+    .concat(ARTICLES.map(function (a) { return '/blog/' + a.slug + '/'; }));
+
+  LOCALES.filter(function (l) { return l !== DEFAULT_LOCALE; }).forEach(function (locale) {
+    urlPaths.forEach(function (urlPath) {
+      const oldPath = oldLocalePath(locale, urlPath);
+      const newUrl = SITE.url + localePath(locale, urlPath);
+      const html = `<!DOCTYPE html>
+<html lang="${locale}"><head><meta charset="UTF-8">
+<meta http-equiv="refresh" content="0; url=${newUrl}">
+<link rel="canonical" href="${newUrl}">
+<title>${SITE.name}</title>
+</head><body>Moved to <a href="${newUrl}">${newUrl}</a></body></html>
+`;
+      const dest = outPath(oldPath);
+      fs.mkdirSync(path.dirname(dest), { recursive: true });
+      fs.writeFileSync(dest, html);
+    });
+  });
+  console.log('wrote legacy locale redirect stubs');
+}
+
 /* ------------------------------------------------------------------ */
 /* Client-side i18n strings (dynamic JS-rendered text) */
 /* ------------------------------------------------------------------ */
@@ -1426,4 +1460,5 @@ LOCALES.forEach(function (locale) {
   buildContact(locale);
 });
 buildSitemapAndRobots();
+buildLegacyLocaleRedirects();
 console.log('\nBuild complete:', TOURS.length, 'tours,', DESTINATIONS.length, 'destinations,', ARTICLES.length, 'articles,', LOCALES.length, 'locales.');
