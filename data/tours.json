@@ -1,204 +1,6 @@
 {
   "tours": [
     {
-      "id": "arpa-aksay-cattle-drive-horse",
-      "slug": "arpa-aksay-cattle-drive-horse",
-      "region": [
-        "At-Bashy",
-        "Naryn"
-      ],
-      "activity": "Horse",
-      "durationMin": 3,
-      "durationMax": 6,
-      "durationUnit": "days",
-      "format": [
-        "Private",
-        "Group"
-      ],
-      "season": [
-        "May",
-        "June"
-      ],
-      "priceFrom": 98,
-      "currency": "USD",
-      "image": "/assets/images/tours/mal-aidoo1.jpg",
-      "gallery": [],
-      "groupSize": {
-        "min": 2,
-        "max": 6
-      },
-      "pricing": {
-        "perDayBase": 100,
-        "organizerMarkup": 0.3,
-        "minBillableParticipants": 4,
-        "displayFromPrice": 98
-      },
-      "i18n": {
-        "en": {
-          "title": "Arpa & Aksai Cattle Drive",
-          "description": "Join a real seasonal cattle drive (перегон скота) with local chabans as they move their herds to the Arpa and Aksai valleys — this isn't a staged tourist route, it's genuine participation in the seasonal life of Kyrgyz nomadic herders. The drive happens twice a year, in spring and in winter; this departure follows the spring migration, which usually falls in a window from late May to early June and lasts about 2-3 weeks in total. Travelers join for 3-6 days on horseback within that window. Spots and dates are very limited, so we're currently taking names for a waitlist — message us on WhatsApp and we'll confirm as soon as dates are set. This is a fairly wild, rustic experience — not for travelers who prioritize comfort, but for those who want to see the real conditions chabans live and work in, combined with some of the most beautiful mountain scenery along the way.",
-          "difficulty": "Challenging",
-          "highlights": [
-            "Join a real seasonal cattle drive with local chabans",
-            "Ride 3-6 days through the Arpa and Aksai valleys",
-            "Overnight with the herding group in tents or yurts",
-            "A rare, limited-availability departure — waitlist only for now",
-            "Authentic nomadic life, not a staged tourist route",
-            "Dramatic high-mountain scenery along the way"
-          ],
-          "itinerary": [],
-          "included": [
-            "Horse for the ride",
-            "2-3 meals per day during the trek (depends on weather conditions)",
-            "Overnight accommodation with the group (tent or yurt)",
-            "Riding alongside local chabans during the drive"
-          ],
-          "notIncluded": [
-            "Flights to Bishkek",
-            "Travel insurance",
-            "Visa fees",
-            "Personal expenses"
-          ],
-          "accommodation": "Tents or yurts with the herding group along the route",
-          "transport": "Horseback",
-          "startingPoint": "Depends on the herd's route that season — confirmed closer to your dates",
-          "endingPoint": "Arpa or Aksai valley — exact point depends on that season's route",
-          "whatsappMessage": "Hello! I'd like to join the waitlist for the Arpa & Aksai Cattle Drive.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
-          "faq": [
-            {
-              "question": "Why is this a waitlist instead of a regular booking?",
-              "answer": "Dates depend on when the chabans actually move the herd, and spots are very limited. Join the waitlist on WhatsApp and we'll confirm exact dates and availability as the season approaches."
-            },
-            {
-              "question": "How is this different from your other horse treks?",
-              "answer": "This isn't a planned tourist itinerary — you're riding alongside local chabans during their real seasonal cattle drive. The route and pace follow the herd, not a fixed tourist schedule."
-            },
-            {
-              "question": "How comfortable is this tour?",
-              "answer": "It's a fairly wild, rustic experience — nights in tents or yurts with the herding group, not tourist-standard comfort. It suits travelers who want to see real chaban life, not those who prioritize comfort."
-            },
-            {
-              "question": "When exactly does it happen?",
-              "answer": "This departure follows the spring livestock drive, usually within a window from late May to early June. The window lasts about 2-3 weeks in total, and you join for 3-6 days of it on horseback — exact dates are confirmed closer to the season."
-            },
-            {
-              "question": "Do I need horse riding experience?",
-              "answer": "Yes — basic horse riding experience is recommended, since you'll be riding for several days alongside a working herd in remote terrain."
-            }
-          ]
-        },
-        "ru": {
-          "title": "Перегон скота в долину Арпа и Аксай",
-          "description": "Присоединяйтесь к настоящему сезонному перегону скота вместе с местными чабанами, которые перегоняют отары в долины Арпа и Аксай — это не постановочный туристический маршрут, а настоящее участие в сезонной жизни кыргызских кочевников. Перегон происходит два раза в год — весной и зимой; этот выезд проходит во время весенней миграции, которая обычно приходится на период с конца мая по начало июня и длится в целом около 2–3 недель. Путешественники присоединяются на 3–6 дней верхом в рамках этого периода. Мест и дат очень мало, поэтому сейчас открыт wait-лист — напишите нам в WhatsApp, и мы подтвердим даты, как только они будут определены. Это довольно дикий, нецивилизованный опыт — не для тех, кто ценит комфорт, а для тех, кто готов увидеть настоящие условия жизни чабанов, совместив это с одними из самых красивых горных пейзажей по пути.",
-          "difficulty": "Сложный",
-          "highlights": [
-            "Настоящий сезонный перегон скота вместе с местными чабанами",
-            "3–6 дней верхом через долины Арпа и Аксай",
-            "Ночёвки вместе с группой чабанов в палатках или юртах",
-            "Редкий выезд с очень ограниченным числом мест — пока только wait-лист",
-            "Настоящая жизнь кочевников, а не постановочный маршрут",
-            "Потрясающие горные пейзажи по пути"
-          ],
-          "itinerary": [],
-          "included": [
-            "Лошадь на весь маршрут",
-            "2–3-разовое питание в день на маршруте (в зависимости от погодных условий)",
-            "Ночлег вместе с группой (палатка или юрта)",
-            "Сопровождение местных чабанов во время перегона"
-          ],
-          "notIncluded": [
-            "Авиаперелёт до Бишкека",
-            "Туристическая страховка",
-            "Визовые сборы",
-            "Личные расходы"
-          ],
-          "accommodation": "Палатки или юрты вместе с группой чабанов по пути",
-          "transport": "Верхом на лошади",
-          "startingPoint": "Зависит от маршрута перегона в этом сезоне — уточняется ближе к датам",
-          "endingPoint": "Долина Арпа или Аксай — точная точка зависит от маршрута перегона в этом сезоне",
-          "whatsappMessage": "Здравствуйте! Хочу записаться в wait-лист на перегон скота в долину Арпа и Аксай.\n\nЖелаемые даты:\nКоличество путешественников:\nМоя страна:",
-          "faq": [
-            {
-              "question": "Почему это wait-лист, а не обычное бронирование?",
-              "answer": "Даты зависят от того, когда чабаны фактически начинают перегон скота, а мест очень мало. Запишитесь в wait-лист в WhatsApp, и мы подтвердим точные даты и наличие мест ближе к сезону."
-            },
-            {
-              "question": "Чем это отличается от ваших других конных туров?",
-              "answer": "Это не спланированный туристический маршрут — вы едете вместе с местными чабанами во время настоящего сезонного перегона скота. Маршрут и темп задаёт стадо, а не туристическое расписание."
-            },
-            {
-              "question": "Насколько комфортен этот тур?",
-              "answer": "Это довольно дикий, нецивилизованный опыт — ночёвки в палатках или юртах вместе с группой чабанов, без туристического комфорта. Подходит тем, кто хочет увидеть настоящую жизнь чабанов, а не тем, кто ценит комфорт."
-            },
-            {
-              "question": "Когда именно это происходит?",
-              "answer": "Этот выезд проходит во время весеннего перегона скота, обычно в период с конца мая по начало июня. В целом окно длится около 2–3 недель, а вы присоединяетесь на 3–6 дней верхом в рамках этого периода — точные даты подтверждаются ближе к сезону."
-            },
-            {
-              "question": "Нужен ли опыт верховой езды?",
-              "answer": "Да, рекомендуется базовый опыт верховой езды, так как вам предстоит ехать верхом несколько дней вместе с работающим стадом по труднодоступной местности."
-            }
-          ]
-        },
-        "ky": {
-          "title": "Арпа жана Аксай өрөөнүнө мал айдоо",
-          "description": "Жергиликтүү чабандар менен бирге малды Арпа жана Аксай өрөөндөрүнө айдап бара турган чыныгы мезгилдик мал айдоого кошулуңуз — бул ойлонулуп чыгарылган туристтик маршрут эмес, кыргыз көчмөндөрүнүн мезгилдик жашоосуна чыныгы катышуу. Мал айдоо жылына эки жолу болот — жазында жана кышында; бул сапар жазгы көчүү учурунда өтөт, ал адатта май айынын аягынан июндун башына чейинки мезгилге туура келет жана жалпысынан 2–3 жума созулат. Саякатчылар ушул мезгил ичинде 3–6 күн ат үстүндө кошулушат. Орундар жана күндөр өтө чектелүү, ошондуктан азыр wait-лист ачылды — WhatsApp аркылуу бизге жазыңыз, күндөр так аныкталгандан кийин тастыктайбыз. Бул бир топ жапайы, оор шарттуу тажрыйба — ыңгайлуулукту баалаган адамдар үчүн эмес, чабандардын чыныгы жашоо шарттарын көрүүгө даяр жана жол боюнда эң кооз тоо пейзаждарын да көргүсү келгендер үчүн.",
-          "difficulty": "Кыйын",
-          "highlights": [
-            "Жергиликтүү чабандар менен чыныгы мезгилдик мал айдоого катышуу",
-            "Арпа жана Аксай өрөөндөрү аркылуу 3–6 күн ат үстүндө",
-            "Чабандар тобу менен палаткада же боз үйдө түнөө",
-            "Орду өтө чектелген сейрек сапар — азырынча wait-лист гана",
-            "Ойдон чыгарылбаган, чыныгы көчмөн жашоо",
-            "Жол боюнда укмуштуудай тоо көрүнүштөрү"
-          ],
-          "itinerary": [],
-          "included": [
-            "Бүт маршрут үчүн ат",
-            "Маршрутта күнүнө 2-3 мертебе тамактануу (аба ырайына жараша)",
-            "Топ менен түнөө (палатка же боз үй)",
-            "Мал айдоо учурунда жергиликтүү чабандар менен коштолуу"
-          ],
-          "notIncluded": [
-            "Бишкекке чейинки авиа каттам",
-            "Саякат камсыздандыруусу",
-            "Виза төлөмдөрү",
-            "Жеке чыгымдар"
-          ],
-          "accommodation": "Маршрут боюнча чабандар тобу менен палатка же боз үйдө",
-          "transport": "Ат үстүндө",
-          "startingPoint": "Ошол сезондогу мал айдоо маршрутуна жараша — күндөргө жакындаганда тактталат",
-          "endingPoint": "Арпа же Аксай өрөөнү — так жери ошол сезондогу маршрутка жараша",
-          "whatsappMessage": "Салам! Арпа жана Аксай өрөөнүнө мал айдоо турунун wait-листине жазылгым келет.\n\nКалаган күндөр:\nСаякатчылардын саны:\nМенин өлкөм:",
-          "faq": [
-            {
-              "question": "Эмне үчүн бул wait-лист, кадимки брондоо эмес?",
-              "answer": "Күндөр чабандардын малды чын эле качан айдай баштаганына жараша болот, ал эми орундар өтө аз. WhatsApp аркылуу wait-листке жазылыңыз, биз сезонго жакындаганда так күндөрдү жана бош орундарды тастыктайбыз."
-            },
-            {
-              "question": "Бул башка ат үстүндөгү турларыңыздан эмнеси менен айырмаланат?",
-              "answer": "Бул алдын ала пландалган туристтик маршрут эмес — сиз жергиликтүү чабандар менен чыныгы мезгилдик мал айдоого катышасыз. Маршрут жана ылдамдык стадого жараша болот, туристтик тартипке эмес."
-            },
-            {
-              "question": "Бул тур канчалык ыңгайлуу?",
-              "answer": "Бул бир топ жапайы, жөнөкөй тажрыйба — чабандар тобу менен палаткада же боз үйдө түнөө, туристтик ыңгайлуулуксуз. Бул чабандардын чыныгы жашоосун көргүсү келгендерге ылайыктуу, ыңгайлуулукту баалагандарга эмес."
-            },
-            {
-              "question": "Бул так качан болот?",
-              "answer": "Бул сапар жазгы мал айдоо учурунда өтөт, адатта май айынын аягынан июндун башына чейинки мезгилде. Жалпы терезе болжол менен 2–3 жумага созулат, сиз ошол мезгилдин ичинде 3–6 күн ат үстүндө кошулуңуз — так күндөр сезонго жакындаганда тастыкталат."
-            },
-            {
-              "question": "Ат минүү тажрыйбасы керекпи?",
-              "answer": "Ооба, негизги ат минүү тажрыйбасы сунушталат, анткени сиз бир нече күн алыскы жерлерде иштеп жаткан стадо менен бирге ат үстүндө жүрөсүз."
-            }
-          ]
-        }
-      },
-      "photos": [
-        "/assets/images/tours/mal-aidoo2.jpg"
-      ]
-    },
-    {
       "id": "achakaiyndy-tash-rabat-chatyr-kol-horse",
       "slug": "achakaiyndy-tash-rabat-chatyr-kol-horse",
       "region": [
@@ -248,6 +50,7 @@
           "title": "Achakaiyndy → Tash-Rabat Horse Trek",
           "description": "An 8-day horse expedition along the At-Bashy mountain ridge — about 140 km long and up to 30 km wide, with an average height of 4,280 m and a highest point of 4,786 m. The route starts in Achakaiyndy village in the At-Bashy valley and finishes at the historic Tash-Rabat caravanserai, with a car transfer onward to Bishkek or Naryn. Exact day-by-day stops are still being finalized — send us your dates on WhatsApp for the latest route details.",
           "difficulty": "Moderate to Challenging",
+          "comfort": "Basic",
           "highlights": [
             "Ride the length of the At-Bashy mountain ridge",
             "At-Bashy valley on one side, Aksai valley on the other",
@@ -307,6 +110,7 @@
           "title": "Ачакайынды → Таш-Рабат: конный поход",
           "description": "8-дневная конная экспедиция вдоль хребта Ат-Баши — около 140 км в длину и до 30 км в ширину, со средней высотой 4280 м и наивысшей точкой 4786 м. Маршрут начинается в селе Ачакайынды в долине Ат-Баши и заканчивается у исторического каравансарая Таш-Рабат, далее — трансфер на автомобиле до Бишкека или Нарына. Точный маршрут по дням пока уточняется — напишите нам даты в WhatsApp за актуальными деталями.",
           "difficulty": "Средний – сложный",
+          "comfort": "Базовый",
           "highlights": [
             "Маршрут по всей длине хребта Ат-Баши",
             "Долина Ат-Баши по одну сторону, долина Аксай по другую",
@@ -366,6 +170,7 @@
           "title": "Ачакайынды → Таш-Рабат: ат үстүндөгү саякат",
           "description": "Ат-Башы тоо кыркасы боюнча 8 күндүк ат үстүндөгү экспедиция — болжол менен 140 км узундукта жана 30 кмге чейин туурасында, орточо бийиктиги 4280 метр, эң бийик жери 4786 метр. Маршрут Ат-Башы өрөөнүндөгү Ачакайынды айылынан башталып, тарыхый Таш-Рабат кербен-сарайында аяктайт, андан ары Бишкекке же Нарынга унаа менен трансфер. Күн сайынкы так маршрут азырынча тактоодо — актуалдуу чоо-жайын билүү үчүн WhatsApp аркылуу күндөрүңүздү жазыңыз.",
           "difficulty": "Орточо – кыйын",
+          "comfort": "Жөнөкөй",
           "highlights": [
             "Ат-Башы тоо кыркасынын бүткүл узундугу боюнча маршрут",
             "Бир тарабында Ат-Башы өрөөнү, экинчи тарабында Аксай өрөөнү",
@@ -424,8 +229,528 @@
       }
     },
     {
-      "id": "kazybek-tash-rabat-horse",
-      "slug": "kazybek-tash-rabat-horse",
+      "id": "mal-aidoo-kazybek-kelsuu-horse",
+      "slug": "mal-aidoo-kazybek-kelsuu-horse",
+      "region": [
+        "At-Bashy",
+        "Naryn",
+        "Kel-Suu"
+      ],
+      "activity": "Horse",
+      "durationMin": 4,
+      "durationMax": 4,
+      "durationUnit": "days",
+      "format": [
+        "Private",
+        "Group"
+      ],
+      "season": [
+        "June"
+      ],
+      "priceFrom": 503,
+      "currency": "USD",
+      "image": "/assets/images/tours/mal-aidoo2.jpg",
+      "gallery": [],
+      "groupSize": {
+        "min": 1,
+        "max": 6
+      },
+      "pricing": {
+        "perDayBase": 274,
+        "organizerMarkup": 0.3,
+        "minBillableParticipants": 1,
+        "displayFromPrice": 503
+      },
+      "i18n": {
+        "en": {
+          "title": "Mal Aidoo: Kazybek – Tash-Rabat – Kel-Suu Cattle Drive",
+          "description": "Join a real seasonal cattle drive (mal aidoo) with local chabans as they move their herd from Kazybek toward the summer pastures — this isn't a staged tourist route, it's genuine participation in the seasonal life of Kyrgyz nomadic herders. The drive happens twice a year, in spring and in winter; this departure follows the spring migration, which usually falls in a window from late May to early June. After two days driving the herd, you part ways with the chabans at Tash-Rabat and continue on by 4x4 to Kel-Suu lake. It's a fairly wild, rustic experience — not for travelers who prioritize comfort, but for those who want to see the real conditions chabans live and work in, combined with some of the most beautiful mountain scenery along the way.",
+          "difficulty": "Challenging",
+          "comfort": "Basic",
+          "highlights": [
+            "Join a real seasonal cattle drive with Kyrgyz herders",
+            "Full days in the saddle driving sheep, cattle and horses",
+            "Overnight at the 15th-century Tash-Rabat caravanserai",
+            "Optional side trip to Panda Pass for a view of Chatyr-Kul lake",
+            "Finish at turquoise Kel-Suu lake, with a boat ride on the water",
+            "Small groups of 1–6 travelers"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Join the Herd",
+              "description": "Start from Kazybek village, where the horses are waiting (pick-up the day before from Naryn). Safety briefing, meet your horse, your guide and the chaban family. A full day in the saddle driving the herd toward the summer pastures — help keep sheep, cattle and horses on the trail, with a trail lunch and tea along the way. Camp halfway with the herders; traditional Kyrgyz dinner by the yurt. Riding about 7–8 hours."
+            },
+            {
+              "day": 2,
+              "title": "Farewell to the Herders, Tash-Rabat",
+              "description": "Breakfast at camp, back in the saddle with the herd toward the Arpa valley. Before Arpa, say goodbye to the herders and turn off toward Tash-Rabat, arriving around midday for lunch at the yurt camp. In the afternoon, choose to ride or hike to Panda Pass for a view of Chatyr-Kul lake, or rest and explore the 15th-century caravanserai. Riding about 7–8 hours."
+            },
+            {
+              "day": 3,
+              "title": "Road to Kel-Suu",
+              "description": "Early breakfast and an early 4x4 departure (about 4–6 hours), via Aksai and Arpa if the Terek river ford is safe, otherwise via At-Bashy, Akmuz and Kyndy Pass. Arrive at the Kel-Suu yurt camp around midday for lunch. In the afternoon, ride to Kel-Suu (3,514 m), a turquoise lake framed by sheer limestone cliffs — time for photos and a boat ride on the lake. Dinner and an early night at camp."
+            },
+            {
+              "day": 4,
+              "title": "Transfer to Naryn",
+              "description": "Breakfast at camp, then transfer back to Naryn. An optional cultural programme in Naryn can be added in the afternoon. Tour ends in Naryn."
+            }
+          ],
+          "included": [
+            "Horse for the ride and saddlery",
+            "Local chaban family and English-speaking guide",
+            "4x4 transfer to and from Kel-Suu",
+            "All meals during the trek",
+            "Accommodation: herders' camp, yurt camp at Tash-Rabat, yurt camp at Kel-Suu",
+            "Kel-Suu border permit",
+            "Tash-Rabat entrance"
+          ],
+          "notIncluded": [
+            "Flights to Bishkek",
+            "Travel insurance",
+            "Riding clothes and boots",
+            "Alcohol and tips",
+            "Personal expenses"
+          ],
+          "accommodation": "Herders' camp, yurt camp near Tash-Rabat, yurt camp at Kel-Suu",
+          "transport": "Horseback (days 1–2), 4x4 (day 3), on foot/by boat at Kel-Suu",
+          "startingPoint": "Kazybek village (pick-up the day before from Naryn)",
+          "endingPoint": "Naryn",
+          "whatsappMessage": "Hello! I'd like to book the Mal Aidoo cattle drive tour to Kel-Suu.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
+          "faq": [
+            {
+              "question": "Can we choose Shaar Waterfall instead of Kel-Suu?",
+              "answer": "Yes — after the cattle drive and Tash-Rabat, you can finish at Shaar Waterfall instead of Kel-Suu. Tell us your preference when booking; pricing and logistics differ slightly between the two finales."
+            },
+            {
+              "question": "Do we need previous riding experience?",
+              "answer": "Basic comfort in the saddle helps, since days 1–2 involve 7–8 hours of riding while helping move the herd. We match horses to riders and our guide rides with the group throughout."
+            },
+            {
+              "question": "Do I need a permit for Kel-Suu?",
+              "answer": "Yes, Kel-Suu is in the border zone. We arrange the permit — send us your passport details at least 3 weeks before the tour."
+            },
+            {
+              "question": "Is this the same as your Arpa & Aksai Cattle Drive?",
+              "answer": "No — that tour follows the herd's own route into the Arpa and Aksai valleys on a flexible waitlist basis. This one has a fixed 4-day itinerary from Kazybek to Tash-Rabat and on to Kel-Suu (or Shaar Waterfall)."
+            }
+          ]
+        },
+        "ru": {
+          "title": "Mal Aidoo: Перегон скота Казыбек – Таш-Рабат – Кёль-Суу",
+          "description": "Примите участие в настоящем сезонном перегоне скота (мал айдоо) вместе с местными чабанами, которые гонят стадо от Казыбека к летним пастбищам — это не постановочный туристический маршрут, а реальное участие в сезонной жизни кыргызских кочевников-скотоводов. Перегон проходит дважды в год, весной и зимой; этот выезд приходится на весеннюю миграцию, которая обычно укладывается в окно с конца мая по начало июня. После двух дней перегона стада вы прощаетесь с чабанами у Таш-Рабата и продолжаете путь на 4x4 к озеру Кёль-Суу. Это довольно суровый, простой быт — не для тех, кто ставит комфорт на первое место, а для тех, кто хочет увидеть настоящие условия жизни и работы чабанов вместе с одними из самых красивых горных пейзажей по пути.",
+          "difficulty": "Сложный",
+          "comfort": "Базовый",
+          "highlights": [
+            "Участие в настоящем сезонном перегоне скота с кыргызскими чабанами",
+            "Целые дни в седле — перегон овец, коров и лошадей",
+            "Ночёвка у каравансарая Таш-Рабат XV века",
+            "Возможность подняться на перевал Панда ради вида на озеро Чатыр-Кёль",
+            "Финиш у бирюзового озера Кёль-Суу с прогулкой на лодке",
+            "Небольшие группы — от 1 до 6 человек"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Присоединяемся к перегону",
+              "description": "Старт из села Казыбек, где уже ждут лошади (забор за день до начала из Нарына). Инструктаж по безопасности, знакомство с лошадью, гидом и семьёй чабана. Целый день в седле — перегон стада к летним пастбищам: помогаем удерживать овец, коров и лошадей на маршруте, обед и чай в пути. Ночёвка на полпути вместе с чабанами; традиционный кыргызский ужин у юрты. В седле около 7–8 часов."
+            },
+            {
+              "day": 2,
+              "title": "Прощание с чабанами, Таш-Рабат",
+              "description": "Завтрак в лагере, снова в седле вместе со стадом в сторону долины Арпа. Перед Арпой прощаемся с чабанами и сворачиваем к Таш-Рабату — прибытие около полудня, обед в юрточном лагере. Днём на выбор: верхом или пешком подняться на перевал Панда ради вида на озеро Чатыр-Кёль, либо отдохнуть и осмотреть каравансарай XV века. В седле около 7–8 часов."
+            },
+            {
+              "day": 3,
+              "title": "Дорога к Кёль-Суу",
+              "description": "Ранний завтрак и ранний выезд на 4x4 (примерно 4–6 часов) — через Аксай и Арпа, если брод через реку Терек безопасен, иначе через Ат-Баши, Акмуз и перевал Кынды. Прибытие в юрточный лагерь у Кёль-Суу около полудня, обед. Днём — верхом к озеру Кёль-Суу (3514 м), бирюзовому озеру среди отвесных известняковых скал: время для фото и прогулки на лодке. Ужин и ранний отбой в лагере."
+            },
+            {
+              "day": 4,
+              "title": "Трансфер в Нарын",
+              "description": "Завтрак в лагере, затем трансфер обратно в Нарын. По желанию днём можно добавить культурную программу в Нарыне. Окончание тура в Нарыне."
+            }
+          ],
+          "included": [
+            "Лошадь для похода и сбруя",
+            "Семья чабана и англоговорящий гид",
+            "Трансфер на 4x4 до Кёль-Суу и обратно",
+            "Всё питание на маршруте",
+            "Проживание: лагерь чабанов, юрточный лагерь у Таш-Рабата, юрточный лагерь у Кёль-Суу",
+            "Погранпропуск на Кёль-Суу",
+            "Входной билет в Таш-Рабат"
+          ],
+          "notIncluded": [
+            "Авиаперелёт до Бишкека",
+            "Туристическая страховка",
+            "Одежда и обувь для верховой езды",
+            "Алкоголь и чаевые",
+            "Личные расходы"
+          ],
+          "accommodation": "Лагерь чабанов, юрточный лагерь у Таш-Рабата, юрточный лагерь у Кёль-Суу",
+          "transport": "Верхом (1–2 дни), на 4x4 (3 день), пешком/на лодке у Кёль-Суу",
+          "startingPoint": "Село Казыбек (забор за день до начала из Нарына)",
+          "endingPoint": "Нарын",
+          "whatsappMessage": "Здравствуйте! Хочу забронировать тур Mal Aidoo — перегон скота к Кёль-Суу.\n\nЖелаемые даты:\nКоличество путешественников:\nМоя страна:",
+          "faq": [
+            {
+              "question": "Можно выбрать водопад Шаар вместо Кёль-Суу?",
+              "answer": "Да — после перегона скота и Таш-Рабата можно финишировать у водопада Шаар вместо Кёль-Суу. Сообщите о своём выборе при бронировании; цена и логистика немного отличаются для двух вариантов финала."
+            },
+            {
+              "question": "Нужен ли опыт верховой езды?",
+              "answer": "Базовая уверенность в седле пригодится, так как в 1–2 дни предстоит 7–8 часов верхом с участием в перегоне стада. Мы подбираем лошадей под всадников, и наш гид едет вместе с группой весь маршрут."
+            },
+            {
+              "question": "Нужен ли погранпропуск для Кёль-Суу?",
+              "answer": "Да, Кёль-Суу находится в приграничной зоне. Мы оформляем пропуск — пришлите данные паспорта минимум за 3 недели до тура."
+            },
+            {
+              "question": "Это тот же тур, что и «Перегон скота Арпа и Аксай»?",
+              "answer": "Нет — тот тур следует за реальным маршрутом стада в долины Арпа и Аксай по гибкому графику (лист ожидания). Этот тур имеет фиксированную 4-дневную программу от Казыбека через Таш-Рабат до Кёль-Суу (или водопада Шаар)."
+            }
+          ]
+        },
+        "ky": {
+          "title": "Mal Aidoo: Казыбек – Таш-Рабат – Көл-Суу мал айдоо",
+          "description": "Жергиликтүү койчулар менен Казыбектен жайкы жайлоолорго мал айдаган чыныгы мезгилдик мал айдоого катышыңыз — бул ойлонулуп табылган туристтик маршрут эмес, кыргыз көчмөн малчыларынын мезгилдик жашоосуна чыныгы катышуу. Айдоо жылына эки жолу — жазында жана кышында өтөт; бул сапар май айынын аягынан июндун башына чейинки терезеге туш келген жазгы көчүүгө туура келет. Малды эки күн айдагандан кийин Таш-Рабатта койчулар менен коштошуп, 4x4 менен Көл-Суу көлүнө жол улантасыз. Бул кыйла катаал, жөнөкөй шарт — ыңгайлуулукту биринчи орунга коюучулар үчүн эмес, чабандардын чыныгы жашоо жана эмгек шарттарын жолдогу эң кооз тоо пейзаждары менен бирге көргүсү келгендер үчүн.",
+          "difficulty": "Кыйын",
+          "comfort": "Негизги",
+          "highlights": [
+            "Кыргыз койчулары менен чыныгый мезгилдик мал айдоого катышуу",
+            "Кой, уй жана аттарды жолдо кармоо менен ат үстүндө толук күндөр",
+            "XV кылымдагы Таш-Рабат кербен-сарайынын жанында түнөө",
+            "Чатыр-Көл көлүнүн көрүү үчүн Панда ашуусуна кошумча чыгуу мүмкүнчүлүгү",
+            "Кайыкта сейилдөө менен түркүн-көк Көл-Суу көлүндө аяктоо",
+            "1дан 6га чейинки кичине топтор"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Айдоого кошулуу",
+              "description": "Аттар даяр турган Казыбек айылынан старт (Нарындан бир күн мурун алып кетүү). Коопсуздук боюнча инструктаж, атыңыз, гидиңиз жана койчу үй-бүлөсү менен таанышуу. Жайкы жайлоолорго карай малды айдоо менен бүтүндөй күн ат үстүндө — кой, уй жана аттарды жолдо кармоого жардам, жолдо түшкү тамак жана чай. Койчулар менен жарым жолда лагерь; боз үйдүн жанында салттуу кыргыз кечки тамагы. Ат үстүндө болжол менен 7-8 саат."
+            },
+            {
+              "day": 2,
+              "title": "Койчулар менен коштошуу, Таш-Рабат",
+              "description": "Лагерде эртең мененки тамак, кайра ат үстүндө Арпа өрөөнүнө карай мал менен. Арпага чейин койчулар менен коштошуп, Таш-Рабатка бурулабыз — түш мезгилинде жетүү, боз үй лагеринде түшкү тамак. Түштөн кийин тандоо: Чатыр-Көл көлүнүн көрүнүшү үчүн Панда ашуусуна ат менен же жөө чыгуу, же эс алып, XV кылымдагы кербен-сарайды кыдыруу. Ат үстүндө болжол менен 7-8 саат."
+            },
+            {
+              "day": 3,
+              "title": "Көл-Сууга жол",
+              "description": "Эрте эртең мененки тамак жана эрте 4x4 менен чыгуу (болжол менен 4-6 саат) — Терек дарыясынын кечүүсү коопсуз болсо Аксай жана Арпа аркылуу, болбосо Ат-Башы, Акмуз жана Кынды ашуусу аркылуу. Түш мезгилинде Көл-Суу боз үй лагерине жетүү, түшкү тамак. Түштөн кийин — тик акиташ аскалар арасындагы түркүн-көк Көл-Суу көлүнө (3514 м) ат менен баруу: сүрөткө түшүү жана кайыкта сейилдөө үчүн убакыт. Лагерде кечки тамак жана эрте уктоо."
+            },
+            {
+              "day": 4,
+              "title": "Нарынга трансфер",
+              "description": "Лагерде эртең мененки тамак, андан соң Нарынга кайра трансфер. Каалаган болсо, түштөн кийин Нарында маданий программа кошулса болот. Тур Нарында аяктайт."
+            }
+          ],
+          "included": [
+            "Жүрүш үчүн ат жана эр-токум",
+            "Жергиликтүү койчу үй-бүлөсү жана англис тилдүү гид",
+            "Көл-Сууга жана артка 4x4 трансфер",
+            "Маршруттагы бардык тамактануу",
+            "Жашоо: койчулар лагери, Таш-Рабаттын жанындагы боз үй лагери, Көл-Суудагы боз үй лагери",
+            "Көл-Сууга чек ара уруксаты",
+            "Таш-Рабатка кирүү акысы"
+          ],
+          "notIncluded": [
+            "Бишкекке чейинки авиа каттам",
+            "Саякат камсыздандыруусу",
+            "Атчан жүрүү үчүн кийим жана бут кийим",
+            "Алкоголь жана чай акы",
+            "Жеке чыгымдар"
+          ],
+          "accommodation": "Койчулар лагери, Таш-Рабаттын жанындагы боз үй лагери, Көл-Суудагы боз үй лагери",
+          "transport": "Ат менен (1-2 күн), 4x4 менен (3 күн), Көл-Сууда жөө/кайык менен",
+          "startingPoint": "Казыбек айылы (Нарындан бир күн мурун алып кетүү)",
+          "endingPoint": "Нарын",
+          "whatsappMessage": "Салам! Mal Aidoo — Көл-Сууга мал айдоо турун брондогум келет.\n\nКалаган күндөр:\nСаякатчылардын саны:\nМенин өлкөм:",
+          "faq": [
+            {
+              "question": "Көл-Суунун ордуна Шаар шаркыратмасын тандасак болобу?",
+              "answer": "Ооба — мал айдоо жана Таш-Рабаттан кийин Көл-Суунун ордуна Шаар шаркыратмасында аяктасаңыз болот. Брондоодо каалооңузду айтыңыз; эки финал үчүн баа жана логистика бир аз айырмаланат."
+            },
+            {
+              "question": "Ат минүү тажрыйбасы керекпи?",
+              "answer": "1-2 күндөрдө малды айдоого катышуу менен 7-8 саат ат үстүндө болгондуктан, седилде негизги ынгайлуулук пайдалуу. Биз аттарды миниучуларга ылайык тандайбыз, гидибиз топ менен бүт маршрут бою жүрөт."
+            },
+            {
+              "question": "Көл-Суу үчүн уруксат керекпи?",
+              "answer": "Ооба, Көл-Суу чек ара аймагында жайгашкан. Биз уруксатты тариздейбиз — паспорт маалыматтарын турдан кеминде 3 жума мурун жибериңиз."
+            },
+            {
+              "question": "Бул сиздин «Арпа жана Аксай мал айдоо» туруңуз менен бирби?",
+              "answer": "Жок — ал тур малдын өз маршруту менен Арпа жана Аксай өрөөндөрүнө ийкемдүү графикте (күтүү тизмеси) жүрөт. Бул тур Казыбектен Таш-Рабат аркылуу Көл-Сууга (же Шаар шаркыратмасына) чейинки тас 4 күндүк программага ээ."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tash-rabat-kel-suu-horse-expedition",
+      "slug": "tash-rabat-kel-suu-horse-expedition",
+      "region": [
+        "At-Bashy",
+        "Naryn",
+        "Kel-Suu"
+      ],
+      "activity": "Horse",
+      "durationMin": 4,
+      "durationMax": 5,
+      "durationUnit": "days",
+      "format": [
+        "Private",
+        "Group"
+      ],
+      "season": [
+        "June",
+        "October"
+      ],
+      "priceFrom": 430,
+      "currency": "USD",
+      "image": "/assets/images/destinations/kel-suu-valley.jpg",
+      "gallery": [],
+      "groupSize": {
+        "min": 1,
+        "max": 6
+      },
+      "pricing": {
+        "perDayBase": 236,
+        "organizerMarkup": 0.3,
+        "minBillableParticipants": 1,
+        "displayFromPrice": 430
+      },
+      "i18n": {
+        "en": {
+          "title": "Horseback Expedition: Tash-Rabat & Kel-Suu Lake",
+          "description": "A four-day horseback and 4x4 expedition from Naryn: ride over alpine passes to the 15th-century Tash-Rabat caravanserai, then continue by off-road vehicle into the Arpa and Aksai valleys to reach turquoise Kel-Suu lake, framed by sheer rock walls in the border zone near China.",
+          "difficulty": "Challenging",
+          "comfort": "Standard",
+          "highlights": [
+            "Two full days on horseback through the At-Bashy range",
+            "Night by the 15th-century Tash-Rabat caravanserai",
+            "Off-road drive through remote Arpa and Aksai valleys",
+            "Kel-Suu lake at 3,500 m, in a remote border zone near China",
+            "English-speaking guide and local horseman throughout",
+            "Optional 5th day: cultural programme in Naryn"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Into the At-Bashy Mountains",
+              "description": "Meet your guide in Naryn and transfer to the At-Bashy valley. A scenic ride through alpine pastures and high valleys. Dinner and overnight in a shepherd's yurt."
+            },
+            {
+              "day": 2,
+              "title": "Over the Pass to Tash-Rabat",
+              "description": "A full day on horseback over the pass to the 15th-century Tash-Rabat caravanserai. Explore the ancient halls before dinner and an overnight stay in a yurt camp nearby."
+            },
+            {
+              "day": 3,
+              "title": "Road to Kel-Suu",
+              "description": "An off-road drive (about 6 hours) through the remote Arpa and Aksai valleys near the Chinese border. An evening walk, then dinner and overnight in a yurt camp near the lake."
+            },
+            {
+              "day": 4,
+              "title": "Kel-Suu Lake & Return",
+              "description": "Ride or hike to the turquoise lake at 3,500 m. Time for photos along the shore, then transfer back to Naryn."
+            }
+          ],
+          "included": [
+            "Horses and saddlery",
+            "English-speaking guide and local horseman",
+            "Travel insurance",
+            "3 nights in yurts / homestays",
+            "All meals",
+            "All transfers (4x4)",
+            "Kel-Suu border permit",
+            "Tash-Rabat entrance"
+          ],
+          "notIncluded": [
+            "Riding clothes and boots",
+            "Alcohol",
+            "Tips"
+          ],
+          "accommodation": "Shepherd's yurt, yurt camp near Tash-Rabat, yurt camp near Kel-Suu",
+          "transport": "Horseback (days 1–2), 4x4 (days 3–4)",
+          "startingPoint": "Naryn",
+          "endingPoint": "Naryn",
+          "whatsappMessage": "Hello! I'm interested in the Tash-Rabat & Kel-Suu Lake horseback expedition.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
+          "faq": [
+            {
+              "question": "Can we add an extra day?",
+              "answer": "Yes — an optional Day 5 cultural programme in Naryn city can be added before departure. Price and details on request."
+            },
+            {
+              "question": "Do I need a permit for Kel-Suu?",
+              "answer": "Yes, Kel-Suu is in the border zone. We arrange the permit — send us your passport details 2–3 weeks before the tour."
+            },
+            {
+              "question": "How fit do I need to be?",
+              "answer": "This tour reaches up to 3,500 m with cold nights at altitude, so it suits active travelers comfortable with a few full days in the saddle and some off-road driving."
+            },
+            {
+              "question": "What's the difference between this and the Mal Aidoo cattle drive tour?",
+              "answer": "Mal Aidoo starts with two days actually driving a herd with local chabans from Kazybek. This expedition is a more conventional horseback and 4x4 itinerary starting from Naryn, without the cattle drive."
+            }
+          ]
+        },
+        "ru": {
+          "title": "Конная экспедиция: Таш-Рабат и озеро Кёль-Суу",
+          "description": "Четырёхдневная конно-автомобильная экспедиция из Нарына: верхом через альпийские перевалы до каравансарая Таш-Рабат XV века, затем на внедорожнике через долины Арпа и Аксай к бирюзовому озеру Кёль-Суу среди отвесных скал в приграничной зоне у Китая.",
+          "difficulty": "Сложный",
+          "comfort": "Стандартный",
+          "highlights": [
+            "Два полных дня верхом через хребет Ат-Баши",
+            "Ночёвка у каравансарая Таш-Рабат XV века",
+            "Внедорожный переезд через удалённые долины Арпа и Аксай",
+            "Озеро Кёль-Суу на высоте 3500 м, в приграничной зоне у Китая",
+            "Англоговорящий гид и местный коневод на всём маршруте",
+            "Опциональный 5-й день: культурная программа в Нарыне"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "В горы Ат-Баши",
+              "description": "Встреча с гидом в Нарыне и переезд в долину Ат-Баши. Живописная верховая прогулка через альпийские пастбища и высокие долины. Ужин и ночёвка в юрте чабана."
+            },
+            {
+              "day": 2,
+              "title": "Через перевал к Таш-Рабату",
+              "description": "Целый день верхом через перевал до каравансарая Таш-Рабат XV века. Осмотр древних залов, ужин и ночёвка в юрточном лагере неподалёку."
+            },
+            {
+              "day": 3,
+              "title": "Дорога к Кёль-Суу",
+              "description": "Внедорожный переезд (около 6 часов) через удалённые долины Арпа и Аксай у китайской границы. Вечерняя прогулка, затем ужин и ночёвка в юрточном лагере у озера."
+            },
+            {
+              "day": 4,
+              "title": "Озеро Кёль-Суу и возвращение",
+              "description": "Верхом или пешком к бирюзовому озеру на высоте 3500 м. Время для фото на берегу, затем трансфер обратно в Нарын."
+            }
+          ],
+          "included": [
+            "Лошади и сбруя",
+            "Англоговорящий гид и местный коневод",
+            "Туристическая страховка",
+            "3 ночи в юртах / гостевых домах",
+            "Всё питание",
+            "Все трансферы (4x4)",
+            "Погранпропуск на Кёль-Суу",
+            "Входной билет в Таш-Рабат"
+          ],
+          "notIncluded": [
+            "Одежда и обувь для верховой езды",
+            "Алкоголь",
+            "Чаевые"
+          ],
+          "accommodation": "Юрта чабана, юрточный лагерь у Таш-Рабата, юрточный лагерь у Кёль-Суу",
+          "transport": "Верхом (1–2 дни), на 4x4 (3–4 дни)",
+          "startingPoint": "Нарын",
+          "endingPoint": "Нарын",
+          "whatsappMessage": "Здравствуйте! Меня интересует конная экспедиция к Таш-Рабату и озеру Кёль-Суу.\n\nЖелаемые даты:\nКоличество путешественников:\nМоя страна:",
+          "faq": [
+            {
+              "question": "Можно добавить дополнительный день?",
+              "answer": "Да — перед отъездом можно добавить опциональный 5-й день с культурной программой в городе Нарын. Цена и детали по запросу."
+            },
+            {
+              "question": "Нужен ли погранпропуск для Кёль-Суу?",
+              "answer": "Да, Кёль-Суу находится в приграничной зоне. Мы оформляем пропуск — пришлите данные паспорта за 2–3 недели до тура."
+            },
+            {
+              "question": "Какая нужна физическая подготовка?",
+              "answer": "Маршрут поднимается до 3500 м с холодными ночами на высоте, поэтому подходит активным путешественникам, готовым к нескольким полным дням в седле и внедорожным переездам."
+            },
+            {
+              "question": "Чем это отличается от тура Mal Aidoo с перегоном скота?",
+              "answer": "Mal Aidoo начинается с двух дней настоящего перегона скота вместе с местными чабанами из Казыбека. Эта экспедиция — более классический конно-автомобильный маршрут, стартующий из Нарына, без перегона."
+            }
+          ]
+        },
+        "ky": {
+          "title": "Ат үстүндөгү экспедиция: Таш-Рабат жана Көл-Суу көлү",
+          "description": "Нарындан башталуучу төрт күндүк ат жана 4x4 экспедициясы: альп ашуулары аркылуу ат менен XV кылымдагы Таш-Рабат кербен-сарайына, андан соң жол четинен сырткары унаа менен Арпа жана Аксай өрөөндөрү аркылуу Кытай чек арасынын жанындагы тик аскалар арасындагы түркүн-көк Көл-Суу көлүнө.",
+          "difficulty": "Кыйын",
+          "comfort": "Стандарттык",
+          "highlights": [
+            "Ат-Башы кырка тоосу аркылуу эки толук күн ат үстүндө",
+            "XV кылымдагы Таш-Рабат кербен-сарайынын жанында түнөө",
+            "Алыскы Арпа жана Аксай өрөөндөрү аркылуу жол четинен сырткары жол жүрүү",
+            "Кытай чек арасынын жанындагы алыскы аймактагы 3500 метрдеги Көл-Суу көлү",
+            "Бүт маршрутта англис тилдүү гид жана жергиликтүү ат айдоочу",
+            "Каалаган 5-күн: Нарында маданий программа"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Ат-Башы тоолоруна",
+              "description": "Нарында гид менен жолугушуу жана Ат-Башы өрөөнүнө трансфер. Альп жайлоолору жана бийик өрөөндөр аркылуу кооз ат сейилдөө. Кечки тамак жана койчунун боз үйүндө түнөө."
+            },
+            {
+              "day": 2,
+              "title": "Ашуу аркылуу Таш-Рабатка",
+              "description": "Ашуу аркылуу XV кылымдагы Таш-Рабат кербен-сарайына чейин бүтүндөй күн ат үстүндө. Байыркы залдарды кыдыруу, кечки тамак жана жанындагы боз үй лагеринде түнөө."
+            },
+            {
+              "day": 3,
+              "title": "Көл-Сууга жол",
+              "description": "Кытай чек арасынын жанындагы алыскы Арпа жана Аксай өрөөндөрү аркылуу жол четинен сырткары жол жүрүү (болжол менен 6 саат). Кечки сейилдөө, андан соң көлдүн жанындагы боз үй лагеринде кечки тамак жана түнөө."
+            },
+            {
+              "day": 4,
+              "title": "Көл-Суу көлү жана кайтуу",
+              "description": "3500 метр бийиктиктеги түркүн-көк көлгө ат менен же жөө баруу. Жээкте сүрөткө түшүү үчүн убакыт, андан соң Нарынга трансфер."
+            }
+          ],
+          "included": [
+            "Аттар жана эр-токум",
+            "Англис тилдүү гид жана жергиликтүү ат айдоочу",
+            "Саякат камсыздандыруусу",
+            "Боз үйлөрдө / конок үйлөрдө 3 түн",
+            "Бардык тамактануу",
+            "Бардык трансферлер (4x4)",
+            "Көл-Сууга чек ара уруксаты",
+            "Таш-Рабатка кирүү акысы"
+          ],
+          "notIncluded": [
+            "Атчан жүрүү үчүн кийим жана бут кийим",
+            "Алкоголь",
+            "Чай акы"
+          ],
+          "accommodation": "Койчунун боз үйү, Таш-Рабаттын жанындагы боз үй лагери, Көл-Суунун жанындагы боз үй лагери",
+          "transport": "Ат менен (1-2 күн), 4x4 менен (3-4 күн)",
+          "startingPoint": "Нарын",
+          "endingPoint": "Нарын",
+          "whatsappMessage": "Салам! Мени Таш-Рабат жана Көл-Суу көлүнө ат үстүндөгү экспедиция кызыктырат.\n\nКалаган күндөр:\nСаякатчылардын саны:\nМенин өлкөм:",
+          "faq": [
+            {
+              "question": "Кошумча күн кошсок болобу?",
+              "answer": "Ооба — чыгаар алдында Нарын шаарында маданий программа менен каалаган 5-күндү кошсо болот. Баасы жана чоо-жайы сурам боюнча."
+            },
+            {
+              "question": "Көл-Суу үчүн уруксат керекпи?",
+              "answer": "Ооба, Көл-Суу чек ара аймагында жайгашкан. Биз уруксатты тариздейбиз — паспорт маалыматтарын турдан 2-3 жума мурун жибериңиз."
+            },
+            {
+              "question": "Кандай физикалык даярдык керек?",
+              "answer": "Маршрут бийиктикте суук түндөр менен 3500 метрге чейин көтөрүлөт, ошондуктан бир нече толук күн ат үстүндө жана жол четинен сырткары жол жүрүүгө даяр активдүү саякатчыларга ылайыктуу."
+            },
+            {
+              "question": "Бул Mal Aidoo мал айдоо туруңуздан эмнеси менен айырмаланат?",
+              "answer": "Mal Aidoo Казыбектен жергиликтүү койчулар менен чыныгы мал айдоонун эки күнүнөн башталат. Бул экспедиция Нарындан башталуучу, мал айдоосуз, көбүрөөк салттуу ат жана 4x4 маршруту."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "kazybek-tash-rabat-shaar-waterfall-horse",
+      "slug": "kazybek-tash-rabat-shaar-waterfall-horse",
       "region": [
         "At-Bashy",
         "Naryn"
@@ -439,147 +764,246 @@
         "Group"
       ],
       "season": [
-        "May",
         "June",
-        "July",
-        "August",
-        "September"
+        "October"
       ],
-      "priceFrom": 130,
+      "priceFrom": 326,
       "currency": "USD",
       "image": "/assets/images/tours/kazybek.jpg",
       "gallery": [],
       "groupSize": {
-        "min": 2,
-        "max": 8
+        "min": 1,
+        "max": 6
       },
       "pricing": {
-        "perDayBase": 100,
+        "perDayBase": 169,
         "organizerMarkup": 0.3,
-        "minBillableParticipants": 4,
-        "displayFromPrice": 130
+        "minBillableParticipants": 1,
+        "displayFromPrice": 326
       },
       "i18n": {
         "en": {
-          "title": "Kazybek → Tash-Rabat Horse Trek",
-          "description": "A 4-day horseback version of the Kazybek to Tash-Rabat route — riding through the mountains of the At-Bashy region to the historic Tash-Rabat caravanserai. A faster, horseback alternative to our 6-day hiking trek on the same route.",
+          "title": "Horseback Expedition: Kazybek-Tash-Rabat & Shaar Waterfall",
+          "description": "Ride across the alpine passes of the At-Bashy range to the 15th-century Tash-Rabat caravanserai, then on to one of Central Asia's tallest waterfalls in the green Bash-Kaindy gorge — all in an open zone with no border permit needed.",
           "difficulty": "Moderate",
+          "comfort": "Standard",
           "highlights": [
-            "Ride from Kazybek toward Tash-Rabat",
-            "Remote At-Bashy mountain scenery",
-            "Camp along the way",
-            "Finish at the historic Tash-Rabat caravanserai",
-            "English-speaking guide and support team"
+            "Alpine pastures and passes of the At-Bashy range, with a wrangler",
+            "Night by the 15th-century Tash-Rabat caravanserai",
+            "Viewpoint over Chatyr-Kul lake from a high pass",
+            "Horseback ride into Bash-Kaindy gorge to Shaar Waterfall, one of Central Asia's tallest",
+            "No border permit needed — easy, last-minute-friendly booking",
+            "Optional eagle-hunting show and nomad games (Kok-boru, Kyz-Kuumai)"
           ],
-          "itinerary": [],
-          "included": [
-            "English-speaking guide",
-            "Horses and equipment (saddle, bridle, helmet on request)",
-            "2-3 meals per day during the trek (depends on weather conditions)",
-            "Camping equipment and overnight stays along the route",
-            "Car transfer from Tash-Rabat to Bishkek or Naryn"
-          ],
-          "notIncluded": [
-            "Flights to Bishkek",
-            "Travel insurance",
-            "Visa fees",
-            "Personal expenses"
-          ],
-          "accommodation": "Camping along the route, with a final night near Tash-Rabat",
-          "transport": "Horseback, car transfer from Tash-Rabat",
-          "startingPoint": "Bishkek or Kazybek",
-          "endingPoint": "Bishkek or Naryn",
-          "whatsappMessage": "Hello! I'm interested in the Kazybek → Tash-Rabat Horse Trek.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
-          "faq": [
+          "itinerary": [
             {
-              "question": "How is this different from your hiking trek on the same route?",
-              "answer": "Same route from Kazybek to Tash-Rabat, but on horseback and faster — 4 days instead of 6 on foot."
+              "day": 1,
+              "title": "Into the At-Bashy Mountains",
+              "description": "Meet your guide in Naryn and transfer to Kazybek village in the At-Bashy valley. A scenic ride through alpine pastures and high valleys. Dinner and overnight in a yurt camp."
             },
             {
-              "question": "Is Tash-Rabat fully open right now?",
-              "answer": "Tash-Rabat is partway through a government restoration program running through 2027, and some areas are temporarily fenced off while work is underway. We follow the official updates and will tell you the current access situation for your specific dates — message us on WhatsApp to check before booking."
+              "day": 2,
+              "title": "Over the Pass to Tash-Rabat",
+              "description": "Excursion to the 15th-century caravanserai and a look through its ancient halls, with an overnight in a yurt camp nearby. A full day on horseback across mountain passes follows, with a viewpoint over Chatyr-Kul lake, before returning for dinner and a transfer to At-Bashy town for the night."
+            },
+            {
+              "day": 3,
+              "title": "Road to Bash-Kaindy",
+              "description": "About 2.5 hours on horseback into the Bash-Kaindy gorge to Shaar Waterfall, for photos and a picnic, then about 2.5 hours back to the village. Overnight in a village yurt or homestay."
+            },
+            {
+              "day": 4,
+              "title": "Shaar Waterfall & Return",
+              "description": "Transfer back to Naryn. Optionally, extend the day with a cultural programme in Naryn featuring an eagle-hunting show and nomad games such as Kok-boru and Kyz-Kuumai (extra cost, fixed per group, set by the eagle keeper)."
+            }
+          ],
+          "included": [
+            "Horses and saddlery",
+            "English-speaking guide",
+            "Local guide at Shaar Waterfall",
+            "Travel insurance",
+            "3 nights in yurts / homestays",
+            "All meals",
+            "All transfers (4x4)",
+            "Tash-Rabat entrance"
+          ],
+          "notIncluded": [
+            "Riding clothes and boots",
+            "Alcohol",
+            "Tips",
+            "Optional eagle show and nomad games (priced separately, on request)"
+          ],
+          "accommodation": "Yurt camp near Tash-Rabat, overnight in At-Bashy town, village yurt or homestay near Bash-Kaindy",
+          "transport": "Horseback, with 4x4 transfers to and from Naryn",
+          "startingPoint": "Kazybek village (transfer from Naryn)",
+          "endingPoint": "Naryn",
+          "whatsappMessage": "Hello! I'm interested in the Kazybek-Tash-Rabat & Shaar Waterfall horseback expedition.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
+          "faq": [
+            {
+              "question": "Do we need a border permit for this tour?",
+              "answer": "No — the whole route is in an open zone, so no border permit is required and last-minute bookings are possible."
+            },
+            {
+              "question": "How fit do I need to be?",
+              "answer": "This is a moderate tour: riding days in the mountains and cold nights at altitude. It suits active travelers, even without extensive riding experience."
+            },
+            {
+              "question": "Can we add the eagle show and nomad games?",
+              "answer": "Yes, on Day 4 we can arrange an optional cultural programme with an eagle-hunting show and games like Kok-boru and Kyz-Kuumai. This has a fixed extra cost per group, set directly by the eagle keeper."
+            },
+            {
+              "question": "How is this different from the Tash-Rabat & Kel-Suu expedition?",
+              "answer": "This tour finishes at Shaar Waterfall in the green Bash-Kaindy gorge instead of Kel-Suu lake, needs no border permit, and is generally more accessible and lower-cost."
             }
           ]
         },
         "ru": {
-          "title": "Казыбек → Таш-Рабат: конный поход",
-          "description": "4-дневная конная версия маршрута от Казыбека до Таш-Рабата — верхом через горы региона Ат-Баши к историческому каравансараю Таш-Рабат. Более быстрая, конная альтернатива нашему 6-дневному пешему походу по тому же маршруту.",
+          "title": "Конная экспедиция: Казыбек-Таш-Рабат и водопад Шаар",
+          "description": "Проедьте верхом через альпийские перевалы хребта Ат-Баши к каравансараю Таш-Рабат XV века, а затем к одному из самых высоких водопадов Центральной Азии в зелёном ущелье Баш-Каинды — весь маршрут проходит в открытой зоне без погранпропуска.",
           "difficulty": "Средний",
+          "comfort": "Стандартный",
           "highlights": [
-            "Конный переход от Казыбека к Таш-Рабату",
-            "Удалённые горные пейзажи Ат-Баши",
-            "Ночёвки по пути",
-            "Финиш у исторического каравансарая Таш-Рабат",
-            "Англоговорящий гид и команда сопровождения"
+            "Альпийские пастбища и перевалы хребта Ат-Баши в сопровождении коновода",
+            "Ночёвка у каравансарая Таш-Рабат XV века",
+            "Смотровая точка на озеро Чатыр-Кёль с высокого перевала",
+            "Конный выход в ущелье Баш-Каинды к водопаду Шаар — одному из самых высоких в Центральной Азии",
+            "Без погранпропуска — удобное бронирование даже в последний момент",
+            "Опционально: шоу с беркутом и народные игры (Кок-бору, Кыз-Куумай)"
           ],
-          "itinerary": [],
-          "included": [
-            "Англоговорящий гид",
-            "Лошади и снаряжение (седло, уздечка, шлем по запросу)",
-            "2–3-разовое питание в день на маршруте (в зависимости от погодных условий)",
-            "Снаряжение для кемпинга и ночёвки по маршруту",
-            "Трансфер на автомобиле от Таш-Рабата до Бишкека или Нарына"
-          ],
-          "notIncluded": [
-            "Авиаперелёт до Бишкека",
-            "Туристическая страховка",
-            "Визовые сборы",
-            "Личные расходы"
-          ],
-          "accommodation": "Кемпинг по маршруту, последняя ночь рядом с Таш-Рабатом",
-          "transport": "Верхом на лошади, автомобильный трансфер от Таш-Рабата",
-          "startingPoint": "Бишкек или Казыбек",
-          "endingPoint": "Бишкек или Нарын",
-          "whatsappMessage": "Здравствуйте! Меня интересует конный поход Казыбек → Таш-Рабат.\n\nЖелаемые даты:\nКоличество путешественников:\nМоя страна:",
-          "faq": [
+          "itinerary": [
             {
-              "question": "Чем это отличается от пешего похода по этому же маршруту?",
-              "answer": "Тот же маршрут от Казыбека до Таш-Рабата, но верхом и быстрее — 4 дня вместо 6 пешком."
+              "day": 1,
+              "title": "В горы Ат-Баши",
+              "description": "Встреча с гидом в Нарыне и переезд в село Казыбек в долине Ат-Баши. Живописная верховая прогулка через альпийские пастбища и высокие долины. Ужин и ночёвка в юрточном лагере."
             },
             {
-              "question": "Таш-Рабат сейчас полностью открыт?",
-              "answer": "Таш-Рабат сейчас проходит через государственную программу реставрации, которая продлится до 2027 года, и пока идут работы, некоторые участки временно огорожены. Мы следим за официальными обновлениями и расскажем текущую ситуацию с доступом на ваши даты — напишите нам в WhatsApp перед бронированием, чтобы уточнить."
+              "day": 2,
+              "title": "Через перевал к Таш-Рабату",
+              "description": "Экскурсия в каравансарай XV века и осмотр его древних залов с ночёвкой в юрточном лагере неподалёку. Далее — целый день верхом через горные перевалы со смотровой точкой на озеро Чатыр-Кёль, затем возвращение к ужину и трансфер на ночёвку в город Ат-Баши."
+            },
+            {
+              "day": 3,
+              "title": "Дорога к Баш-Каинды",
+              "description": "Около 2,5 часов верхом в ущелье Баш-Каинды к водопаду Шаар — фото и пикник, затем около 2,5 часов обратно в село. Ночёвка в сельской юрте или гостевом доме."
+            },
+            {
+              "day": 4,
+              "title": "Водопад Шаар и возвращение",
+              "description": "Трансфер обратно в Нарын. По желанию день можно дополнить культурной программой в Нарыне с шоу беркутчи и народными играми, такими как Кок-бору и Кыз-Куумай (доплата, фиксированная на группу, устанавливается беркутчи)."
+            }
+          ],
+          "included": [
+            "Лошади и сбруя",
+            "Англоговорящий гид",
+            "Местный гид у водопада Шаар",
+            "Туристическая страховка",
+            "3 ночи в юртах / гостевых домах",
+            "Всё питание",
+            "Все трансферы (4x4)",
+            "Входной билет в Таш-Рабат"
+          ],
+          "notIncluded": [
+            "Одежда и обувь для верховой езды",
+            "Алкоголь",
+            "Чаевые",
+            "Опциональное шоу с беркутом и народные игры (отдельная оплата, по запросу)"
+          ],
+          "accommodation": "Юрточный лагерь у Таш-Рабата, ночёвка в городе Ат-Баши, сельская юрта или гостевой дом у Баш-Каинды",
+          "transport": "Верхом, с трансферами на 4x4 до и от Нарына",
+          "startingPoint": "Село Казыбек (трансфер из Нарына)",
+          "endingPoint": "Нарын",
+          "whatsappMessage": "Здравствуйте! Меня интересует конная экспедиция Казыбек-Таш-Рабат и водопад Шаар.\n\nЖелаемые даты:\nКоличество путешественников:\nМоя страна:",
+          "faq": [
+            {
+              "question": "Нужен ли погранпропуск для этого тура?",
+              "answer": "Нет — весь маршрут проходит в открытой зоне, погранпропуск не требуется, возможно бронирование даже в последний момент."
+            },
+            {
+              "question": "Какая нужна физическая подготовка?",
+              "answer": "Это тур средней сложности: дни верхом в горах и холодные ночи на высоте. Подходит активным путешественникам даже без большого опыта верховой езды."
+            },
+            {
+              "question": "Можно добавить шоу с беркутом и народные игры?",
+              "answer": "Да, на 4-й день можно организовать опциональную культурную программу с шоу беркутчи и играми вроде Кок-бору и Кыз-Куумай. Это фиксированная доплата на группу, которую устанавливает сам беркутчи."
+            },
+            {
+              "question": "Чем это отличается от экспедиции Таш-Рабат и Кёль-Суу?",
+              "answer": "Этот тур финиширует у водопада Шаар в зелёном ущелье Баш-Каинды вместо озера Кёль-Суу, не требует погранпропуска и в целом доступнее и дешевле."
             }
           ]
         },
         "ky": {
-          "title": "Казыбек → Таш-Рабат: ат үстүндөгү саякат",
-          "description": "Казыбектен Таш-Рабатка чейинки маршруттун 4 күндүк ат үстүндөгү версиясы — Ат-Башы аймагынын тоолору аркылуу тарыхый Таш-Рабат кербен-сарайына чейин ат менен. Ошол эле маршрут боюнча 6 күндүк жөө жүрүшүбүзгө тезирээк, ат үстүндөгү альтернатива.",
+          "title": "Ат үстүндөгү экспедиция: Казыбек-Таш-Рабат жана Шаар шаркыратмасы",
+          "description": "Ат-Башы кырка тоосунун альп ашуулары аркылуу XV кылымдагы Таш-Рабат кербен-сарайына, андан соң жашыл Баш-Каинды капчыгайындагы Борбордук Азиядагы эң бийик шаркыратмалардын бирине ат менен жетиңиз — бүт маршрут ачык аймакта, чек ара уруксатысыз өтөт.",
           "difficulty": "Орточо",
+          "comfort": "Стандарттык",
           "highlights": [
-            "Казыбектен Таш-Рабатка ат менен",
-            "Ат-Башынын алыскы тоо пейзаждары",
-            "Жол боюнда түнөө",
-            "Тарыхый Таш-Рабат кербен-сарайында аяктоо",
-            "Англисче сүйлөгөн гид жана коштоочу команда"
+            "Ат айдоочу коштоосунда Ат-Башы кырка тоосунун альп жайлоолору жана ашуулары",
+            "XV кылымдагы Таш-Рабат кербен-сарайынын жанында түнөө",
+            "Бийик ашуудан Чатыр-Көл көлүнүн көрүнүш жери",
+            "Баш-Каинды капчыгайына Шаар шаркыратмасына ат менен чыгуу — Борбордук Азиядагы эң бийиктердин бири",
+            "Чек ара уруксатысыз — акыркы мүнөттө да оңой брондоо",
+            "Каалаган: бүркүтчү көрсөтүүсү жана Кок-бору, Кыз-Куумай сыяктуу улуттук оюндар"
           ],
-          "itinerary": [],
-          "included": [
-            "Англисче сүйлөгөн гид",
-            "Аттар жана жабдуулар (ээр, жүгөн, сурам боюнча шлем)",
-            "Маршрутта күнүнө 2-3 мертебе тамактануу (аба ырайына жараша)",
-            "Жол боюнда кемпинг жабдуулары жана түнөөлөр",
-            "Таш-Рабаттан Бишкекке же Нарынга чейин унаа менен трансфер"
-          ],
-          "notIncluded": [
-            "Бишкекке чейинки авиа каттам",
-            "Саякат камсыздандыруусу",
-            "Виза төлөмдөрү",
-            "Жеке чыгымдар"
-          ],
-          "accommodation": "Жол боюнда кемпинг, Таш-Рабаттын жанында акыркы түн",
-          "transport": "Ат үстүндө, Таш-Рабаттан унаа менен трансфер",
-          "startingPoint": "Бишкек же Казыбек",
-          "endingPoint": "Бишкек же Нарын",
-          "whatsappMessage": "Салам! Мени Казыбек → Таш-Рабат ат үстүндөгү саякаты кызыктырат.\n\nКалаган күндөр:\nСаякатчылардын саны:\nМенин өлкөм:",
-          "faq": [
+          "itinerary": [
             {
-              "question": "Бул ошол эле маршруттагы жөө жүрүштөн эмнеси менен айырмаланат?",
-              "answer": "Казыбектен Таш-Рабатка чейинки ошол эле маршрут, бирок ат үстүндө жана тезирээк — жөө 6 күндүн ордуна 4 күн."
+              "day": 1,
+              "title": "Ат-Башы тоолоруна",
+              "description": "Нарында гид менен жолугушуу жана Ат-Башы өрөөнүндөгү Казыбек айылына трансфер. Альп жайлоолору жана бийик өрөөндөр аркылуу кооз ат сейилдөө. Кечки тамак жана боз үй лагеринде түнөө."
             },
             {
-              "question": "Таш-Рабат азыр толугу менен ачыкпы?",
-              "answer": "Таш-Рабат азыр 2027-жылга чейин созулган мамлекеттик реставрация программасынын ортосунда турат, жана иштер жүрүп жатканда айрым бөлүктөр убактылуу тосулган. Биз расмий жаңылыктарды көзөмөлдөп, сиздин так күндөрүңүз үчүн учурдагы кирүү жагдайын айтып беребиз — брондоодон мурун WhatsApp аркылуу бизге жазып тактаңыз."
+              "day": 2,
+              "title": "Ашуу аркылуу Таш-Рабатка",
+              "description": "XV кылымдагы кербен-сарайга экскурсия жана анын байыркы залдарын кыдыруу, жанындагы боз үй лагеринде түнөө менен. Андан соң Чатыр-Көл көлүнүн көрүнүш жери менен тоо ашуулары аркылуу бүтүндөй күн ат үстүндө, кечки тамакка кайтуу жана Ат-Башы шаарында түнөөгө трансфер."
+            },
+            {
+              "day": 3,
+              "title": "Баш-Каиндыга жол",
+              "description": "Баш-Каинды капчыгайына Шаар шаркыратмасына болжол менен 2,5 саат ат үстүндө — сүрөткө түшүү жана пикник, андан соң айылга болжол менен 2,5 саат кайтуу. Айыл боз үйүндө же конок үйдө түнөө."
+            },
+            {
+              "day": 4,
+              "title": "Шаар шаркыратмасы жана кайтуу",
+              "description": "Нарынга трансфер. Каалаган болсо, күндү бүркүтчү көрсөтүүсү жана Кок-бору, Кыз-Куумай сыяктуу улуттук оюндар менен Нарындагы маданий программа менен узартса болот (кошумча төлөм, топко белгиленген, бүркүтчү тарабынан коюлат)."
+            }
+          ],
+          "included": [
+            "Аттар жана эр-токум",
+            "Англис тилдүү гид",
+            "Шаар шаркыратмасындагы жергиликтүү гид",
+            "Саякат камсыздандыруусу",
+            "Боз үйлөрдө / конок үйлөрдө 3 түн",
+            "Бардык тамактануу",
+            "Бардык трансферлер (4x4)",
+            "Таш-Рабатка кирүү акысы"
+          ],
+          "notIncluded": [
+            "Атчан жүрүү үчүн кийим жана бут кийим",
+            "Алкоголь",
+            "Чай акы",
+            "Каалаган бүркүтчү көрсөтүүсү жана улуттук оюндар (өзүнчө төлөм, сурам боюнча)"
+          ],
+          "accommodation": "Таш-Рабаттын жанындагы боз үй лагери, Ат-Башы шаарында түнөө, Баш-Каинды жанындагы айыл боз үйү же конок үй",
+          "transport": "Ат менен, Нарынга жана Нарындан 4x4 трансферлер менен",
+          "startingPoint": "Казыбек айылы (Нарындан трансфер)",
+          "endingPoint": "Нарын",
+          "whatsappMessage": "Салам! Мени Казыбек-Таш-Рабат жана Шаар шаркыратмасы ат үстүндөгү экспедициясы кызыктырат.\n\nКалаган күндөр:\nСаякатчылардын саны:\nМенин өлкөм:",
+          "faq": [
+            {
+              "question": "Бул тур үчүн чек ара уруксаты керекпи?",
+              "answer": "Жок — бүт маршрут ачык аймакта өтөт, чек ара уруксаты керек эмес, акыркы мүнөттө да брондоого болот."
+            },
+            {
+              "question": "Кандай физикалык даярдык керек?",
+              "answer": "Бул орточо кыйынчылыктагы тур: тоодогу ат үстүндөгү күндөр жана бийиктикте суук түндөр. Чоң ат минүү тажрыйбасы жок активдүү саякатчыларга да ылайыктуу."
+            },
+            {
+              "question": "Бүркүтчү көрсөтүүсүн жана улуттук оюндарды кошсок болобу?",
+              "answer": "Ооба, 4-күнү бүркүтчү көрсөтүүсү жана Кок-бору, Кыз-Куумай сыяктуу оюндар менен каалаган маданий программаны уюштурса болот. Бул топко белгиленген кошумча төлөм, аны бүркүтчүнүн өзү коёт."
+            },
+            {
+              "question": "Бул Таш-Рабат жана Көл-Суу экспедициясынан эмнеси менен айырмаланат?",
+              "answer": "Бул тур Көл-Суу көлүнүн ордуна жашыл Баш-Каинды капчыгайындагы Шаар шаркыратмасында аяктайт, чек ара уруксаты керек эмес жана жалпысынан жеткиликтүүрөөк жана арзаныраак."
             }
           ]
         }
@@ -625,6 +1049,7 @@
           "title": "Tash-Rabat – Arpa – Aksay – Kel-Suu 4x4",
           "description": "Off-road loop via high mountain passes to the turquoise Kel-Suu lake with scenic stops along the way.",
           "difficulty": "Moderate",
+          "comfort": "Standard",
           "highlights": [
             "Tash-Rabat caravanserai",
             "Arpa valley and high passes",
@@ -691,6 +1116,7 @@
           "title": "Таш-Рабат – Арпа – Аксай – Кёль-Суу на 4x4",
           "description": "Внедорожный маршрут через высокогорные перевалы к бирюзовому озеру Кёль-Суу с живописными остановками по пути.",
           "difficulty": "Средний",
+          "comfort": "Стандартный",
           "highlights": [
             "Каравансарай Таш-Рабат",
             "Долина Арпа и высокие перевалы",
@@ -757,6 +1183,7 @@
           "title": "Таш-Рабат – Арпа – Аксай – Көл-Суу 4x4",
           "description": "Бийик тоо ашуулары аркылуу түркүн-көк Көл-Суу көлүнө чейинки жол четинен сырткары маршрут, жол боюнда кооз токтоолор менен.",
           "difficulty": "Орточо",
+          "comfort": "Стандарттык",
           "highlights": [
             "Таш-Рабат кербен-сарайы",
             "Арпа өрөөнү жана бийик ашуулар",
@@ -861,6 +1288,7 @@
           "title": "Bogoshtu Pass → Kel-Suu Horse Trek",
           "description": "A direct horse trek to Kel-Suu lake via the Bogoshtu pass — one of the most scenic and remote routes in the At-Bashy district of Naryn region. The route connects Naryn and the Ak-Sai valley to the high-altitude Kel-Suu lake, crossing the Bogoshtu pass at close to 4,000 m. Along the way you ride through the Tuyuk Bogoshtu gorge, known for its narrow trails and rocky ridges including the Zhany-Zher ridge, and past authentic jailoo pastures where nomadic families set up yurts for the summer.",
           "difficulty": "Moderate to Challenging",
+          "comfort": "Basic",
           "highlights": [
             "Cross the Bogoshtu pass (close to 4,000 m)",
             "Ride through the Tuyuk Bogoshtu gorge and Zhany-Zher ridge",
@@ -893,6 +1321,7 @@
           "title": "Перевал Богошту → Кёль-Суу: конный поход",
           "description": "Прямой конный поход к озеру Кёль-Суу через перевал Богошту — один из самых живописных и труднодоступных маршрутов в Ат-Башинском районе Нарынской области. Маршрут связывает Нарын и долину Ак-Сай с высокогорным озером Кёль-Суу, проходя через перевал Богошту на высоте почти 4000 метров. По пути маршрут проходит через ущелье Туюк Богошту, известное узкими тропами и скалистыми хребтами, включая хребет Жаны-Жер, а также аутентичные джайлоо-пастбища, где кочевые семьи разбивают юрты летом.",
           "difficulty": "Средний – сложный",
+          "comfort": "Базовый",
           "highlights": [
             "Перевал Богошту (почти 4000 м)",
             "Ущелье Туюк Богошту и хребет Жаны-Жер",
@@ -925,6 +1354,7 @@
           "title": "Богошту ашуусу → Көл-Суу ат үстүндөгү саякат",
           "description": "Кёль-Суу көлүнө Богошту ашуусу аркылуу түз ат үстүндөгү саякат — Нарын облусунун Ат-Башы районундагы эң кооз жана кыйын жеткиликтүү маршруттардын бири. Маршрут Нарын менен Ак-Сай өрөөнүн болжол менен 4000 метр бийиктиктеги Богошту ашуусу аркылуу өтүп, бийик тоодогу Кёль-Суу көлүнө байланыштырат. Жол боюнда тар жолдору жана Жаны-Жер кыркасын кошкондо аска-зоокалуу кыркалары менен белгилүү Туюк Богошту капчыгайы, ошондой эле жайында көчмөн үй-бүлөлөр боз үй тиккен чыныгы жайлоолор аркылуу өтөт.",
           "difficulty": "Орточо – кыйын",
+          "comfort": "Жөнөкөй",
           "highlights": [
             "Богошту ашуусу (болжол менен 4000 м)",
             "Туюк Богошту капчыгайы жана Жаны-Жер кыркасы",
@@ -998,6 +1428,7 @@
           "title": "Chuy – Issyk-Kul Road Trip",
           "description": "Flexible road trip: Bishkek → Tokmok → Burana → Tash-Moinok → Issyk-Kul (Grigoryevka, Semenovka, Karakol, Jety-Oguz, Jomok-Say, Aksay, etc.). Fully customizable.",
           "difficulty": "Easy",
+          "comfort": "Comfortable",
           "highlights": [
             "Burana Tower and petroglyphs",
             "Tash-Moinok canyon viewpoints",
@@ -1059,6 +1490,7 @@
           "title": "Автотур Чуй – Иссык-Куль",
           "description": "Гибкий автотур: Бишкек → Токмок → Бурана → Таш-Мойнок → Иссык-Куль (Григорьевка, Семёновка, Каракол, Джеты-Огуз, Жомок-Сай, Аксай и др.). Полностью настраиваемый.",
           "difficulty": "Лёгкий",
+          "comfort": "Комфортный",
           "highlights": [
             "Башня Бурана и петроглифы",
             "Смотровые площадки каньона Таш-Мойнок",
@@ -1120,6 +1552,7 @@
           "title": "Чүй – Ысык-Көл автосаякаты",
           "description": "Ийкемдүү автосаякат: Бишкек → Токмок → Бурана → Таш-Мойнок → Ысык-Көл (Григорьевка, Семеновка, Каракол, Жети-Өгүз, Жомоксай, Аксай ж.б.). Толугу менен ыңгайлаштырылат.",
           "difficulty": "Жеңил",
+          "comfort": "Комфорттуу",
           "highlights": [
             "Бурана мунарасы жана петроглифтер",
             "Таш-Мойнок капчыгайынын көрүнүш жерлери",
@@ -1221,6 +1654,7 @@
           "title": "Kyzart – Song-Kul Horse Trek",
           "description": "A 3-day horseback ride from the village of Kyzart up to the high alpine pastures around Song-Kul lake — a classic, approachable introduction to nomadic Kyrgyzstan. Ride through jailoo pastures, stay near yurt camps, and catch sunrise or sunset over the lake.",
           "difficulty": "Easy to Moderate",
+          "comfort": "Standard",
           "highlights": [
             "Horseback ride from Kyzart to Song-Kul",
             "Song-Kul alpine lake",
@@ -1252,6 +1686,7 @@
           "title": "Кызарт – Сон-Куль: конный поход",
           "description": "3-дневный конный поход из села Кызарт к высокогорным пастбищам озера Сон-Куль — классическое и доступное знакомство с кочевым Кыргызстаном. Маршрут проходит через джайлоо-пастбища, ночёвки рядом с юрточными лагерями, рассветы и закаты над озером.",
           "difficulty": "Лёгкий – средний",
+          "comfort": "Стандартный",
           "highlights": [
             "Конный переход из Кызарта к Сон-Кулю",
             "Альпийское озеро Сон-Куль",
@@ -1283,6 +1718,7 @@
           "title": "Кызарт – Соң-Көл: ат үстүндөгү саякат",
           "description": "Кызарт айылынан Соң-Көл көлүнүн айланасындагы бийик альп жайлоолоруна чейинки 3 күндүк ат үстүндөгү саякат — көчмөн Кыргызстан менен классикалык жана жеткиликтүү таанышуу. Маршрут жайлоолор аркылуу өтөт, боз үй лагерлеринин жанында түнөө, көлдүн үстүндөгү таң атыш жана күн батыш.",
           "difficulty": "Жеңил – орточо",
+          "comfort": "Стандарттык",
           "highlights": [
             "Кызарттан Соң-Көлгө чейин ат үстүндө",
             "Альп бийиктигиндеги Соң-Көл",
@@ -1353,6 +1789,7 @@
           "title": "Song-Kul – Kel-Suu Car Road Trip",
           "description": "A 3-day 4x4 road trip from the high pastures of Song-Kul lake onward to the remote turquoise waters of Kel-Suu — scenic mountain driving connecting two of Naryn's most striking lakes.",
           "difficulty": "Easy",
+          "comfort": "Standard",
           "highlights": [
             "Song-Kul alpine lake",
             "Kel-Suu turquoise waters",
@@ -1384,6 +1821,7 @@
           "title": "Сон-Куль – Кёль-Суу на машине",
           "description": "Трёхдневный внедорожный маршрут от высокогорных пастбищ озера Сон-Куль до удалённых бирюзовых вод Кёль-Суу — живописная горная дорога, соединяющая два самых впечатляющих озера Нарынской области.",
           "difficulty": "Лёгкий",
+          "comfort": "Стандартный",
           "highlights": [
             "Альпийское озеро Сон-Куль",
             "Бирюзовые воды Кёль-Суу",
@@ -1415,6 +1853,7 @@
           "title": "Соң-Көл – Көл-Суу унаа менен",
           "description": "Соң-Көлдүн бийик жайлоолорунан Көл-Суунун алыскы түркүн-көк суусуна чейинки 3 күндүк жол четинен сырткары саякат — Нарын облусунун эң таасирдүү эки көлүн бириктирген кооз тоо жолу.",
           "difficulty": "Жеңил",
+          "comfort": "Стандарттык",
           "highlights": [
             "Альп бийиктигиндеги Соң-Көл",
             "Көл-Суунун түркүн-көк суулары",
@@ -1483,6 +1922,7 @@
           "title": "Osh – Murgab – Dushanbe (Pamir Highway)",
           "description": "A multi-day mixed-format journey along the Pamir Highway, from Osh in Kyrgyzstan through Murgab to Dushanbe, the capital of Tajikistan. The detailed day-by-day program is still being finalized — message us on WhatsApp for the latest route details and availability.",
           "difficulty": "To be confirmed",
+          "comfort": "Standard",
           "highlights": [
             "Pamir Highway route from Osh to Dushanbe",
             "Crosses into Tajikistan via Murgab",
@@ -1515,6 +1955,7 @@
           "title": "Ош – Мургаб – Душанбе (Памирский тракт)",
           "description": "Многодневное путешествие смешанного формата по Памирскому тракту — от Оша в Кыргызстане через Мургаб до Душанбе, столицы Таджикистана. Подробная программа по дням пока уточняется — напишите нам в WhatsApp за актуальными деталями маршрута и датами.",
           "difficulty": "Уточняется",
+          "comfort": "Стандартный",
           "highlights": [
             "Памирский тракт от Оша до Душанбе",
             "Пересечение границы с Таджикистаном через Мургаб",
@@ -1547,6 +1988,7 @@
           "title": "Ош – Мургаб – Душанбе (Памир жолу)",
           "description": "Памир жолу боюнча көп күндүк аралаш форматтагы саякат — Кыргызстандагы Оштон Мургаб аркылуу Тажикстандын борбору Душанбеге чейин. Күн сайынкы толук программа азырынча тактоодо — актуалдуу маршрут чоо-жайын жана күндөрдү билүү үчүн WhatsApp аркылуу бизге жазыңыз.",
           "difficulty": "Тактоодо",
+          "comfort": "Стандарттык",
           "highlights": [
             "Оштон Душанбеге чейинки Памир жолу",
             "Мургаб аркылуу Тажикстанга өтүү",
@@ -1618,6 +2060,7 @@
           "title": "Suusamyr – Kyzyl-Oy – Son-Kul Horse Expedition",
           "description": "The full extension from Kyzyl-Oy to Son-Kul lake — a demanding 6-day high-altitude horse expedition, continuing from our Suusamyr – Kyzyl-Oy Horse Trek (or starting directly from Kyzyl-Oy). The route climbs over the Jumgal-Too foothills and the Kok-Oyrok ridge, approaches Son-Kul from the Kyzart/Kilemche side, then crosses the Jalgyz-Karagay (Chil-Bel) pass at around 3,300-3,400 m — leading horses by hand in places — before descending to camp by the lake. A rest day at Son-Kul (3,016 m) lets you gallop along the shoreline, hike up to the petroglyphs, or just relax, before a 4x4 transfer back to Bishkek via Kochkor and the Boom gorge.",
           "difficulty": "Challenging",
+          "comfort": "Basic",
           "highlights": [
             "Kyzyl-Oy to the Jumgal valley",
             "Crossing the Kok-Oyrok ridge",
@@ -1692,6 +2135,7 @@
           "title": "Экспедиция Суусамыр – Кызыл-Ой – Сон-Куль",
           "description": "Полное продолжение маршрута от Кызыл-Оя до озера Сон-Куль — сложная 6-дневная высокогорная конная экспедиция, продолжающая наш конный поход Суусамыр – Кызыл-Ой (или начинающаяся прямо из Кызыл-Оя). Маршрут поднимается через предгорья хребта Джумгал-Тоо и хребет Кёк-Ойрок, подходит к Сон-Кулю со стороны Кызарта/Килемче, затем поднимается на перевал Джалгыз-Карагай (Чиль-Бель) на высоте около 3300–3400 м — местами лошадей ведут в поводу — и спускается к лагерю на берегу озера. День отдыха на Сон-Куле (3016 м) — можно поскакать галопом по берегу, подняться к петроглифам или просто отдохнуть, затем трансфер на внедорожнике в Бишкек через Кочкор и Боомское ущелье.",
           "difficulty": "Сложный",
+          "comfort": "Базовый",
           "highlights": [
             "Из Кызыл-Оя в долину Жумгал",
             "Переход через хребет Кёк-Ойрок",
@@ -1766,6 +2210,7 @@
           "title": "Суусамыр – Кызыл-Ой – Соң-Көл ат үстүндөгү экспедициясы",
           "description": "Кызыл-Ойдон Соң-Көл көлүнө чейинки толук улануу — биздин Суусамыр – Кызыл-Ой ат үстүндөгү саякатыбыздан улануучу (же түз эле Кызыл-Ойдон башталуучу) оор 6 күндүк бийик тоо экспедициясы. Маршрут Жумгал-Тоо тоо этектери жана Көк-Ойрок кыркасы аркылуу көтөрүлүп, Соң-Көлгө Кызарт/Килемче тарабынан жакындайт, андан соң болжол менен 3300–3400 м бийиктиктеги Жалгыз-Карагай (Чил-Бел) ашуусуна чыгат — кээ жерде аттарды жетелеп өтүшөт — жана көлдүн жээгиндеги лагерге түшөт. Соң-Көлдө (3016 м) эс алуу күнү — жээк боюнча чаап жүрүүгө, петроглифтерге жөө чыгууга же жөн эле эс алууга болот, андан кийин Кочкор жана Боом капчыгайы аркылуу Бишкекке внедорожник менен трансфер.",
           "difficulty": "Кыйын",
+          "comfort": "Жөнөкөй",
           "highlights": [
             "Кызыл-Ойдон Жумгал өрөөнүнө",
             "Көк-Ойрок кыркасы аркылуу өтүү",
@@ -1878,6 +2323,7 @@
           "title": "Suusamyr – Kyzyl-Oy Horse Trek",
           "description": "A 3-day horseback ride from Suusamyr to Kyzyl-Oy. The route crosses the wide Suusamyr plain before the valley narrows into the Kokomoron river canyon, riding alongside one of Kyrgyzstan's most powerful rivers beneath huge red-clay cliffs, finishing at the clay-built village of Kyzyl-Oy. This is the easier, standalone version of our Suusamyr – Kyzyl-Oy – Son-Kul Horse Expedition — suitable for riders with basic experience. It can also be used as the first stage before continuing on to Son-Kul.",
           "difficulty": "Easy to Moderate",
+          "comfort": "Basic",
           "highlights": [
             "Bishkek – Suusamyr – start of the ride",
             "Into the Kokomoron canyon",
@@ -1933,6 +2379,7 @@
           "title": "Суусамыр – Кызыл-Ой: конный поход",
           "description": "Трёхдневный конный поход от Суусамыра до Кызыл-Оя. Маршрут проходит через широкую равнину Суусамырской долины, которая переходит в каньон реки Кёкёмерен — вдоль одной из самых мощных рек Кыргызстана среди огромных красно-глиняных скал, финиш — в глиняном селе Кызыл-Ой. Это более лёгкая, самостоятельная версия нашей экспедиции Суусамыр – Кызыл-Ой – Сон-Куль, подходит всадникам с базовым опытом. Также может использоваться как первый этап перед продолжением маршрута до Сон-Куля.",
           "difficulty": "Лёгкий – средний",
+          "comfort": "Базовый",
           "highlights": [
             "Бишкек – Суусамыр – старт маршрута",
             "Вход в ущелье Кёкёмерен",
@@ -1988,6 +2435,7 @@
           "title": "Суусамыр – Кызыл-Ой: ат үстүндөгү саякат",
           "description": "Суусамырдан Кызыл-Ойго чейинки 3 күндүк ат үстүндөгү саякат. Маршрут Суусамыр өрөөнүнүн кенен тегиздиги аркылуу өтүп, Кёкөмөрөн дарыясынын капчыгайына айланат — Кыргызстандын эң күчтүү дарыяларынын бири боюнча, зор кызыл-чополуу аскалардын арасында, финиш — Кызыл-Ой чополуу айылында. Бул биздин Суусамыр – Кызыл-Ой – Соң-Көл экспедициябыздын жеңилирээк, өз алдынча версиясы, негизги тажрыйбасы бар чабандестерге ылайыктуу. Ошондой эле Соң-Көлгө чейинки маршрутту улантуудан мурунку биринчи этап катары колдонсо болот.",
           "difficulty": "Жеңил – орточо",
+          "comfort": "Жөнөкөй",
           "highlights": [
             "Бишкек – Суусамыр – маршруттун башталышы",
             "Кёкөмөрөн капчыгайына кирүү",
@@ -2082,6 +2530,7 @@
           "title": "Achakaiyndy → Tash-Rabat Hiking Trek",
           "description": "A 10-day hiking version of our signature route along the At-Bashy mountain ridge — from Achakaiyndy to the historic Tash-Rabat caravanserai, on foot instead of on horseback. Same stunning ridge, same remote camping, a different pace.",
           "difficulty": "Moderate to Challenging",
+          "comfort": "Basic",
           "highlights": [
             "Walk the length of the At-Bashy mountain ridge",
             "At-Bashy valley on one side, Aksai valley on the other",
@@ -2115,6 +2564,7 @@
           "title": "Ачакайынды → Таш-Рабат: пеший поход",
           "description": "10-дневная пешая версия нашего флагманского маршрута вдоль хребта Ат-Баши — от Ачакайынды до исторического каравансарая Таш-Рабат, пешком вместо верховой езды. Тот же впечатляющий хребет, те же ночёвки в палатках среди гор, другой темп.",
           "difficulty": "Средний – сложный",
+          "comfort": "Базовый",
           "highlights": [
             "Пройти пешком всю длину хребта Ат-Баши",
             "Долина Ат-Баши по одну сторону, долина Аксай по другую",
@@ -2148,6 +2598,7 @@
           "title": "Ачакайынды → Таш-Рабат: жөө жүрүш",
           "description": "Биздин флагмандык маршруттун 10 күндүк жөө версиясы — Ат-Башы тоо кыркасы боюнча Ачакайындыдан тарыхый Таш-Рабат кербен-сарайына чейин, ат минүүнүн ордуна жөө басуу менен. Ошол эле таасирдүү кырка, ошол эле тоодогу палатка түнөөлөрү, башка темп.",
           "difficulty": "Орточо – кыйын",
+          "comfort": "Жөнөкөй",
           "highlights": [
             "Ат-Башы тоо кыркасынын бүткүл узундугун жөө басуу",
             "Бир тарабында Ат-Башы өрөөнү, экинчи тарабында Аксай өрөөнү",
@@ -2220,6 +2671,7 @@
           "title": "Kazybek → Tash-Rabat Hiking Trek",
           "description": "A 6-day hiking route from Kazybek to the historic Tash-Rabat caravanserai, through the mountains of the At-Bashy region.",
           "difficulty": "Moderate",
+          "comfort": "Basic",
           "highlights": [
             "Hike from Kazybek toward Tash-Rabat",
             "Remote At-Bashy mountain scenery",
@@ -2257,6 +2709,7 @@
           "title": "Казыбек → Таш-Рабат: пеший поход",
           "description": "6-дневный пеший маршрут от села Казыбек до исторического каравансарая Таш-Рабат через горы региона Ат-Баши.",
           "difficulty": "Средний",
+          "comfort": "Базовый",
           "highlights": [
             "Пеший переход от Казыбека к Таш-Рабату",
             "Удалённые горные пейзажи Ат-Баши",
@@ -2294,6 +2747,7 @@
           "title": "Казыбек → Таш-Рабат: жөө жүрүш",
           "description": "Казыбек айылынан тарыхый Таш-Рабат кербен-сарайына чейин Ат-Башы аймагынын тоолору аркылуу 6 күндүк жөө маршрут.",
           "difficulty": "Орточо",
+          "comfort": "Жөнөкөй",
           "highlights": [
             "Казыбектен Таш-Рабатка жөө жол",
             "Ат-Башынын алыскы тоо пейзаждары",
@@ -2370,6 +2824,7 @@
           "title": "Grand Kyrgyzstan Custom Tour",
           "description": "Tailor-made itinerary combining any of our routes (At-Bashy, Kel-Suu, Song-Kul, Issyk-Kul, Sary-Chelek, Arslanbob, Osh) based on your preferences.",
           "difficulty": "Custom",
+          "comfort": "Comfortable",
           "highlights": [
             "Fully customizable route",
             "Mix of horse, 4x4 and hiking",
@@ -2402,6 +2857,7 @@
           "title": "Индивидуальный тур «Великий Кыргызстан»",
           "description": "Индивидуальный маршрут, объединяющий любые из наших направлений (Ат-Баши, Кёль-Суу, Сон-Куль, Иссык-Куль, Сары-Челек, Арсланбоб, Ош) по вашим предпочтениям.",
           "difficulty": "Индивидуально",
+          "comfort": "Комфортный",
           "highlights": [
             "Полностью настраиваемый маршрут",
             "Сочетание конных, 4x4 и пеших маршрутов",
@@ -2434,6 +2890,7 @@
           "title": "«Улуу Кыргызстан» жеке туру",
           "description": "Каалооңузга жараша биздин бардык багыттарды (Ат-Башы, Көл-Суу, Соң-Көл, Ысык-Көл, Сары-Челек, Арстанбап, Ош) айкалыштырган жеке маршрут.",
           "difficulty": "Жеке тартипте",
+          "comfort": "Комфорттуу",
           "highlights": [
             "Толугу менен ыңгайлаштырылган маршрут",
             "Ат, 4x4 жана жөө жүрүштүн айкалышы",

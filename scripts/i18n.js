@@ -119,7 +119,9 @@ const UI = {
       pageDescription: 'Browse our collection of horse treks, 4x4 adventures and custom tours. From At-Bashy gorges to Kel-Suu lake. Book on WhatsApp.'
     },
     tourDetail: {
-      factsDuration: 'Duration', factsLevel: 'Level', factsSeason: 'Season', factsGroup: 'Group',
+      factsDuration: 'Duration', factsLevel: 'Difficulty', factsSeason: 'Season', factsGroup: 'Group size',
+      factsStartingPoint: 'Starting point', factsCost: 'Cost', factsComfort: 'Comfort level',
+      costFrom: function (symbol, price) { return 'from ' + symbol + price + ' / person'; },
       infoDuration: 'Duration', infoDifficulty: 'Difficulty', infoBestSeason: 'Best season', infoStartingPoint: 'Starting point', infoGroupSize: 'Group size', infoFormat: 'Format',
       peopleUnit: 'people',
       dayLabel: 'Day',
@@ -376,7 +378,9 @@ const UI = {
       pageDescription: 'Коллекция конных походов, 4x4 приключений и индивидуальных туров. От ущелий Ат-Баши до озера Кёль-Суу. Бронирование в WhatsApp.'
     },
     tourDetail: {
-      factsDuration: 'Длительность', factsLevel: 'Уровень', factsSeason: 'Сезон', factsGroup: 'Группа',
+      factsDuration: 'Длительность', factsLevel: 'Сложность', factsSeason: 'Сезон', factsGroup: 'Размер группы',
+      factsStartingPoint: 'Точка старта', factsCost: 'Стоимость', factsComfort: 'Уровень комфорта',
+      costFrom: function (symbol, price) { return 'от ' + symbol + price + ' / чел'; },
       infoDuration: 'Длительность', infoDifficulty: 'Сложность', infoBestSeason: 'Лучший сезон', infoStartingPoint: 'Точка старта', infoGroupSize: 'Размер группы', infoFormat: 'Формат',
       peopleUnit: 'человек',
       dayLabel: 'День',
@@ -565,7 +569,7 @@ const UI = {
         { t: 'Ат үстүндөгү турлар', d: 'Ат-Башы капчыгайлары, Көл-Суу жана Соң-Көлгө көп күндүк саякаттар, боз үйдө түнөө менен.' },
         { t: '4x4 укмуштуулары', d: 'Ээрден дөңгөлөктү жактырган саякатчылар үчүн Таш-Рабатка, Арпага жана Көл-Сууга тоо жолдору.' },
         { t: 'Жөө жүрүш', d: 'Сары-Челекке, Арстанбапка жана бийик көлдөргө жөө маршруттар.' },
-        { t: 'Туруң өзүң курa', d: 'Аймактарды, иш-аракеттерди жана күндөрдү тандаңыз — маршрутту биз пландайбыз.' }
+        { t: 'Турду өзүң түз', d: 'Аймактарды, иш-аракеттерди жана күндөрдү тандаңыз — маршрутту биз пландайбыз.' }
       ],
       popularToursHeading: 'Популярдуу турлар',
       exploreRegionsHeading: 'Биздин аймактарыбыз',
@@ -603,7 +607,7 @@ const UI = {
     toursIndex: {
       heroTitle: 'Бардык турлар',
       heroSubtitle: 'Кыргызстан боюнча ат, 4x4 жана жөө жүрүш укмуштуулары',
-      activities: { All: 'Бардык турлар', Horse: 'Ат минүү', '4x4': 'Унаа менен (4x4)', Hiking: 'Жөө жүрүш', Custom: 'Туруң өзүң курa' },
+      activities: { All: 'Бардык турлар', Horse: 'Ат минүү', '4x4': 'Унаа менен (4x4)', Hiking: 'Жөө жүрүш', Custom: 'Турду өзүң түз' },
       routeWord: 'маршрут', routesWord: 'маршрут', customWord: 'Жеке тартипте',
       durations: { All: 'Баары', '1-3': '1–3 күн', '4-6': '4–6 күн', '7-10': '7–10 күн', '11+': '11+ күн' },
       durationLabel: 'Узактыгы',
@@ -611,7 +615,7 @@ const UI = {
       resultsLabel: function (n) { return n + ' маршрут көрсөтүлдү'; },
       noResults: 'Бул чыпкалар боюнча маршрут табылган жок — жеке маршрут үчүн бизге жазыңыз.',
       builder: {
-        heading: 'Туруң өзүң курa',
+        heading: 'Турду өзүң түз',
         whereHeading: 'Кайда баргыңыз келет?',
         whatHeading: 'Эмне кылгыңыз келет?',
         activityChips: ['Ат минүү', '4x4 айдоо', 'Жөө жүрүш', 'Боз үйдө жашоо', 'Маданият жана кол өнөрчүлүк', 'Сүрөткө тартуу'],
@@ -629,7 +633,9 @@ const UI = {
       pageDescription: 'Ат үстүндөгү жүрүштөрдүн, 4x4 укмуштуулардын жана жеке турлардын жыйнагы. Ат-Башы капчыгайларынан Көл-Суу көлүнө чейин. WhatsApp аркылуу брондоо.'
     },
     tourDetail: {
-      factsDuration: 'Узактыгы', factsLevel: 'Деңгээл', factsSeason: 'Мезгил', factsGroup: 'Топ',
+      factsDuration: 'Узактыгы', factsLevel: 'Кыйынчылык', factsSeason: 'Мезгил', factsGroup: 'Топтун өлчөмү',
+      factsStartingPoint: 'Башталыш чекити', factsCost: 'Баасы', factsComfort: 'Ыңгайлуулук деңгээли',
+      costFrom: function (symbol, price) { return symbol + price + 'дан — адам сайын'; },
       infoDuration: 'Узактыгы', infoDifficulty: 'Кыйынчылык', infoBestSeason: 'Эң жакшы мезгил', infoStartingPoint: 'Башталыш чекити', infoGroupSize: 'Топтун өлчөмү', infoFormat: 'Формат',
       peopleUnit: 'адам',
       dayLabel: 'Күн',
@@ -729,14 +735,14 @@ const UI = {
       pageDescription: 'Билишиңиз керек болгон бардык нерсе: виза, жабдуулар, коопсуздук, төлөм, жоопкерчиликтүү саякат. Сапарыңызды ишенимдүү пландаңыз.'
     },
     blogIndex: {
-      heroTitle: 'Саякат гиддери',
-      heroSubtitle: 'Уруксаттар, маршруттар жана жол тууралуу практикалык гиддер — биз жерде билгенибиз боюнча жазылган',
+      heroTitle: 'Саякат колдонмолору',
+      heroSubtitle: 'Уруксаттар, маршруттар жана жол тууралуу практикалык колдонмолор — биз жерде билгенибиз боюнча жазылган',
       readMore: 'Толугураак окуу',
-      pageTitle: 'Саякат гиддери: Кыргызстан боюнча кеңештер жана маршруттар',
-      pageDescription: 'Кыргызстан боюнча практикалык гиддер — уруксаттар, алыскы айылдарга жана көрүнүш жерлерине кантип баруу, жана жергиликтүү командадан башка кеңештер.'
+      pageTitle: 'Саякат колдонмолору: Кыргызстан боюнча кеңештер жана маршруттар',
+      pageDescription: 'Кыргызстан боюнча практикалык колдонмолор — уруксаттар, алыскы айылдарга жана көрүнүш жерлерине кантип баруу, жана жергиликтүү командадан башка кеңештер.'
     },
     blogDetail: {
-      backToBlog: '← Бардык гиддер',
+      backToBlog: '← Бардык колдонмолор',
       ctaHeading: 'Сапар пландап жатасызбы?',
       ctaText: 'WhatsApp аркылуу бизге жазыңыз, биз чоо-жайын аныктоого жардам беребиз.',
       ctaBtn: 'WhatsApp аркылуу сурануу'

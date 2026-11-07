@@ -95,7 +95,13 @@ const ICONS = {
   instagram: 'M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zM12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zM17.5 6.5h.01',
   facebook: 'M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v7h4v-7h3l1-4h-4V8z',
   mountain: 'M3 20h18L14.5 7 10 14l-2.5-3L3 20z',
-  heart: 'M12 21s-7.5-4.6-10-9.3C.5 7.8 3 4 7 4c2 0 3.6 1.1 5 3 1.4-1.9 3-3 5-3 4 0 6.5 3.8 5 7.7C19.5 16.4 12 21 12 21z'
+  heart: 'M12 21s-7.5-4.6-10-9.3C.5 7.8 3 4 7 4c2 0 3.6 1.1 5 3 1.4-1.9 3-3 5-3 4 0 6.5 3.8 5 7.7C19.5 16.4 12 21 12 21z',
+  pin: 'M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0zM12 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6z',
+  calendar: 'M16 2v4M8 2v4M3 10h18M4 4h16a1 1 0 0 1 1 1v15a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z',
+  price: 'M12 1v22M17 5H9.5a3.5 3.5 0 1 0 0 7h5a3.5 3.5 0 1 1 0 7H6',
+  activity: 'M22 12h-4l-3 9L9 3l-3 9H2',
+  users: 'M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75',
+  armchair: 'M4 18v-5a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v5M2 18h20M4 18v2M20 18v2M7 10V7a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v3'
 };
 
 const IMAGE_POOL = [
@@ -421,6 +427,19 @@ function faqBlock(items, idPrefix) {
   return `<div class="stack--sm">${items.map(function (f, i) { return accordionItem(idPrefix, i, f.q, '<p style="margin:0">' + f.a + '</p>', false); }).join('\n')}</div>`;
 }
 
+function factsStripHtml(items) {
+  return `
+<section class="section--tight section--white">
+  <div class="container">
+    <div class="facts-strip">
+      ${items.map(function (it) {
+        return `<div class="facts-strip__item"><span class="facts-strip__icon">${icon(it.icon, 22)}</span><span class="facts-strip__text"><span class="facts-strip__label">${it.label}</span><span class="facts-strip__value">${it.value}</span></span></div>`;
+      }).join('\n      ')}
+    </div>
+  </div>
+</section>`;
+}
+
 function testimonialsHtml(locale) {
   const items = UI[locale].home.testimonials.slice(0, 1); /* show first review only for now */
   if (!items.length) {
@@ -631,16 +650,14 @@ function buildToursIndex(locale) {
   const builderRegions = ['At-Bashy', 'Naryn', 'Kel-Suu', 'Song-Kul', 'Tash-Rabat', 'Chatyr-Kol', 'Issyk-Kul', 'Sary-Chelek', 'Arslanbob', 'Osh'];
 
   const body = `
-<section class="hero hero--page">
-  <img class="hero__media" src="/assets/images/destinations/kel-suu-valley.jpg" alt="Mountains and river valley near Kel-Suu, Kyrgyzstan">
-  <div class="hero__scrim"></div>
-  <div class="hero__content">
-    <h1>${ti.heroTitle}</h1>
-    <p>${ti.heroSubtitle}</p>
+<section class="section--tight section--white" style="padding-top:80px;padding-bottom:32px">
+  <div class="container stack--sm">
+    <h1 style="margin:0">${ti.heroTitle}</h1>
+    <p style="margin:0;font-size:18px;color:var(--color-text-muted)">${ti.heroSubtitle}</p>
   </div>
 </section>
 
-<section class="section--tight section--white">
+<section class="section--white" style="padding-top:0;padding-bottom:24px">
   <div class="container">
     <div class="cat-tabs" id="Horse">
       ${tabs}
@@ -648,7 +665,7 @@ function buildToursIndex(locale) {
   </div>
 </section>
 
-<section class="section--tight section--white" data-filter-bar>
+<section class="section--white" style="padding-top:0;padding-bottom:32px" data-filter-bar>
   <div class="container stack--sm">
     ${SHOW_DURATION_FILTER ? '<div class="filter-row"><span class="filter-row__label">' + ti.durationLabel + '</span>' + durationPills + '</div>' : ''}
     <div class="filter-row"><span class="filter-row__label">${ti.regionLabel}</span>${regionPills}</div>
@@ -719,11 +736,14 @@ function buildTourDetail(tour, index, locale) {
   const td = UI[locale].tourDetail;
   const dur = durationLabel(locale, tour.durationMin, tour.durationMax);
   const grp = groupLabel(locale, tour.groupSize.min, tour.groupSize.max);
-  const facts = [
-    { k: td.factsDuration, v: dur },
-    { k: td.factsLevel, v: tt.difficulty },
-    { k: td.factsSeason, v: seasonLabel(locale, tour.season) },
-    { k: td.factsGroup, v: grp }
+  const currencySymbol = tour.currency === 'USD' ? '$' : tour.currency;
+  const factsStripItems = [
+    { icon: 'pin', label: td.factsStartingPoint, value: tt.startingPoint },
+    { icon: 'calendar', label: td.factsDuration, value: dur },
+    { icon: 'price', label: td.factsCost, value: td.costFrom(currencySymbol, tour.priceFrom) },
+    { icon: 'activity', label: td.factsLevel, value: tt.difficulty },
+    { icon: 'users', label: td.factsGroup, value: grp },
+    { icon: 'armchair', label: td.factsComfort, value: tt.comfort }
   ];
   const infoTable = [
     { k: td.infoDuration, v: dur },
@@ -765,12 +785,10 @@ function buildTourDetail(tour, index, locale) {
     <div class="container">
       <span class="hero-detail__badge">${regionLabel(locale, tour.region[0])}</span>
       <h1>${tt.title}</h1>
-      <div class="hero-detail__facts">
-        ${facts.map(function (f) { return '<span><span class="k">' + f.k + '</span> ' + f.v + '</span>'; }).join('\n        ')}
-      </div>
     </div>
   </div>
 </section>
+${factsStripHtml(factsStripItems)}
 
 ${SHOW_CALCULATOR ? `
 <section class="section--tight section--white">
@@ -936,16 +954,14 @@ ${tour.photos && tour.photos.length ? `
 function buildDestinationsIndex(locale) {
   const di = UI[locale].destinationsIndex;
   const body = `
-<section class="hero hero--page">
-  <img class="hero__media" src="/assets/images/general/mountain-lake-yurts.webp" alt="Mountain landscape in Kyrgyzstan">
-  <div class="hero__scrim"></div>
-  <div class="hero__content">
-    <h1>${di.heroTitle}</h1>
-    <p>${di.heroSubtitle}</p>
+<section class="section--tight section--white" style="padding-top:80px;padding-bottom:0">
+  <div class="container stack--sm">
+    <h1 style="margin:0">${di.heroTitle}</h1>
+    <p style="margin:0;font-size:18px;color:var(--color-text-muted)">${di.heroSubtitle}</p>
   </div>
 </section>
 
-<section class="section section--white">
+<section class="section--white" style="padding-top:24px;padding-bottom:var(--section-pad)">
   <div class="container grid-3--dest">
     ${DESTINATIONS.map(function (d) { return destTileHtml(d, locale); }).join('\n')}
   </div>
@@ -1064,19 +1080,10 @@ function buildDestinationDetail(dest, locale) {
 function buildAbout(locale) {
   const a = UI[locale].about;
   const body = `
-<section class="hero hero--page">
-  <img class="hero__media" src="/assets/images/general/IND04269.JPG" alt="Founder with horses in Kyrgyzstan" style="object-position: center bottom;">
-  <div class="hero__scrim"></div>
-  <div class="hero__content">
-    <h1>${a.heroTitle}</h1>
-    <p>${a.heroSubtitle}</p>
-  </div>
-</section>
-
-<section class="section section--white">
+<section class="section--white" style="padding-top:80px;padding-bottom:var(--section-pad)">
   <div class="container grid-2" style="align-items:center">
     <div class="stack--sm">
-      <h2>${a.ourStoryHeading}</h2>
+      <h1>${a.ourStoryHeading}</h1>
       <p style="font-size:18px;line-height:1.7;color:var(--color-text-mute-3)">${a.ourStoryText}</p>
       <p style="font-size:18px;line-height:1.7;color:var(--color-text-mute-3)">${a.ourStoryPersonal}</p>
     </div>
@@ -1189,7 +1196,7 @@ function articleListItemHtml(article, locale) {
 function buildBlogIndex(locale) {
   const bi = UI[locale].blogIndex;
   const body = `
-<section class="section--tight section--bg">
+<section class="section--tight section--bg" style="padding-top:80px">
   <div class="container">
     <h1 style="max-width:820px;margin:0 auto 8px">${bi.heroTitle}</h1>
     <p style="max-width:820px;margin:0 auto 32px;font-size:16px;color:var(--color-text-muted)">${bi.heroSubtitle}</p>
@@ -1226,7 +1233,7 @@ function buildArticleDetail(article, locale) {
   };
 
   const body = `
-<section class="section section--white" style="padding-bottom:0">
+<section class="section--white" style="padding-top:80px;padding-bottom:0">
   <div class="container">
     <nav class="breadcrumbs" aria-label="Breadcrumb">
       <a href="${localePath(locale, '/')}">${t(locale, 'common.home')}</a>
@@ -1299,18 +1306,9 @@ function buildContact(locale) {
   ];
 
   const body = `
-<section class="hero hero--page">
-  <img class="hero__media" src="/assets/images/general/pexels-liuguangxi-12836297.jpg" alt="Team photo placeholder">
-  <div class="hero__scrim"></div>
-  <div class="hero__content">
-    <h1>${c.heroTitle}</h1>
-    <p>${c.heroSubtitle}</p>
-  </div>
-</section>
-
-<section class="section section--white">
+<section class="section--white" style="padding-top:80px;padding-bottom:var(--section-pad)">
   <div class="container max-w-800 stack">
-    <h2>${c.getInTouchHeading}</h2>
+    <h1>${c.getInTouchHeading}</h1>
     <div>
       ${contacts.map(function (ct) {
         return `<a href="${ct.href}" target="_blank" rel="noopener" class="contact-link">

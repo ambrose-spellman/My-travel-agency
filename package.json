@@ -6,6 +6,8 @@
   "scripts": {
     "build": "node scripts/build.js",
     "netlify-build": "node scripts/build.js && node scripts/assemble-dist.js",
+    "serve": "npx serve .",
+    "start": "npm run build && npm run serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

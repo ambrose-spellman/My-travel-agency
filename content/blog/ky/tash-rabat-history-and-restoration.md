@@ -17,7 +17,7 @@ gallery:
 publishDate: '2026-10-18'
 relatedTourSlugs:
   - achakaiyndy-tash-rabat-chatyr-kol-horse
-  - kazybek-tash-rabat-horse
+  - kazybek-tash-rabat-shaar-waterfall-horse
   - kazybek-tash-rabat-hiking
   - tash-rabat-arpa-aksay-kelsuu-4x4
 ---

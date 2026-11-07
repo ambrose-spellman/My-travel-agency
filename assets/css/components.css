@@ -293,8 +293,24 @@
   background: var(--color-gold); color: var(--color-heading);
 }
 .hero-detail__content h1 { color: #fff; text-shadow: 0 2px 12px rgba(0,0,0,.3); text-wrap: balance; margin: 0; max-width: 900px; }
-.hero-detail__facts { display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: 15px; font-weight: 500; color: #fff; }
-.hero-detail__facts span.k { color: var(--color-gold); }
+
+/* Tour detail facts strip (icon badges: starting point, duration, cost, difficulty, group, comfort) */
+.facts-strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px 24px; }
+.facts-strip__item { display: flex; align-items: center; gap: 14px; min-width: 0; }
+.facts-strip__icon {
+  flex-shrink: 0; width: 48px; height: 48px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(135deg, var(--color-accent), #FFD27A);
+}
+.facts-strip__text { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.facts-strip__label { font-size: 14px; font-weight: 700; color: var(--color-heading); }
+.facts-strip__value { font-size: 15px; color: var(--color-text-muted); overflow-wrap: break-word; }
+@media (min-width: 421px) and (max-width: 720px) {
+  .facts-strip { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 420px) {
+  .facts-strip { grid-template-columns: 1fr; }
+}
 
 /* ==========================================================================
    Tour card

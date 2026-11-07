@@ -48,6 +48,16 @@
               "t": "Issyk-Ata Gorge",
               "d": "Hot mineral springs have drawn visitors here for centuries, set in a narrow gorge with old Soviet-era sanatoriums and newer guesthouses. A popular weekend trip from Bishkek.",
               "img": "/assets/images/general/sheep-pastures.jpg"
+            },
+            {
+              "t": "Suusamyr Valley",
+              "d": "A broad, almost treeless highland valley around 2,200 m, strung along the Bishkek–Osh highway over the Too-Ashuu pass. It holds some of the best summer pastures in the country — kymyz-making yurt camps spread across the grass from May to July, with the Suusamyr-Too and Kyrgyz Ala-Too ranges rising on either side. Our Suusamyr–Kyzyl-Oy horse routes start here.",
+              "img": "/assets/images/tours/suusamyr.jpg"
+            },
+            {
+              "t": "Boom Gorge",
+              "d": "The narrow canyon where the Chuy River cuts out of the mountains, followed by the main road and rail line from Bishkek toward Issyk-Kul. Bare rock walls close in above the road for close to 30 km — the dramatic gateway every overland trip to the lake passes through.",
+              "img": "/assets/images/general/camel-pastures.webp"
             }
           ],
           "gettingThere": "Chuy surrounds Bishkek, so most of it is reachable by regular taxi or marshrutka directly from the city — no special transport needed for the closer sites.",
@@ -100,6 +110,16 @@
               "t": "Ущелье Иссык-Ата",
               "d": "Горячие минеральные источники веками привлекают сюда посетителей — узкое ущелье с советскими санаториями и новыми гостевыми домами. Популярная поездка на выходные из Бишкека.",
               "img": "/assets/images/general/sheep-pastures.jpg"
+            },
+            {
+              "t": "Суусамырская долина",
+              "d": "Широкая, почти безлесная высокогорная долина на высоте около 2200 м, растянувшаяся вдоль трассы Бишкек–Ош через перевал Тоо-Ашуу. Здесь одни из лучших летних пастбищ страны — с мая по июль по долине разбросаны юрточные стоянки, где готовят кумыс, а по сторонам поднимаются хребты Суусамыр-Тоо и Кыргызский Ала-Тоо. Отсюда начинаются наши конные маршруты Суусамыр – Кызыл-Ой.",
+              "img": "/assets/images/tours/suusamyr.jpg"
+            },
+            {
+              "t": "Боомское ущелье",
+              "d": "Узкий каньон, который река Чу прорезает на выходе из гор; вдоль него идут главная автотрасса и железная дорога из Бишкека на Иссык-Куль. Голые скальные стены сжимают дорогу почти на 30 км — впечатляющие ворота, через которые проходит любая наземная поездка к озеру.",
+              "img": "/assets/images/general/camel-pastures.webp"
             }
           ],
           "gettingThere": "Чуй окружает Бишкек, поэтому большая часть региона доступна на обычном такси или маршрутке прямо из города — особый транспорт для ближних точек не нужен.",
@@ -152,6 +172,16 @@
               "t": "Ысык-Ата капчыгайы",
               "d": "Ысык минералдык булактар бул жерге кылымдар бою коноктарды тартып келет — советтик санаторийлер жана жаңы конок үйлөр бар тар капчыгай. Бишкектен дем алыш күндөрү популярдуу сапар.",
               "img": "/assets/images/general/sheep-pastures.jpg"
+            },
+            {
+              "t": "Суусамыр өрөөнү",
+              "d": "Бишкек–Ош трассасынын Тоо-Ашуу ашуусу аркылуу созулган, болжол менен 2200 метр бийиктиктеги кең, дарактары аз бийик тоо өрөөнү. Бул жерде өлкөдөгү эң мыкты жайкы жайлоолордун бири бар — майдан июлга чейин өрөөн боюнча боз үй конуштары тигилип, кымыз даярдалат, ал эми эки жагынан Суусамыр-Тоо жана Кыргыз Ала-Тоо кырка тоолору көтөрүлөт. Биздин Суусамыр – Кызыл-Ой ат үстүндөгү маршруттарыбыз ушул жерден башталат.",
+              "img": "/assets/images/tours/suusamyr.jpg"
+            },
+            {
+              "t": "Боом капчыгайы",
+              "d": "Чу дарыясы тоолордон чыгарда кесип өткөн тар каньон; анын боюнда Бишкектен Ысык-Көлгө баруучу негизги автожол жана темир жол өтөт. Жылаңач аска дубалдар жолду болжол менен 30 км бою кысып турат — көлгө баруучу ар бир кургактык сапар өтүүчү таасирдүү дарбаза.",
+              "img": "/assets/images/general/camel-pastures.webp"
             }
           ],
           "gettingThere": "Чүй Бишкекти курчап турат, ошондуктан аймактын көпчүлүгүнө шаардан түз кадимки такси же маршрутка менен жетүүгө болот — жакынкы жерлер үчүн атайын транспорт керек эмес.",
@@ -204,6 +234,16 @@
               "img": "https://images.pexels.com/photos/12077027/pexels-photo-12077027.jpeg?auto=compress&cs=tinysrgb&w=1000"
             },
             {
+              "t": "Altyn-Arashan",
+              "d": "A high valley above Karakol, reached on foot, by horse or in a rugged 4x4 along a rough jeep track, with natural hot springs steaming right beside the river. A good overnight stop before pushing further into the Terskey Ala-Too, including toward Ala-Kul.",
+              "img": "/assets/images/general/sheep-pastures.jpg"
+            },
+            {
+              "t": "Ala-Kul Lake",
+              "d": "A turquoise alpine lake at around 3,500 m, reached by a steep climb over the Ala-Kul pass from Altyn-Arashan or Jety-Oguz. One of the most rewarding multi-day treks in the Terskey Ala-Too, usually walked as a 2–3 day loop.",
+              "img": "/assets/images/general/mountain-lake-yurts.webp"
+            },
+            {
               "t": "Karakol",
               "d": "The region's main town, with a wooden Russian Orthodox cathedral, a lively Sunday animal market nearby, and easy access to the Terskey Ala-Too for further trekking.",
               "img": "https://images.pexels.com/photos/31833313/pexels-photo-31833313.jpeg?auto=compress&cs=tinysrgb&w=1000"
@@ -251,6 +291,16 @@
               "img": "https://images.pexels.com/photos/12077027/pexels-photo-12077027.jpeg?auto=compress&cs=tinysrgb&w=1000"
             },
             {
+              "t": "Алтын-Арашан",
+              "d": "Высокогорная долина над Караколом, куда поднимаются пешком, верхом или на внедорожнике по разбитой грунтовой дороге; прямо у реки выходят на поверхность горячие источники. Удобное место для ночёвки перед дальнейшим походом в Терскей Ала-Тоо, в том числе к озеру Ала-Кёль.",
+              "img": "/assets/images/general/sheep-pastures.jpg"
+            },
+            {
+              "t": "Озеро Ала-Кёль",
+              "d": "Бирюзовое высокогорное озеро на высоте около 3500 м, до которого ведёт крутой подъём через перевал Ала-Кёль от Алтын-Арашана или Джеты-Огуза. Один из самых впечатляющих многодневных походов в Терскей Ала-Тоо — обычно проходится кольцевым маршрутом за 2–3 дня.",
+              "img": "/assets/images/general/mountain-lake-yurts.webp"
+            },
+            {
               "t": "Каракол",
               "d": "Главный город региона: деревянный православный собор, оживлённый воскресный рынок скота неподалёку и удобный доступ к Терскей Ала-Тоо для дальнейшего треккинга.",
               "img": "https://images.pexels.com/photos/31833313/pexels-photo-31833313.jpeg?auto=compress&cs=tinysrgb&w=1000"
@@ -296,6 +346,16 @@
               "t": "Жети-Өгүз",
               "d": "«Жети Өгүз» — Караколдун жанындагы кызыл аска тоолордун катары, кыска жана кооз өрөөн сейилдөөсү альп шалбааларына жана ысык булактарга улантылат.",
               "img": "https://images.pexels.com/photos/12077027/pexels-photo-12077027.jpeg?auto=compress&cs=tinysrgb&w=1000"
+            },
+            {
+              "t": "Алтын-Арашан",
+              "d": "Караколдун үстүндөгү бийик өрөөн, жөө, ат менен же чопо жолдо жүрүүчү унаа менен жетүүгө болот; дарыянын жанынан эле ысык булактар чыгат. Терскей Ала-Тоого, анын ичинде Ала-Көлгө карай андан ары жүрүш алдында түнөөгө ыңгайлуу жер.",
+              "img": "/assets/images/general/sheep-pastures.jpg"
+            },
+            {
+              "t": "Ала-Көл көлү",
+              "d": "Болжол менен 3500 метр бийиктиктеги түркүн-көк тоо көлү, ага Алтын-Арашандан же Жети-Өгүздөн Ала-Көл ашуусу аркылуу тик чыгуу менен жетүүгө болот. Терскей Ала-Тоодогу эң таасирдүү көп күндүк жүрүштөрдүн бири — адатта 2-3 күндүк чөйрө маршрут түрүндө өтөт.",
+              "img": "/assets/images/general/mountain-lake-yurts.webp"
             },
             {
               "t": "Каракол",
