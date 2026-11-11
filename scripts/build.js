@@ -1161,12 +1161,10 @@ function buildPracticalInfo(locale) {
   const allFaq = UI[locale].home.faqHome.concat(p.faqMore);
 
   const body = `
-<section class="hero hero--page">
-  ${img('/assets/images/general/pexels-tomas-malik-793526-27245324.jpg', { preset: 'hero', alt: 'Traveler in the Kyrgyz mountains', class: 'hero__media', eager: true })}
-  <div class="hero__scrim"></div>
-  <div class="hero__content">
-    <h1>${p.heroTitle}</h1>
-    <p>${p.heroSubtitle}</p>
+<section class="section--tight section--white" style="padding-top:80px;padding-bottom:32px">
+  <div class="container stack--sm">
+    <h1 style="margin:0">${p.heroTitle}</h1>
+    <p style="margin:0;font-size:18px;color:var(--color-text-muted)">${p.heroSubtitle}</p>
   </div>
 </section>
 
