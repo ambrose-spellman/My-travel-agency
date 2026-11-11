@@ -28,6 +28,14 @@ jobs:
 
       - run: npm ci
 
+      # Resized/encoded images are keyed by content hash, so only new or
+      # changed photos get re-encoded on each run.
+      - uses: actions/cache@v4
+        with:
+          path: .cache/images
+          key: images-${{ hashFiles('assets/images/**') }}
+          restore-keys: images-
+
       - run: npm run build
 
       - uses: actions/upload-pages-artifact@v3

@@ -13,12 +13,15 @@ const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
 const { marked } = require('marked');
+const IMAGES = require('./images.js');
+const img = IMAGES.img;
 
 const ROOT = path.join(__dirname, '..');
 const OUT = path.join(ROOT, 'dist');
-/* Root-level files/dirs copied verbatim into dist/. */
+/* Root-level files/dirs copied verbatim into dist/ (assets/images is handled
+   by scripts/images.js, which resizes and re-encodes every photo). */
 const STATIC_ENTRIES = [
-  'assets', 'CNAME', 'site.webmanifest',
+  'assets/css', 'assets/js', 'assets/fonts', 'CNAME', 'site.webmanifest',
   'favicon.ico', 'favicon.svg', 'favicon-96x96.png', 'apple-touch-icon.png',
   'web-app-manifest-192x192.png', 'web-app-manifest-512x512.png'
 ];
@@ -189,6 +192,11 @@ function waLink(message) {
   return 'https://wa.me/' + SITE.whatsapp + '?text=' + encodeURIComponent(message);
 }
 function attr(s) { return String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;'); }
+/* Absolute URL of the social-preview JPEG for an image (site-relative or external). */
+function ogImageAbs(src) {
+  const u = IMAGES.ogImageUrl(src);
+  return /^https?:\/\//.test(u) ? u : SITE.url + u;
+}
 function outPath(urlPath) {
   const clean = urlPath.replace(/^\/+/, '').replace(/\/+$/, '');
   return clean ? path.join(OUT, clean, 'index.html') : path.join(OUT, 'index.html');
@@ -224,7 +232,7 @@ function iconColor(name, color, size) {
 /* ------------------------------------------------------------------ */
 function renderHead(opts, locale) {
   const url = SITE.url + localePath(locale, opts.path);
-  const ogImage = SITE.url + (opts.image || '/assets/images/general/mountain-lake-yurts.webp');
+  const ogImage = ogImageAbs(opts.image || '/assets/images/general/mountain-lake-yurts.webp');
   const ld = opts.structuredData ? '\n<script type="application/ld+json">' + JSON.stringify(opts.structuredData) + '</script>' : '';
   const orgSchema = {
     '@context': 'https://schema.org',
@@ -232,7 +240,7 @@ function renderHead(opts, locale) {
     name: SITE.name,
     url: SITE.url,
     logo: SITE.url + '/assets/images/logo.svg',
-    image: SITE.url + '/assets/images/general/IND04269.JPG',
+    image: ogImageAbs('/assets/images/general/ind04269.jpg'),
     telephone: '+' + SITE.whatsapp,
     email: SITE.email,
     address: { '@type': 'PostalAddress', addressLocality: 'At-Bashy', addressRegion: 'Naryn Region', addressCountry: 'KG' },
@@ -397,7 +405,7 @@ function tourCardHtml(tour, locale) {
   const activityLabel = t(locale, 'toursIndex.activities.' + tour.activity) || tour.activity;
   return `
 <article class="tour-card" data-activity="${tour.activity}" data-regions="${tour.region.join('|')}" data-duration-min="${tour.durationMin}" data-duration-max="${tour.durationMax}">
-  <div class="tour-card__media"><img src="${tour.image}" alt="${attr(tt.title)}" loading="lazy"></div>
+  <div class="tour-card__media">${img(tour.image, { preset: 'card', alt: tt.title })}</div>
   <div class="tour-card__body">
     <div class="tour-card__tags">
       <span class="tour-card__tag tour-card__tag--region">${regionLabel(locale, tour.region[0])}</span>
@@ -416,7 +424,7 @@ function destTileHtml(dest, locale, aspect) {
   const dt = tr(dest, locale);
   return `
 <a href="${localePath(locale, '/destinations/' + dest.slug + '/')}" class="dest-tile" style="${aspect ? 'aspect-ratio:' + aspect : ''}">
-  <img src="${dest.tileImage}" alt="${attr(dt.name)}" loading="lazy">
+  ${img(dest.tileImage, { preset: 'tile', alt: dt.name })}
   <span class="dest-tile__scrim"></span>
   <span class="dest-tile__text">
     <span class="name">${dt.name}</span>
@@ -464,7 +472,7 @@ function testimonialsHtml(locale) {
   }
   return items.map(function (r) {
     const avatar = r.avatar
-      ? '<img class="testimonial-card__avatar" src="' + r.avatar + '" alt="' + attr(r.name) + '">'
+      ? img(r.avatar, { preset: 'avatar', alt: r.name, class: 'testimonial-card__avatar' })
       : '<span class="testimonial-card__avatar testimonial-card__avatar--initial">' + attr(r.name.slice(0, 1)) + '</span>';
     return `
 <div class="testimonial-card">
@@ -514,7 +522,7 @@ function buildHome(locale) {
       ${galleryCols.map(function (col, idx) {
         const doubled = col.concat(col);
         return '<div class="hero-intro__col' + (idx % 2 === 1 ? ' hero-intro__col--reverse' : '') + '">' +
-          doubled.map(function (src) { return '<img src="' + src + '" alt="Kyrgyzstan mountain landscape" loading="lazy">'; }).join('') +
+          doubled.map(function (src, i) { return img(src, { preset: 'masonry', alt: 'Kyrgyzstan mountain landscape', eager: i === 0 }); }).join('') +
           '</div>';
       }).join('\n      ')}
     </div>
@@ -524,8 +532,8 @@ function buildHome(locale) {
 <section class="section guide-section">
   <div class="container guide-grid">
     <div class="guide-grid__media">
-      <img class="guide-grid__photo" src="/assets/images/general/saikal.JPG" alt="${h.founderGreeting}">
-      <img class="guide-grid__photo-inset" src="/assets/images/general/saikal2.jpg" alt="${h.founderGreeting}">
+      ${img('/assets/images/general/saikal-portrait.jpg', { preset: 'portrait', alt: h.founderGreeting, class: 'guide-grid__photo' })}
+      ${img('/assets/images/general/saikal2.jpg', { preset: 'inset', alt: h.founderGreeting, class: 'guide-grid__photo-inset' })}
       <div class="guide-grid__badge"><strong>${h.guideSeasonsBadge}</strong><span>${h.guideSeasonsLabel}</span></div>
     </div>
     <div class="guide-grid__text">
@@ -584,7 +592,7 @@ ${SHOW_REGIONS_SECTION ? `
 </section>` : ''}
 
 <section class="section section--photo">
-  <img class="section__bg" src="/assets/images/general/mountain-lake-yurts.webp" alt="Snow-capped mountains above a valley in Kyrgyzstan">
+  ${img('/assets/images/general/mountain-lake-yurts.webp', { preset: 'hero', alt: 'Snow-capped mountains above a valley in Kyrgyzstan', class: 'section__bg' })}
   <div class="section__scrim"></div>
   <div class="container stack">
     <h2 class="text-center">${h.whyTravelHeading}</h2>
@@ -607,7 +615,7 @@ ${SHOW_REGIONS_SECTION ? `
   <div class="container stack">
     <h2 class="text-center">${h.lifeOnTrailHeading}</h2>
     <div class="gallery-grid">
-      ${gallery.map(function (src) { return '<div class="gallery-grid__item"><img src="' + src + '" alt="' + attr(h.galleryAlt) + '" loading="lazy"></div>'; }).join('\n      ')}
+      ${gallery.map(function (src) { return '<div class="gallery-grid__item">' + img(src, { preset: 'gallery', alt: h.galleryAlt }) + '</div>'; }).join('\n      ')}
     </div>
   </div>
 </section>
@@ -621,7 +629,7 @@ ${SHOW_REGIONS_SECTION ? `
 </section>
 
 <section class="section" style="position:relative;background:#E0663A;overflow:hidden;padding:clamp(80px,9vw,120px) var(--page-pad)">
-  <img class="hero__media" src="/assets/images/general/camel-pastures.webp" alt="Camel grazing in front of snow-capped peaks at sunset" style="opacity:.55">
+  ${img('/assets/images/general/camel-pastures.webp', { preset: 'hero', alt: 'Camel grazing in front of snow-capped peaks at sunset', class: 'hero__media', style: 'opacity:.55' })}
   <div style="position:absolute;inset:0;background:rgba(138,58,28,.62)"></div>
   <div class="container text-center" style="position:relative;max-width:720px;display:flex;flex-direction:column;align-items:center;gap:20px">
     <h2 style="color:#fff">${h.ctaHeading}</h2>
@@ -793,7 +801,7 @@ function buildTourDetail(tour, index, locale) {
 
   const body = `
 <section class="hero-detail">
-  <img class="hero-detail__media" src="${tour.image}" alt="${attr(tt.title)}">
+  ${img(tour.image, { preset: 'hero', alt: tt.title, class: 'hero-detail__media', eager: true })}
   <div class="hero-detail__scrim"></div>
   <div class="hero-detail__content">
     <div class="container">
@@ -864,7 +872,7 @@ ${SHOW_CALCULATOR ? `
 <section class="section section--white">
   <div class="container max-w-800 stack">
     <h2 class="text-center">${td.itineraryHeading}</h2>
-    ${tour.routeMap ? '<img src="' + tour.routeMap + '" alt="' + attr(tt.title) + ' route map" style="width:100%;border-radius:var(--radius);margin:0 0 8px">' : ''}
+    ${tour.routeMap ? img(tour.routeMap, { sizes: '(max-width: 840px) 100vw, 800px', alt: tt.title + ' route map', style: 'width:100%;height:auto;border-radius:var(--radius);margin:0 0 8px' }) : ''}
     ${itineraryHtml}
   </div>
 </section>
@@ -887,7 +895,7 @@ ${tour.photos && tour.photos.length ? `
   <div class="container stack">
     <h2 class="text-center">${td.photosHeading}</h2>
     <div class="gallery-grid">
-      ${tour.photos.map(function (src) { return '<div class="gallery-grid__item"><img src="' + src + '" alt="' + attr(tt.title) + '" loading="lazy"></div>'; }).join('\n      ')}
+      ${tour.photos.map(function (src) { return '<div class="gallery-grid__item">' + img(src, { preset: 'gallery', alt: tt.title }) + '</div>'; }).join('\n      ')}
     </div>
   </div>
 </section>` : ''}
@@ -1012,7 +1020,7 @@ function buildDestinationDetail(dest, locale) {
 
   const body = `
 <section class="hero-detail hero-detail--dest">
-  <img class="hero-detail__media" src="${dest.heroImage}" alt="${attr(dt.name)}">
+  ${img(dest.heroImage, { preset: 'hero', alt: dt.name, class: 'hero-detail__media', eager: true })}
   <div class="hero-detail__scrim"></div>
   <div class="hero-detail__content">
     <div class="container stack--sm">
@@ -1041,7 +1049,7 @@ function buildDestinationDetail(dest, locale) {
       ${dt.highlights.map(function (h) {
         const readMore = h.blogSlug ? `<a href="${localePath(locale, '/blog/' + h.blogSlug + '/')}" class="btn btn--outline btn--sm" style="align-self:flex-start;margin-top:4px">${UI[locale].blogIndex.readMore} →</a>` : '';
         return `<div style="background:#fff;border-radius:8px;overflow:hidden;display:flex;flex-direction:column">
-  <div style="position:relative;aspect-ratio:16/10"><img src="${h.img}" alt="${attr(h.t)}" loading="lazy" style="width:100%;height:100%;object-fit:cover"></div>
+  <div style="position:relative;aspect-ratio:16/10">${img(h.img, { preset: 'card', alt: h.t, style: 'width:100%;height:100%;object-fit:cover' })}</div>
   <div style="padding:24px;display:flex;flex-direction:column;gap:8px"><div style="font:600 20px var(--font-body)">${h.t}</div><div style="font-size:16px;line-height:1.6;color:var(--color-text-muted)">${h.d}</div>${readMore}</div>
 </div>`;
       }).join('\n      ')}
@@ -1059,7 +1067,7 @@ function buildDestinationDetail(dest, locale) {
       </div>
     </div>
     <div class="info-table info-table--flat" style="padding:0;background:none;box-shadow:none">
-      <img src="${dest.heroImage}" alt="${attr(dd.routeToAlt(dt.name))}" loading="lazy" style="width:100%;border-radius:8px;object-fit:cover;aspect-ratio:4/3">
+      ${img(dest.heroImage, { preset: 'half', alt: dd.routeToAlt(dt.name), style: 'width:100%;height:auto;border-radius:8px;object-fit:cover;aspect-ratio:4/3' })}
     </div>
   </div>
 </section>
@@ -1101,7 +1109,7 @@ function buildAbout(locale) {
       <p style="font-size:18px;line-height:1.7;color:var(--color-text-mute-3)">${a.ourStoryText}</p>
       <p style="font-size:18px;line-height:1.7;color:var(--color-text-mute-3)">${a.ourStoryPersonal}</p>
     </div>
-    <div style="position:relative;aspect-ratio:4/5;border-radius:8px;overflow:hidden"><img src="/assets/images/general/IND03973.JPG" alt="Kyrgyzstan mountain landscape" style="width:100%;height:100%;object-fit:cover"></div>
+    <div style="position:relative;aspect-ratio:4/5;border-radius:8px;overflow:hidden">${img('/assets/images/general/ind03973.jpg', { preset: 'half', alt: 'Kyrgyzstan mountain landscape', eager: true, style: 'width:100%;height:100%;object-fit:cover' })}</div>
   </div>
 </section>
 
@@ -1133,7 +1141,7 @@ function buildAbout(locale) {
     path: '/about/',
     title: a.pageTitle,
     description: a.pageDescription,
-    image: '/assets/images/general/IND04269.JPG',
+    image: '/assets/images/general/ind04269.jpg',
     activeHref: '/about/',
     body: body
   }, locale);
@@ -1154,7 +1162,7 @@ function buildPracticalInfo(locale) {
 
   const body = `
 <section class="hero hero--page">
-  <img class="hero__media" src="/assets/images/general/pexels-tomas-malik-793526-27245324.jpg" alt="Traveler in the Kyrgyz mountains">
+  ${img('/assets/images/general/pexels-tomas-malik-793526-27245324.jpg', { preset: 'hero', alt: 'Traveler in the Kyrgyz mountains', class: 'hero__media', eager: true })}
   <div class="hero__scrim"></div>
   <div class="hero__content">
     <h1>${p.heroTitle}</h1>
@@ -1240,7 +1248,7 @@ function buildArticleDetail(article, locale) {
     '@type': 'Article',
     headline: at.title,
     description: at.seoDescription || at.excerpt,
-    image: SITE.url + article.image,
+    image: ogImageAbs(article.image),
     datePublished: article.publishDate,
     author: { '@type': 'Organization', name: SITE.name },
     publisher: { '@type': 'Organization', name: SITE.name, logo: { '@type': 'ImageObject', url: SITE.url + '/assets/images/logo.svg' } }
@@ -1273,7 +1281,7 @@ ${article.gallery && article.gallery.length ? `
   <div class="container stack">
     <h2 class="text-center">${bd.galleryHeading}</h2>
     <div class="gallery-grid">
-      ${article.gallery.map(function (src) { return '<div class="gallery-grid__item"><img src="' + src + '" alt="' + attr(at.title) + '" loading="lazy"></div>'; }).join('\n      ')}
+      ${article.gallery.map(function (src) { return '<div class="gallery-grid__item">' + img(src, { preset: 'gallery', alt: at.title }) + '</div>'; }).join('\n      ')}
     </div>
   </div>
 </section>` : ''}
@@ -1430,19 +1438,28 @@ function buildClientI18n() {
 /* ------------------------------------------------------------------ */
 /* Run */
 /* ------------------------------------------------------------------ */
-prepareOutDir();
-buildClientI18n();
-LOCALES.forEach(function (locale) {
-  buildHome(locale);
-  buildToursIndex(locale);
-  TOURS.forEach(function (tour, i) { buildTourDetail(tour, i, locale); });
-  buildDestinationsIndex(locale);
-  DESTINATIONS.forEach(function (dest) { buildDestinationDetail(dest, locale); });
-  buildAbout(locale);
-  buildPracticalInfo(locale);
-  buildBlogIndex(locale);
-  ARTICLES.forEach(function (article) { buildArticleDetail(article, locale); });
-  buildContact(locale);
+async function main() {
+  const started = Date.now();
+  prepareOutDir();
+  await IMAGES.processImages({ root: ROOT, outDir: OUT });
+  buildClientI18n();
+  LOCALES.forEach(function (locale) {
+    buildHome(locale);
+    buildToursIndex(locale);
+    TOURS.forEach(function (tour, i) { buildTourDetail(tour, i, locale); });
+    buildDestinationsIndex(locale);
+    DESTINATIONS.forEach(function (dest) { buildDestinationDetail(dest, locale); });
+    buildAbout(locale);
+    buildPracticalInfo(locale);
+    buildBlogIndex(locale);
+    ARTICLES.forEach(function (article) { buildArticleDetail(article, locale); });
+    buildContact(locale);
+  });
+  buildSitemapAndRobots();
+  console.log('\nBuild complete:', TOURS.length, 'tours,', DESTINATIONS.length, 'destinations,', ARTICLES.length, 'articles,', LOCALES.length, 'locales, in', ((Date.now() - started) / 1000).toFixed(1) + 's');
+}
+
+main().catch(function (err) {
+  console.error('\nBuild failed:', err.message);
+  process.exit(1);
 });
-buildSitemapAndRobots();
-console.log('\nBuild complete:', TOURS.length, 'tours,', DESTINATIONS.length, 'destinations,', ARTICLES.length, 'articles,', LOCALES.length, 'locales.');

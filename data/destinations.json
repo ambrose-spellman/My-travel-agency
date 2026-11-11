@@ -376,8 +376,8 @@
     {
       "id": "naryn",
       "slug": "naryn",
-      "heroImage": "/assets/images/destinations/Tash-rabat.jpg",
-      "tileImage": "/assets/images/destinations/Tash-rabat.jpg",
+      "heroImage": "/assets/images/destinations/tash-rabat.jpg",
+      "tileImage": "/assets/images/destinations/tash-rabat.jpg",
       "i18n": {
         "en": {
           "name": "Naryn",
