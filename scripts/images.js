@@ -117,19 +117,21 @@ async function processImages(o) {
   const cacheDir = path.join(o.root, '.cache', 'images');
   fs.mkdirSync(cacheDir, { recursive: true });
   const files = walk(srcDir, []);
-  let processed = 0;
+  let processed = 0, copied = 0;
   for (const file of files) {
     const rel = path.relative(o.root, file); /* assets/images/... */
     if (RASTER.test(file)) {
       await processOne(file, rel, cacheDir, o.outDir);
       processed++;
-    } else {
+    } else if (/\.(svg|gif)$/i.test(file)) {
       const dest = path.join(o.outDir, rel);
       fs.mkdirSync(path.dirname(dest), { recursive: true });
       fs.copyFileSync(file, dest);
+      copied++;
     }
+    /* anything else (README.txt placeholders, .DS_Store, ...) is not published */
   }
-  console.log('images: processed', processed, 'raster files,', files.length - processed, 'copied as-is');
+  console.log('images: processed', processed, 'raster files,', copied, 'copied as-is');
 }
 
 function lookup(src) {

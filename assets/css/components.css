@@ -630,3 +630,15 @@
 .stack--sm { gap: var(--space-md); }
 
 .section-intro { display: flex; flex-direction: column; gap: var(--space-2xl); }
+
+/* Tour detail: price per person by group size */
+.price-table-wrap { overflow-x: auto; border-radius: var(--radius); box-shadow: 0 1px 3px rgba(0,0,0,.06); }
+.price-table { width: 100%; border-collapse: collapse; font-size: 16px; background: #fff; }
+.price-table th, .price-table td { padding: 14px 18px; text-align: right; border-bottom: 1px solid var(--color-border); white-space: nowrap; }
+.price-table th:first-child, .price-table td:first-child { text-align: left; }
+.price-table thead th { background: var(--color-heading); color: #fff; font-weight: 600; }
+.price-table thead th:nth-child(2) { color: var(--color-accent); }
+.price-table tbody tr:nth-child(even) td { background: var(--color-bg); }
+.price-table tbody tr:last-child td { border-bottom: 0; }
+.price-table td:nth-child(2) { font-weight: 600; }
+@media (max-width: 520px) { .price-table th, .price-table td { padding: 12px 12px; font-size: 15px; } }

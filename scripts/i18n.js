@@ -139,6 +139,11 @@ const UI = {
       includedHeading: "What's Included",
       notIncludedHeading: "What's Not Included",
       photosHeading: 'Photos from the Route',
+      priceTableHeading: 'Price per person by group size',
+      priceTableGroup: 'Group size', priceTablePerPerson: 'Per person, USD', priceTableTotal: 'Whole group, USD',
+      priceTableNote: "All-inclusive price per person — see what's included. Prices in USD; payment in KGS at the exchange rate on the day of payment is also possible.",
+      priceOnRequest: 'Price on request',
+      travellersLabel: function (n) { return n + (n === 1 ? ' traveller' : ' travellers'); },
       accommodationHeading: 'Accommodation',
       accommodationSuffix: '. Bedding and mats are provided; bring a warm sleeping bag for nights above 3,000 m.',
       transportHeading: 'Transport',
@@ -157,7 +162,7 @@ const UI = {
       checkAvailabilityBtn: 'Check Availability on WhatsApp',
       accommodationAlt: function (title) { return 'Accommodation on the ' + title + ' route'; },
       transportAlt: function (title) { return 'Transport on the ' + title + ' route'; },
-      pageDescription: function (desc, durLabel, price) { return desc.slice(0, 140) + ' ' + durLabel + ' days, from $' + price + ' pp. Book on WhatsApp.'; }
+      pageDescription: function (desc, durLabel, price) { return desc.slice(0, 140) + ' ' + durLabel + ' days' + (price != null ? ', from $' + price + ' pp' : '') + '. Book on WhatsApp.'; }
     },
     destinationsIndex: {
       heroTitle: 'Destinations',
@@ -398,6 +403,11 @@ const UI = {
       includedHeading: 'Что включено',
       notIncludedHeading: 'Что не включено',
       photosHeading: 'Фото с маршрута',
+      priceTableHeading: 'Цена за человека в зависимости от размера группы',
+      priceTableGroup: 'Размер группы', priceTablePerPerson: 'За человека, USD', priceTableTotal: 'За всю группу, USD',
+      priceTableNote: 'Цена «всё включено» за человека — см. раздел «Что включено». Цены в USD; возможна оплата в сомах по курсу на день оплаты.',
+      priceOnRequest: 'Цена по запросу',
+      travellersLabel: function (n) { return n + ' ' + (n === 1 ? 'путешественник' : n >= 2 && n <= 4 ? 'путешественника' : 'путешественников'); },
       accommodationHeading: 'Проживание',
       accommodationSuffix: '. Постельное бельё и коврики предоставляются; возьмите тёплый спальный мешок для ночей выше 3000 м.',
       transportHeading: 'Транспорт',
@@ -416,7 +426,7 @@ const UI = {
       checkAvailabilityBtn: 'Узнать о наличии в WhatsApp',
       accommodationAlt: function (title) { return 'Проживание на маршруте «' + title + '»'; },
       transportAlt: function (title) { return 'Транспорт на маршруте «' + title + '»'; },
-      pageDescription: function (desc, durLabel, price) { return desc.slice(0, 140) + ' ' + durLabel + ' дней, от $' + price + ' с человека. Бронирование в WhatsApp.'; }
+      pageDescription: function (desc, durLabel, price) { return desc.slice(0, 140) + ' ' + durLabel + ' дней' + (price != null ? ', от $' + price + ' с человека' : '') + '. Бронирование в WhatsApp.'; }
     },
     destinationsIndex: {
       heroTitle: 'Направления',
@@ -653,6 +663,11 @@ const UI = {
       includedHeading: 'Эмне кирет',
       notIncludedHeading: 'Эмне кирбейт',
       photosHeading: 'Маршруттун сүрөттөрү',
+      priceTableHeading: 'Топтун өлчөмүнө жараша бир адамга баа',
+      priceTableGroup: 'Топтун өлчөмү', priceTablePerPerson: 'Бир адамга, USD', priceTableTotal: 'Бүт топко, USD',
+      priceTableNote: 'Бир адамга «баары кошулган» баа — «Эмне кирет» бөлүмүн караңыз. Баалар USD менен; төлөм күнүндөгү курс боюнча сом менен төлөөгө да болот.',
+      priceOnRequest: 'Баасы суроо боюнча',
+      travellersLabel: function (n) { return n + ' саякатчы'; },
       accommodationHeading: 'Жашоо',
       accommodationSuffix: '. Төшөк жана төшөнчү берилет; 3000 м бийиктиктен жогорку түндөр үчүн жылуу уйку баштыгын алып келиңиз.',
       transportHeading: 'Транспорт',
@@ -671,7 +686,7 @@ const UI = {
       checkAvailabilityBtn: 'WhatsAppтан орунду текшерүү',
       accommodationAlt: function (title) { return '«' + title + '» маршрутундагы жашоо'; },
       transportAlt: function (title) { return '«' + title + '» маршрутундагы транспорт'; },
-      pageDescription: function (desc, durLabel, price) { return desc.slice(0, 140) + ' ' + durLabel + ' күн, $' + price + 'дан. WhatsApp аркылуу брондоо.'; }
+      pageDescription: function (desc, durLabel, price) { return desc.slice(0, 140) + ' ' + durLabel + ' күн' + (price != null ? ', $' + price + 'дан' : '') + '. WhatsApp аркылуу брондоо.'; }
     },
     destinationsIndex: {
       heroTitle: 'Багыттар',

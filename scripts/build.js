@@ -78,6 +78,28 @@ function loadArticles() {
 }
 const ARTICLES = loadArticles();
 
+/* Per-tour photo folders: assets/images/tours/<slug>/
+   - every jpg/png/webp in the folder becomes the tour's photo gallery (sorted by name)
+   - cover.*  (if present) is used as the hero/card image, otherwise the first photo
+   - map.*    (if present) is used as the route map
+   Fields in tours.json (image / photos / routeMap) are only the fallback when the
+   folder is empty, so photos can be added without touching the JSON. */
+const RASTER_RE = /\.(jpe?g|png|webp)$/i;
+function attachTourMedia(tour) {
+  const dir = path.join(ROOT, 'assets/images/tours', tour.slug);
+  if (!fs.existsSync(dir)) return;
+  const files = fs.readdirSync(dir).filter(function (f) { return RASTER_RE.test(f); }).sort();
+  if (!files.length) return;
+  const url = function (f) { return '/assets/images/tours/' + tour.slug + '/' + f; };
+  const cover = files.find(function (f) { return /^cover\./i.test(f); });
+  const map = files.find(function (f) { return /^map\./i.test(f); });
+  const photos = files.filter(function (f) { return f !== map; });
+  tour.image = url(cover || photos[0] || files[0]);
+  tour.photos = photos.map(url);
+  if (map) tour.routeMap = url(map);
+}
+TOURS.forEach(attachTourMedia);
+
 const SITE = {
   name: 'At-Bashy Tours',
   url: 'https://atbashy.tours',
@@ -759,10 +781,11 @@ function buildTourDetail(tour, index, locale) {
   const dur = durationLabel(locale, tour.durationMin, tour.durationMax);
   const grp = groupLabel(locale, tour.groupSize.min, tour.groupSize.max);
   const currencySymbol = tour.currency === 'USD' ? '$' : tour.currency;
+  const hasPrice = tour.priceFrom != null;
   const factsStripItems = [
     { icon: 'pin', label: td.factsStartingPoint, value: tt.startingPoint },
     { icon: 'calendar', label: td.factsDuration, value: dur },
-    { icon: 'price', label: td.factsCost, value: td.costFrom(currencySymbol, tour.priceFrom) },
+    { icon: 'price', label: td.factsCost, value: hasPrice ? td.costFrom(currencySymbol, tour.priceFrom) : td.priceOnRequest },
     { icon: 'activity', label: td.factsLevel, value: tt.difficulty },
     { icon: 'users', label: td.factsGroup, value: grp },
     { icon: 'armchair', label: td.factsComfort, value: tt.comfort }
@@ -798,6 +821,26 @@ function buildTourDetail(tour, index, locale) {
   const safetyRows = isHorse
     ? [{ k: td.safetyWeightLimit, v: td.safetyWeightVal }, { k: td.safetyHelmet, v: td.safetyHelmetVal }, { k: td.safetyGuide, v: td.safetyGuideVal }, { k: td.safetyInsurance, v: td.safetyInsuranceVal }]
     : [{ k: td.safetyGuide, v: td.safetyGuideVal }, { k: td.safetyVehicle, v: td.safetyVehicleVal }, { k: td.safetyInsurance, v: td.safetyInsuranceVal }];
+
+  /* Price per person by group size (tour.priceTable: [{ group, perPerson, total }]) */
+  const fmtUsd = function (n) { return currencySymbol + Number(n).toLocaleString('en-US'); };
+  const priceTableHtml = tour.priceTable && tour.priceTable.length ? `
+<section class="section section--white">
+  <div class="container max-w-800 stack">
+    <h2 class="text-center">${td.priceTableHeading}</h2>
+    <div class="price-table-wrap">
+      <table class="price-table">
+        <thead><tr><th>${td.priceTableGroup}</th><th>${td.priceTablePerPerson}</th><th>${td.priceTableTotal}</th></tr></thead>
+        <tbody>
+          ${tour.priceTable.map(function (row) {
+            return '<tr><td>' + td.travellersLabel(row.group) + '</td><td>' + fmtUsd(row.perPerson) + '</td><td>' + fmtUsd(row.total != null ? row.total : row.perPerson * row.group) + '</td></tr>';
+          }).join('\n          ')}
+        </tbody>
+      </table>
+    </div>
+    <p class="text-center" style="margin:0;font-size:14px;color:var(--color-text-mute-2)">${td.priceTableNote}</p>
+  </div>
+</section>` : '';
 
   const body = `
 <section class="hero-detail">
@@ -889,7 +932,7 @@ ${SHOW_CALCULATOR ? `
     </div>
   </div>
 </section>
-
+${priceTableHtml}
 ${tour.photos && tour.photos.length ? `
 <section class="section section--white">
   <div class="container stack">
@@ -951,7 +994,7 @@ ${tour.photos && tour.photos.length ? `
       '@type': 'ItemList',
       itemListElement: tt.itinerary.map(function (d) { return { '@type': 'ListItem', position: d.day, name: td.dayLabel + ' ' + d.day + ': ' + d.title, description: d.description }; })
     } : undefined,
-    offers: { '@type': 'Offer', price: String(tour.priceFrom), priceCurrency: tour.currency, availability: 'https://schema.org/InStock' },
+    offers: hasPrice ? { '@type': 'Offer', price: String(tour.priceFrom), priceCurrency: tour.currency, availability: 'https://schema.org/InStock' } : undefined,
     duration: 'P' + tour.durationMin + 'D/P' + tour.durationMax + 'D',
     touristType: ['Adventure travelers', 'Horse riding enthusiasts', 'Nature lovers'],
     travelMode: tour.activity,
