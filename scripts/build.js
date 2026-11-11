@@ -1,9 +1,11 @@
 /*
  * Static site generator for the At-Bashy Tours website.
- * Reads data/tours.json and data/destinations.json, renders every page from
- * shared header/footer/card templates, and writes plain static HTML into the
- * project root (tours/, destinations/, about/, practical-info/, contact/, index.html)
- * for the default locale, and under /ru/ and /ky/ for the other locales.
+ * Reads data/tours.json, data/destinations.json and content/blog/*.md, renders
+ * every page from shared header/footer/card templates, and writes the whole
+ * static site into dist/ (default locale at the root, other locales under
+ * /locales/<locale>/). Static assets (assets/, favicons, CNAME, ...) are
+ * copied into dist/ as well. dist/ is NOT committed — GitHub Actions runs
+ * this script on every push and deploys dist/ to GitHub Pages.
  * Run with: node scripts/build.js
  */
 'use strict';
@@ -13,6 +15,13 @@ const matter = require('gray-matter');
 const { marked } = require('marked');
 
 const ROOT = path.join(__dirname, '..');
+const OUT = path.join(ROOT, 'dist');
+/* Root-level files/dirs copied verbatim into dist/. */
+const STATIC_ENTRIES = [
+  'assets', 'CNAME', 'site.webmanifest',
+  'favicon.ico', 'favicon.svg', 'favicon-96x96.png', 'apple-touch-icon.png',
+  'web-app-manifest-192x192.png', 'web-app-manifest-512x512.png'
+];
 const TOURS = require(path.join(ROOT, 'data/tours.json')).tours;
 const DESTINATIONS = require(path.join(ROOT, 'data/destinations.json')).destinations;
 const I18N = require('./i18n.js');
@@ -32,7 +41,7 @@ const SHOW_CALCULATOR = false; /* tour detail price calculator temporarily hidde
 const SHOW_DURATION_FILTER = false; /* duration filter pills temporarily hidden on request, needs rework */
 
 /* Blog articles live as Markdown + frontmatter under content/blog/<locale>/<slug>.md
-   (edited via the Decap CMS admin UI, or by hand) — loaded here into the same
+   (edited by hand) — loaded here into the same
    shape the rest of the site expects (slug/image/gallery/... + i18n per locale). */
 function loadArticles() {
   const enDir = path.join(ROOT, 'content/blog/en');
@@ -172,12 +181,6 @@ function localePath(locale, urlPath) {
   if (urlPath === '/') return '/locales/' + locale + '/';
   return '/locales/' + locale + urlPath;
 }
-/* Old pre-move URL (/<locale>/...), kept only to emit redirect stubs. */
-function oldLocalePath(locale, urlPath) {
-  if (locale === DEFAULT_LOCALE) return urlPath;
-  if (urlPath === '/') return '/' + locale + '/';
-  return '/' + locale + urlPath;
-}
 
 /* ------------------------------------------------------------------ */
 /* Utilities */
@@ -188,13 +191,24 @@ function waLink(message) {
 function attr(s) { return String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;'); }
 function outPath(urlPath) {
   const clean = urlPath.replace(/^\/+/, '').replace(/\/+$/, '');
-  return clean ? path.join(ROOT, clean, 'index.html') : path.join(ROOT, 'index.html');
+  return clean ? path.join(OUT, clean, 'index.html') : path.join(OUT, 'index.html');
 }
 function writeFile(urlPath, html) {
   const dest = outPath(urlPath);
   fs.mkdirSync(path.dirname(dest), { recursive: true });
   fs.writeFileSync(dest, html);
   console.log('wrote', path.relative(ROOT, dest));
+}
+/* Start from an empty dist/ and copy the static assets into it. */
+function prepareOutDir() {
+  fs.rmSync(OUT, { recursive: true, force: true });
+  fs.mkdirSync(OUT, { recursive: true });
+  STATIC_ENTRIES.forEach(function (entry) {
+    const src = path.join(ROOT, entry);
+    if (!fs.existsSync(src)) { console.warn('static entry missing, skipped:', entry); return; }
+    fs.cpSync(src, path.join(OUT, entry), { recursive: true });
+  });
+  console.log('copied static assets into dist/');
 }
 function icon(name, size) {
   size = size || 22;
@@ -1358,7 +1372,7 @@ function buildSitemapAndRobots() {
 ${entries.join('\n')}
 </urlset>
 `;
-  fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), xml);
+  fs.writeFileSync(path.join(OUT, 'sitemap.xml'), xml);
   console.log('wrote sitemap.xml');
 
   const robots = `User-agent: *
@@ -1366,36 +1380,8 @@ Allow: /
 
 Sitemap: ${SITE.url}/sitemap.xml
 `;
-  fs.writeFileSync(path.join(ROOT, 'robots.txt'), robots);
+  fs.writeFileSync(path.join(OUT, 'robots.txt'), robots);
   console.log('wrote robots.txt');
-}
-
-/* Thin redirect pages at the pre-move /ru/ and /ky/ URLs, pointing at the
-   new /locales/<locale>/ location, so old links/bookmarks/search results
-   still land somewhere useful. */
-function buildLegacyLocaleRedirects() {
-  const urlPaths = ['/', '/tours/', '/destinations/', '/about/', '/practical-info/', '/blog/', '/contact/']
-    .concat(TOURS.map(function (t_) { return '/tours/' + t_.slug + '/'; }))
-    .concat(DESTINATIONS.map(function (d) { return '/destinations/' + d.slug + '/'; }))
-    .concat(ARTICLES.map(function (a) { return '/blog/' + a.slug + '/'; }));
-
-  LOCALES.filter(function (l) { return l !== DEFAULT_LOCALE; }).forEach(function (locale) {
-    urlPaths.forEach(function (urlPath) {
-      const oldPath = oldLocalePath(locale, urlPath);
-      const newUrl = SITE.url + localePath(locale, urlPath);
-      const html = `<!DOCTYPE html>
-<html lang="${locale}"><head><meta charset="UTF-8">
-<meta http-equiv="refresh" content="0; url=${newUrl}">
-<link rel="canonical" href="${newUrl}">
-<title>${SITE.name}</title>
-</head><body>Moved to <a href="${newUrl}">${newUrl}</a></body></html>
-`;
-      const dest = outPath(oldPath);
-      fs.mkdirSync(path.dirname(dest), { recursive: true });
-      fs.writeFileSync(dest, html);
-    });
-  });
-  console.log('wrote legacy locale redirect stubs');
 }
 
 /* ------------------------------------------------------------------ */
@@ -1436,14 +1422,15 @@ function buildClientI18n() {
     };
   });
   const js = '/* Auto-generated by scripts/build.js — do not edit by hand. */\nwindow.I18N_STRINGS = ' + JSON.stringify(perLocale, null, 2) + ';\n';
-  fs.mkdirSync(path.join(ROOT, 'assets/js'), { recursive: true });
-  fs.writeFileSync(path.join(ROOT, 'assets/js/i18n-strings.js'), js);
+  fs.mkdirSync(path.join(OUT, 'assets/js'), { recursive: true });
+  fs.writeFileSync(path.join(OUT, 'assets/js/i18n-strings.js'), js);
   console.log('wrote assets/js/i18n-strings.js');
 }
 
 /* ------------------------------------------------------------------ */
 /* Run */
 /* ------------------------------------------------------------------ */
+prepareOutDir();
 buildClientI18n();
 LOCALES.forEach(function (locale) {
   buildHome(locale);
@@ -1458,5 +1445,4 @@ LOCALES.forEach(function (locale) {
   buildContact(locale);
 });
 buildSitemapAndRobots();
-buildLegacyLocaleRedirects();
 console.log('\nBuild complete:', TOURS.length, 'tours,', DESTINATIONS.length, 'destinations,', ARTICLES.length, 'articles,', LOCALES.length, 'locales.');

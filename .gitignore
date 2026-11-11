@@ -1,8 +1,9 @@
 node_modules/
 dist/
+.vscode/
+.claude/
 
-# NOTE: the site is served by GitHub Pages straight from the repo root,
-# so the generated HTML (index.html, tours/, destinations/, locales/, ...)
-# MUST be committed. After editing data/*.json, content/blog/*.md,
-# scripts/build.js or scripts/i18n.js run `npm run build` and commit the output.
-# Never hand-edit the generated files.
+# The site is built by GitHub Actions (.github/workflows/deploy.yml) on every
+# push to master and deployed to GitHub Pages from dist/. Only the sources are
+# committed: data/*.json, content/blog/*.md, assets/, scripts/.
+# Run `npm run build` locally to preview the result in dist/.
