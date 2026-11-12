@@ -992,7 +992,7 @@ ${tour.photos && tour.photos.length ? `
     },
     itinerary: tt.itinerary.length ? {
       '@type': 'ItemList',
-      itemListElement: tt.itinerary.map(function (d) { return { '@type': 'ListItem', position: d.day, name: td.dayLabel + ' ' + d.day + ': ' + d.title, description: d.description }; })
+      itemListElement: tt.itinerary.map(function (d, i) { return { '@type': 'ListItem', position: i + 1, name: td.dayLabel + ' ' + d.day + ': ' + d.title, description: d.description }; })
     } : undefined,
     offers: hasPrice ? { '@type': 'Offer', price: String(tour.priceFrom), priceCurrency: tour.currency, availability: 'https://schema.org/InStock' } : undefined,
     duration: 'P' + tour.durationMin + 'D/P' + tour.durationMax + 'D',

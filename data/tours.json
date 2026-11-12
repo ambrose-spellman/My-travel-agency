@@ -4442,8 +4442,8 @@
       }
     },
     {
-      "id": "kyrgyzstan-grand-tour-16-days",
-      "slug": "kyrgyzstan-grand-tour-16-days",
+      "id": "kyrgyzstan-grand-tour-15-days",
+      "slug": "kyrgyzstan-grand-tour-15-days",
       "region": [
         "Naryn",
         "At-Bashy",
@@ -4454,8 +4454,8 @@
         "Chuy"
       ],
       "activity": "4x4",
-      "durationMin": 17,
-      "durationMax": 17,
+      "durationMin": 15,
+      "durationMax": 15,
       "durationUnit": "days",
       "format": [
         "Private"
@@ -4475,7 +4475,7 @@
         "max": 6
       },
       "pricing": {
-        "perDayBase": 95,
+        "perDayBase": 108,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 1,
         "displayFromPrice": 1623
@@ -4514,8 +4514,8 @@
       ],
       "i18n": {
         "en": {
-          "title": "Kyrgyzstan Grand Tour — 16 Days from Naryn to Bishkek",
-          "description": "From the Chinese border to the walnut forests of the south. Horse riding to Chatyr-Kul, Kel-Suu and Song-Kul, Issyk-Kul canyons, the new mountain road to Jalal-Abad, Arslanbob and Sary-Chelek, on one private overland trip. Arrival day + 16 tour days, 17 nights; about 2,700 km by 4WD. Season: July to early September.",
+          "title": "Kyrgyzstan Grand Tour — 15 Days from Naryn to Bishkek",
+          "description": "From the Chinese border to the walnut forests of the south. Horse riding to Chatyr-Kul, Kel-Suu and Song-Kul, Issyk-Kul canyons, the new mountain road to Jalal-Abad, Arslanbob and Sary-Chelek, on one private overland trip. Arrival day + 15 tour days, 16 nights; about 2,700 km by 4WD. Season: July to early September.",
           "difficulty": "Easy to moderate",
           "comfort": "Standard",
           "highlights": [
@@ -4530,87 +4530,82 @@
           ],
           "itinerary": [
             {
-              "day": 1,
+              "day": 0,
               "title": "Arrival — Naryn",
               "description": "Pick-up, welcome dinner, guesthouse."
             },
             {
-              "day": 2,
+              "day": 1,
               "title": "Shar Waterfall – Tash-Rabat",
               "description": "Waterfall walk, the 15th-century caravanserai. Yurt camp."
             },
             {
-              "day": 3,
+              "day": 2,
               "title": "Chatyr-Kul",
               "description": "Horse ride or hike to the ridge above the lake. Yurt camp."
             },
             {
-              "day": 4,
+              "day": 3,
               "title": "Kok-Kiya Valley",
               "description": "Drive to the Kel-Suu base camp."
             },
             {
+              "day": 4,
+              "title": "Kel-Suu Lake – At-Bashy",
+              "description": "Early start, horse ride or hike through the canyon to the lake, then drive to At-Bashy. Evening with a local family and a banya."
+            },
+            {
               "day": 5,
-              "title": "Kel-Suu Lake",
-              "description": "Horse ride or hike through the canyon to the lake."
-            },
-            {
-              "day": 6,
-              "title": "At-Bashy",
-              "description": "Evening with a local family and a banya."
-            },
-            {
-              "day": 7,
               "title": "Song-Kul",
               "description": "Drive up to the lake (3,016 m). Yurt camp."
             },
             {
-              "day": 8,
+              "day": 6,
               "title": "Song-Kul",
               "description": "Horse riding and shepherd families."
             },
             {
-              "day": 9,
+              "day": 7,
               "title": "Skazka & Ak-Sai canyons – Issyk-Kul south shore",
               "description": "Canyons on the south shore of Issyk-Kul."
             },
             {
-              "day": 10,
+              "day": 8,
               "title": "Jeti-Oguz red rocks – Karakol",
               "description": "Jeti-Oguz, then Karakol."
             },
             {
-              "day": 11,
+              "day": 9,
               "title": "Kochkor",
               "description": "Shyrdak felt workshop."
             },
             {
-              "day": 12,
+              "day": 10,
               "title": "Kazarman – Jalal-Abad",
               "description": "Full day on the new North–South mountain road."
             },
             {
-              "day": 13,
+              "day": 11,
               "title": "Arslanbob",
               "description": "Walnut forest and waterfalls."
             },
             {
-              "day": 14,
+              "day": 12,
               "title": "Sary-Chelek",
               "description": "Drive to the reserve, overnight in Arkyt village."
             },
             {
-              "day": 15,
+              "day": 13,
               "title": "Sary-Chelek",
               "description": "Hike around the lakes and forest."
             },
             {
-              "day": 16,
+              "day": 14,
               "title": "Too-Ashuu pass – Suusamyr Valley",
               "description": "Yurt stay."
             },
             {
-              "day": 17,
+              "day": 15,
               "title": "Burana Tower – Kok-Moinok canyons – Bishkek",
               "description": "Departure from Bishkek the next morning."
             }
@@ -4635,7 +4630,7 @@
           "transport": "4WD vehicle with driver (about 2,700 km; some days are long drives of 6–8 hours); horses on 3 riding days",
           "startingPoint": "Naryn (afternoon or evening arrival)",
           "endingPoint": "Bishkek",
-          "whatsappMessage": "Hello! I'm interested in the 16-day Kyrgyzstan Grand Tour.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
+          "whatsappMessage": "Hello! I'm interested in the 15-day Kyrgyzstan Grand Tour.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
           "faq": [
             {
               "question": "How hard is it?",
@@ -4696,8 +4691,8 @@
           ]
         },
         "ru": {
-          "title": "Гранд-тур по Кыргызстану — 16 дней от Нарына до Бишкека",
-          "description": "От китайской границы до ореховых лесов юга. Верхом к Чатыр-Кулю, Кель-Суу и Сон-Кулю, каньоны Иссык-Куля, новая горная дорога в Джалал-Абад, Арсланбоб и Сары-Челек — в одной частной поездке на внедорожнике. День прибытия + 16 дней тура, 17 ночей; около 2700 км. Сезон: июль — начало сентября.",
+          "title": "Гранд-тур по Кыргызстану — 15 дней от Нарына до Бишкека",
+          "description": "От китайской границы до ореховых лесов юга. Верхом к Чатыр-Кулю, Кель-Суу и Сон-Кулю, каньоны Иссык-Куля, новая горная дорога в Джалал-Абад, Арсланбоб и Сары-Челек — в одной частной поездке на внедорожнике. День прибытия + 15 дней тура, 16 ночей; около 2700 км. Сезон: июль — начало сентября.",
           "difficulty": "Лёгкий–средний",
           "comfort": "Стандарт",
           "highlights": [
@@ -4712,87 +4707,82 @@
           ],
           "itinerary": [
             {
-              "day": 1,
+              "day": 0,
               "title": "Прибытие — Нарын",
               "description": "Встреча, приветственный ужин, гостевой дом."
             },
             {
-              "day": 2,
+              "day": 1,
               "title": "Водопад Шар – Таш-Рабат",
               "description": "Прогулка к водопаду, караван-сарай XV века. Юрточный лагерь."
             },
             {
-              "day": 3,
+              "day": 2,
               "title": "Чатыр-Куль",
               "description": "Верхом или пешком на гребень над озером. Юрточный лагерь."
             },
             {
-              "day": 4,
+              "day": 3,
               "title": "Долина Кок-Кия",
               "description": "Переезд в базовый лагерь Кель-Суу."
             },
             {
+              "day": 4,
+              "title": "Озеро Кель-Суу – Ат-Баши",
+              "description": "Ранний старт, верхом или пешком через каньон к озеру, затем переезд в Ат-Баши. Вечер у местной семьи и баня."
+            },
+            {
               "day": 5,
-              "title": "Озеро Кель-Суу",
-              "description": "Верхом или пешком через каньон к озеру."
-            },
-            {
-              "day": 6,
-              "title": "Ат-Баши",
-              "description": "Вечер у местной семьи и баня."
-            },
-            {
-              "day": 7,
               "title": "Сон-Куль",
               "description": "Подъём на озеро (3016 м). Юрточный лагерь."
             },
             {
-              "day": 8,
+              "day": 6,
               "title": "Сон-Куль",
               "description": "Верховая езда и семьи чабанов."
             },
             {
-              "day": 9,
+              "day": 7,
               "title": "Каньоны Сказка и Ак-Сай – южный берег Иссык-Куля",
               "description": "Каньоны южного берега Иссык-Куля."
             },
             {
-              "day": 10,
+              "day": 8,
               "title": "Красные скалы Джети-Огуз – Каракол",
               "description": "Джети-Огуз, затем Каракол."
             },
             {
-              "day": 11,
+              "day": 9,
               "title": "Кочкор",
               "description": "Мастерская войлочных шырдаков."
             },
             {
-              "day": 12,
+              "day": 10,
               "title": "Казарман – Джалал-Абад",
               "description": "Полный день на новой горной дороге Север–Юг."
             },
             {
-              "day": 13,
+              "day": 11,
               "title": "Арсланбоб",
               "description": "Ореховый лес и водопады."
             },
             {
-              "day": 14,
+              "day": 12,
               "title": "Сары-Челек",
               "description": "Переезд в заповедник, ночь в селе Аркыт."
             },
             {
-              "day": 15,
+              "day": 13,
               "title": "Сары-Челек",
               "description": "Прогулка вокруг озёр и по лесу."
             },
             {
-              "day": 16,
+              "day": 14,
               "title": "Перевал Тоо-Ашуу – Суусамырская долина",
               "description": "Ночь в юрте."
             },
             {
-              "day": 17,
+              "day": 15,
               "title": "Башня Бурана – каньоны Кок-Мойнок – Бишкек",
               "description": "Вылет из Бишкека на следующее утро."
             }
@@ -4817,7 +4807,7 @@
           "transport": "Внедорожник 4WD с водителем (около 2700 км; в некоторые дни переезды по 6–8 часов); лошади в 3 дня верховой езды",
           "startingPoint": "Нарын (прибытие днём или вечером)",
           "endingPoint": "Бишкек",
-          "whatsappMessage": "Здравствуйте! Меня интересует тур «Гранд-тур по Кыргызстану — 16 дней».\n\nЖелаемые даты:\nКоличество человек:\nМоя страна:",
+          "whatsappMessage": "Здравствуйте! Меня интересует тур «Гранд-тур по Кыргызстану — 15 дней».\n\nЖелаемые даты:\nКоличество человек:\nМоя страна:",
           "faq": [
             {
               "question": "Насколько это сложно?",
@@ -4878,8 +4868,8 @@
           ]
         },
         "ky": {
-          "title": "Кыргызстан боюнча Гранд-тур — Нарындан Бишкекке чейин 16 күн",
-          "description": "Кытай чек арасынан түштүктүн жаңгак токойлоруна чейин. Чатыр-Көлгө, Көл-Сууга жана Соң-Көлгө ат минүү, Ысык-Көл каньондору, Жалал-Абадга жаңы тоо жолу, Арстанбап жана Сары-Челек — 4WD менен бир жеке сапарда. Келүү күнү + 16 тур күнү, 17 түн; болжол менен 2700 км. Мезгил: июль — сентябрдын башы.",
+          "title": "Кыргызстан боюнча Гранд-тур — Нарындан Бишкекке чейин 15 күн",
+          "description": "Кытай чек арасынан түштүктүн жаңгак токойлоруна чейин. Чатыр-Көлгө, Көл-Сууга жана Соң-Көлгө ат минүү, Ысык-Көл каньондору, Жалал-Абадга жаңы тоо жолу, Арстанбап жана Сары-Челек — 4WD менен бир жеке сапарда. Келүү күнү + 15 тур күнү, 16 түн; болжол менен 2700 км. Мезгил: июль — сентябрдын башы.",
           "difficulty": "Жеңил–орточо",
           "comfort": "Стандарт",
           "highlights": [
@@ -4894,87 +4884,82 @@
           ],
           "itinerary": [
             {
-              "day": 1,
+              "day": 0,
               "title": "Келүү — Нарын",
               "description": "Тосуп алуу, тосуп алуу кечеси, конок үйү."
             },
             {
-              "day": 2,
+              "day": 1,
               "title": "Шар шаркыратмасы – Таш-Рабат",
               "description": "Шаркыратмага сейилдөө, XV кылымдагы кербен-сарай. Боз үй лагери."
             },
             {
-              "day": 3,
+              "day": 2,
               "title": "Чатыр-Көл",
               "description": "Көлдүн үстүндөгү кыркага ат менен же жөө. Боз үй лагери."
             },
             {
-              "day": 4,
+              "day": 3,
               "title": "Көк-Кыя өрөөнү",
               "description": "Көл-Суу базалык лагерине баруу."
             },
             {
+              "day": 4,
+              "title": "Көл-Суу көлү – Ат-Башы",
+              "description": "Эрте баштоо, каньон аркылуу көлгө ат менен же жөө, андан соң Ат-Башыга баруу. Жергиликтүү үй-бүлө менен кеч жана мончо."
+            },
+            {
               "day": 5,
-              "title": "Көл-Суу көлү",
-              "description": "Каньон аркылуу көлгө ат менен же жөө."
-            },
-            {
-              "day": 6,
-              "title": "Ат-Башы",
-              "description": "Жергиликтүү үй-бүлө менен кеч жана мончо."
-            },
-            {
-              "day": 7,
               "title": "Соң-Көл",
               "description": "Көлгө (3016 м) чыгуу. Боз үй лагери."
             },
             {
-              "day": 8,
+              "day": 6,
               "title": "Соң-Көл",
               "description": "Ат минүү жана чабан үй-бүлөлөрү."
             },
             {
-              "day": 9,
+              "day": 7,
               "title": "Сказка жана Ак-Сай каньондору – Ысык-Көлдүн түштүк жээги",
               "description": "Ысык-Көлдүн түштүк жээгиндеги каньондор."
             },
             {
-              "day": 10,
+              "day": 8,
               "title": "Жети-Өгүз кызыл аскалары – Каракол",
               "description": "Жети-Өгүз, андан соң Каракол."
             },
             {
-              "day": 11,
+              "day": 9,
               "title": "Кочкор",
               "description": "Шырдак жасоо устаканасы."
             },
             {
-              "day": 12,
+              "day": 10,
               "title": "Казарман – Жалал-Абад",
               "description": "Жаңы Түндүк–Түштүк тоо жолунда толук күн."
             },
             {
-              "day": 13,
+              "day": 11,
               "title": "Арстанбап",
               "description": "Жаңгак токою жана шаркыратмалар."
             },
             {
-              "day": 14,
+              "day": 12,
               "title": "Сары-Челек",
               "description": "Корукка баруу, Аркыт айылында түнөө."
             },
             {
-              "day": 15,
+              "day": 13,
               "title": "Сары-Челек",
               "description": "Көлдөрдү жана токойду аралап жөө жүрүш."
             },
             {
-              "day": 16,
+              "day": 14,
               "title": "Төө-Ашуу ашуусу – Суусамыр өрөөнү",
               "description": "Боз үйдө түнөө."
             },
             {
-              "day": 17,
+              "day": 15,
               "title": "Бурана мунарасы – Көк-Мойнок каньондору – Бишкек",
               "description": "Эртеси эртең менен Бишкектен учуп кетүү."
             }
@@ -4999,7 +4984,7 @@
           "transport": "Айдоочусу менен 4WD унаа (болжол менен 2700 км; кээ бир күндөрү 6–8 сааттык узак жолдор); 3 күн ат минүү",
           "startingPoint": "Нарын (түштөн кийин же кечинде келүү)",
           "endingPoint": "Бишкек",
-          "whatsappMessage": "Салам! Мени «Кыргызстан боюнча Гранд-тур — 16 күн» туру кызыктырат.\n\nКаалаган күндөр:\nАдамдардын саны:\nМенин өлкөм:",
+          "whatsappMessage": "Салам! Мени «Кыргызстан боюнча Гранд-тур — 15 күн» туру кызыктырат.\n\nКаалаган күндөр:\nАдамдардын саны:\nМенин өлкөм:",
           "faq": [
             {
               "question": "Канчалык кыйын?",
