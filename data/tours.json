@@ -3361,413 +3361,6 @@
       }
     },
     {
-      "id": "kyrgyzstan-grand-tour-11-days",
-      "slug": "kyrgyzstan-grand-tour-11-days",
-      "region": [
-        "Naryn",
-        "At-Bashy",
-        "Kel-Suu",
-        "Song-Kul",
-        "Issyk-Kul"
-      ],
-      "activity": "Hiking",
-      "durationMin": 11,
-      "durationMax": 11,
-      "durationUnit": "days",
-      "format": [
-        "Private",
-        "Group"
-      ],
-      "season": [
-        "June",
-        "July",
-        "August",
-        "September"
-      ],
-      "priceFrom": 1099,
-      "currency": "USD",
-      "image": "/assets/images/destinations/kel-suu-valley.jpg",
-      "gallery": [],
-      "photos": [],
-      "groupSize": {
-        "min": 1,
-        "max": 6
-      },
-      "pricing": {
-        "perDayBase": 100,
-        "organizerMarkup": 0.3,
-        "minBillableParticipants": 1,
-        "displayFromPrice": 1099
-      },
-      "priceTable": [
-        {
-          "group": 1,
-          "perPerson": 3377,
-          "total": 3377
-        },
-        {
-          "group": 2,
-          "perPerson": 2010,
-          "total": 4020
-        },
-        {
-          "group": 3,
-          "perPerson": 1555,
-          "total": 4665
-        },
-        {
-          "group": 4,
-          "perPerson": 1327,
-          "total": 5308
-        },
-        {
-          "group": 5,
-          "perPerson": 1190,
-          "total": 5950
-        },
-        {
-          "group": 6,
-          "perPerson": 1099,
-          "total": 6594
-        }
-      ],
-      "i18n": {
-        "en": {
-          "title": "Kyrgyzstan Grand Tour: Tash-Rabat, Kel-Suu, Song-Kul & Ala-Kul — 11 Days",
-          "description": "Eagle hunters and kok-boru in Naryn, a Silk Road caravanserai, turquoise Kel-Suu, a homestay in At-Bashy and nights in yurt camps at Song-Kul — finishing with a trek over the Ala-Kul pass to the Altyn-Arashan hot springs. Eleven days across the Naryn and Issyk-Kul regions, on foot, on horseback and by 4WD, for 1–6 travellers.",
-          "difficulty": "Moderate",
-          "comfort": "Standard",
-          "highlights": [
-            "Eagle hunting show, kok-boru and traditional archery in Naryn",
-            "Shaar Waterfall and the 15th-century Tash-Rabat caravanserai",
-            "Ridge above Chatyr-Kul with views toward the Chinese border",
-            "Turquoise Kel-Suu Lake through the canyon with a local guide",
-            "Two nights in a yurt camp on the shore of Song-Kul (3,016 m)",
-            "Ala-Kul Lake and pass (~3,900 m) down to the Altyn-Arashan hot springs"
-          ],
-          "itinerary": [
-            {
-              "day": 1,
-              "title": "Arrival — Naryn",
-              "description": "Pick-up in Naryn. Cultural programme: eagle hunting show with a berkut, kok-boru (horseback game) and traditional archery. Dinner and overnight in town."
-            },
-            {
-              "day": 2,
-              "title": "Shaar Waterfall & Tash-Rabat",
-              "description": "Naryn – Shaar Waterfall, on foot (horse optional, extra). On to Tash-Rabat, a 15th-century stone caravanserai on the Silk Road. Night in a yurt camp."
-            },
-            {
-              "day": 3,
-              "title": "Chatyr-Kul ridge",
-              "description": "From Tash-Rabat up to the ridge above Chatyr-Kul Lake, on foot or on horseback. Views toward the Chinese border. Night in the yurt camp."
-            },
-            {
-              "day": 4,
-              "title": "To Kel-Suu",
-              "description": "Drive to the Kel-Suu base camp, lunch on the road. Dinner and night at the remote camp."
-            },
-            {
-              "day": 5,
-              "title": "Kel-Suu Lake",
-              "description": "Through the canyon to Kel-Suu, a turquoise lake between sheer rock walls, with a local guide. Drive to At-Bashy; night in a hotel."
-            },
-            {
-              "day": 6,
-              "title": "Song-Kul",
-              "description": "At-Bashy – Song-Kul Lake (3,016 m), by horse or by car. Yurt camp on the shore."
-            },
-            {
-              "day": 7,
-              "title": "A day at Song-Kul",
-              "description": "Horse riding on the summer pastures. Second night in the yurt camp."
-            },
-            {
-              "day": 8,
-              "title": "Song-Kul – Issyk-Kul",
-              "description": "Drive to the south shore of Issyk-Kul, stopping at the Ak-Sai and Skazka canyons. Guesthouse."
-            },
-            {
-              "day": 9,
-              "title": "Ala-Kul trek begins",
-              "description": "Hike up Karakol Gorge to Sirota camp. Night in tents."
-            },
-            {
-              "day": 10,
-              "title": "Ala-Kul Lake and pass",
-              "description": "Ala-Kul Lake and pass (approx. 3,900 m), then down to the Altyn-Arashan hot springs."
-            },
-            {
-              "day": 11,
-              "title": "Altyn-Arashan – Bishkek",
-              "description": "Drive to Bishkek. Farewell dinner. Departure the next morning."
-            }
-          ],
-          "included": [
-            "English-speaking guide for the whole tour",
-            "All transfers by 4WD",
-            "Accommodation: hotels / guesthouses, yurt camps and tents",
-            "All meals",
-            "Cultural programme in Naryn",
-            "Kel-Suu border permit",
-            "Tash-Rabat entrance",
-            "Local guide at Kel-Suu and on the Ala-Kul trek"
-          ],
-          "notIncluded": [
-            "Flights",
-            "Travel insurance",
-            "Horse on day 2 (optional, extra)",
-            "Alcohol",
-            "Tips"
-          ],
-          "accommodation": "Hotels and guesthouses in Naryn, At-Bashy and Issyk-Kul; yurt camps at Tash-Rabat, Kel-Suu and Song-Kul; tents on the Ala-Kul trek",
-          "transport": "4WD between the regions; on foot or horseback at Tash-Rabat, Kel-Suu, Song-Kul and on the Ala-Kul trek",
-          "startingPoint": "Naryn (pick-up)",
-          "endingPoint": "Bishkek",
-          "whatsappMessage": "Hello! I'm interested in the 11-day Kyrgyzstan Grand Tour.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
-          "faq": [
-            {
-              "question": "Do I need a border permit?",
-              "answer": "Chatyr-Kul and Kel-Suu are in the frontier zone — we need passport details at least 3 weeks before the tour for the permit."
-            },
-            {
-              "question": "Ride or hike?",
-              "answer": "Tell us whether you would rather ride or hike; most days can be done either way. The Ala-Kul section is a hike."
-            },
-            {
-              "question": "How fit do I need to be?",
-              "answer": "Moderate: a few hiking days at altitude, with the Ala-Kul pass at about 3,900 m, and cold nights in yurts and tents."
-            },
-            {
-              "question": "How big are the groups?",
-              "answer": "1–6 travellers per departure. Private dates on request; invitation letters available."
-            }
-          ]
-        },
-        "ru": {
-          "title": "Гранд-тур по Кыргызстану: Таш-Рабат, Кель-Суу, Сон-Куль и Ала-Куль — 11 дней",
-          "description": "Беркутчи и кок-бору в Нарыне, караван-сарай Шёлкового пути, бирюзовое Кель-Суу, ночь у семьи в Ат-Баши и ночи в юрточных лагерях на Сон-Куле — и в финале треккинг через перевал Ала-Куль к горячим источникам Алтын-Арашан. Одиннадцать дней по Нарынской и Иссык-Кульской областям — пешком, верхом и на внедорожнике, для 1–6 путешественников.",
-          "difficulty": "Средний",
-          "comfort": "Стандарт",
-          "highlights": [
-            "Шоу охоты с беркутом, кок-бору и стрельба из лука в Нарыне",
-            "Водопад Шаар и караван-сарай Таш-Рабат XV века",
-            "Гребень над Чатыр-Кулем с видом в сторону китайской границы",
-            "Бирюзовое озеро Кель-Суу через каньон с местным гидом",
-            "Две ночи в юрточном лагере на берегу Сон-Куля (3016 м)",
-            "Озеро и перевал Ала-Куль (~3900 м) и спуск к горячим источникам Алтын-Арашан"
-          ],
-          "itinerary": [
-            {
-              "day": 1,
-              "title": "Прибытие — Нарын",
-              "description": "Встреча в Нарыне. Культурная программа: шоу охоты с беркутом, кок-бору (конная игра) и традиционная стрельба из лука. Ужин и ночь в городе."
-            },
-            {
-              "day": 2,
-              "title": "Водопад Шаар и Таш-Рабат",
-              "description": "Нарын – водопад Шаар пешком (лошадь по желанию, за доплату). Далее Таш-Рабат — каменный караван-сарай XV века на Шёлковом пути. Ночь в юрточном лагере."
-            },
-            {
-              "day": 3,
-              "title": "Гребень над Чатыр-Кулем",
-              "description": "От Таш-Рабата подъём на гребень над озером Чатыр-Куль, пешком или верхом. Виды в сторону китайской границы. Ночь в юрточном лагере."
-            },
-            {
-              "day": 4,
-              "title": "К Кель-Суу",
-              "description": "Переезд в базовый лагерь Кель-Суу, обед в дороге. Ужин и ночь в отдалённом лагере."
-            },
-            {
-              "day": 5,
-              "title": "Озеро Кель-Суу",
-              "description": "Через каньон к Кель-Суу — бирюзовому озеру между отвесных скал, с местным гидом. Переезд в Ат-Баши; ночь в отеле."
-            },
-            {
-              "day": 6,
-              "title": "Сон-Куль",
-              "description": "Ат-Баши – озеро Сон-Куль (3016 м), верхом или на машине. Юрточный лагерь на берегу."
-            },
-            {
-              "day": 7,
-              "title": "День на Сон-Куле",
-              "description": "Верховая езда по летним пастбищам. Вторая ночь в юрточном лагере."
-            },
-            {
-              "day": 8,
-              "title": "Сон-Куль – Иссык-Куль",
-              "description": "Переезд на южный берег Иссык-Куля с остановками в каньонах Ак-Сай и Сказка. Гостевой дом."
-            },
-            {
-              "day": 9,
-              "title": "Начало трека к Ала-Кулю",
-              "description": "Подъём по Каракольскому ущелью до лагеря Сирота. Ночь в палатках."
-            },
-            {
-              "day": 10,
-              "title": "Озеро и перевал Ала-Куль",
-              "description": "Озеро и перевал Ала-Куль (около 3900 м), спуск к горячим источникам Алтын-Арашан."
-            },
-            {
-              "day": 11,
-              "title": "Алтын-Арашан – Бишкек",
-              "description": "Переезд в Бишкек. Прощальный ужин. Вылет на следующее утро."
-            }
-          ],
-          "included": [
-            "Англоговорящий гид на весь тур",
-            "Все трансферы на 4WD",
-            "Проживание: отели / гостевые дома, юрточные лагеря и палатки",
-            "Всё питание",
-            "Культурная программа в Нарыне",
-            "Пограничный пропуск на Кель-Суу",
-            "Вход в Таш-Рабат",
-            "Местный гид на Кель-Суу и на треке к Ала-Кулю"
-          ],
-          "notIncluded": [
-            "Авиабилеты",
-            "Туристическая страховка",
-            "Лошадь во 2-й день (по желанию, за доплату)",
-            "Алкоголь",
-            "Чаевые"
-          ],
-          "accommodation": "Отели и гостевые дома в Нарыне, Ат-Баши и на Иссык-Куле; юрточные лагеря у Таш-Рабата, Кель-Суу и Сон-Куля; палатки на треке к Ала-Кулю",
-          "transport": "4WD между регионами; пешком или верхом у Таш-Рабата, Кель-Суу, Сон-Куля и на треке к Ала-Кулю",
-          "startingPoint": "Нарын (встреча)",
-          "endingPoint": "Бишкек",
-          "whatsappMessage": "Здравствуйте! Меня интересует тур «11-дневный Гранд-тур по Кыргызстану».\n\nЖелаемые даты:\nКоличество человек:\nМоя страна:",
-          "faq": [
-            {
-              "question": "Нужен ли пограничный пропуск?",
-              "answer": "Чатыр-Куль и Кель-Суу в пограничной зоне — для пропуска нужны паспортные данные минимум за 3 недели до тура."
-            },
-            {
-              "question": "Верхом или пешком?",
-              "answer": "Скажите, что вам ближе — большинство дней можно пройти и так, и так. Участок Ала-Куль — пеший."
-            },
-            {
-              "question": "Какая нужна подготовка?",
-              "answer": "Средняя: несколько пеших дней на высоте, перевал Ала-Куль около 3900 м и холодные ночи в юртах и палатках."
-            },
-            {
-              "question": "Какой размер группы?",
-              "answer": "1–6 человек на заезд. Индивидуальные даты по запросу; оформляем приглашения."
-            }
-          ]
-        },
-        "ky": {
-          "title": "Кыргызстан боюнча Гранд-тур: Таш-Рабат, Көл-Суу, Соң-Көл жана Ала-Көл — 11 күн",
-          "description": "Нарында бүркүтчүлөр жана көк бөрү, Жибек жолунун кербен-сарайы, көгүлтүр Көл-Суу, Ат-Башыда үй-бүлөдө түнөө жана Соң-Көлдө боз үй лагерлеринде түндөр — аягында Ала-Көл ашуусу аркылуу Алтын-Арашан ысык булактарына чейин жөө жүрүш. Нарын жана Ысык-Көл областтары боюнча он бир күн — жөө, ат үстүндө жана 4WD менен, 1–6 саякатчы үчүн.",
-          "difficulty": "Орточо",
-          "comfort": "Стандарт",
-          "highlights": [
-            "Нарында бүркүт менен аңчылык шоусу, көк бөрү жана жаа атуу",
-            "Шаар шаркыратмасы жана XV кылымдагы Таш-Рабат кербен-сарайы",
-            "Кытай чек арасын көздөй көрүнүштүү Чатыр-Көл үстүндөгү кырка",
-            "Жергиликтүү гид менен каньон аркылуу көгүлтүр Көл-Суу көлү",
-            "Соң-Көлдүн (3016 м) жээгиндеги боз үй лагеринде эки түн",
-            "Ала-Көл көлү жана ашуусу (~3900 м), Алтын-Арашан ысык булактарына түшүү"
-          ],
-          "itinerary": [
-            {
-              "day": 1,
-              "title": "Келүү — Нарын",
-              "description": "Нарындан тосуп алуу. Маданий программа: бүркүт менен аңчылык шоусу, көк бөрү жана салттуу жаа атуу. Кечки тамак жана шаарда түнөө."
-            },
-            {
-              "day": 2,
-              "title": "Шаар шаркыратмасы жана Таш-Рабат",
-              "description": "Нарын – Шаар шаркыратмасы, жөө (ат кааласаңыз, кошумча акыга). Андан соң Жибек жолундагы XV кылымдагы таш кербен-сарай Таш-Рабат. Боз үй лагеринде түнөө."
-            },
-            {
-              "day": 3,
-              "title": "Чатыр-Көл үстүндөгү кырка",
-              "description": "Таш-Рабаттан Чатыр-Көлдүн үстүндөгү кыркага жөө же ат менен чыгуу. Кытай чек арасын көздөй көрүнүштөр. Боз үй лагеринде түнөө."
-            },
-            {
-              "day": 4,
-              "title": "Көл-Сууну көздөй",
-              "description": "Көл-Суу базалык лагерине баруу, жолдо түшкү тамак. Алыскы лагерде кечки тамак жана түнөө."
-            },
-            {
-              "day": 5,
-              "title": "Көл-Суу көлү",
-              "description": "Жергиликтүү гид менен каньон аркылуу тик аска дубалдарынын ортосундагы көгүлтүр Көл-Суу көлүнө. Ат-Башыга баруу; мейманканада түнөө."
-            },
-            {
-              "day": 6,
-              "title": "Соң-Көл",
-              "description": "Ат-Башы – Соң-Көл көлү (3016 м), ат же унаа менен. Жээктеги боз үй лагери."
-            },
-            {
-              "day": 7,
-              "title": "Соң-Көлдө бир күн",
-              "description": "Жайлоодо ат минүү. Боз үй лагеринде экинчи түн."
-            },
-            {
-              "day": 8,
-              "title": "Соң-Көл – Ысык-Көл",
-              "description": "Ак-Сай жана Сказка каньондоруна токтоп, Ысык-Көлдүн түштүк жээгине баруу. Конок үйү."
-            },
-            {
-              "day": 9,
-              "title": "Ала-Көл жүрүшү башталат",
-              "description": "Каракол капчыгайы менен Сирота лагерине чейин жөө чыгуу. Чатырда түнөө."
-            },
-            {
-              "day": 10,
-              "title": "Ала-Көл көлү жана ашуусу",
-              "description": "Ала-Көл көлү жана ашуусу (болжол менен 3900 м), андан соң Алтын-Арашан ысык булактарына түшүү."
-            },
-            {
-              "day": 11,
-              "title": "Алтын-Арашан – Бишкек",
-              "description": "Бишкекке баруу. Коштошуу кечеси. Эртеси эртең менен учуп кетүү."
-            }
-          ],
-          "included": [
-            "Бүт тур бою англисче сүйлөгөн гид",
-            "Бардык жеткирүүлөр 4WD менен",
-            "Жашоо: мейманканалар / конок үйлөрү, боз үй лагерлери жана чатырлар",
-            "Бардык тамак-аш",
-            "Нарындагы маданий программа",
-            "Көл-Сууга чек ара уруксаты",
-            "Таш-Рабатка кирүү",
-            "Көл-Сууда жана Ала-Көл жүрүшүндө жергиликтүү гид"
-          ],
-          "notIncluded": [
-            "Учак билеттери",
-            "Саякат камсыздандыруусу",
-            "2-күнү ат (кааласаңыз, кошумча акыга)",
-            "Алкоголь",
-            "Чай акы"
-          ],
-          "accommodation": "Нарын, Ат-Башы жана Ысык-Көлдө мейманканалар жана конок үйлөрү; Таш-Рабат, Көл-Суу жана Соң-Көлдө боз үй лагерлери; Ала-Көл жүрүшүндө чатырлар",
-          "transport": "Региондордун ортосунда 4WD; Таш-Рабатта, Көл-Сууда, Соң-Көлдө жана Ала-Көл жүрүшүндө жөө же ат менен",
-          "startingPoint": "Нарын (тосуп алуу)",
-          "endingPoint": "Бишкек",
-          "whatsappMessage": "Салам! Мени «Кыргызстан боюнча 11 күндүк Гранд-тур» туру кызыктырат.\n\nКаалаган күндөр:\nАдамдардын саны:\nМенин өлкөм:",
-          "faq": [
-            {
-              "question": "Чек ара уруксаты керекпи?",
-              "answer": "Чатыр-Көл менен Көл-Суу чек ара зонасында — уруксат үчүн паспорт маалыматыңыз турдан кеминде 3 жума мурда керек."
-            },
-            {
-              "question": "Ат мененби же жөөбү?",
-              "answer": "Кайсынысы жакканын айтыңыз — көпчүлүк күндөрдү эки жол менен тең өтсө болот. Ала-Көл бөлүгү — жөө."
-            },
-            {
-              "question": "Кандай даярдык керек?",
-              "answer": "Орточо: бийиктикте бир нече жөө күн, болжол менен 3900 м Ала-Көл ашуусу жана боз үй менен чатырда суук түндөр."
-            },
-            {
-              "question": "Топтун өлчөмү кандай?",
-              "answer": "Бир жөнөөгө 1–6 саякатчы. Жеке күндөр суроо боюнча; чакыруу каттарын беребиз."
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "mal-aidoo-kazybek-shaar-waterfall-horse",
       "slug": "mal-aidoo-kazybek-shaar-waterfall-horse",
       "region": [
@@ -4315,6 +3908,1154 @@
             {
               "question": "Топтун өлчөмү кандай?",
               "answer": "Бир жөнөөгө 1–6 саякатчы. Жеке күндөр суроо боюнча; чакыруу каттарын беребиз."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "naryn-songkul-alakul-11-days",
+      "slug": "naryn-songkul-alakul-11-days",
+      "region": [
+        "Naryn",
+        "At-Bashy",
+        "Kel-Suu",
+        "Song-Kul",
+        "Issyk-Kul"
+      ],
+      "activity": "Hiking",
+      "durationMin": 11,
+      "durationMax": 11,
+      "durationUnit": "days",
+      "format": [
+        "Private"
+      ],
+      "season": [
+        "July",
+        "August",
+        "September"
+      ],
+      "priceFrom": 1068,
+      "currency": "USD",
+      "image": "/assets/images/destinations/kel-suu-valley.jpg",
+      "gallery": [],
+      "photos": [],
+      "groupSize": {
+        "min": 1,
+        "max": 6
+      },
+      "pricing": {
+        "perDayBase": 97,
+        "organizerMarkup": 0.3,
+        "minBillableParticipants": 1,
+        "displayFromPrice": 1068
+      },
+      "priceTable": [
+        {
+          "group": 1,
+          "perPerson": 3346,
+          "total": 3346
+        },
+        {
+          "group": 2,
+          "perPerson": 1979,
+          "total": 3958
+        },
+        {
+          "group": 3,
+          "perPerson": 1524,
+          "total": 4572
+        },
+        {
+          "group": 4,
+          "perPerson": 1296,
+          "total": 5184
+        },
+        {
+          "group": 5,
+          "perPerson": 1159,
+          "total": 5795
+        },
+        {
+          "group": 6,
+          "perPerson": 1068,
+          "total": 6408
+        }
+      ],
+      "i18n": {
+        "en": {
+          "title": "Naryn, Song-Kul & Ala-Kul — 11 Days",
+          "description": "Four alpine lakes, three days on horseback and a mountain pass at 3,900 m. Yurt camps, a homestay in At-Bashy, canyons and hot springs on one private trip from Naryn to Bishkek. Arrival day + 10 tour days, 11 nights; about 1,615 km by 4WD. Season: July to early September.",
+          "difficulty": "Moderate to challenging",
+          "comfort": "Standard",
+          "highlights": [
+            "3 days of horse riding: Chatyr-Kul, Kel-Suu, Song-Kul",
+            "Ala-Kul trek over the 3,900 m pass to Altyn-Arashan hot springs",
+            "Tash-Rabat, a 15th-century stone caravanserai on the Silk Road",
+            "Kel-Suu Lake near the Chinese border",
+            "2 days at Song-Kul Lake (3,016 m) with shepherd families",
+            "Skazka and Ak-Sai canyons on the south shore of Issyk-Kul",
+            "Evening with a local family in At-Bashy and a traditional banya"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Arrival — Naryn",
+              "description": "Pick-up, welcome dinner, overnight in a guesthouse."
+            },
+            {
+              "day": 2,
+              "title": "Naryn – Shar Waterfall – Tash-Rabat",
+              "description": "Walk or ride to Shar Waterfall, then the 15th-century caravanserai. Yurt camp."
+            },
+            {
+              "day": 3,
+              "title": "Chatyr-Kul",
+              "description": "Horse ride or hike to the ridge above Chatyr-Kul Lake, near the Chinese border. Yurt camp."
+            },
+            {
+              "day": 4,
+              "title": "Tash-Rabat – Kok-Kiya Valley",
+              "description": "Drive through remote valleys to the Kel-Suu base camp."
+            },
+            {
+              "day": 5,
+              "title": "Kel-Suu Lake – At-Bashy",
+              "description": "Early start, horse ride or hike through the canyon to the lake, then drive to At-Bashy. Evening with a local family and a banya."
+            },
+            {
+              "day": 6,
+              "title": "At-Bashy – Naryn – Song-Kul",
+              "description": "Drive up to Song-Kul Lake. Yurt camp on the shore."
+            },
+            {
+              "day": 7,
+              "title": "Song-Kul",
+              "description": "Horse riding across the pastures, visits to shepherd families."
+            },
+            {
+              "day": 8,
+              "title": "Song-Kul – Skazka & Ak-Sai canyons – Issyk-Kul south shore",
+              "description": "Guesthouse."
+            },
+            {
+              "day": 9,
+              "title": "South shore – Karakol Gorge – Sirota camp",
+              "description": "Trek up the valley through spruce forest."
+            },
+            {
+              "day": 10,
+              "title": "Ala-Kul Lake – Ala-Kul pass – Altyn-Arashan",
+              "description": "The main trekking day of the tour, ending at the hot springs."
+            },
+            {
+              "day": 11,
+              "title": "Altyn-Arashan – Burana Tower – Bishkek",
+              "description": "Morning in the hot springs, descent, Burana Tower, evening in Bishkek. Departure from Bishkek the next morning."
+            }
+          ],
+          "included": [
+            "English-speaking guide",
+            "4WD vehicle with driver",
+            "All accommodation with breakfast",
+            "Lunch and dinner every day",
+            "Horses for 3 riding days",
+            "Local guide at Kel-Suu",
+            "Border zone permit"
+          ],
+          "notIncluded": [
+            "International flights and transfer to Naryn",
+            "Travel insurance",
+            "Entrance and eco fees",
+            "Jeep descent from Altyn-Arashan [confirm: included or not]",
+            "Optional horse at Shar Waterfall",
+            "Alcohol and personal expenses"
+          ],
+          "accommodation": "Guesthouses, a family homestay, yurt camps (Tash-Rabat, Kel-Suu, Song-Kul), mountain camps on the Ala-Kul trek, hotel in Bishkek. Yurt and mountain camps are basic: shared toilets, showers not always available.",
+          "transport": "4WD vehicle with driver (about 1,615 km); horses on 3 riding days; on foot on the Ala-Kul trek",
+          "startingPoint": "Naryn (afternoon or evening arrival)",
+          "endingPoint": "Bishkek",
+          "whatsappMessage": "Hello! I'm interested in the 11-day Naryn, Song-Kul & Ala-Kul tour.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
+          "faq": [
+            {
+              "question": "How hard is it?",
+              "answer": "Moderate to challenging: one full trekking day over the Ala-Kul pass at 3,900 m, which needs good fitness. The riding days are open to beginners."
+            },
+            {
+              "question": "Where does the tour start?",
+              "answer": "In Naryn. Arrive in the afternoon or evening. We can arrange a transfer from Bishkek [price on request]."
+            },
+            {
+              "question": "Do I need a border permit?",
+              "answer": "Chatyr-Kul and Kel-Suu are in the border zone. Send us your passport details at least 3 weeks before the start — we arrange the permit."
+            },
+            {
+              "question": "Horse or hike?",
+              "answer": "At most locations you choose. No riding experience needed: horses are calm local mountain horses and a horseman walks with beginners."
+            },
+            {
+              "question": "How high do we go, and how cold is it?",
+              "answer": "Up to 3,500–3,900 m. Nights in the mountains are cold, even in summer."
+            },
+            {
+              "question": "What is the food like?",
+              "answer": "Home-cooked Kyrgyz meals: soups, meat, rice, bread, dairy. Tell us in advance about vegetarian or other diets."
+            },
+            {
+              "question": "Is there mobile signal?",
+              "answer": "No mobile signal at Kel-Suu, Song-Kul or on the Ala-Kul trek."
+            },
+            {
+              "question": "Do I need cash?",
+              "answer": "Cash in Kyrgyz som is needed in villages. ATMs in Naryn, Karakol and Bishkek."
+            },
+            {
+              "question": "What should I bring?",
+              "answer": "Warm layers, down jacket, hat and gloves; waterproof jacket; broken-in hiking boots; sunglasses, sunscreen, lip balm; headlamp; personal medicines; sleeping bag liner (optional)."
+            },
+            {
+              "question": "Is it a group tour?",
+              "answer": "No. Every tour is private: only your group of 1–6 people, your guide and your driver."
+            },
+            {
+              "question": "Can I change the dates or the route?",
+              "answer": "Yes. We run these tours on any dates in the season and can shorten or extend the route."
+            },
+            {
+              "question": "Why does the price depend on group size?",
+              "answer": "The guide, vehicle and driver cost the same for 1 or 6 people, so the price per person goes down as the group grows."
+            },
+            {
+              "question": "What about single travelers?",
+              "answer": "Solo travelers are welcome. See the 1-person price in the table. [Single room supplement: confirm]"
+            },
+            {
+              "question": "How do I book?",
+              "answer": "Send us your dates and number of travelers. We confirm availability and send the full program. [Deposit amount and cancellation policy: fill in]"
+            }
+          ]
+        },
+        "ru": {
+          "title": "Нарын, Сон-Куль и Ала-Куль — 11 дней",
+          "description": "Четыре высокогорных озера, три дня верхом и перевал на 3900 м. Юрточные лагеря, ночь у семьи в Ат-Баши, каньоны и горячие источники в одной частной поездке из Нарына в Бишкек. День прибытия + 10 дней тура, 11 ночей; около 1615 км на внедорожнике. Сезон: июль — начало сентября.",
+          "difficulty": "Средний–сложный",
+          "comfort": "Стандарт",
+          "highlights": [
+            "3 дня верхом: Чатыр-Куль, Кель-Суу, Сон-Куль",
+            "Трек через перевал Ала-Куль (3900 м) к горячим источникам Алтын-Арашан",
+            "Таш-Рабат — каменный караван-сарай XV века на Шёлковом пути",
+            "Озеро Кель-Суу у китайской границы",
+            "2 дня на озере Сон-Куль (3016 м) с семьями чабанов",
+            "Каньоны Сказка и Ак-Сай на южном берегу Иссык-Куля",
+            "Вечер у местной семьи в Ат-Баши и традиционная баня"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Прибытие — Нарын",
+              "description": "Встреча, приветственный ужин, ночь в гостевом доме."
+            },
+            {
+              "day": 2,
+              "title": "Нарын – водопад Шар – Таш-Рабат",
+              "description": "Пешком или верхом к водопаду Шар, затем караван-сарай XV века. Юрточный лагерь."
+            },
+            {
+              "day": 3,
+              "title": "Чатыр-Куль",
+              "description": "Верхом или пешком на гребень над озером Чатыр-Куль у китайской границы. Юрточный лагерь."
+            },
+            {
+              "day": 4,
+              "title": "Таш-Рабат – долина Кок-Кия",
+              "description": "Переезд по глухим долинам в базовый лагерь Кель-Суу."
+            },
+            {
+              "day": 5,
+              "title": "Озеро Кель-Суу – Ат-Баши",
+              "description": "Ранний старт, верхом или пешком через каньон к озеру, затем переезд в Ат-Баши. Вечер у местной семьи и баня."
+            },
+            {
+              "day": 6,
+              "title": "Ат-Баши – Нарын – Сон-Куль",
+              "description": "Подъём на озеро Сон-Куль. Юрточный лагерь на берегу."
+            },
+            {
+              "day": 7,
+              "title": "Сон-Куль",
+              "description": "Верховая езда по пастбищам, в гости к семьям чабанов."
+            },
+            {
+              "day": 8,
+              "title": "Сон-Куль – каньоны Сказка и Ак-Сай – южный берег Иссык-Куля",
+              "description": "Гостевой дом."
+            },
+            {
+              "day": 9,
+              "title": "Южный берег – Каракольское ущелье – лагерь Сирота",
+              "description": "Подъём по долине через еловый лес."
+            },
+            {
+              "day": 10,
+              "title": "Озеро Ала-Куль – перевал Ала-Куль – Алтын-Арашан",
+              "description": "Главный треккинговый день тура, финиш у горячих источников."
+            },
+            {
+              "day": 11,
+              "title": "Алтын-Арашан – башня Бурана – Бишкек",
+              "description": "Утро в горячих источниках, спуск, башня Бурана, вечер в Бишкеке. Вылет из Бишкека на следующее утро."
+            }
+          ],
+          "included": [
+            "Англоговорящий гид",
+            "Внедорожник 4WD с водителем",
+            "Всё проживание с завтраком",
+            "Обед и ужин каждый день",
+            "Лошади на 3 дня верховой езды",
+            "Местный гид на Кель-Суу",
+            "Пограничный пропуск"
+          ],
+          "notIncluded": [
+            "Международные перелёты и трансфер до Нарына",
+            "Туристическая страховка",
+            "Входные и экологические сборы",
+            "Спуск на джипе из Алтын-Арашана [уточнить: включён или нет]",
+            "Лошадь у водопада Шар (по желанию)",
+            "Алкоголь и личные расходы"
+          ],
+          "accommodation": "Гостевые дома, семейный гостевой дом, юрточные лагеря (Таш-Рабат, Кель-Суу, Сон-Куль), горные лагеря на треке к Ала-Кулю, отель в Бишкеке. Юрточные и горные лагеря простые: общие туалеты, душ есть не всегда.",
+          "transport": "Внедорожник 4WD с водителем (около 1615 км); лошади в 3 дня верховой езды; пешком на треке к Ала-Кулю",
+          "startingPoint": "Нарын (прибытие днём или вечером)",
+          "endingPoint": "Бишкек",
+          "whatsappMessage": "Здравствуйте! Меня интересует тур «Нарын, Сон-Куль и Ала-Куль — 11 дней».\n\nЖелаемые даты:\nКоличество человек:\nМоя страна:",
+          "faq": [
+            {
+              "question": "Насколько это сложно?",
+              "answer": "Средне–сложно: один полный треккинговый день через перевал Ала-Куль на 3900 м требует хорошей формы. Конные дни подходят новичкам."
+            },
+            {
+              "question": "Где начинается тур?",
+              "answer": "В Нарыне. Приезжайте днём или вечером. Можем организовать трансфер из Бишкека [цена по запросу]."
+            },
+            {
+              "question": "Нужен ли пограничный пропуск?",
+              "answer": "Чатыр-Куль и Кель-Суу находятся в пограничной зоне. Пришлите паспортные данные минимум за 3 недели до старта — пропуск оформляем мы."
+            },
+            {
+              "question": "Верхом или пешком?",
+              "answer": "В большинстве мест выбираете вы. Опыт верховой езды не нужен: лошади спокойные, местные горные, с новичками рядом идёт коневод."
+            },
+            {
+              "question": "Как высоко поднимаемся и насколько холодно?",
+              "answer": "До 3500–3900 м. Ночи в горах холодные даже летом."
+            },
+            {
+              "question": "Какая еда?",
+              "answer": "Домашняя кыргызская кухня: супы, мясо, рис, хлеб, молочное. О вегетарианской или другой диете предупредите заранее."
+            },
+            {
+              "question": "Есть ли мобильная связь?",
+              "answer": "На Кель-Суу, Сон-Куле и на треке к Ала-Кулю связи нет."
+            },
+            {
+              "question": "Нужны ли наличные?",
+              "answer": "В сёлах нужны наличные сомы. Банкоматы есть в Нарыне, Караколе и Бишкеке."
+            },
+            {
+              "question": "Что взять с собой?",
+              "answer": "Тёплые слои, пуховик, шапку и перчатки; непромокаемую куртку; разношенные треккинговые ботинки; солнечные очки, крем от солнца, бальзам для губ; налобный фонарь; личные лекарства; вкладыш в спальник (по желанию)."
+            },
+            {
+              "question": "Это групповой тур?",
+              "answer": "Нет. Все туры частные: только ваша группа из 1–6 человек, ваш гид и ваш водитель."
+            },
+            {
+              "question": "Можно ли изменить даты или маршрут?",
+              "answer": "Да. Мы проводим эти туры в любые даты сезона и можем сократить или продлить маршрут."
+            },
+            {
+              "question": "Почему цена зависит от размера группы?",
+              "answer": "Гид, машина и водитель стоят одинаково для 1 и для 6 человек, поэтому цена за человека снижается с ростом группы."
+            },
+            {
+              "question": "А если я еду один?",
+              "answer": "Одиночные путешественники приветствуются. Смотрите цену на 1 человека в таблице. [Доплата за одноместное размещение: уточнить]"
+            },
+            {
+              "question": "Как забронировать?",
+              "answer": "Пришлите даты и количество человек. Мы подтвердим наличие и отправим полную программу. [Размер депозита и условия отмены: заполнить]"
+            }
+          ]
+        },
+        "ky": {
+          "title": "Нарын, Соң-Көл жана Ала-Көл — 11 күн",
+          "description": "Төрт бийик тоо көлү, ат үстүндө үч күн жана 3900 м бийиктиктеги ашуу. Боз үй лагерлери, Ат-Башыда үй-бүлөдө түнөө, каньондор жана ысык булактар — Нарындан Бишкекке чейинки бир жеке сапарда. Келүү күнү + 10 тур күнү, 11 түн; 4WD менен болжол менен 1615 км. Мезгил: июль — сентябрдын башы.",
+          "difficulty": "Орточо–кыйын",
+          "comfort": "Стандарт",
+          "highlights": [
+            "Ат үстүндө 3 күн: Чатыр-Көл, Көл-Суу, Соң-Көл",
+            "3900 м ашуу аркылуу Алтын-Арашан ысык булактарына Ала-Көл жүрүшү",
+            "Таш-Рабат — Жибек жолундагы XV кылымдагы таш кербен-сарай",
+            "Кытай чек арасына жакын Көл-Суу көлү",
+            "Соң-Көлдө (3016 м) чабан үй-бүлөлөрү менен 2 күн",
+            "Ысык-Көлдүн түштүк жээгиндеги Сказка жана Ак-Сай каньондору",
+            "Ат-Башыда жергиликтүү үй-бүлө менен кеч жана салттуу мончо"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Келүү — Нарын",
+              "description": "Тосуп алуу, тосуп алуу кечеси, конок үйүндө түнөө."
+            },
+            {
+              "day": 2,
+              "title": "Нарын – Шар шаркыратмасы – Таш-Рабат",
+              "description": "Шар шаркыратмасына жөө же ат менен, андан соң XV кылымдагы кербен-сарай. Боз үй лагери."
+            },
+            {
+              "day": 3,
+              "title": "Чатыр-Көл",
+              "description": "Кытай чек арасына жакын Чатыр-Көлдүн үстүндөгү кыркага ат менен же жөө. Боз үй лагери."
+            },
+            {
+              "day": 4,
+              "title": "Таш-Рабат – Көк-Кыя өрөөнү",
+              "description": "Алыскы өрөөндөр аркылуу Көл-Суу базалык лагерине баруу."
+            },
+            {
+              "day": 5,
+              "title": "Көл-Суу көлү – Ат-Башы",
+              "description": "Эрте баштоо, каньон аркылуу көлгө ат менен же жөө, андан соң Ат-Башыга баруу. Жергиликтүү үй-бүлө менен кеч жана мончо."
+            },
+            {
+              "day": 6,
+              "title": "Ат-Башы – Нарын – Соң-Көл",
+              "description": "Соң-Көлгө чыгуу. Жээктеги боз үй лагери."
+            },
+            {
+              "day": 7,
+              "title": "Соң-Көл",
+              "description": "Жайыттарда ат минүү, чабан үй-бүлөлөрүнө конокко баруу."
+            },
+            {
+              "day": 8,
+              "title": "Соң-Көл – Сказка жана Ак-Сай каньондору – Ысык-Көлдүн түштүк жээги",
+              "description": "Конок үйү."
+            },
+            {
+              "day": 9,
+              "title": "Түштүк жээк – Каракол капчыгайы – Сирота лагери",
+              "description": "Карагай токою аркылуу өрөөн менен жогору жөө жүрүш."
+            },
+            {
+              "day": 10,
+              "title": "Ала-Көл көлү – Ала-Көл ашуусу – Алтын-Арашан",
+              "description": "Турдун негизги жөө жүрүш күнү, ысык булактарда аяктайт."
+            },
+            {
+              "day": 11,
+              "title": "Алтын-Арашан – Бурана мунарасы – Бишкек",
+              "description": "Эртең менен ысык булактарда, түшүү, Бурана мунарасы, кечинде Бишкек. Эртеси эртең менен Бишкектен учуп кетүү."
+            }
+          ],
+          "included": [
+            "Англисче сүйлөгөн гид",
+            "Айдоочусу менен 4WD унаа",
+            "Эртең мененки тамагы менен бардык жашоо",
+            "Күн сайын түшкү жана кечки тамак",
+            "3 күн ат минүүгө аттар",
+            "Көл-Сууда жергиликтүү гид",
+            "Чек ара зонасына уруксат"
+          ],
+          "notIncluded": [
+            "Эл аралык учуулар жана Нарынга жеткирүү",
+            "Саякат камсыздандыруусу",
+            "Кирүү жана экологиялык төлөмдөр",
+            "Алтын-Арашандан жип менен түшүү [тактоо: кирет же кирбейт]",
+            "Шар шаркыратмасында ат (кааласаңыз)",
+            "Алкоголь жана жеке чыгымдар"
+          ],
+          "accommodation": "Конок үйлөрү, үй-бүлөлүк конок үй, боз үй лагерлери (Таш-Рабат, Көл-Суу, Соң-Көл), Ала-Көл жүрүшүндө тоо лагерлери, Бишкекте мейманкана. Боз үй жана тоо лагерлери жөнөкөй: жалпы даараткана, душ дайыма эле боло бербейт.",
+          "transport": "Айдоочусу менен 4WD унаа (болжол менен 1615 км); 3 күн ат минүү; Ала-Көл жүрүшүндө жөө",
+          "startingPoint": "Нарын (түштөн кийин же кечинде келүү)",
+          "endingPoint": "Бишкек",
+          "whatsappMessage": "Салам! Мени «Нарын, Соң-Көл жана Ала-Көл — 11 күн» туру кызыктырат.\n\nКаалаган күндөр:\nАдамдардын саны:\nМенин өлкөм:",
+          "faq": [
+            {
+              "question": "Канчалык кыйын?",
+              "answer": "Орточо–кыйын: 3900 м бийиктиктеги Ала-Көл ашуусу аркылуу бир толук жөө жүрүш күнү жакшы дене даярдыгын талап кылат. Ат минүү күндөрү жаңы баштагандарга да ылайыктуу."
+            },
+            {
+              "question": "Тур кайдан башталат?",
+              "answer": "Нарында. Түштөн кийин же кечинде келиңиз. Бишкектен жеткирүүнү уюштура алабыз [баасы суроо боюнча]."
+            },
+            {
+              "question": "Чек ара уруксаты керекпи?",
+              "answer": "Чатыр-Көл менен Көл-Суу чек ара зонасында. Паспорт маалыматыңызды баштоодон кеминде 3 жума мурда жибериңиз — уруксатты биз алабыз."
+            },
+            {
+              "question": "Ат мененби же жөөбү?",
+              "answer": "Көпчүлүк жерлерде өзүңүз тандайсыз. Ат минүү тажрыйбасы керек эмес: аттар тынч, жергиликтүү тоо аттары, жаңы баштагандардын жанында атчы жөө жүрөт."
+            },
+            {
+              "question": "Канчалык бийикке чыгабыз жана канчалык суук?",
+              "answer": "3500–3900 м бийиктикке чейин. Тоодо түндөр жайында да суук."
+            },
+            {
+              "question": "Тамак кандай?",
+              "answer": "Үйдө жасалган кыргыз тамактары: шорпо, эт, күрүч, нан, сүт азыктары. Вегетариандык же башка диета жөнүндө алдын ала айтыңыз."
+            },
+            {
+              "question": "Мобилдик байланыш барбы?",
+              "answer": "Көл-Сууда, Соң-Көлдө жана Ала-Көл жүрүшүндө байланыш жок."
+            },
+            {
+              "question": "Накталай акча керекпи?",
+              "answer": "Айылдарда накталай сом керек. Банкоматтар Нарында, Караколдо жана Бишкекте бар."
+            },
+            {
+              "question": "Эмне алып келүү керек?",
+              "answer": "Жылуу кийимдер, пуховик, баш кийим жана мээлей; суу өткөрбөгөн куртка; кийилип көнгөн тоо өтүгү; көз айнек, күндөн коргоочу крем, эрин бальзамы; чекеге тагылуучу чырак; жеке дары-дармектер; уйку баштыгынын ичтелгиси (кааласаңыз)."
+            },
+            {
+              "question": "Бул топтук турбу?",
+              "answer": "Жок. Бардык турлар жеке: сиздин 1–6 адамдан турган тобуңуз, гидиңиз жана айдоочуңуз гана."
+            },
+            {
+              "question": "Күндөрдү же маршрутту өзгөртсө болобу?",
+              "answer": "Ооба. Бул турларды сезондун каалаган күндөрүндө өткөрөбүз жана маршрутту кыскартып же узартып бере алабыз."
+            },
+            {
+              "question": "Эмне үчүн баа топтун өлчөмүнө жараша болот?",
+              "answer": "Гид, унаа жана айдоочу 1 адамга да, 6 адамга да бирдей турат, ошондуктан топ чоңойгон сайын бир адамга баа төмөндөйт."
+            },
+            {
+              "question": "Жалгыз саякаттасамчы?",
+              "answer": "Жалгыз саякатчыларды кубануу менен кабыл алабыз. Таблицадагы 1 адамга бааны караңыз. [Бир кишилик бөлмө үчүн кошумча акы: тактоо]"
+            },
+            {
+              "question": "Кантип брондойм?",
+              "answer": "Күндөрүңүздү жана адамдардын санын жибериңиз. Биз орундун барын ырастап, толук программаны жөнөтөбүз. [Депозиттин өлчөмү жана жокко чыгаруу шарттары: толтуруу]"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "kyrgyzstan-grand-tour-16-days",
+      "slug": "kyrgyzstan-grand-tour-16-days",
+      "region": [
+        "Naryn",
+        "At-Bashy",
+        "Kel-Suu",
+        "Song-Kul",
+        "Issyk-Kul",
+        "Jalal-Abad",
+        "Chuy"
+      ],
+      "activity": "4x4",
+      "durationMin": 17,
+      "durationMax": 17,
+      "durationUnit": "days",
+      "format": [
+        "Private"
+      ],
+      "season": [
+        "July",
+        "August",
+        "September"
+      ],
+      "priceFrom": 1623,
+      "currency": "USD",
+      "image": "/assets/images/general/camel-pastures.webp",
+      "gallery": [],
+      "photos": [],
+      "groupSize": {
+        "min": 1,
+        "max": 6
+      },
+      "pricing": {
+        "perDayBase": 95,
+        "organizerMarkup": 0.3,
+        "minBillableParticipants": 1,
+        "displayFromPrice": 1623
+      },
+      "priceTable": [
+        {
+          "group": 1,
+          "perPerson": 5056,
+          "total": 5056
+        },
+        {
+          "group": 2,
+          "perPerson": 2996,
+          "total": 5992
+        },
+        {
+          "group": 3,
+          "perPerson": 2310,
+          "total": 6930
+        },
+        {
+          "group": 4,
+          "perPerson": 1967,
+          "total": 7868
+        },
+        {
+          "group": 5,
+          "perPerson": 1761,
+          "total": 8805
+        },
+        {
+          "group": 6,
+          "perPerson": 1623,
+          "total": 9738
+        }
+      ],
+      "i18n": {
+        "en": {
+          "title": "Kyrgyzstan Grand Tour — 16 Days from Naryn to Bishkek",
+          "description": "From the Chinese border to the walnut forests of the south. Horse riding to Chatyr-Kul, Kel-Suu and Song-Kul, Issyk-Kul canyons, the new mountain road to Jalal-Abad, Arslanbob and Sary-Chelek, on one private overland trip. Arrival day + 16 tour days, 17 nights; about 2,700 km by 4WD. Season: July to early September.",
+          "difficulty": "Easy to moderate",
+          "comfort": "Standard",
+          "highlights": [
+            "3 days of horse riding: Chatyr-Kul, Kel-Suu, Song-Kul",
+            "5 nights in yurt camps",
+            "Tash-Rabat caravanserai and Burana Tower, two Silk Road landmarks",
+            "Song-Kul Lake (3,016 m) and shepherd life",
+            "Skazka, Ak-Sai and Kok-Moinok canyons",
+            "Felt carpet (shyrdak) workshop in Kochkor",
+            "Arslanbob walnut forest and waterfalls",
+            "Sary-Chelek Biosphere Reserve"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Arrival — Naryn",
+              "description": "Pick-up, welcome dinner, guesthouse."
+            },
+            {
+              "day": 2,
+              "title": "Shar Waterfall – Tash-Rabat",
+              "description": "Waterfall walk, the 15th-century caravanserai. Yurt camp."
+            },
+            {
+              "day": 3,
+              "title": "Chatyr-Kul",
+              "description": "Horse ride or hike to the ridge above the lake. Yurt camp."
+            },
+            {
+              "day": 4,
+              "title": "Kok-Kiya Valley",
+              "description": "Drive to the Kel-Suu base camp."
+            },
+            {
+              "day": 5,
+              "title": "Kel-Suu Lake",
+              "description": "Horse ride or hike through the canyon to the lake."
+            },
+            {
+              "day": 6,
+              "title": "At-Bashy",
+              "description": "Evening with a local family and a banya."
+            },
+            {
+              "day": 7,
+              "title": "Song-Kul",
+              "description": "Drive up to the lake (3,016 m). Yurt camp."
+            },
+            {
+              "day": 8,
+              "title": "Song-Kul",
+              "description": "Horse riding and shepherd families."
+            },
+            {
+              "day": 9,
+              "title": "Skazka & Ak-Sai canyons – Issyk-Kul south shore",
+              "description": "Canyons on the south shore of Issyk-Kul."
+            },
+            {
+              "day": 10,
+              "title": "Jeti-Oguz red rocks – Karakol",
+              "description": "Jeti-Oguz, then Karakol."
+            },
+            {
+              "day": 11,
+              "title": "Kochkor",
+              "description": "Shyrdak felt workshop."
+            },
+            {
+              "day": 12,
+              "title": "Kazarman – Jalal-Abad",
+              "description": "Full day on the new North–South mountain road."
+            },
+            {
+              "day": 13,
+              "title": "Arslanbob",
+              "description": "Walnut forest and waterfalls."
+            },
+            {
+              "day": 14,
+              "title": "Sary-Chelek",
+              "description": "Drive to the reserve, overnight in Arkyt village."
+            },
+            {
+              "day": 15,
+              "title": "Sary-Chelek",
+              "description": "Hike around the lakes and forest."
+            },
+            {
+              "day": 16,
+              "title": "Too-Ashuu pass – Suusamyr Valley",
+              "description": "Yurt stay."
+            },
+            {
+              "day": 17,
+              "title": "Burana Tower – Kok-Moinok canyons – Bishkek",
+              "description": "Departure from Bishkek the next morning."
+            }
+          ],
+          "included": [
+            "English-speaking guide",
+            "4WD vehicle with driver",
+            "All accommodation with breakfast",
+            "Lunch and dinner every day",
+            "Horses for 3 riding days",
+            "Local guide at Kel-Suu",
+            "Border zone permit"
+          ],
+          "notIncluded": [
+            "International flights and transfer to Naryn",
+            "Travel insurance",
+            "Entrance and eco fees (Tash-Rabat, Sary-Chelek, Burana, Skazka)",
+            "Optional: eagle hunter or kok-boru show",
+            "Alcohol and personal expenses"
+          ],
+          "accommodation": "Guesthouses, a family homestay, yurt camps (Tash-Rabat, Kel-Suu, Song-Kul, Suusamyr), hotel in Bishkek. Yurt camps are basic: shared toilets, showers not always available.",
+          "transport": "4WD vehicle with driver (about 2,700 km; some days are long drives of 6–8 hours); horses on 3 riding days",
+          "startingPoint": "Naryn (afternoon or evening arrival)",
+          "endingPoint": "Bishkek",
+          "whatsappMessage": "Hello! I'm interested in the 16-day Kyrgyzstan Grand Tour.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
+          "faq": [
+            {
+              "question": "How hard is it?",
+              "answer": "Easy to moderate. Some days are long drives of 6–8 hours; the highest points are about 3,500 m (Chatyr-Kul ridge, Kel-Suu)."
+            },
+            {
+              "question": "Where does the tour start?",
+              "answer": "In Naryn. Arrive in the afternoon or evening. We can arrange a transfer from Bishkek [price on request]."
+            },
+            {
+              "question": "Do I need a border permit?",
+              "answer": "Chatyr-Kul and Kel-Suu are in the border zone. Send us your passport details at least 3 weeks before the start — we arrange the permit."
+            },
+            {
+              "question": "Horse or hike?",
+              "answer": "At most locations you choose. No riding experience needed: horses are calm local mountain horses and a horseman walks with beginners."
+            },
+            {
+              "question": "How high do we go, and how cold is it?",
+              "answer": "Up to 3,500–3,900 m. Nights in the mountains are cold, even in summer."
+            },
+            {
+              "question": "What is the food like?",
+              "answer": "Home-cooked Kyrgyz meals: soups, meat, rice, bread, dairy. Tell us in advance about vegetarian or other diets."
+            },
+            {
+              "question": "Is there mobile signal?",
+              "answer": "No mobile signal at Kel-Suu, Song-Kul or on the Ala-Kul trek."
+            },
+            {
+              "question": "Do I need cash?",
+              "answer": "Cash in Kyrgyz som is needed in villages. ATMs in Naryn, Karakol and Bishkek."
+            },
+            {
+              "question": "What should I bring?",
+              "answer": "Warm layers, down jacket, hat and gloves; waterproof jacket; broken-in hiking boots; sunglasses, sunscreen, lip balm; headlamp; personal medicines; sleeping bag liner (optional)."
+            },
+            {
+              "question": "Is it a group tour?",
+              "answer": "No. Every tour is private: only your group of 1–6 people, your guide and your driver."
+            },
+            {
+              "question": "Can I change the dates or the route?",
+              "answer": "Yes. We run these tours on any dates in the season and can shorten or extend the route."
+            },
+            {
+              "question": "Why does the price depend on group size?",
+              "answer": "The guide, vehicle and driver cost the same for 1 or 6 people, so the price per person goes down as the group grows."
+            },
+            {
+              "question": "What about single travelers?",
+              "answer": "Solo travelers are welcome. See the 1-person price in the table. [Single room supplement: confirm]"
+            },
+            {
+              "question": "How do I book?",
+              "answer": "Send us your dates and number of travelers. We confirm availability and send the full program. [Deposit amount and cancellation policy: fill in]"
+            }
+          ]
+        },
+        "ru": {
+          "title": "Гранд-тур по Кыргызстану — 16 дней от Нарына до Бишкека",
+          "description": "От китайской границы до ореховых лесов юга. Верхом к Чатыр-Кулю, Кель-Суу и Сон-Кулю, каньоны Иссык-Куля, новая горная дорога в Джалал-Абад, Арсланбоб и Сары-Челек — в одной частной поездке на внедорожнике. День прибытия + 16 дней тура, 17 ночей; около 2700 км. Сезон: июль — начало сентября.",
+          "difficulty": "Лёгкий–средний",
+          "comfort": "Стандарт",
+          "highlights": [
+            "3 дня верхом: Чатыр-Куль, Кель-Суу, Сон-Куль",
+            "5 ночей в юрточных лагерях",
+            "Караван-сарай Таш-Рабат и башня Бурана — два памятника Шёлкового пути",
+            "Озеро Сон-Куль (3016 м) и жизнь чабанов",
+            "Каньоны Сказка, Ак-Сай и Кок-Мойнок",
+            "Мастерская войлочных ковров (шырдак) в Кочкоре",
+            "Ореховый лес и водопады Арсланбоба",
+            "Биосферный заповедник Сары-Челек"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Прибытие — Нарын",
+              "description": "Встреча, приветственный ужин, гостевой дом."
+            },
+            {
+              "day": 2,
+              "title": "Водопад Шар – Таш-Рабат",
+              "description": "Прогулка к водопаду, караван-сарай XV века. Юрточный лагерь."
+            },
+            {
+              "day": 3,
+              "title": "Чатыр-Куль",
+              "description": "Верхом или пешком на гребень над озером. Юрточный лагерь."
+            },
+            {
+              "day": 4,
+              "title": "Долина Кок-Кия",
+              "description": "Переезд в базовый лагерь Кель-Суу."
+            },
+            {
+              "day": 5,
+              "title": "Озеро Кель-Суу",
+              "description": "Верхом или пешком через каньон к озеру."
+            },
+            {
+              "day": 6,
+              "title": "Ат-Баши",
+              "description": "Вечер у местной семьи и баня."
+            },
+            {
+              "day": 7,
+              "title": "Сон-Куль",
+              "description": "Подъём на озеро (3016 м). Юрточный лагерь."
+            },
+            {
+              "day": 8,
+              "title": "Сон-Куль",
+              "description": "Верховая езда и семьи чабанов."
+            },
+            {
+              "day": 9,
+              "title": "Каньоны Сказка и Ак-Сай – южный берег Иссык-Куля",
+              "description": "Каньоны южного берега Иссык-Куля."
+            },
+            {
+              "day": 10,
+              "title": "Красные скалы Джети-Огуз – Каракол",
+              "description": "Джети-Огуз, затем Каракол."
+            },
+            {
+              "day": 11,
+              "title": "Кочкор",
+              "description": "Мастерская войлочных шырдаков."
+            },
+            {
+              "day": 12,
+              "title": "Казарман – Джалал-Абад",
+              "description": "Полный день на новой горной дороге Север–Юг."
+            },
+            {
+              "day": 13,
+              "title": "Арсланбоб",
+              "description": "Ореховый лес и водопады."
+            },
+            {
+              "day": 14,
+              "title": "Сары-Челек",
+              "description": "Переезд в заповедник, ночь в селе Аркыт."
+            },
+            {
+              "day": 15,
+              "title": "Сары-Челек",
+              "description": "Прогулка вокруг озёр и по лесу."
+            },
+            {
+              "day": 16,
+              "title": "Перевал Тоо-Ашуу – Суусамырская долина",
+              "description": "Ночь в юрте."
+            },
+            {
+              "day": 17,
+              "title": "Башня Бурана – каньоны Кок-Мойнок – Бишкек",
+              "description": "Вылет из Бишкека на следующее утро."
+            }
+          ],
+          "included": [
+            "Англоговорящий гид",
+            "Внедорожник 4WD с водителем",
+            "Всё проживание с завтраком",
+            "Обед и ужин каждый день",
+            "Лошади на 3 дня верховой езды",
+            "Местный гид на Кель-Суу",
+            "Пограничный пропуск"
+          ],
+          "notIncluded": [
+            "Международные перелёты и трансфер до Нарына",
+            "Туристическая страховка",
+            "Входные и экологические сборы (Таш-Рабат, Сары-Челек, Бурана, Сказка)",
+            "По желанию: шоу беркутчи или кок-бору",
+            "Алкоголь и личные расходы"
+          ],
+          "accommodation": "Гостевые дома, семейный гостевой дом, юрточные лагеря (Таш-Рабат, Кель-Суу, Сон-Куль, Суусамыр), отель в Бишкеке. Юрточные лагеря простые: общие туалеты, душ есть не всегда.",
+          "transport": "Внедорожник 4WD с водителем (около 2700 км; в некоторые дни переезды по 6–8 часов); лошади в 3 дня верховой езды",
+          "startingPoint": "Нарын (прибытие днём или вечером)",
+          "endingPoint": "Бишкек",
+          "whatsappMessage": "Здравствуйте! Меня интересует тур «Гранд-тур по Кыргызстану — 16 дней».\n\nЖелаемые даты:\nКоличество человек:\nМоя страна:",
+          "faq": [
+            {
+              "question": "Насколько это сложно?",
+              "answer": "Легко–средне. В некоторые дни долгие переезды по 6–8 часов; максимальная высота около 3500 м (гребень над Чатыр-Кулем, Кель-Суу)."
+            },
+            {
+              "question": "Где начинается тур?",
+              "answer": "В Нарыне. Приезжайте днём или вечером. Можем организовать трансфер из Бишкека [цена по запросу]."
+            },
+            {
+              "question": "Нужен ли пограничный пропуск?",
+              "answer": "Чатыр-Куль и Кель-Суу находятся в пограничной зоне. Пришлите паспортные данные минимум за 3 недели до старта — пропуск оформляем мы."
+            },
+            {
+              "question": "Верхом или пешком?",
+              "answer": "В большинстве мест выбираете вы. Опыт верховой езды не нужен: лошади спокойные, местные горные, с новичками рядом идёт коневод."
+            },
+            {
+              "question": "Как высоко поднимаемся и насколько холодно?",
+              "answer": "До 3500–3900 м. Ночи в горах холодные даже летом."
+            },
+            {
+              "question": "Какая еда?",
+              "answer": "Домашняя кыргызская кухня: супы, мясо, рис, хлеб, молочное. О вегетарианской или другой диете предупредите заранее."
+            },
+            {
+              "question": "Есть ли мобильная связь?",
+              "answer": "На Кель-Суу, Сон-Куле и на треке к Ала-Кулю связи нет."
+            },
+            {
+              "question": "Нужны ли наличные?",
+              "answer": "В сёлах нужны наличные сомы. Банкоматы есть в Нарыне, Караколе и Бишкеке."
+            },
+            {
+              "question": "Что взять с собой?",
+              "answer": "Тёплые слои, пуховик, шапку и перчатки; непромокаемую куртку; разношенные треккинговые ботинки; солнечные очки, крем от солнца, бальзам для губ; налобный фонарь; личные лекарства; вкладыш в спальник (по желанию)."
+            },
+            {
+              "question": "Это групповой тур?",
+              "answer": "Нет. Все туры частные: только ваша группа из 1–6 человек, ваш гид и ваш водитель."
+            },
+            {
+              "question": "Можно ли изменить даты или маршрут?",
+              "answer": "Да. Мы проводим эти туры в любые даты сезона и можем сократить или продлить маршрут."
+            },
+            {
+              "question": "Почему цена зависит от размера группы?",
+              "answer": "Гид, машина и водитель стоят одинаково для 1 и для 6 человек, поэтому цена за человека снижается с ростом группы."
+            },
+            {
+              "question": "А если я еду один?",
+              "answer": "Одиночные путешественники приветствуются. Смотрите цену на 1 человека в таблице. [Доплата за одноместное размещение: уточнить]"
+            },
+            {
+              "question": "Как забронировать?",
+              "answer": "Пришлите даты и количество человек. Мы подтвердим наличие и отправим полную программу. [Размер депозита и условия отмены: заполнить]"
+            }
+          ]
+        },
+        "ky": {
+          "title": "Кыргызстан боюнча Гранд-тур — Нарындан Бишкекке чейин 16 күн",
+          "description": "Кытай чек арасынан түштүктүн жаңгак токойлоруна чейин. Чатыр-Көлгө, Көл-Сууга жана Соң-Көлгө ат минүү, Ысык-Көл каньондору, Жалал-Абадга жаңы тоо жолу, Арстанбап жана Сары-Челек — 4WD менен бир жеке сапарда. Келүү күнү + 16 тур күнү, 17 түн; болжол менен 2700 км. Мезгил: июль — сентябрдын башы.",
+          "difficulty": "Жеңил–орточо",
+          "comfort": "Стандарт",
+          "highlights": [
+            "Ат үстүндө 3 күн: Чатыр-Көл, Көл-Суу, Соң-Көл",
+            "Боз үй лагерлеринде 5 түн",
+            "Таш-Рабат кербен-сарайы жана Бурана мунарасы — Жибек жолунун эки эстелиги",
+            "Соң-Көл (3016 м) жана чабандардын жашоосу",
+            "Сказка, Ак-Сай жана Көк-Мойнок каньондору",
+            "Кочкордо шырдак устаканасы",
+            "Арстанбаптын жаңгак токою жана шаркыратмалары",
+            "Сары-Челек биосфералык коругу"
+          ],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Келүү — Нарын",
+              "description": "Тосуп алуу, тосуп алуу кечеси, конок үйү."
+            },
+            {
+              "day": 2,
+              "title": "Шар шаркыратмасы – Таш-Рабат",
+              "description": "Шаркыратмага сейилдөө, XV кылымдагы кербен-сарай. Боз үй лагери."
+            },
+            {
+              "day": 3,
+              "title": "Чатыр-Көл",
+              "description": "Көлдүн үстүндөгү кыркага ат менен же жөө. Боз үй лагери."
+            },
+            {
+              "day": 4,
+              "title": "Көк-Кыя өрөөнү",
+              "description": "Көл-Суу базалык лагерине баруу."
+            },
+            {
+              "day": 5,
+              "title": "Көл-Суу көлү",
+              "description": "Каньон аркылуу көлгө ат менен же жөө."
+            },
+            {
+              "day": 6,
+              "title": "Ат-Башы",
+              "description": "Жергиликтүү үй-бүлө менен кеч жана мончо."
+            },
+            {
+              "day": 7,
+              "title": "Соң-Көл",
+              "description": "Көлгө (3016 м) чыгуу. Боз үй лагери."
+            },
+            {
+              "day": 8,
+              "title": "Соң-Көл",
+              "description": "Ат минүү жана чабан үй-бүлөлөрү."
+            },
+            {
+              "day": 9,
+              "title": "Сказка жана Ак-Сай каньондору – Ысык-Көлдүн түштүк жээги",
+              "description": "Ысык-Көлдүн түштүк жээгиндеги каньондор."
+            },
+            {
+              "day": 10,
+              "title": "Жети-Өгүз кызыл аскалары – Каракол",
+              "description": "Жети-Өгүз, андан соң Каракол."
+            },
+            {
+              "day": 11,
+              "title": "Кочкор",
+              "description": "Шырдак жасоо устаканасы."
+            },
+            {
+              "day": 12,
+              "title": "Казарман – Жалал-Абад",
+              "description": "Жаңы Түндүк–Түштүк тоо жолунда толук күн."
+            },
+            {
+              "day": 13,
+              "title": "Арстанбап",
+              "description": "Жаңгак токою жана шаркыратмалар."
+            },
+            {
+              "day": 14,
+              "title": "Сары-Челек",
+              "description": "Корукка баруу, Аркыт айылында түнөө."
+            },
+            {
+              "day": 15,
+              "title": "Сары-Челек",
+              "description": "Көлдөрдү жана токойду аралап жөө жүрүш."
+            },
+            {
+              "day": 16,
+              "title": "Төө-Ашуу ашуусу – Суусамыр өрөөнү",
+              "description": "Боз үйдө түнөө."
+            },
+            {
+              "day": 17,
+              "title": "Бурана мунарасы – Көк-Мойнок каньондору – Бишкек",
+              "description": "Эртеси эртең менен Бишкектен учуп кетүү."
+            }
+          ],
+          "included": [
+            "Англисче сүйлөгөн гид",
+            "Айдоочусу менен 4WD унаа",
+            "Эртең мененки тамагы менен бардык жашоо",
+            "Күн сайын түшкү жана кечки тамак",
+            "3 күн ат минүүгө аттар",
+            "Көл-Сууда жергиликтүү гид",
+            "Чек ара зонасына уруксат"
+          ],
+          "notIncluded": [
+            "Эл аралык учуулар жана Нарынга жеткирүү",
+            "Саякат камсыздандыруусу",
+            "Кирүү жана экологиялык төлөмдөр (Таш-Рабат, Сары-Челек, Бурана, Сказка)",
+            "Кааласаңыз: бүркүтчү же көк бөрү шоусу",
+            "Алкоголь жана жеке чыгымдар"
+          ],
+          "accommodation": "Конок үйлөрү, үй-бүлөлүк конок үй, боз үй лагерлери (Таш-Рабат, Көл-Суу, Соң-Көл, Суусамыр), Бишкекте мейманкана. Боз үй лагерлери жөнөкөй: жалпы даараткана, душ дайыма эле боло бербейт.",
+          "transport": "Айдоочусу менен 4WD унаа (болжол менен 2700 км; кээ бир күндөрү 6–8 сааттык узак жолдор); 3 күн ат минүү",
+          "startingPoint": "Нарын (түштөн кийин же кечинде келүү)",
+          "endingPoint": "Бишкек",
+          "whatsappMessage": "Салам! Мени «Кыргызстан боюнча Гранд-тур — 16 күн» туру кызыктырат.\n\nКаалаган күндөр:\nАдамдардын саны:\nМенин өлкөм:",
+          "faq": [
+            {
+              "question": "Канчалык кыйын?",
+              "answer": "Жеңил–орточо. Кээ бир күндөрү 6–8 сааттык узак жолдор; эң бийик чекиттер болжол менен 3500 м (Чатыр-Көл кыркасы, Көл-Суу)."
+            },
+            {
+              "question": "Тур кайдан башталат?",
+              "answer": "Нарында. Түштөн кийин же кечинде келиңиз. Бишкектен жеткирүүнү уюштура алабыз [баасы суроо боюнча]."
+            },
+            {
+              "question": "Чек ара уруксаты керекпи?",
+              "answer": "Чатыр-Көл менен Көл-Суу чек ара зонасында. Паспорт маалыматыңызды баштоодон кеминде 3 жума мурда жибериңиз — уруксатты биз алабыз."
+            },
+            {
+              "question": "Ат мененби же жөөбү?",
+              "answer": "Көпчүлүк жерлерде өзүңүз тандайсыз. Ат минүү тажрыйбасы керек эмес: аттар тынч, жергиликтүү тоо аттары, жаңы баштагандардын жанында атчы жөө жүрөт."
+            },
+            {
+              "question": "Канчалык бийикке чыгабыз жана канчалык суук?",
+              "answer": "3500–3900 м бийиктикке чейин. Тоодо түндөр жайында да суук."
+            },
+            {
+              "question": "Тамак кандай?",
+              "answer": "Үйдө жасалган кыргыз тамактары: шорпо, эт, күрүч, нан, сүт азыктары. Вегетариандык же башка диета жөнүндө алдын ала айтыңыз."
+            },
+            {
+              "question": "Мобилдик байланыш барбы?",
+              "answer": "Көл-Сууда, Соң-Көлдө жана Ала-Көл жүрүшүндө байланыш жок."
+            },
+            {
+              "question": "Накталай акча керекпи?",
+              "answer": "Айылдарда накталай сом керек. Банкоматтар Нарында, Караколдо жана Бишкекте бар."
+            },
+            {
+              "question": "Эмне алып келүү керек?",
+              "answer": "Жылуу кийимдер, пуховик, баш кийим жана мээлей; суу өткөрбөгөн куртка; кийилип көнгөн тоо өтүгү; көз айнек, күндөн коргоочу крем, эрин бальзамы; чекеге тагылуучу чырак; жеке дары-дармектер; уйку баштыгынын ичтелгиси (кааласаңыз)."
+            },
+            {
+              "question": "Бул топтук турбу?",
+              "answer": "Жок. Бардык турлар жеке: сиздин 1–6 адамдан турган тобуңуз, гидиңиз жана айдоочуңуз гана."
+            },
+            {
+              "question": "Күндөрдү же маршрутту өзгөртсө болобу?",
+              "answer": "Ооба. Бул турларды сезондун каалаган күндөрүндө өткөрөбүз жана маршрутту кыскартып же узартып бере алабыз."
+            },
+            {
+              "question": "Эмне үчүн баа топтун өлчөмүнө жараша болот?",
+              "answer": "Гид, унаа жана айдоочу 1 адамга да, 6 адамга да бирдей турат, ошондуктан топ чоңойгон сайын бир адамга баа төмөндөйт."
+            },
+            {
+              "question": "Жалгыз саякаттасамчы?",
+              "answer": "Жалгыз саякатчыларды кубануу менен кабыл алабыз. Таблицадагы 1 адамга бааны караңыз. [Бир кишилик бөлмө үчүн кошумча акы: тактоо]"
+            },
+            {
+              "question": "Кантип брондойм?",
+              "answer": "Күндөрүңүздү жана адамдардын санын жибериңиз. Биз орундун барын ырастап, толук программаны жөнөтөбүз. [Депозиттин өлчөмү жана жокко чыгаруу шарттары: толтуруу]"
             }
           ]
         }
