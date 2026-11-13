@@ -3378,7 +3378,7 @@
       "season": [
         "June"
       ],
-      "priceFrom": null,
+      "priceFrom": 348,
       "currency": "USD",
       "image": "/assets/images/tours/kazybek.jpg",
       "gallery": [],
@@ -3616,7 +3616,39 @@
           ]
         }
       },
-      "photos": []
+      "photos": [],
+      "priceTable": [
+        {
+          "group": 1,
+          "perPerson": 800,
+          "total": 800
+        },
+        {
+          "group": 2,
+          "perPerson": 529,
+          "total": 1057
+        },
+        {
+          "group": 3,
+          "perPerson": 438,
+          "total": 1315
+        },
+        {
+          "group": 4,
+          "perPerson": 393,
+          "total": 1573
+        },
+        {
+          "group": 5,
+          "perPerson": 366,
+          "total": 1831
+        },
+        {
+          "group": 6,
+          "perPerson": 348,
+          "total": 2089
+        }
+      ]
     },
     {
       "id": "kazybek-tash-rabat-song-kul-ak-talaa-horse",
@@ -3640,7 +3672,7 @@
         "August",
         "September"
       ],
-      "priceFrom": null,
+      "priceFrom": 544,
       "currency": "USD",
       "image": "/assets/images/destinations/song-kul-horseman.webp",
       "gallery": [],
@@ -3911,7 +3943,39 @@
             }
           ]
         }
-      }
+      },
+      "priceTable": [
+        {
+          "group": 1,
+          "perPerson": 1368,
+          "total": 1368
+        },
+        {
+          "group": 2,
+          "perPerson": 874,
+          "total": 1748
+        },
+        {
+          "group": 3,
+          "perPerson": 709,
+          "total": 2127
+        },
+        {
+          "group": 4,
+          "perPerson": 627,
+          "total": 2507
+        },
+        {
+          "group": 5,
+          "perPerson": 577,
+          "total": 2887
+        },
+        {
+          "group": 6,
+          "perPerson": 544,
+          "total": 3267
+        }
+      ]
     },
     {
       "id": "naryn-songkul-alakul-11-days",
