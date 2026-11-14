@@ -6,7 +6,8 @@
   "scripts": {
     "build": "node scripts/build.js",
     "serve": "npx serve dist",
-    "start": "npm run build && npm run serve"
+    "start": "npm run build && npm run serve",
+    "photos": "node scripts/prepare-photos.js"
   },
   "repository": {
     "type": "git",

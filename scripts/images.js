@@ -56,7 +56,9 @@ function walk(dir, out) {
 async function processOne(file, rel, cacheDir, outDir) {
   const base = rel.replace(/\.[^.]+$/, '');
   const urlBase = '/' + base.split(path.sep).join('/');
-  const cacheKey = path.join(cacheDir, base.split(path.sep).join('__') + '-' + hashFile(file));
+  /* Short hashed folder name: long photo names otherwise exceed the 260-character Windows path limit. */
+  const relHash = crypto.createHash('sha1').update(base.split(path.sep).join('/')).digest('hex').slice(0, 8);
+  const cacheKey = path.join(cacheDir, relHash + '-' + hashFile(file));
   const metaFile = path.join(cacheKey, 'meta.json');
 
   let meta;

@@ -26,9 +26,8 @@
       "currency": "USD",
       "image": "/assets/images/destinations/tash-rabat.jpg",
       "gallery": [],
-      "routeMap": "/assets/images/tours/acha-kayindy.png",
       "photos": [
-        "/assets/images/tours/mount1.jpg",
+        "/assets/images/tours/tash-rabat-arpa-aksay-kelsuu-4x4/mount1.jpg",
         "/assets/images/destinations/tash-rabat2.jpg",
         "/assets/images/destinations/tash-rabat/gorge-tash-rabat.jpg",
         "/assets/images/destinations/tash-rabat/tash-rabat-inside.jpg",
@@ -408,7 +407,7 @@
       ],
       "priceFrom": 503,
       "currency": "USD",
-      "image": "/assets/images/tours/mal-aidoo2.jpg",
+      "image": "/assets/images/tours/mal-aidoo-kazybek-kelsuu-horse/mal-aidoo2.jpg",
       "gallery": [],
       "groupSize": {
         "min": 1,
@@ -963,7 +962,7 @@
       ],
       "priceFrom": 470,
       "currency": "USD",
-      "image": "/assets/images/tours/kazybek.jpg",
+      "image": "/assets/images/tours/kazybek-tash-rabat-hiking/kazybek.jpg",
       "gallery": [],
       "groupSize": {
         "min": 1,
@@ -2344,7 +2343,7 @@
       ],
       "priceFrom": 325,
       "currency": "USD",
-      "image": "/assets/images/tours/murgab.jpg",
+      "image": "/assets/images/tours/osh-murgab-dushanbe-mix/murgab.jpg",
       "gallery": [],
       "groupSize": {
         "min": 2,
@@ -2482,7 +2481,7 @@
       ],
       "priceFrom": 195,
       "currency": "USD",
-      "image": "/assets/images/tours/suusamyr.jpg",
+      "image": "/assets/images/tours/suusamyr-kyzyl-oy-son-kul-horse/suusamyr.jpg",
       "gallery": [],
       "groupSize": {
         "min": 2,
@@ -2745,7 +2744,7 @@
       ],
       "priceFrom": 98,
       "currency": "USD",
-      "image": "/assets/images/tours/suusamyr.jpg",
+      "image": "/assets/images/tours/suusamyr-kyzyl-oy-son-kul-horse/suusamyr.jpg",
       "gallery": [],
       "groupSize": {
         "min": 2,
@@ -2952,7 +2951,7 @@
       ],
       "priceFrom": 325,
       "currency": "USD",
-      "image": "/assets/images/tours/mount1.jpg",
+      "image": "/assets/images/tours/tash-rabat-arpa-aksay-kelsuu-4x4/mount1.jpg",
       "gallery": [],
       "groupSize": {
         "min": 2,
@@ -3093,7 +3092,7 @@
       ],
       "priceFrom": 195,
       "currency": "USD",
-      "image": "/assets/images/tours/mount1.jpg",
+      "image": "/assets/images/tours/tash-rabat-arpa-aksay-kelsuu-4x4/mount1.jpg",
       "gallery": [],
       "groupSize": {
         "min": 2,
@@ -3380,7 +3379,7 @@
       ],
       "priceFrom": 348,
       "currency": "USD",
-      "image": "/assets/images/tours/kazybek.jpg",
+      "image": "/assets/images/tours/kazybek-tash-rabat-hiking/kazybek.jpg",
       "gallery": [],
       "groupSize": {
         "min": 1,
@@ -3651,8 +3650,8 @@
       ]
     },
     {
-      "id": "kazybek-tash-rabat-song-kul-ak-talaa-horse",
-      "slug": "kazybek-tash-rabat-song-kul-ak-talaa-horse",
+      "id": "tash-rabat-song-kul-horse-expedition",
+      "slug": "tash-rabat-song-kul-horse-expedition",
       "region": [
         "At-Bashy",
         "Naryn",
@@ -3672,7 +3671,7 @@
         "August",
         "September"
       ],
-      "priceFrom": 544,
+      "priceFrom": 739,
       "currency": "USD",
       "image": "/assets/images/destinations/song-kul-horseman.webp",
       "gallery": [],
@@ -3685,83 +3684,93 @@
         "perDayBase": 100,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 1,
-        "displayFromPrice": null
+        "displayFromPrice": 739
       },
       "i18n": {
         "en": {
-          "title": "Kazybek – Tash-Rabat – Song-Kul via Ak-Talaa — 6-Day Horse Tour",
-          "description": "Six days on horseback linking the two great sights of Naryn region. From Kazybek village we ride across the At-Bashy range to the 15th-century Tash-Rabat caravanserai, then cross to Ak-Talaa district and ride up over the Moldo-Ashuu pass to Song-Kul, the high alpine lake at 3,016 m, for a night in a yurt camp on the shore. Pastures, shepherd camps and yurts the whole way.",
+          "title": "Tash-Rabat – Song-Kul — 6-Day Horseback Expedition",
+          "description": "From a Silk Road caravanserai to Kyrgyzstan’s great alpine lake. Five days on horseback across At-Bashy and Naryn districts: over the At-Bashy range to Tash-Rabat, up to Panda Pass for the view over Chatyr-Kul, across the At-Bashy and Naryn valleys and over the Moldo-Ashuu pass to Song-Kul. Two nights in yurts, three nights in tents.",
           "difficulty": "Moderate to Challenging",
           "comfort": "Basic",
           "highlights": [
-            "Across the At-Bashy range from Kazybek to Tash-Rabat",
-            "Tash-Rabat, a 15th-century Silk Road caravanserai, and Panda Pass",
-            "The quiet Ak-Talaa district and the Moldo-Ashuu pass",
-            "Song-Kul Lake at 3,016 m with a night in a yurt camp on the shore",
-            "Summer pastures, shepherd camps and fresh kymyz along the way",
+            "Tash-Rabat, a centuries-old stone caravanserai on the Silk Road",
+            "Panda Pass (3,530 m) with the view over Chatyr-Kul Lake",
+            "Five days in the saddle on shepherd trails and summer pastures",
+            "Over the Moldo-Ashuu pass to Song-Kul Lake (3,016 m)",
+            "Two nights in yurts and three nights in tents",
             "Small groups of 1–6 travellers"
           ],
           "itinerary": [
             {
+              "day": 0,
+              "title": "Arrival — Naryn",
+              "description": "Not a tour day. We pick you up in Naryn in the afternoon or evening; night in a guesthouse."
+            },
+            {
               "day": 1,
-              "title": "Kazybek to Orto-Keltebik",
-              "description": "Pick-up in Naryn, drive to Kazybek village in the At-Bashy valley. Meet the horses and ride up into Orto-Keltebik. Night in a yurt."
+              "title": "Kazybek to Tash-Rabat",
+              "description": "Drive to Kazybek, meet the horses and ride over the At-Bashy range. Visit the caravanserai. Night in a yurt."
             },
             {
               "day": 2,
-              "title": "Chet-Keltebik & Sary-Bulak",
-              "description": "A full day riding over the high summer pastures of the At-Bashy range. Night in a yurt."
+              "title": "Panda Pass",
+              "description": "Ride up for the view over Chatyr-Kul lake and the border ranges, then turn north. Night in tents."
             },
             {
               "day": 3,
-              "title": "Shyrykty to Tash-Rabat",
-              "description": "Ride through Shyrykty and down to Tash-Rabat, the 15th-century Silk Road caravanserai. Night in the yurt camp next to it."
+              "title": "At-Bashy valley",
+              "description": "Cross the wide valley past shepherd camps and summer pastures. Night in tents."
             },
             {
               "day": 4,
-              "title": "Panda Pass & transfer to Ak-Talaa",
-              "description": "Morning ride up to Panda Pass for the view over Chatyr-Kul. Transfer by car to Ak-Talaa district, meet the second team of horses and ride up the valley. Night in a yurt or tents."
+              "title": "To Moldo-Too",
+              "description": "Through the Naryn valley and up into the Moldo-Too mountains. Night in tents."
             },
             {
               "day": 5,
-              "title": "Moldo-Ashuu pass to Song-Kul",
-              "description": "Ride over the Moldo-Ashuu pass and down to the southern shore of Song-Kul (3,016 m). Night in a yurt camp by the lake."
+              "title": "Song-Kul",
+              "description": "Over Moldo-Ashuu pass down to the lake shore. Night in a yurt camp."
             },
             {
               "day": 6,
-              "title": "Song-Kul to Naryn or Bishkek",
-              "description": "Morning by the lake, then transfer by car to Naryn or Bishkek."
+              "title": "Return",
+              "description": "Sunrise on the lake, then ~7 hours by car via Kochkor to Bishkek (or back to Naryn)."
             }
           ],
           "included": [
             "Horses and saddlery",
             "English-speaking guide",
             "Local horsemen",
-            "All meals",
-            "Accommodation: yurts, yurt camps and tents",
-            "All transfers (4WD)",
-            "Tash-Rabat entrance"
+            "All meals on the tour",
+            "2 nights in yurts",
+            "Tents and camping gear",
+            "Transfers (4WD) to Kazybek and to Bishkek",
+            "Tash-Rabat ticket and border permit",
+            "Accident insurance during the tour (local)"
           ],
           "notIncluded": [
-            "Flights",
             "Travel insurance",
-            "Riding clothes and boots",
+            "Riding clothes, boots, sleeping bag",
             "Alcohol",
             "Tips"
           ],
-          "accommodation": "Yurts and yurt camps; one night may be in tents",
-          "transport": "Horseback on days 1–5; 4WD from Naryn to Kazybek, Tash-Rabat to Ak-Talaa and from Song-Kul to Naryn or Bishkek",
-          "startingPoint": "Naryn (pick-up), ride starts in Kazybek village",
-          "endingPoint": "Naryn or Bishkek",
-          "whatsappMessage": "Hello! I'm interested in the 6-day Kazybek – Tash-Rabat – Song-Kul horse tour via Ak-Talaa.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
+          "accommodation": "Guesthouse in Naryn on arrival, 2 nights in yurts, 3 nights in tents",
+          "transport": "Horseback on days 1–5; 4WD from Naryn to Kazybek and from Song-Kul to Bishkek (about 7 hours via Kochkor) or back to Naryn",
+          "startingPoint": "Naryn (pick-up in the afternoon or evening)",
+          "endingPoint": "Bishkek (or Naryn)",
+          "whatsappMessage": "Hello! I'm interested in the 6-day Tash-Rabat – Song-Kul horseback expedition.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
           "faq": [
             {
               "question": "Do I need a border permit?",
-              "answer": "No. The whole route is in an open zone."
+              "answer": "Yes. Panda Pass and the Chatyr-Kul view are in a border zone. We need your passport details at least 3 weeks before the trip."
             },
             {
-              "question": "How much riding is there?",
-              "answer": "Five riding days of 4–7 hours. Some experience in the saddle helps; our horsemen ride with the group the whole way."
+              "question": "How much riding experience do I need?",
+              "answer": "This tour is for riders with some experience: five days in a row with full days in the saddle."
+            },
+            {
+              "question": "What is the camping like?",
+              "answer": "Three nights in tents, high altitude, cold nights and little or no mobile signal. Bring a warm sleeping bag."
             },
             {
               "question": "How cold does it get at Song-Kul?",
@@ -3774,79 +3783,89 @@
           ]
         },
         "ru": {
-          "title": "Казыбек – Таш-Рабат – Сон-Куль через Ак-Талаа — 6-дневный конный тур",
-          "description": "Шесть дней верхом, соединяющих две главные достопримечательности Нарынской области. От села Казыбек проходим хребет Ат-Баши к караван-сараю Таш-Рабат XV века, затем переезжаем в Ак-Талинский район и поднимаемся верхом через перевал Молдо-Ашуу к Сон-Кулю — высокогорному озеру на 3016 м — с ночёвкой в юрточном лагере на берегу. Пастбища, стоянки чабанов и юрты на всём пути.",
+          "title": "Таш-Рабат – Сон-Куль — 6-дневная конная экспедиция",
+          "description": "От караван-сарая Шёлкового пути к большому высокогорному озеру Кыргызстана. Пять дней верхом по Ат-Башинскому и Нарынскому районам: через Ат-Башинский хребет к Таш-Рабату, на перевал Панда с видом на Чатыр-Куль, через долины Ат-Баши и Нарына и через перевал Молдо-Ашуу на Сон-Куль. Две ночи в юртах, три ночи в палатках.",
           "difficulty": "Средний–сложный",
           "comfort": "Базовый",
           "highlights": [
-            "Через хребет Ат-Баши от Казыбека до Таш-Рабата",
-            "Таш-Рабат — караван-сарай Шёлкового пути XV века — и перевал Панда",
-            "Тихий Ак-Талинский район и перевал Молдо-Ашуу",
-            "Озеро Сон-Куль на 3016 м с ночёвкой в юрточном лагере на берегу",
-            "Летние пастбища, стоянки чабанов и свежий кымыз по дороге",
-            "Небольшие группы 1–6 человек"
+            "Таш-Рабат — старинный каменный караван-сарай на Шёлковом пути",
+            "Перевал Панда (3530 м) с видом на озеро Чатыр-Куль",
+            "Пять дней в седле по чабанским тропам и летним пастбищам",
+            "Через перевал Молдо-Ашуу к озеру Сон-Куль (3016 м)",
+            "Две ночи в юртах и три ночи в палатках",
+            "Небольшие группы: 1–6 человек"
           ],
           "itinerary": [
             {
+              "day": 0,
+              "title": "Прибытие — Нарын",
+              "description": "Не входит в дни тура. Встречаем вас в Нарыне днём или вечером; ночь в гостевом доме."
+            },
+            {
               "day": 1,
-              "title": "Казыбек — Орто-Кельтебик",
-              "description": "Встреча в Нарыне, переезд в село Казыбек в Ат-Башинской долине. Знакомство с лошадьми и подъём в Орто-Кельтебик. Ночь в юрте."
+              "title": "Казыбек – Таш-Рабат",
+              "description": "Переезд в Казыбек, знакомство с лошадьми и переход через Ат-Башинский хребет. Осмотр караван-сарая. Ночь в юрте."
             },
             {
               "day": 2,
-              "title": "Чет-Кельтебик и Сары-Булак",
-              "description": "Полный день верхом по высокогорным летним пастбищам хребта Ат-Баши. Ночь в юрте."
+              "title": "Перевал Панда",
+              "description": "Подъём к виду на озеро Чатыр-Куль и пограничные хребты, затем поворачиваем на север. Ночь в палатках."
             },
             {
               "day": 3,
-              "title": "Шырыкты — Таш-Рабат",
-              "description": "Через Шырыкты спускаемся к Таш-Рабату, караван-сараю Шёлкового пути XV века. Ночь в юрточном лагере рядом."
+              "title": "Долина Ат-Баши",
+              "description": "Через широкую долину мимо чабанских стоянок и летних пастбищ. Ночь в палатках."
             },
             {
               "day": 4,
-              "title": "Перевал Панда и переезд в Ак-Талаа",
-              "description": "Утром подъём на перевал Панда с видом на Чатыр-Куль. Переезд на машине в Ак-Талинский район, встреча со второй командой лошадей и подъём по долине. Ночь в юрте или палатках."
+              "title": "К Молдо-Тоо",
+              "description": "Через долину Нарына и вверх в горы Молдо-Тоо. Ночь в палатках."
             },
             {
               "day": 5,
-              "title": "Перевал Молдо-Ашуу — Сон-Куль",
-              "description": "Верхом через перевал Молдо-Ашуу и спуск к южному берегу Сон-Куля (3016 м). Ночь в юрточном лагере у озера."
+              "title": "Сон-Куль",
+              "description": "Через перевал Молдо-Ашуу вниз к берегу озера. Ночь в юрточном лагере."
             },
             {
               "day": 6,
-              "title": "Сон-Куль — Нарын или Бишкек",
-              "description": "Утро у озера, затем трансфер на машине в Нарын или Бишкек."
+              "title": "Возвращение",
+              "description": "Рассвет на озере, затем около 7 часов на машине через Кочкор в Бишкек (или обратно в Нарын)."
             }
           ],
           "included": [
             "Лошади и снаряжение",
             "Англоговорящий гид",
             "Местные коневоды",
-            "Всё питание",
-            "Проживание: юрты, юрточные лагеря и палатки",
-            "Все трансферы (4WD)",
-            "Вход в Таш-Рабат"
+            "Всё питание в туре",
+            "2 ночи в юртах",
+            "Палатки и походное снаряжение",
+            "Трансферы (4WD) до Казыбека и до Бишкека",
+            "Билет в Таш-Рабат и пограничный пропуск",
+            "Страховка от несчастных случаев на время тура (местная)"
           ],
           "notIncluded": [
-            "Авиабилеты",
             "Туристическая страховка",
-            "Одежда и обувь для верховой езды",
+            "Одежда для верховой езды, обувь, спальник",
             "Алкоголь",
             "Чаевые"
           ],
-          "accommodation": "Юрты и юрточные лагеря; одна ночь может быть в палатках",
-          "transport": "Верхом в дни 1–5; 4WD из Нарына в Казыбек, от Таш-Рабата в Ак-Талаа и от Сон-Куля в Нарын или Бишкек",
-          "startingPoint": "Нарын (встреча), старт верхом в селе Казыбек",
-          "endingPoint": "Нарын или Бишкек",
-          "whatsappMessage": "Здравствуйте! Меня интересует тур «6-дневный конный тур Казыбек – Таш-Рабат – Сон-Куль через Ак-Талаа».\n\nЖелаемые даты:\nКоличество человек:\nМоя страна:",
+          "accommodation": "Гостевой дом в Нарыне в день приезда, 2 ночи в юртах, 3 ночи в палатках",
+          "transport": "Верхом в дни 1–5; 4WD из Нарына в Казыбек и с Сон-Куля в Бишкек (около 7 часов через Кочкор) или обратно в Нарын",
+          "startingPoint": "Нарын (встреча днём или вечером)",
+          "endingPoint": "Бишкек (или Нарын)",
+          "whatsappMessage": "Здравствуйте! Меня интересует 6-дневная конная экспедиция Таш-Рабат – Сон-Куль.\n\nЖелаемые даты:\nКоличество человек:\nМоя страна:",
           "faq": [
             {
               "question": "Нужен ли пограничный пропуск?",
-              "answer": "Нет. Весь маршрут в открытой зоне."
+              "answer": "Да. Перевал Панда и вид на Чатыр-Куль находятся в пограничной зоне. Паспортные данные нужны не позднее чем за 3 недели до поездки."
             },
             {
-              "question": "Сколько времени верхом?",
-              "answer": "Пять дней верхом по 4–7 часов. Опыт в седле поможет; наши коневоды едут с группой весь маршрут."
+              "question": "Какой нужен опыт верховой езды?",
+              "answer": "Тур для тех, у кого есть опыт: пять дней подряд, полные дни в седле."
+            },
+            {
+              "question": "Какие условия в походе?",
+              "answer": "Три ночи в палатках, высокогорье, холодные ночи, связи почти или совсем нет. Возьмите тёплый спальник."
             },
             {
               "question": "Насколько холодно на Сон-Куле?",
@@ -3859,79 +3878,89 @@
           ]
         },
         "ky": {
-          "title": "Казыбек – Таш-Рабат – Соң-Көл, Ак-Талаа аркылуу — 6 күндүк ат туру",
-          "description": "Нарын областынын эки эң башкы жерин байланыштырган ат үстүндө алты күн. Казыбек айылынан Ат-Башы кыркасы аркылуу XV кылымдагы Таш-Рабат кербен-сарайына барабыз, андан соң Ак-Талаа районуна өтүп, Молдо-Ашуу ашуусу аркылуу 3016 м бийиктиктеги Соң-Көлгө ат менен чыгып, жээктеги боз үй лагеринде түнөйбүз. Бүт жол бою жайлоолор, чабандардын конуштары жана боз үйлөр.",
+          "title": "Таш-Рабат – Соң-Көл — 6 күндүк ат экспедициясы",
+          "description": "Жибек жолундагы кербен сарайдан Кыргызстандын улуу бийик тоо көлүнө чейин. Ат-Башы жана Нарын райондору боюнча беш күн ат үстүндө: Ат-Башы тоо кыркасы аркылуу Таш-Рабатка, Чатыр-Көлдү караган Панда ашуусуна, Ат-Башы жана Нарын өрөөндөрү аркылуу жана Молдо-Ашуу ашуусу аркылуу Соң-Көлгө. Эки түн боз үйдө, үч түн чатырда.",
           "difficulty": "Орточо–кыйын",
           "comfort": "Жөнөкөй",
           "highlights": [
-            "Казыбектен Таш-Рабатка Ат-Башы кыркасы аркылуу",
-            "Таш-Рабат — XV кылымдагы Жибек жолунун кербен-сарайы — жана Панда ашуусу",
-            "Тынч Ак-Талаа району жана Молдо-Ашуу ашуусу",
-            "3016 м бийиктиктеги Соң-Көл көлү, жээктеги боз үй лагеринде түнөө",
-            "Жол бою жайлоолор, чабандардын конуштары жана жаңы кымыз",
-            "1–6 адамдан турган чакан топтор"
+            "Таш-Рабат — Жибек жолундагы байыркы таш кербен сарай",
+            "Чатыр-Көлдү караган Панда ашуусу (3530 м)",
+            "Малчылардын жолдору жана жайлоолор менен беш күн ат үстүндө",
+            "Молдо-Ашуу ашуусу аркылуу Соң-Көлгө (3016 м)",
+            "Эки түн боз үйдө жана үч түн чатырда",
+            "Чакан топтор: 1–6 саякатчы"
           ],
           "itinerary": [
             {
+              "day": 0,
+              "title": "Келүү — Нарын",
+              "description": "Турдун күнүнө кирбейт. Нарында түштөн кийин же кечинде тосуп алабыз; конок үйдө түнөө."
+            },
+            {
               "day": 1,
-              "title": "Казыбектен Орто-Келтебикке",
-              "description": "Нарындан тосуп алуу, Ат-Башы өрөөнүндөгү Казыбек айылына баруу. Аттар менен таанышып, Орто-Келтебикке чыгабыз. Боз үйдө түнөө."
+              "title": "Казыбек – Таш-Рабат",
+              "description": "Казыбекке жол, аттар менен таанышуу жана Ат-Башы тоо кыркасы аркылуу өтүү. Кербен сарайды көрүү. Боз үйдө түнөө."
             },
             {
               "day": 2,
-              "title": "Чет-Келтебик жана Сары-Булак",
-              "description": "Ат-Башы кыркасынын бийик жайлоолору аркылуу күн бою ат үстүндө. Боз үйдө түнөө."
+              "title": "Панда ашуусу",
+              "description": "Чатыр-Көлдү жана чек ара тоолорун көрүү үчүн өйдө чыгабыз, андан кийин түндүккө бурулабыз. Чатырда түнөө."
             },
             {
               "day": 3,
-              "title": "Шырыктыдан Таш-Рабатка",
-              "description": "Шырыкты аркылуу XV кылымдагы Жибек жолунун кербен-сарайы Таш-Рабатка түшөбүз. Жанындагы боз үй лагеринде түнөө."
+              "title": "Ат-Башы өрөөнү",
+              "description": "Малчылардын конуштары жана жайлоолор аркылуу кең өрөөндү кесип өтөбүз. Чатырда түнөө."
             },
             {
               "day": 4,
-              "title": "Панда ашуусу жана Ак-Талаага өтүү",
-              "description": "Эртең менен Чатыр-Көлгө караган Панда ашуусуна чыгуу. Унаа менен Ак-Талаа районуна баруу, экинчи ат тобу менен жолугуп, өрөөн менен чыгуу. Боз үйдө же чатырда түнөө."
+              "title": "Молдо-Тоого",
+              "description": "Нарын өрөөнү аркылуу Молдо-Тоо тоолоруна чыгабыз. Чатырда түнөө."
             },
             {
               "day": 5,
-              "title": "Молдо-Ашуу ашуусунан Соң-Көлгө",
-              "description": "Молдо-Ашуу ашуусу аркылуу Соң-Көлдүн (3016 м) түштүк жээгине түшөбүз. Көл жээгиндеги боз үй лагеринде түнөө."
+              "title": "Соң-Көл",
+              "description": "Молдо-Ашуу ашуусу аркылуу көлдүн жээгине түшөбүз. Боз үй лагеринде түнөө."
             },
             {
               "day": 6,
-              "title": "Соң-Көлдөн Нарынга же Бишкекке",
-              "description": "Эртең менен көл жээгинде, андан соң унаа менен Нарынга же Бишкекке жеткирүү."
+              "title": "Кайтуу",
+              "description": "Көлдө күндүн чыгышы, андан кийин Кочкор аркылуу Бишкекке унаа менен ~7 саат (же Нарынга кайтуу)."
             }
           ],
           "included": [
-            "Аттар жана ээр-токум",
+            "Аттар жана ат жабдыктары",
             "Англисче сүйлөгөн гид",
             "Жергиликтүү атчылар",
-            "Бардык тамак-аш",
-            "Жашоо: боз үйлөр, боз үй лагерлери жана чатырлар",
-            "Бардык жеткирүүлөр (4WD)",
-            "Таш-Рабатка кирүү"
+            "Турдагы бардык тамак",
+            "2 түн боз үйдө",
+            "Чатырлар жана жүрүш жабдыктары",
+            "Казыбекке жана Бишкекке чейин 4WD трансферлер",
+            "Таш-Рабатка билет жана чек ара уруксаты",
+            "Тур убагындагы кырсыктан камсыздандыруу (жергиликтүү)"
           ],
           "notIncluded": [
-            "Учак билеттери",
             "Саякат камсыздандыруусу",
-            "Ат минүүгө кийим жана өтүк",
+            "Ат минүүчү кийим, бут кийим, уктоочу кап",
             "Алкоголь",
-            "Чай акы"
+            "Чайпулдар"
           ],
-          "accommodation": "Боз үйлөр жана боз үй лагерлери; бир түн чатырда болушу мүмкүн",
-          "transport": "1–5-күндөрү ат менен; Нарындан Казыбекке, Таш-Рабаттан Ак-Талаага жана Соң-Көлдөн Нарынга же Бишкекке 4WD менен",
-          "startingPoint": "Нарын (тосуп алуу), ат жүрүшү Казыбек айылынан башталат",
-          "endingPoint": "Нарын же Бишкек",
-          "whatsappMessage": "Салам! Мени «Казыбек – Таш-Рабат – Соң-Көл, Ак-Талаа аркылуу 6 күндүк ат туру» туру кызыктырат.\n\nКаалаган күндөр:\nАдамдардын саны:\nМенин өлкөм:",
+          "accommodation": "Келген күнү Нарындагы конок үй, 2 түн боз үйдө, 3 түн чатырда",
+          "transport": "1–5-күндөрү ат менен; Нарындан Казыбекке жана Соң-Көлдөн Бишкекке (Кочкор аркылуу болжол менен 7 саат) же Нарынга 4WD",
+          "startingPoint": "Нарын (түштөн кийин же кечинде тосуп алуу)",
+          "endingPoint": "Бишкек (же Нарын)",
+          "whatsappMessage": "Салам! Мени Таш-Рабат – Соң-Көл 6 күндүк ат экспедициясы кызыктырат.\n\nКаалаган күндөр:\nАдамдардын саны:\nМенин өлкөм:",
           "faq": [
             {
               "question": "Чек ара уруксаты керекпи?",
-              "answer": "Жок. Бүт маршрут ачык зонада."
+              "answer": "Ооба. Панда ашуусу жана Чатыр-Көлдүн көрүнүшү чек ара зонасында. Паспорт маалыматтарыңыз саякаттан кеминде 3 жума мурун керек."
             },
             {
-              "question": "Канча убакыт ат үстүндө болобуз?",
-              "answer": "Күнүнө 4–7 сааттан беш күн ат үстүндө. Ээрде бир аз тажрыйба жардам берет; атчыларыбыз бүт жол бою топ менен жүрөт."
+              "question": "Ат минүү тажрыйбасы канчалык керек?",
+              "answer": "Бул тур бир аз тажрыйбасы бар атчыларга арналган: катары менен беш күн, толук күн ат үстүндө."
+            },
+            {
+              "question": "Чатырда түнөө кандай?",
+              "answer": "Үч түн чатырда, бийик тоо, суук түндөр, байланыш дээрлик же такыр жок. Жылуу уктоочу кап алып келиңиз."
             },
             {
               "question": "Соң-Көлдө канчалык суук?",
@@ -3947,33 +3976,33 @@
       "priceTable": [
         {
           "group": 1,
-          "perPerson": 1368,
-          "total": 1368
+          "perPerson": 2495,
+          "total": 2495
         },
         {
           "group": 2,
-          "perPerson": 874,
-          "total": 1748
+          "perPerson": 1441,
+          "total": 2883
         },
         {
           "group": 3,
-          "perPerson": 709,
-          "total": 2127
+          "perPerson": 1090,
+          "total": 3270
         },
         {
           "group": 4,
-          "perPerson": 627,
-          "total": 2507
+          "perPerson": 914,
+          "total": 3658
         },
         {
           "group": 5,
-          "perPerson": 577,
-          "total": 2887
+          "perPerson": 809,
+          "total": 4045
         },
         {
           "group": 6,
-          "perPerson": 544,
-          "total": 3267
+          "perPerson": 739,
+          "total": 4433
         }
       ]
     },
@@ -4125,13 +4154,13 @@
             "Lunch and dinner every day",
             "Horses for 3 riding days",
             "Local guide at Kel-Suu",
-            "Border zone permit"
+            "Border zone permit",
+            "Jeep descent from Altyn-Arashan"
           ],
           "notIncluded": [
             "International flights and transfer to Naryn",
             "Travel insurance",
             "Entrance and eco fees",
-            "Jeep descent from Altyn-Arashan [confirm: included or not]",
             "Optional horse at Shar Waterfall",
             "Alcohol and personal expenses"
           ],
@@ -4147,7 +4176,7 @@
             },
             {
               "question": "Where does the tour start?",
-              "answer": "In Naryn. Arrive in the afternoon or evening. We can arrange a transfer from Bishkek [price on request]."
+              "answer": "In Naryn. Arrive in the afternoon or evening. We can arrange a transfer from Bishkek; price on request."
             },
             {
               "question": "Do I need a border permit?",
@@ -4191,11 +4220,11 @@
             },
             {
               "question": "What about single travelers?",
-              "answer": "Solo travelers are welcome. See the 1-person price in the table. [Single room supplement: confirm]"
+              "answer": "Solo travelers are welcome. See the 1-person price in the table. A single room in guesthouses is available for a supplement; price on request."
             },
             {
               "question": "How do I book?",
-              "answer": "Send us your dates and number of travelers. We confirm availability and send the full program. [Deposit amount and cancellation policy: fill in]"
+              "answer": "Send us your dates and number of travelers. We confirm availability and send the full program. A 25% deposit confirms your spot; the balance is paid 30 days before the tour or in cash on day 1. If you cancel 50 or more days before the start, the deposit is refunded in full (minus transfer fees); 30–49 days before, 50% is refunded; less than 30 days before, there is no refund. You can change your dates once for free with at least 30 days' notice. If we cancel because of weather or safety, you get a full refund or new dates."
             }
           ]
         },
@@ -4277,13 +4306,13 @@
             "Обед и ужин каждый день",
             "Лошади на 3 дня верховой езды",
             "Местный гид на Кель-Суу",
-            "Пограничный пропуск"
+            "Пограничный пропуск",
+            "Спуск на джипе из Алтын-Арашана"
           ],
           "notIncluded": [
             "Международные перелёты и трансфер до Нарына",
             "Туристическая страховка",
             "Входные и экологические сборы",
-            "Спуск на джипе из Алтын-Арашана [уточнить: включён или нет]",
             "Лошадь у водопада Шар (по желанию)",
             "Алкоголь и личные расходы"
           ],
@@ -4299,7 +4328,7 @@
             },
             {
               "question": "Где начинается тур?",
-              "answer": "В Нарыне. Приезжайте днём или вечером. Можем организовать трансфер из Бишкека [цена по запросу]."
+              "answer": "В Нарыне. Приезжайте днём или вечером. Можем организовать трансфер из Бишкека — цена по запросу."
             },
             {
               "question": "Нужен ли пограничный пропуск?",
@@ -4343,11 +4372,11 @@
             },
             {
               "question": "А если я еду один?",
-              "answer": "Одиночные путешественники приветствуются. Смотрите цену на 1 человека в таблице. [Доплата за одноместное размещение: уточнить]"
+              "answer": "Одиночные путешественники приветствуются. Смотрите цену на 1 человека в таблице. Отдельная комната в гостевых домах — за доплату, цена по запросу."
             },
             {
               "question": "Как забронировать?",
-              "answer": "Пришлите даты и количество человек. Мы подтвердим наличие и отправим полную программу. [Размер депозита и условия отмены: заполнить]"
+              "answer": "Пришлите даты и количество человек. Мы подтвердим наличие мест и отправим полную программу. Депозит 25% подтверждает бронь; остаток оплачивается за 30 дней до тура или наличными в первый день. При отмене за 50 дней и более депозит возвращается полностью (за вычетом комиссии за перевод); за 30–49 дней — 50%; менее чем за 30 дней — без возврата. Даты можно один раз бесплатно перенести, если предупредить не позднее чем за 30 дней. Если мы отменяем тур из-за погоды или по соображениям безопасности — полный возврат или новые даты."
             }
           ]
         },
@@ -4429,13 +4458,13 @@
             "Күн сайын түшкү жана кечки тамак",
             "3 күн ат минүүгө аттар",
             "Көл-Сууда жергиликтүү гид",
-            "Чек ара зонасына уруксат"
+            "Чек ара зонасына уруксат",
+            "Алтын-Арашандан жип менен түшүү"
           ],
           "notIncluded": [
             "Эл аралык учуулар жана Нарынга жеткирүү",
             "Саякат камсыздандыруусу",
             "Кирүү жана экологиялык төлөмдөр",
-            "Алтын-Арашандан жип менен түшүү [тактоо: кирет же кирбейт]",
             "Шар шаркыратмасында ат (кааласаңыз)",
             "Алкоголь жана жеке чыгымдар"
           ],
@@ -4451,7 +4480,7 @@
             },
             {
               "question": "Тур кайдан башталат?",
-              "answer": "Нарында. Түштөн кийин же кечинде келиңиз. Бишкектен жеткирүүнү уюштура алабыз [баасы суроо боюнча]."
+              "answer": "Нарында. Түштөн кийин же кечинде келиңиз. Бишкектен жеткирүүнү уюштура алабыз — баасы суроо боюнча."
             },
             {
               "question": "Чек ара уруксаты керекпи?",
@@ -4495,19 +4524,19 @@
             },
             {
               "question": "Жалгыз саякаттасамчы?",
-              "answer": "Жалгыз саякатчыларды кубануу менен кабыл алабыз. Таблицадагы 1 адамга бааны караңыз. [Бир кишилик бөлмө үчүн кошумча акы: тактоо]"
+              "answer": "Жалгыз саякатчыларды кубануу менен кабыл алабыз. Таблицадагы 1 адамга бааны караңыз. Конок үйлөрүндө өзүнчө бөлмө — кошумча акы менен, баасы суроо боюнча."
             },
             {
               "question": "Кантип брондойм?",
-              "answer": "Күндөрүңүздү жана адамдардын санын жибериңиз. Биз орундун барын ырастап, толук программаны жөнөтөбүз. [Депозиттин өлчөмү жана жокко чыгаруу шарттары: толтуруу]"
+              "answer": "Күндөрүңүздү жана адамдардын санын жибериңиз. Биз орундун барын ырастап, толук программаны жөнөтөбүз. Орунду 25% депозит бекитет; калганы турдан 30 күн мурун же биринчи күнү накталай төлөнөт. Турду 50 жана андан көп күн мурун жокко чыгарсаңыз, депозит толук кайтарылат (которуу комиссиясын кошпогондо); 30–49 күн мурун — 50%; 30 күндөн аз калганда — кайтарылбайт. Күндөрдү кеминде 30 күн мурун эскертип, бир жолу акысыз өзгөртсө болот. Эгер биз турду аба ырайы же коопсуздук себебинен жокко чыгарсак — акча толук кайтарылат же жаңы күндөр берилет."
             }
           ]
         }
       }
     },
     {
-      "id": "kyrgyzstan-grand-tour-15-days",
-      "slug": "kyrgyzstan-grand-tour-15-days",
+      "id": "kyrgyzstan-grand-tour",
+      "slug": "kyrgyzstan-grand-tour",
       "region": [
         "Naryn",
         "At-Bashy",
@@ -4519,7 +4548,7 @@
       ],
       "activity": "4x4",
       "durationMin": 15,
-      "durationMax": 15,
+      "durationMax": 16,
       "durationUnit": "days",
       "format": [
         "Private"
@@ -4529,7 +4558,7 @@
         "August",
         "September"
       ],
-      "priceFrom": 1623,
+      "priceFrom": 1660,
       "currency": "USD",
       "image": "/assets/images/general/camel-pastures.webp",
       "gallery": [],
@@ -4542,167 +4571,176 @@
         "perDayBase": 108,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 1,
-        "displayFromPrice": 1623
+        "displayFromPrice": 1660
       },
       "priceTable": [
         {
           "group": 1,
-          "perPerson": 5056,
-          "total": 5056
+          "perPerson": 5272,
+          "total": 5272
         },
         {
           "group": 2,
-          "perPerson": 2996,
-          "total": 5992
+          "perPerson": 3104,
+          "total": 6208
         },
         {
           "group": 3,
-          "perPerson": 2310,
-          "total": 6930
+          "perPerson": 2382,
+          "total": 7146
         },
         {
           "group": 4,
-          "perPerson": 1967,
-          "total": 7868
+          "perPerson": 2021,
+          "total": 8084
         },
         {
           "group": 5,
-          "perPerson": 1761,
-          "total": 8805
+          "perPerson": 1804,
+          "total": 9020
         },
         {
           "group": 6,
-          "perPerson": 1623,
-          "total": 9738
+          "perPerson": 1660,
+          "total": 9960
         }
       ],
       "i18n": {
         "en": {
-          "title": "Kyrgyzstan Grand Tour — 15 Days from Naryn to Bishkek",
-          "description": "From the Chinese border to the walnut forests of the south. Horse riding to Chatyr-Kul, Kel-Suu and Song-Kul, Issyk-Kul canyons, the new mountain road to Jalal-Abad, Arslanbob and Sary-Chelek, on one private overland trip. Arrival day + 15 tour days, 16 nights; about 2,700 km by 4WD. Season: July to early September.",
+          "title": "Kyrgyzstan Grand Tour — Naryn to Bishkek",
+          "description": "From the Chinese border to the walnut forests of the south: a Silk Road caravanserai, turquoise Kel-Suu, eagle hunters and a homestay in At-Bashy, yurt nights at Song-Kul, the Altyn-Arashan hot springs and the lakes of Sary-Chelek. A private 4WD trip across Naryn, Issyk-Kul, Jalal-Abad and Chui regions, with horses on 3 riding days.",
           "difficulty": "Easy to moderate",
           "comfort": "Standard",
           "highlights": [
-            "3 days of horse riding: Chatyr-Kul, Kel-Suu, Song-Kul",
-            "5 nights in yurt camps",
-            "Tash-Rabat caravanserai and Burana Tower, two Silk Road landmarks",
-            "Song-Kul Lake (3,016 m) and shepherd life",
-            "Skazka, Ak-Sai and Kok-Moinok canyons",
-            "Felt carpet (shyrdak) workshop in Kochkor",
-            "Arslanbob walnut forest and waterfalls",
-            "Sary-Chelek Biosphere Reserve"
+            "Tash-Rabat, a 15th-century Silk Road caravanserai",
+            "Chatyr-Kul ridge with views toward the Chinese border",
+            "Turquoise Kel-Suu Lake between sheer rock walls",
+            "Eagle hunting show, kok-boru and a homestay in At-Bashy",
+            "Two nights in a yurt camp at Song-Kul (3,016 m)",
+            "Skazka canyon, Jeti-Oguz red rocks and Karakol",
+            "Altyn-Arashan hot springs",
+            "Arslanbob walnut forest and the Sary-Chelek lakes",
+            "Burana Tower and the Kok-Moinok canyons"
           ],
           "itinerary": [
             {
               "day": 0,
               "title": "Arrival — Naryn",
-              "description": "Pick-up, welcome dinner, guesthouse."
+              "description": "Pick-up in Naryn. Welcome dinner and overnight in town."
             },
             {
               "day": 1,
-              "title": "Shar Waterfall – Tash-Rabat",
-              "description": "Waterfall walk, the 15th-century caravanserai. Yurt camp."
+              "title": "Shar Waterfall & Tash-Rabat",
+              "description": "Naryn – Shar Waterfall, on foot (horse optional, extra). On to Tash-Rabat, a 15th-century stone caravanserai on the Silk Road. Hike or horse. Yurt camp."
             },
             {
               "day": 2,
-              "title": "Chatyr-Kul",
-              "description": "Horse ride or hike to the ridge above the lake. Yurt camp."
+              "title": "Chatyr-Kul ridge",
+              "description": "From Tash-Rabat up to the ridge above Chatyr-Kul Lake. Views toward the Chinese border. Hike or horse. Yurt camp."
             },
             {
               "day": 3,
-              "title": "Kok-Kiya Valley",
-              "description": "Drive to the Kel-Suu base camp."
+              "title": "To Kel-Suu",
+              "description": "Drive through remote valleys to the Kel-Suu base camp in Kok-Kiya. Driving day. Base camp."
             },
             {
               "day": 4,
-              "title": "Kel-Suu Lake – At-Bashy",
-              "description": "Early start, horse ride or hike through the canyon to the lake, then drive to At-Bashy. Evening with a local family and a banya."
+              "title": "Kel-Suu Lake",
+              "description": "Through the canyon to a turquoise lake between sheer rock walls, with a local guide. Hike or horse. Base camp."
             },
             {
               "day": 5,
-              "title": "Song-Kul",
-              "description": "Drive up to the lake (3,016 m). Yurt camp."
+              "title": "At-Bashy",
+              "description": "Eagle hunting show with a berkut and kok-boru. Evening with a local family and a traditional banya. Homestay."
             },
             {
               "day": 6,
-              "title": "Song-Kul",
-              "description": "Horse riding and shepherd families."
+              "title": "At-Bashy – Song-Kul Lake",
+              "description": "Drive to Song-Kul Lake (3,016 m). Yurt camp on the shore."
             },
             {
               "day": 7,
-              "title": "Skazka & Ak-Sai canyons – Issyk-Kul south shore",
-              "description": "Canyons on the south shore of Issyk-Kul."
+              "title": "A day at Song-Kul",
+              "description": "Horse riding on the summer pastures, visits to shepherd families. Second night in the yurt camp."
             },
             {
               "day": 8,
-              "title": "Jeti-Oguz red rocks – Karakol",
-              "description": "Jeti-Oguz, then Karakol."
+              "title": "Song-Kul – Issyk-Kul",
+              "description": "Drive to the south shore, stopping at the Skazka and Ak-Sai canyons. Guesthouse."
             },
             {
               "day": 9,
-              "title": "Kochkor",
-              "description": "Shyrdak felt workshop."
+              "title": "Jeti-Oguz – Karakol",
+              "description": "Jeti-Oguz red rocks, then Karakol: the wooden Dungan mosque and the Orthodox cathedral."
             },
             {
               "day": 10,
-              "title": "Kazarman – Jalal-Abad",
-              "description": "Full day on the new North–South mountain road."
+              "title": "Altyn-Arashan hot springs",
+              "description": "Jeep up to the Altyn-Arashan hot springs, then along the north shore of Issyk-Kul. Overnight in Balykchy or Cholpon-Ata."
             },
             {
               "day": 11,
-              "title": "Arslanbob",
-              "description": "Walnut forest and waterfalls."
+              "title": "Kazarman – Jalal-Abad",
+              "description": "The new North–South mountain road via Kazarman to Jalal-Abad. A full day through remote country."
             },
             {
               "day": 12,
-              "title": "Sary-Chelek",
-              "description": "Drive to the reserve, overnight in Arkyt village."
+              "title": "Arslanbob",
+              "description": "The world's largest walnut forest and waterfalls."
             },
             {
               "day": 13,
-              "title": "Sary-Chelek",
-              "description": "Hike around the lakes and forest."
+              "title": "Arslanbob – Sary-Chelek",
+              "description": "Drive to the Sary-Chelek Biosphere Reserve. Overnight in Arkyt village."
             },
             {
               "day": 14,
-              "title": "Too-Ashuu pass – Suusamyr Valley",
-              "description": "Yurt stay."
+              "title": "Sary-Chelek",
+              "description": "Hike around the main lake and the smaller lakes of the reserve."
             },
             {
               "day": 15,
-              "title": "Burana Tower – Kok-Moinok canyons – Bishkek",
-              "description": "Departure from Bishkek the next morning."
+              "title": "Toktogul & Too-Ashuu – Bishkek",
+              "description": "Sary-Chelek – Toktogul Reservoir – Too-Ashuu pass, with a short stop at the top – Bishkek."
+            },
+            {
+              "day": 16,
+              "title": "Burana & Kok-Moinok",
+              "description": "Burana Tower, an 11th-century minaret, and a hike in the red Kok-Moinok canyons. Farewell dinner in Bishkek. Departure the next morning."
             }
           ],
           "included": [
-            "English-speaking guide",
+            "English-speaking guide for the whole trip",
             "4WD vehicle with driver",
             "All accommodation with breakfast",
             "Lunch and dinner every day",
-            "Horses for 3 riding days",
+            "Horses for 3 riding days: Chatyr-Kul, Kel-Suu, Song-Kul",
             "Local guide at Kel-Suu",
+            "Cultural programme in At-Bashy",
             "Border zone permit"
           ],
           "notIncluded": [
-            "International flights and transfer to Naryn",
             "Travel insurance",
-            "Entrance and eco fees (Tash-Rabat, Sary-Chelek, Burana, Skazka)",
-            "Optional: eagle hunter or kok-boru show",
-            "Alcohol and personal expenses"
+            "Alcohol and personal expenses",
+            "Tips"
           ],
-          "accommodation": "Guesthouses, a family homestay, yurt camps (Tash-Rabat, Kel-Suu, Song-Kul, Suusamyr), hotel in Bishkek. Yurt camps are basic: shared toilets, showers not always available.",
-          "transport": "4WD vehicle with driver (about 2,700 km; some days are long drives of 6–8 hours); horses on 3 riding days",
+          "accommodation": "Guesthouses, a family homestay in At-Bashy, yurt camps (Tash-Rabat, Kel-Suu base camp, Song-Kul), hotel in Bishkek. Yurt camps are basic: shared toilets, showers not always available.",
+          "transport": "4WD vehicle with driver; some days are long drives of 6–8 hours. Horses on 3 riding days.",
           "startingPoint": "Naryn (afternoon or evening arrival)",
           "endingPoint": "Bishkek",
-          "whatsappMessage": "Hello! I'm interested in the 15-day Kyrgyzstan Grand Tour.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
+          "whatsappMessage": "Hello! I'm interested in the Kyrgyzstan Grand Tour.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
           "faq": [
             {
               "question": "How hard is it?",
               "answer": "Easy to moderate. Some days are long drives of 6–8 hours; the highest points are about 3,500 m (Chatyr-Kul ridge, Kel-Suu)."
             },
             {
+              "question": "15 or 16 days?",
+              "answer": "15 or 16 days. Depending on weather and conditions, the tour may take one more day."
+            },
+            {
               "question": "Where does the tour start?",
-              "answer": "In Naryn. Arrive in the afternoon or evening. We can arrange a transfer from Bishkek [price on request]."
+              "answer": "In Naryn. Arrive in the afternoon or evening. We can arrange a transfer from Bishkek; price on request."
             },
             {
               "question": "Do I need a border permit?",
@@ -4714,7 +4752,7 @@
             },
             {
               "question": "How high do we go, and how cold is it?",
-              "answer": "Up to 3,500–3,900 m. Nights in the mountains are cold, even in summer."
+              "answer": "Up to about 3,500 m (Chatyr-Kul ridge). Nights in the mountains are cold, even in summer."
             },
             {
               "question": "What is the food like?",
@@ -4722,7 +4760,7 @@
             },
             {
               "question": "Is there mobile signal?",
-              "answer": "No mobile signal at Kel-Suu, Song-Kul or on the Ala-Kul trek."
+              "answer": "No mobile signal at Kel-Suu or Song-Kul: expect several days without signal."
             },
             {
               "question": "Do I need cash?",
@@ -4746,140 +4784,149 @@
             },
             {
               "question": "What about single travelers?",
-              "answer": "Solo travelers are welcome. See the 1-person price in the table. [Single room supplement: confirm]"
+              "answer": "Solo travelers are welcome. See the 1-person price in the table. A single room in guesthouses is available for a supplement; price on request."
             },
             {
               "question": "How do I book?",
-              "answer": "Send us your dates and number of travelers. We confirm availability and send the full program. [Deposit amount and cancellation policy: fill in]"
+              "answer": "Send us your dates and number of travelers. We confirm availability and send the full program. A 25% deposit confirms your spot; the balance is paid 30 days before the tour or in cash on day 1. If you cancel 50 or more days before the start, the deposit is refunded in full (minus transfer fees); 30–49 days before, 50% is refunded; less than 30 days before, there is no refund. You can change your dates once for free with at least 30 days' notice. Border permits are non-refundable once issued. If we cancel because of weather or safety, you get a full refund or new dates."
             }
           ]
         },
         "ru": {
-          "title": "Гранд-тур по Кыргызстану — 15 дней от Нарына до Бишкека",
-          "description": "От китайской границы до ореховых лесов юга. Верхом к Чатыр-Кулю, Кель-Суу и Сон-Кулю, каньоны Иссык-Куля, новая горная дорога в Джалал-Абад, Арсланбоб и Сары-Челек — в одной частной поездке на внедорожнике. День прибытия + 15 дней тура, 16 ночей; около 2700 км. Сезон: июль — начало сентября.",
+          "title": "Гранд-тур по Кыргызстану — от Нарына до Бишкека",
+          "description": "От китайской границы до ореховых лесов юга: караван-сарай Шёлкового пути, бирюзовое Кель-Суу, беркутчи и ночь в семье в Ат-Баши, юрты на Сон-Куле, горячие источники Алтын-Арашан и озёра Сары-Челека. Индивидуальный тур на внедорожнике по Нарынской, Иссык-Кульской, Джалал-Абадской и Чуйской областям, с лошадьми в 3 дня верховой езды.",
           "difficulty": "Лёгкий–средний",
           "comfort": "Стандарт",
           "highlights": [
-            "3 дня верхом: Чатыр-Куль, Кель-Суу, Сон-Куль",
-            "5 ночей в юрточных лагерях",
-            "Караван-сарай Таш-Рабат и башня Бурана — два памятника Шёлкового пути",
-            "Озеро Сон-Куль (3016 м) и жизнь чабанов",
-            "Каньоны Сказка, Ак-Сай и Кок-Мойнок",
-            "Мастерская войлочных ковров (шырдак) в Кочкоре",
-            "Ореховый лес и водопады Арсланбоба",
-            "Биосферный заповедник Сары-Челек"
+            "Таш-Рабат — каменный караван-сарай XV века на Шёлковом пути",
+            "Гребень над Чатыр-Кулем с видом в сторону китайской границы",
+            "Бирюзовое озеро Кель-Суу среди отвесных скал",
+            "Охота с беркутом, кок-бору и ночь в семье в Ат-Баши",
+            "Две ночи в юрточном лагере на Сон-Куле (3016 м)",
+            "Каньон Сказка, красные скалы Джеты-Огуз и Каракол",
+            "Горячие источники Алтын-Арашан",
+            "Ореховый лес Арсланбоба и озёра Сары-Челека",
+            "Башня Бурана и каньоны Кок-Мойнок"
           ],
           "itinerary": [
             {
               "day": 0,
               "title": "Прибытие — Нарын",
-              "description": "Встреча, приветственный ужин, гостевой дом."
+              "description": "Встреча в Нарыне. Приветственный ужин и ночёвка в городе."
             },
             {
               "day": 1,
-              "title": "Водопад Шар – Таш-Рабат",
-              "description": "Прогулка к водопаду, караван-сарай XV века. Юрточный лагерь."
+              "title": "Водопад Шар и Таш-Рабат",
+              "description": "Нарын – водопад Шар пешком (на лошади — по желанию, за доплату). Дальше Таш-Рабат — каменный караван-сарай XV века на Шёлковом пути. Пешком или верхом. Юрточный лагерь."
             },
             {
               "day": 2,
-              "title": "Чатыр-Куль",
-              "description": "Верхом или пешком на гребень над озером. Юрточный лагерь."
+              "title": "Гребень над Чатыр-Кулем",
+              "description": "Из Таш-Рабата на гребень над озером Чатыр-Куль. Виды в сторону китайской границы. Пешком или верхом. Юрточный лагерь."
             },
             {
               "day": 3,
-              "title": "Долина Кок-Кия",
-              "description": "Переезд в базовый лагерь Кель-Суу."
+              "title": "К Кель-Суу",
+              "description": "Переезд по отдалённым долинам к базовому лагерю Кель-Суу в Кок-Кие. День в дороге. Базовый лагерь."
             },
             {
               "day": 4,
-              "title": "Озеро Кель-Суу – Ат-Баши",
-              "description": "Ранний старт, верхом или пешком через каньон к озеру, затем переезд в Ат-Баши. Вечер у местной семьи и баня."
+              "title": "Озеро Кель-Суу",
+              "description": "Через каньон к бирюзовому озеру среди отвесных скал, с местным гидом. Пешком или верхом. Базовый лагерь."
             },
             {
               "day": 5,
-              "title": "Сон-Куль",
-              "description": "Подъём на озеро (3016 м). Юрточный лагерь."
+              "title": "Ат-Баши",
+              "description": "Показ охоты с беркутом и кок-бору. Вечер в местной семье и традиционная баня. Ночёвка в семье."
             },
             {
               "day": 6,
-              "title": "Сон-Куль",
-              "description": "Верховая езда и семьи чабанов."
+              "title": "Ат-Баши – озеро Сон-Куль",
+              "description": "Переезд на Сон-Куль (3016 м). Юрточный лагерь на берегу."
             },
             {
               "day": 7,
-              "title": "Каньоны Сказка и Ак-Сай – южный берег Иссык-Куля",
-              "description": "Каньоны южного берега Иссык-Куля."
+              "title": "День на Сон-Куле",
+              "description": "Верховая езда по летним пастбищам, в гостях у чабанов. Вторая ночь в юрточном лагере."
             },
             {
               "day": 8,
-              "title": "Красные скалы Джети-Огуз – Каракол",
-              "description": "Джети-Огуз, затем Каракол."
+              "title": "Сон-Куль – Иссык-Куль",
+              "description": "Переезд на южный берег с остановками в каньонах Сказка и Ак-Сай. Гостевой дом."
             },
             {
               "day": 9,
-              "title": "Кочкор",
-              "description": "Мастерская войлочных шырдаков."
+              "title": "Джеты-Огуз – Каракол",
+              "description": "Красные скалы Джеты-Огуз, затем Каракол: деревянная Дунганская мечеть и православный собор."
             },
             {
               "day": 10,
-              "title": "Казарман – Джалал-Абад",
-              "description": "Полный день на новой горной дороге Север–Юг."
+              "title": "Горячие источники Алтын-Арашан",
+              "description": "Подъём на джипе к источникам Алтын-Арашан, затем по северному берегу Иссык-Куля. Ночёвка в Балыкчы или Чолпон-Ате."
             },
             {
               "day": 11,
-              "title": "Арсланбоб",
-              "description": "Ореховый лес и водопады."
+              "title": "Казарман – Джалал-Абад",
+              "description": "Новая горная дорога Север–Юг через Казарман в Джалал-Абад. Целый день по безлюдным местам."
             },
             {
               "day": 12,
-              "title": "Сары-Челек",
-              "description": "Переезд в заповедник, ночь в селе Аркыт."
+              "title": "Арсланбоб",
+              "description": "Самый большой в мире ореховый лес и водопады."
             },
             {
               "day": 13,
-              "title": "Сары-Челек",
-              "description": "Прогулка вокруг озёр и по лесу."
+              "title": "Арсланбоб – Сары-Челек",
+              "description": "Переезд в Сары-Челекский биосферный заповедник. Ночёвка в селе Аркыт."
             },
             {
               "day": 14,
-              "title": "Перевал Тоо-Ашуу – Суусамырская долина",
-              "description": "Ночь в юрте."
+              "title": "Сары-Челек",
+              "description": "Поход вокруг главного озера и малых озёр заповедника."
             },
             {
               "day": 15,
-              "title": "Башня Бурана – каньоны Кок-Мойнок – Бишкек",
-              "description": "Вылет из Бишкека на следующее утро."
+              "title": "Токтогул и Тоо-Ашуу – Бишкек",
+              "description": "Сары-Челек – Токтогульское водохранилище – перевал Тоо-Ашуу с короткой остановкой наверху – Бишкек."
+            },
+            {
+              "day": 16,
+              "title": "Бурана и Кок-Мойнок",
+              "description": "Башня Бурана — минарет XI века — и прогулка по красным каньонам Кок-Мойнок. Прощальный ужин в Бишкеке. Отъезд на следующее утро."
             }
           ],
           "included": [
-            "Англоговорящий гид",
+            "Англоговорящий гид на весь тур",
             "Внедорожник 4WD с водителем",
             "Всё проживание с завтраком",
             "Обед и ужин каждый день",
-            "Лошади на 3 дня верховой езды",
+            "Лошади на 3 дня верховой езды: Чатыр-Куль, Кель-Суу, Сон-Куль",
             "Местный гид на Кель-Суу",
-            "Пограничный пропуск"
+            "Культурная программа в Ат-Баши",
+            "Пропуск в пограничную зону"
           ],
           "notIncluded": [
-            "Международные перелёты и трансфер до Нарына",
             "Туристическая страховка",
-            "Входные и экологические сборы (Таш-Рабат, Сары-Челек, Бурана, Сказка)",
-            "По желанию: шоу беркутчи или кок-бору",
-            "Алкоголь и личные расходы"
+            "Алкоголь и личные расходы",
+            "Чаевые"
           ],
-          "accommodation": "Гостевые дома, семейный гостевой дом, юрточные лагеря (Таш-Рабат, Кель-Суу, Сон-Куль, Суусамыр), отель в Бишкеке. Юрточные лагеря простые: общие туалеты, душ есть не всегда.",
-          "transport": "Внедорожник 4WD с водителем (около 2700 км; в некоторые дни переезды по 6–8 часов); лошади в 3 дня верховой езды",
+          "accommodation": "Гостевые дома, ночь в семье в Ат-Баши, юрточные лагеря (Таш-Рабат, базовый лагерь Кель-Суу, Сон-Куль), отель в Бишкеке. Юрточные лагеря простые: общие туалеты, душ есть не всегда.",
+          "transport": "Внедорожник 4WD с водителем; в некоторые дни переезды по 6–8 часов. Лошади в 3 дня верховой езды.",
           "startingPoint": "Нарын (прибытие днём или вечером)",
           "endingPoint": "Бишкек",
-          "whatsappMessage": "Здравствуйте! Меня интересует тур «Гранд-тур по Кыргызстану — 15 дней».\n\nЖелаемые даты:\nКоличество человек:\nМоя страна:",
+          "whatsappMessage": "Здравствуйте! Меня интересует «Гранд-тур по Кыргызстану».\n\nЖелаемые даты:\nКоличество человек:\nМоя страна:",
           "faq": [
             {
               "question": "Насколько это сложно?",
               "answer": "Легко–средне. В некоторые дни долгие переезды по 6–8 часов; максимальная высота около 3500 м (гребень над Чатыр-Кулем, Кель-Суу)."
             },
             {
+              "question": "15 или 16 дней?",
+              "answer": "15 или 16 дней. В зависимости от погоды и условий тур может занять на один день больше."
+            },
+            {
               "question": "Где начинается тур?",
-              "answer": "В Нарыне. Приезжайте днём или вечером. Можем организовать трансфер из Бишкека [цена по запросу]."
+              "answer": "В Нарыне. Приезжайте днём или вечером. Можем организовать трансфер из Бишкека — цена по запросу."
             },
             {
               "question": "Нужен ли пограничный пропуск?",
@@ -4891,7 +4938,7 @@
             },
             {
               "question": "Как высоко поднимаемся и насколько холодно?",
-              "answer": "До 3500–3900 м. Ночи в горах холодные даже летом."
+              "answer": "Примерно до 3500 м (гребень над Чатыр-Кулем). Ночи в горах холодные даже летом."
             },
             {
               "question": "Какая еда?",
@@ -4899,7 +4946,7 @@
             },
             {
               "question": "Есть ли мобильная связь?",
-              "answer": "На Кель-Суу, Сон-Куле и на треке к Ала-Кулю связи нет."
+              "answer": "На Кель-Суу и Сон-Куле связи нет: несколько дней придётся обходиться без мобильной связи."
             },
             {
               "question": "Нужны ли наличные?",
@@ -4923,140 +4970,149 @@
             },
             {
               "question": "А если я еду один?",
-              "answer": "Одиночные путешественники приветствуются. Смотрите цену на 1 человека в таблице. [Доплата за одноместное размещение: уточнить]"
+              "answer": "Одиночные путешественники приветствуются. Смотрите цену на 1 человека в таблице. Отдельная комната в гостевых домах — за доплату, цена по запросу."
             },
             {
               "question": "Как забронировать?",
-              "answer": "Пришлите даты и количество человек. Мы подтвердим наличие и отправим полную программу. [Размер депозита и условия отмены: заполнить]"
+              "answer": "Пришлите даты и количество человек. Мы подтвердим наличие мест и отправим полную программу. Депозит 25% подтверждает бронь; остаток оплачивается за 30 дней до тура или наличными в первый день. При отмене за 50 дней и более депозит возвращается полностью (за вычетом комиссии за перевод); за 30–49 дней — 50%; менее чем за 30 дней — без возврата. Даты можно один раз бесплатно перенести, если предупредить не позднее чем за 30 дней. Пограничные пропуска после оформления не возвращаются. Если мы отменяем тур из-за погоды или по соображениям безопасности — полный возврат или новые даты."
             }
           ]
         },
         "ky": {
-          "title": "Кыргызстан боюнча Гранд-тур — Нарындан Бишкекке чейин 15 күн",
-          "description": "Кытай чек арасынан түштүктүн жаңгак токойлоруна чейин. Чатыр-Көлгө, Көл-Сууга жана Соң-Көлгө ат минүү, Ысык-Көл каньондору, Жалал-Абадга жаңы тоо жолу, Арстанбап жана Сары-Челек — 4WD менен бир жеке сапарда. Келүү күнү + 15 тур күнү, 16 түн; болжол менен 2700 км. Мезгил: июль — сентябрдын башы.",
+          "title": "Кыргызстан боюнча Гранд-тур — Нарындан Бишкекке чейин",
+          "description": "Кытай чек арасынан түштүктөгү жаңгак токойлоруна чейин: Жибек жолундагы кербен сарай, көгүлтүр Көл-Суу, Ат-Башыдагы бүркүтчүлөр жана үй-бүлөдө түнөө, Соң-Көлдөгү боз үйлөр, Алтын-Арашан ысык булактары жана Сары-Челек көлдөрү. Нарын, Ысык-Көл, Жалал-Абад жана Чүй облустары боюнча 4WD унаада жеке тур, 3 күн ат минүү менен.",
           "difficulty": "Жеңил–орточо",
           "comfort": "Стандарт",
           "highlights": [
-            "Ат үстүндө 3 күн: Чатыр-Көл, Көл-Суу, Соң-Көл",
-            "Боз үй лагерлеринде 5 түн",
-            "Таш-Рабат кербен-сарайы жана Бурана мунарасы — Жибек жолунун эки эстелиги",
-            "Соң-Көл (3016 м) жана чабандардын жашоосу",
-            "Сказка, Ак-Сай жана Көк-Мойнок каньондору",
-            "Кочкордо шырдак устаканасы",
-            "Арстанбаптын жаңгак токою жана шаркыратмалары",
-            "Сары-Челек биосфералык коругу"
+            "Таш-Рабат — Жибек жолундагы XV кылымдагы таш кербен сарай",
+            "Кытай чек арасы тарапты караган Чатыр-Көл кыркасы",
+            "Тик аскалардын арасындагы көгүлтүр Көл-Суу көлү",
+            "Ат-Башыда бүркүт салуу, көк-бөрү жана үй-бүлөдө түнөө",
+            "Соң-Көлдөгү (3016 м) боз үй лагеринде эки түн",
+            "Жомок капчыгайы, Жети-Өгүздүн кызыл аскалары жана Каракол",
+            "Алтын-Арашан ысык булактары",
+            "Арстанбаптын жаңгак токою жана Сары-Челек көлдөрү",
+            "Бурана мунарасы жана Көк-Мойнок капчыгайлары"
           ],
           "itinerary": [
             {
               "day": 0,
               "title": "Келүү — Нарын",
-              "description": "Тосуп алуу, тосуп алуу кечеси, конок үйү."
+              "description": "Нарында тосуп алуу. Саламдашуу кечки тамагы жана шаарда түнөө."
             },
             {
               "day": 1,
-              "title": "Шар шаркыратмасы – Таш-Рабат",
-              "description": "Шаркыратмага сейилдөө, XV кылымдагы кербен-сарай. Боз үй лагери."
+              "title": "Шар шаркыратмасы жана Таш-Рабат",
+              "description": "Нарын – Шар шаркыратмасы, жөө (ат менен — каалоо боюнча, кошумча акыга). Андан ары Таш-Рабат — Жибек жолундагы XV кылымдагы таш кербен сарай. Жөө же ат менен. Боз үй лагери."
             },
             {
               "day": 2,
-              "title": "Чатыр-Көл",
-              "description": "Көлдүн үстүндөгү кыркага ат менен же жөө. Боз үй лагери."
+              "title": "Чатыр-Көл кыркасы",
+              "description": "Таш-Рабаттан Чатыр-Көлдүн үстүндөгү кыркага чыгуу. Кытай чек арасы тарапка көрүнүш. Жөө же ат менен. Боз үй лагери."
             },
             {
               "day": 3,
-              "title": "Көк-Кыя өрөөнү",
-              "description": "Көл-Суу базалык лагерине баруу."
+              "title": "Көл-Сууга",
+              "description": "Алыскы өрөөндөр аркылуу Көк-Кыядагы Көл-Суу базалык лагерине жол. Жол күнү. Базалык лагерь."
             },
             {
               "day": 4,
-              "title": "Көл-Суу көлү – Ат-Башы",
-              "description": "Эрте баштоо, каньон аркылуу көлгө ат менен же жөө, андан соң Ат-Башыга баруу. Жергиликтүү үй-бүлө менен кеч жана мончо."
+              "title": "Көл-Суу көлү",
+              "description": "Жергиликтүү гид менен капчыгай аркылуу тик аскалардын арасындагы көгүлтүр көлгө. Жөө же ат менен. Базалык лагерь."
             },
             {
               "day": 5,
-              "title": "Соң-Көл",
-              "description": "Көлгө (3016 м) чыгуу. Боз үй лагери."
+              "title": "Ат-Башы",
+              "description": "Бүркүт салуу жана көк-бөрү оюну. Кечинде жергиликтүү үй-бүлөдө, салттуу мончо. Үй-бүлөдө түнөө."
             },
             {
               "day": 6,
-              "title": "Соң-Көл",
-              "description": "Ат минүү жана чабан үй-бүлөлөрү."
+              "title": "Ат-Башы – Соң-Көл",
+              "description": "Соң-Көлгө (3016 м) жол. Жээктеги боз үй лагери."
             },
             {
               "day": 7,
-              "title": "Сказка жана Ак-Сай каньондору – Ысык-Көлдүн түштүк жээги",
-              "description": "Ысык-Көлдүн түштүк жээгиндеги каньондор."
+              "title": "Соң-Көлдөгү күн",
+              "description": "Жайлоолордо ат минүү, малчылардын үйүнө баруу. Боз үй лагеринде экинчи түн."
             },
             {
               "day": 8,
-              "title": "Жети-Өгүз кызыл аскалары – Каракол",
-              "description": "Жети-Өгүз, андан соң Каракол."
+              "title": "Соң-Көл – Ысык-Көл",
+              "description": "Түштүк жээкке жол, Жомок жана Ак-Сай капчыгайларында токтоо. Конок үй."
             },
             {
               "day": 9,
-              "title": "Кочкор",
-              "description": "Шырдак жасоо устаканасы."
+              "title": "Жети-Өгүз – Каракол",
+              "description": "Жети-Өгүздүн кызыл аскалары, андан кийин Каракол: жыгачтан салынган Дунган мечити жана православ чиркөөсү."
             },
             {
               "day": 10,
-              "title": "Казарман – Жалал-Абад",
-              "description": "Жаңы Түндүк–Түштүк тоо жолунда толук күн."
+              "title": "Алтын-Арашан ысык булактары",
+              "description": "Жип менен Алтын-Арашан ысык булактарына чыгуу, андан кийин Ысык-Көлдүн түндүк жээги менен. Балыкчыда же Чолпон-Атада түнөө."
             },
             {
               "day": 11,
-              "title": "Арстанбап",
-              "description": "Жаңгак токою жана шаркыратмалар."
+              "title": "Казарман – Жалал-Абад",
+              "description": "Казарман аркылуу Жалал-Абадга жаңы Түндүк–Түштүк тоо жолу. Эл аз жерлер аркылуу толук күн."
             },
             {
               "day": 12,
-              "title": "Сары-Челек",
-              "description": "Корукка баруу, Аркыт айылында түнөө."
+              "title": "Арстанбап",
+              "description": "Дүйнөдөгү эң чоң жаңгак токою жана шаркыратмалар."
             },
             {
               "day": 13,
-              "title": "Сары-Челек",
-              "description": "Көлдөрдү жана токойду аралап жөө жүрүш."
+              "title": "Арстанбап – Сары-Челек",
+              "description": "Сары-Челек биосфералык коругуна жол. Аркыт айылында түнөө."
             },
             {
               "day": 14,
-              "title": "Төө-Ашуу ашуусу – Суусамыр өрөөнү",
-              "description": "Боз үйдө түнөө."
+              "title": "Сары-Челек",
+              "description": "Негизги көлдү жана коруктун кичине көлдөрүн айланып жөө басуу."
             },
             {
               "day": 15,
-              "title": "Бурана мунарасы – Көк-Мойнок каньондору – Бишкек",
-              "description": "Эртеси эртең менен Бишкектен учуп кетүү."
+              "title": "Токтогул жана Төө-Ашуу – Бишкек",
+              "description": "Сары-Челек – Токтогул суу сактагычы – Төө-Ашуу ашуусу, үстүндө кыска токтоо – Бишкек."
+            },
+            {
+              "day": 16,
+              "title": "Бурана жана Көк-Мойнок",
+              "description": "Бурана мунарасы — XI кылымдагы мунара — жана Көк-Мойноктун кызыл капчыгайларында сейилдөө. Бишкекте коштошуу кечки тамагы. Эртеси эртең менен жөнөп кетүү."
             }
           ],
           "included": [
-            "Англисче сүйлөгөн гид",
+            "Бүт тур бою англисче сүйлөгөн гид",
             "Айдоочусу менен 4WD унаа",
-            "Эртең мененки тамагы менен бардык жашоо",
+            "Бардык жашоо жери эртең мененки тамак менен",
             "Күн сайын түшкү жана кечки тамак",
-            "3 күн ат минүүгө аттар",
+            "3 күн ат минүү үчүн аттар: Чатыр-Көл, Көл-Суу, Соң-Көл",
             "Көл-Сууда жергиликтүү гид",
+            "Ат-Башыда маданий программа",
             "Чек ара зонасына уруксат"
           ],
           "notIncluded": [
-            "Эл аралык учуулар жана Нарынга жеткирүү",
             "Саякат камсыздандыруусу",
-            "Кирүү жана экологиялык төлөмдөр (Таш-Рабат, Сары-Челек, Бурана, Сказка)",
-            "Кааласаңыз: бүркүтчү же көк бөрү шоусу",
-            "Алкоголь жана жеке чыгымдар"
+            "Алкоголь жана жеке чыгымдар",
+            "Чайпулдар"
           ],
-          "accommodation": "Конок үйлөрү, үй-бүлөлүк конок үй, боз үй лагерлери (Таш-Рабат, Көл-Суу, Соң-Көл, Суусамыр), Бишкекте мейманкана. Боз үй лагерлери жөнөкөй: жалпы даараткана, душ дайыма эле боло бербейт.",
-          "transport": "Айдоочусу менен 4WD унаа (болжол менен 2700 км; кээ бир күндөрү 6–8 сааттык узак жолдор); 3 күн ат минүү",
+          "accommodation": "Конок үйлөрү, Ат-Башыда үй-бүлөдө түнөө, боз үй лагерлери (Таш-Рабат, Көл-Суу базалык лагери, Соң-Көл), Бишкекте мейманкана. Боз үй лагерлери жөнөкөй: жалпы даараткана, душ дайыма эле боло бербейт.",
+          "transport": "Айдоочусу менен 4WD унаа; кээ бир күндөрү 6–8 сааттык узак жолдор. 3 күн ат минүү.",
           "startingPoint": "Нарын (түштөн кийин же кечинде келүү)",
           "endingPoint": "Бишкек",
-          "whatsappMessage": "Салам! Мени «Кыргызстан боюнча Гранд-тур — 15 күн» туру кызыктырат.\n\nКаалаган күндөр:\nАдамдардын саны:\nМенин өлкөм:",
+          "whatsappMessage": "Салам! Мени «Кыргызстан боюнча Гранд-тур» кызыктырат.\n\nКаалаган күндөр:\nАдамдардын саны:\nМенин өлкөм:",
           "faq": [
             {
               "question": "Канчалык кыйын?",
               "answer": "Жеңил–орточо. Кээ бир күндөрү 6–8 сааттык узак жолдор; эң бийик чекиттер болжол менен 3500 м (Чатыр-Көл кыркасы, Көл-Суу)."
             },
             {
+              "question": "15 күнбү же 16 күнбү?",
+              "answer": "15 же 16 күн. Аба ырайына жана шарттарга жараша тур бир күнгө узарышы мүмкүн."
+            },
+            {
               "question": "Тур кайдан башталат?",
-              "answer": "Нарында. Түштөн кийин же кечинде келиңиз. Бишкектен жеткирүүнү уюштура алабыз [баасы суроо боюнча]."
+              "answer": "Нарында. Түштөн кийин же кечинде келиңиз. Бишкектен жеткирүүнү уюштура алабыз — баасы суроо боюнча."
             },
             {
               "question": "Чек ара уруксаты керекпи?",
@@ -5068,7 +5124,7 @@
             },
             {
               "question": "Канчалык бийикке чыгабыз жана канчалык суук?",
-              "answer": "3500–3900 м бийиктикке чейин. Тоодо түндөр жайында да суук."
+              "answer": "Болжол менен 3500 м чейин (Чатыр-Көл кыркасы). Тоодо түндөр жайында да суук."
             },
             {
               "question": "Тамак кандай?",
@@ -5076,7 +5132,7 @@
             },
             {
               "question": "Мобилдик байланыш барбы?",
-              "answer": "Көл-Сууда, Соң-Көлдө жана Ала-Көл жүрүшүндө байланыш жок."
+              "answer": "Көл-Сууда жана Соң-Көлдө байланыш жок: бир нече күн мобилдик байланышсыз болосуз."
             },
             {
               "question": "Накталай акча керекпи?",
@@ -5100,11 +5156,11 @@
             },
             {
               "question": "Жалгыз саякаттасамчы?",
-              "answer": "Жалгыз саякатчыларды кубануу менен кабыл алабыз. Таблицадагы 1 адамга бааны караңыз. [Бир кишилик бөлмө үчүн кошумча акы: тактоо]"
+              "answer": "Жалгыз саякатчыларды кубануу менен кабыл алабыз. Таблицадагы 1 адамга бааны караңыз. Конок үйлөрүндө өзүнчө бөлмө — кошумча акы менен, баасы суроо боюнча."
             },
             {
               "question": "Кантип брондойм?",
-              "answer": "Күндөрүңүздү жана адамдардын санын жибериңиз. Биз орундун барын ырастап, толук программаны жөнөтөбүз. [Депозиттин өлчөмү жана жокко чыгаруу шарттары: толтуруу]"
+              "answer": "Күндөрүңүздү жана адамдардын санын жибериңиз. Биз орундун барын ырастап, толук программаны жөнөтөбүз. Орунду 25% депозит бекитет; калганы турдан 30 күн мурун же биринчи күнү накталай төлөнөт. Турду 50 жана андан көп күн мурун жокко чыгарсаңыз, депозит толук кайтарылат (которуу комиссиясын кошпогондо); 30–49 күн мурун — 50%; 30 күндөн аз калганда — кайтарылбайт. Күндөрдү кеминде 30 күн мурун эскертип, бир жолу акысыз өзгөртсө болот. Чек ара уруксаттары берилгенден кийин кайтарылбайт. Эгер биз турду аба ырайы же коопсуздук себебинен жокко чыгарсак — акча толук кайтарылат же жаңы күндөр берилет."
             }
           ]
         }
