@@ -643,10 +643,10 @@ const UI = {
       pageDescription: 'Ат үстүндөгү жүрүштөрдүн, 4x4 укмуштуулардын жана жеке турлардын жыйнагы. Ат-Башы капчыгайларынан Көл-Суу көлүнө чейин. WhatsApp аркылуу брондоо.'
     },
     tourDetail: {
-      factsDuration: 'Узактыгы', factsLevel: 'Кыйынчылык', factsSeason: 'Мезгил', factsGroup: 'Топтун өлчөмү',
+      factsDuration: 'Узактыгы', factsLevel: 'Кыйынчылык деңгээли', factsSeason: 'Мезгил', factsGroup: 'Топтун өлчөмү',
       factsStartingPoint: 'Башталыш чекити', factsCost: 'Баасы', factsComfort: 'Ыңгайлуулук деңгээли',
-      costFrom: function (symbol, price) { return symbol + price + 'дан — адам сайын'; },
-      infoDuration: 'Узактыгы', infoDifficulty: 'Кыйынчылык', infoBestSeason: 'Эң жакшы мезгил', infoStartingPoint: 'Башталыш чекити', infoGroupSize: 'Топтун өлчөмү', infoFormat: 'Формат',
+      costFrom: function (symbol, price) { return symbol + price + 'дан — адам үчүн'; },
+      infoDuration: 'Узактыгы', infoDifficulty: 'Кыйынчылык деңгээли', infoBestSeason: 'Эң жакшы мезгил', infoStartingPoint: 'Башталыш чекити', infoGroupSize: 'Топтун өлчөмү', infoFormat: 'Формат',
       peopleUnit: 'адам',
       dayLabel: 'Күн',
       itineraryFallback: 'Күндөрүңүздү WhatsApp аркылуу жибериңиз, биз бул тур үчүн күн сайынкы толук маршрутту жөнөтөбүз.',
@@ -658,7 +658,7 @@ const UI = {
       perPerson: 'Бир адамга',
       priceNote: 'Акыркы баа мезгилге жана ыңгайлаштырууга жараша өзгөрүшү мүмкүн',
       bookBtn: 'WhatsApp аркылуу брондоо',
-      overviewHeading: 'Обзор',
+      overviewHeading: 'Маалымат',
       highlightsHeading: 'Негизги учурлар',
       includedHeading: 'Эмне кирет',
       notIncludedHeading: 'Эмне кирбейт',
