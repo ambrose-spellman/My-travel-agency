@@ -1542,7 +1542,7 @@
         "August",
         "September"
       ],
-      "priceFrom": 599,
+      "priceFrom": 661,
       "currency": "USD",
       "image": "/assets/images/destinations/kel-suu-valley.jpg",
       "gallery": [],
@@ -1554,7 +1554,7 @@
         "perDayBase": 100,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 1,
-        "displayFromPrice": 599
+        "displayFromPrice": 661
       },
       "i18n": {
         "en": {
@@ -1825,33 +1825,33 @@
       "priceTable": [
         {
           "group": 1,
-          "perPerson": 1370,
-          "total": 1370
+          "perPerson": 2134,
+          "total": 2134
         },
         {
           "group": 2,
-          "perPerson": 907,
-          "total": 1814
+          "perPerson": 1250,
+          "total": 2500
         },
         {
           "group": 3,
-          "perPerson": 753,
-          "total": 2259
+          "perPerson": 956,
+          "total": 2868
         },
         {
           "group": 4,
-          "perPerson": 676,
-          "total": 2704
+          "perPerson": 809,
+          "total": 3236
         },
         {
           "group": 5,
-          "perPerson": 629,
-          "total": 3145
+          "perPerson": 720,
+          "total": 3600
         },
         {
           "group": 6,
-          "perPerson": 599,
-          "total": 3594
+          "perPerson": 661,
+          "total": 3966
         }
       ]
     },
@@ -1879,7 +1879,7 @@
         "September",
         "October"
       ],
-      "priceFrom": 33,
+      "priceFrom": null,
       "currency": "USD",
       "image": "/assets/images/destinations/jomoksai2.jpg",
       "gallery": [],
@@ -1891,7 +1891,7 @@
         "perDayBase": 100,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 4,
-        "displayFromPrice": 33
+        "displayFromPrice": null
       },
       "i18n": {
         "en": {
@@ -2361,7 +2361,7 @@
         "August",
         "September"
       ],
-      "priceFrom": 98,
+      "priceFrom": 407,
       "currency": "USD",
       "image": "/assets/images/destinations/kel-suu-valley.jpg",
       "gallery": [],
@@ -2373,7 +2373,7 @@
         "perDayBase": 100,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 4,
-        "displayFromPrice": 98
+        "displayFromPrice": 407
       },
       "i18n": {
         "en": {
@@ -2472,7 +2472,39 @@
           "whatsappMessage": "Салам! Мени Соң-Көл – Көл-Суу унаа менен туру кызыктырат.\n\nКалаган күндөр:\nСаякатчылардын саны:\nМенин өлкөм:",
           "faq": []
         }
-      }
+      },
+      "priceTable": [
+        {
+          "group": 1,
+          "perPerson": 1203,
+          "total": 1203
+        },
+        {
+          "group": 2,
+          "perPerson": 726,
+          "total": 1452
+        },
+        {
+          "group": 3,
+          "perPerson": 566,
+          "total": 1698
+        },
+        {
+          "group": 4,
+          "perPerson": 487,
+          "total": 1948
+        },
+        {
+          "group": 5,
+          "perPerson": 439,
+          "total": 2195
+        },
+        {
+          "group": 6,
+          "perPerson": 407,
+          "total": 2442
+        }
+      ]
     },
     {
       "id": "osh-murgab-dushanbe-mix",
@@ -2494,7 +2526,7 @@
         "August",
         "September"
       ],
-      "priceFrom": 325,
+      "priceFrom": null,
       "currency": "USD",
       "image": "/assets/images/tours/osh-murgab-dushanbe-mix/murgab.jpg",
       "gallery": [],
@@ -2506,7 +2538,7 @@
         "perDayBase": 100,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 4,
-        "displayFromPrice": 325
+        "displayFromPrice": null
       },
       "i18n": {
         "en": {
@@ -2875,212 +2907,6 @@
       }
     },
     {
-      "id": "suusamyr-kyzyl-oy-horse",
-      "slug": "suusamyr-kyzyl-oy-horse",
-      "region": [
-        "Chuy",
-        "Naryn"
-      ],
-      "activity": "Horse",
-      "durationMin": 3,
-      "durationMax": 3,
-      "durationUnit": "days",
-      "format": [
-        "Private",
-        "Group"
-      ],
-      "season": [
-        "June",
-        "July",
-        "August",
-        "September"
-      ],
-      "priceFrom": 98,
-      "currency": "USD",
-      "image": "/assets/images/tours/suusamyr-kyzyl-oy-son-kul-horse/suusamyr.jpg",
-      "gallery": [],
-      "groupSize": {
-        "min": 2,
-        "max": 8
-      },
-      "pricing": {
-        "perDayBase": 100,
-        "organizerMarkup": 0.3,
-        "minBillableParticipants": 4,
-        "displayFromPrice": 98
-      },
-      "i18n": {
-        "en": {
-          "title": "Suusamyr – Kyzyl-Oy Horse Trek",
-          "description": "A 3-day horseback ride from Suusamyr to Kyzyl-Oy. The route crosses the wide Suusamyr plain before the valley narrows into the Kokomoron river canyon, riding alongside one of Kyrgyzstan's most powerful rivers beneath huge red-clay cliffs, finishing at the clay-built village of Kyzyl-Oy. This is the easier, standalone version of our Suusamyr – Kyzyl-Oy – Son-Kul Horse Expedition — suitable for riders with basic experience. It can also be used as the first stage before continuing on to Son-Kul.",
-          "difficulty": "Easy to Moderate",
-          "comfort": "Basic",
-          "highlights": [
-            "Bishkek – Suusamyr – start of the ride",
-            "Into the Kokomoron canyon",
-            "Finish at Kyzyl-Oy"
-          ],
-          "itinerary": [
-            {
-              "day": 1,
-              "title": "Bishkek – Suusamyr – start of the ride",
-              "description": "Morning transfer by car from Bishkek via the Too-Ashuu pass to the Suusamyr valley (3-4 hours). Meet your guides and horses, safety briefing, and a first test ride (about 3-4 hours in the saddle) across the flat Suusamyr plateau along the river. Overnight in a tented camp by the water."
-            },
-            {
-              "day": 2,
-              "title": "Into the Kokomoron canyon",
-              "description": "The valley narrows into a canyon. You ride alongside the Kokomoron, one of Kyrgyzstan's most powerful rivers, surrounded by colorful cliffs. About 5-6 hours in the saddle. Overnight in tents in a scenic spot."
-            },
-            {
-              "day": 3,
-              "title": "Finish at Kyzyl-Oy",
-              "description": "A short ride (3-4 hours) to the clay-built village of Kyzyl-Oy, in the heart of the canyon. Lunch and rest. A car meets you here: return to Bishkek, or stay overnight in a local guesthouse to start the Son-Kul expedition the next day."
-            }
-          ],
-          "included": [
-            "Experienced guides and horsemen",
-            "Horses and riding equipment (saddle, bridle, helmet on request)",
-            "2-3 meals per day during the trek (depends on weather conditions)",
-            "Camping equipment and tent stays along the route",
-            "Transfer: Bishkek–Suusamyr"
-          ],
-          "notIncluded": [
-            "Flights to Bishkek",
-            "Travel insurance",
-            "Visa fees",
-            "Personal expenses"
-          ],
-          "accommodation": "Tents along the route",
-          "transport": "Horseback, with a car transfer at the start",
-          "startingPoint": "Bishkek (transfer to Suusamyr)",
-          "endingPoint": "Kyzyl-Oy",
-          "whatsappMessage": "Hello! I'm interested in the Suusamyr – Kyzyl-Oy Horse Trek.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
-          "faq": [
-            {
-              "question": "Can I continue to Son-Kul afterwards?",
-              "answer": "Yes — this route connects directly with our Suusamyr – Kyzyl-Oy – Son-Kul Horse Expedition (6 more days from Kyzyl-Oy). Let us know if you want to combine both."
-            },
-            {
-              "question": "Do I need horse riding experience?",
-              "answer": "Basic experience is enough for this route — it is easier than the extension to Son-Kul."
-            }
-          ]
-        },
-        "ru": {
-          "title": "Суусамыр – Кызыл-Ой: конный поход",
-          "description": "Трёхдневный конный поход от Суусамыра до Кызыл-Оя. Маршрут проходит через широкую равнину Суусамырской долины, которая переходит в каньон реки Кёкёмерен — вдоль одной из самых мощных рек Кыргызстана среди огромных красно-глиняных скал, финиш — в глиняном селе Кызыл-Ой. Это более лёгкая, самостоятельная версия нашей экспедиции Суусамыр – Кызыл-Ой – Сон-Куль, подходит всадникам с базовым опытом. Также может использоваться как первый этап перед продолжением маршрута до Сон-Куля.",
-          "difficulty": "Лёгкий – средний",
-          "comfort": "Базовый",
-          "highlights": [
-            "Бишкек – Суусамыр – старт маршрута",
-            "Вход в ущелье Кёкёмерен",
-            "Финиш в Кызыл-Ое"
-          ],
-          "itinerary": [
-            {
-              "day": 1,
-              "title": "Бишкек – Суусамыр – старт маршрута",
-              "description": "Утренний трансфер на авто из Бишкека через перевал Тоо-Ашуу в Суусамырскую долину (3–4 часа). Встреча с гидами и лошадьми, инструктаж и первый тестовый переход (около 3–4 часов в седле) по ровному плато Суусамыра вдоль реки. Ночёвка в палаточном лагере у воды."
-            },
-            {
-              "day": 2,
-              "title": "Вход в ущелье Кёкёмерен",
-              "description": "Долина сужается и уходит в каньон. Маршрут проходит вдоль реки Кёкёмерен — одной из самых мощных рек Кыргызстана, среди разноцветных скал. Переход занимает 5–6 часов. Ночёвка в палатках в живописном урочище."
-            },
-            {
-              "day": 3,
-              "title": "Финиш в Кызыл-Ое",
-              "description": "Короткий переход (3–4 часа) до глиняного села Кызыл-Ой в самом сердце каньона. Обед, отдых. Здесь вас встречает машина: можно вернуться в Бишкек либо остаться на ночь в гостевом доме, чтобы на следующий день начать маршрут до Сон-Куля."
-            }
-          ],
-          "included": [
-            "Опытные гиды и конюхи",
-            "Лошади и снаряжение для верховой езды (седло, уздечка, шлем по запросу)",
-            "2–3-разовое питание в день на маршруте (в зависимости от погодных условий)",
-            "Снаряжение для кемпинга и ночёвки в палатках по маршруту",
-            "Трансфер: Бишкек–Суусамыр"
-          ],
-          "notIncluded": [
-            "Авиаперелёт до Бишкека",
-            "Туристическая страховка",
-            "Визовые сборы",
-            "Личные расходы"
-          ],
-          "accommodation": "Палатки по маршруту",
-          "transport": "Верхом на лошади, с автомобильным трансфером в начале",
-          "startingPoint": "Бишкек (трансфер в Суусамыр)",
-          "endingPoint": "Кызыл-Ой",
-          "whatsappMessage": "Здравствуйте! Меня интересует конный поход Суусамыр – Кызыл-Ой.\n\nЖелаемые даты:\nКоличество путешественников:\nМоя страна:",
-          "faq": [
-            {
-              "question": "Можно ли продолжить маршрут до Сон-Куля?",
-              "answer": "Да — этот маршрут напрямую соединяется с нашей экспедицией Суусамыр – Кызыл-Ой – Сон-Куль (ещё 6 дней от Кызыл-Оя). Сообщите нам, если хотите объединить оба маршрута."
-            },
-            {
-              "question": "Нужен ли опыт верховой езды?",
-              "answer": "Для этого маршрута достаточно базового опыта — он легче, чем продолжение до Сон-Куля."
-            }
-          ]
-        },
-        "ky": {
-          "title": "Суусамыр – Кызыл-Ой: ат үстүндөгү саякат",
-          "description": "Суусамырдан Кызыл-Ойго чейинки 3 күндүк ат үстүндөгү саякат. Маршрут Суусамыр өрөөнүнүн кенен тегиздиги аркылуу өтүп, Кёкөмөрөн дарыясынын капчыгайына айланат — Кыргызстандын эң күчтүү дарыяларынын бири боюнча, зор кызыл-чополуу аскалардын арасында, финиш — Кызыл-Ой чополуу айылында. Бул биздин Суусамыр – Кызыл-Ой – Соң-Көл экспедициябыздын жеңилирээк, өз алдынча версиясы, негизги тажрыйбасы бар чабандестерге ылайыктуу. Ошондой эле Соң-Көлгө чейинки маршрутту улантуудан мурунку биринчи этап катары колдонсо болот.",
-          "difficulty": "Жеңил – орточо",
-          "comfort": "Жөнөкөй",
-          "highlights": [
-            "Бишкек – Суусамыр – маршруттун башталышы",
-            "Кёкөмөрөн капчыгайына кирүү",
-            "Кызыл-Ойдо финиш"
-          ],
-          "itinerary": [
-            {
-              "day": 1,
-              "title": "Бишкек – Суусамыр – маршруттун башталышы",
-              "description": "Бишкектен Тоо-Ашуу ашуусу аркылуу Суусамыр өрөөнүнө эртең мененки унаа менен трансфер (3–4 саат). Гиддер жана аттар менен таанышуу, көрсөтмө жана биринчи сыноо жүрүшү (ээрде болжол менен 3–4 саат) Суусамырдын тегиз платосу боюнча дарыянын жээгинде. Суунун жанында палатка лагеринде түнөө."
-            },
-            {
-              "day": 2,
-              "title": "Кёкөмөрөн капчыгайына кирүү",
-              "description": "Өрөөн тарыйып, капчыгайга өтөт. Маршрут Кыргызстандын эң күчтүү дарыяларынын бири болгон Кёкөмөрөн боюнча, түркүн түстүү аскалардын арасы менен өтөт. Жол 5–6 саатты алат. Кооз жерде палаткада түнөө."
-            },
-            {
-              "day": 3,
-              "title": "Кызыл-Ойдо финиш",
-              "description": "Капчыгайдын так жүрөгүндө жайгашкан Кызыл-Ой чополуу айылына чейин кыска жүрүш (3–4 саат). Түшкү тамак, эс алуу. Бул жерде сизди унаа тосуп алат: Бишкекке кайтсаңыз болот, же эртеси күнү Соң-Көлгө чейинки маршрутту баштоо үчүн конок үйдө түнөп калсаңыз болот."
-            }
-          ],
-          "included": [
-            "Тажрыйбалуу гиддер жана чабандестер",
-            "Ат минүү үчүн аттар жана жабдуулар (ээр, жүгөн, сурам боюнча шлем)",
-            "Маршрутта күнүнө 2-3 мертебе тамактануу (аба ырайына жараша)",
-            "Жол боюнда кемпинг жабдуулары жана палаткада түнөөлөр",
-            "Трансфер: Бишкек–Суусамыр"
-          ],
-          "notIncluded": [
-            "Бишкекке чейинки авиа каттам",
-            "Саякат камсыздандыруусу",
-            "Виза төлөмдөрү",
-            "Жеке чыгымдар"
-          ],
-          "accommodation": "Маршрут боюнча палаткалар",
-          "transport": "Ат үстүндө, башында унаа трансфери менен",
-          "startingPoint": "Бишкек (Суусамырга трансфер)",
-          "endingPoint": "Кызыл-Ой",
-          "whatsappMessage": "Салам! Мени Суусамыр – Кызыл-Ой ат үстүндөгү саякаты кызыктырат.\n\nКалаган күндөр:\nСаякатчылардын саны:\nМенин өлкөм:",
-          "faq": [
-            {
-              "question": "Андан кийин Соң-Көлгө чейин уланта аламбы?",
-              "answer": "Ооба — бул маршрут биздин Суусамыр – Кызыл-Ой – Соң-Көл экспедициясы менен түздөн-түз уланат (Кызыл-Ойдон дагы 6 күн). Эки маршрутту бириктиргиңиз келсе, бизге билдириңиз."
-            },
-            {
-              "question": "Ат минүү тажрыйбасы керекпи?",
-              "answer": "Бул маршрут үчүн негизги тажрыйба жетиштүү — ал Соң-Көлгө чейинки уланган бөлүккө караганда жеңилирээк."
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "achakaiyndy-tash-rabat-hiking",
       "slug": "achakaiyndy-tash-rabat-hiking",
       "region": [
@@ -3102,7 +2928,7 @@
         "August",
         "September"
       ],
-      "priceFrom": 325,
+      "priceFrom": 791,
       "currency": "USD",
       "image": "/assets/images/tours/tash-rabat-arpa-aksay-kelsuu-4x4/mount1.jpg",
       "gallery": [],
@@ -3114,7 +2940,7 @@
         "perDayBase": 100,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 4,
-        "displayFromPrice": 325
+        "displayFromPrice": 791
       },
       "i18n": {
         "en": {
@@ -3219,7 +3045,39 @@
           "whatsappMessage": "Салам! Мени Ачакайынды → Таш-Рабат жөө жүрүшү кызыктырат.\n\nКалаган күндөр:\nСаякатчылардын саны:\nМенин өлкөм:",
           "faq": []
         }
-      }
+      },
+      "priceTable": [
+        {
+          "group": 1,
+          "perPerson": 2744,
+          "total": 2744
+        },
+        {
+          "group": 2,
+          "perPerson": 1531,
+          "total": 3062
+        },
+        {
+          "group": 3,
+          "perPerson": 1126,
+          "total": 3378
+        },
+        {
+          "group": 4,
+          "perPerson": 924,
+          "total": 3696
+        },
+        {
+          "group": 5,
+          "perPerson": 886,
+          "total": 4430
+        },
+        {
+          "group": 6,
+          "perPerson": 791,
+          "total": 4746
+        }
+      ]
     },
     {
       "id": "kazybek-tash-rabat-hiking",
@@ -3243,7 +3101,7 @@
         "August",
         "September"
       ],
-      "priceFrom": 195,
+      "priceFrom": 480,
       "currency": "USD",
       "image": "/assets/images/tours/tash-rabat-arpa-aksay-kelsuu-4x4/mount1.jpg",
       "gallery": [],
@@ -3255,7 +3113,7 @@
         "perDayBase": 100,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 4,
-        "displayFromPrice": 195
+        "displayFromPrice": 480
       },
       "i18n": {
         "en": {
@@ -3372,7 +3230,39 @@
             }
           ]
         }
-      }
+      },
+      "priceTable": [
+        {
+          "group": 1,
+          "perPerson": 1619,
+          "total": 1619
+        },
+        {
+          "group": 2,
+          "perPerson": 913,
+          "total": 1826
+        },
+        {
+          "group": 3,
+          "perPerson": 677,
+          "total": 2031
+        },
+        {
+          "group": 4,
+          "perPerson": 559,
+          "total": 2236
+        },
+        {
+          "group": 5,
+          "perPerson": 535,
+          "total": 2675
+        },
+        {
+          "group": 6,
+          "perPerson": 480,
+          "total": 2880
+        }
+      ]
     },
     {
       "id": "grand-kyrgyzstan-custom",
@@ -3396,7 +3286,7 @@
         "September",
         "October"
       ],
-      "priceFrom": 163,
+      "priceFrom": null,
       "currency": "USD",
       "image": "/assets/images/general/camel-pastures.webp",
       "gallery": [],
@@ -3408,11 +3298,11 @@
         "perDayBase": 100,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 4,
-        "displayFromPrice": 163
+        "displayFromPrice": null
       },
       "i18n": {
         "en": {
-          "title": "Grand Kyrgyzstan Custom Tour",
+          "title": "Custom Tour on Request",
           "description": "Tailor-made itinerary combining any of our routes (At-Bashy, Kel-Suu, Song-Kul, Issyk-Kul, Sary-Chelek, Arslanbob, Osh) based on your preferences.",
           "difficulty": "Custom",
           "comfort": "Comfortable",
@@ -3441,11 +3331,11 @@
           "transport": "4x4 + horses (as per program)",
           "startingPoint": "Bishkek (or Osh)",
           "endingPoint": "Bishkek (or Osh)",
-          "whatsappMessage": "Hello! I want to build a custom Grand Kyrgyzstan tour.\n\nPreferred dates:\nNumber of travelers:\nMy country:\nPlaces/activities I want:",
+          "whatsappMessage": "Hello! I would like a custom tour.\n\nPreferred dates:\nNumber of travelers:\nMy country:\nPlaces/activities I want:",
           "faq": []
         },
         "ru": {
-          "title": "Индивидуальный тур «Великий Кыргызстан»",
+          "title": "Индивидуальный тур по запросу",
           "description": "Индивидуальный маршрут, объединяющий любые из наших направлений (Ат-Баши, Кёль-Суу, Сон-Куль, Иссык-Куль, Сары-Челек, Арсланбоб, Ош) по вашим предпочтениям.",
           "difficulty": "Индивидуально",
           "comfort": "Комфортный",
@@ -3474,11 +3364,11 @@
           "transport": "4x4 + лошади (согласно программе)",
           "startingPoint": "Бишкек (или Ош)",
           "endingPoint": "Бишкек (или Ош)",
-          "whatsappMessage": "Здравствуйте! Хочу собрать индивидуальный тур «Великий Кыргызстан».\n\nЖелаемые даты:\nКоличество путешественников:\nМоя страна:\nЖелаемые места/активности:",
+          "whatsappMessage": "Здравствуйте! Хочу индивидуальный тур.\n\nЖелаемые даты:\nКоличество путешественников:\nМоя страна:\nЖелаемые места/активности:",
           "faq": []
         },
         "ky": {
-          "title": "«Улуу Кыргызстан» жеке туру",
+          "title": "Жеке тур (суроо боюнча)",
           "description": "Каалооңузга жараша биздин бардык багыттарды (Ат-Башы, Көл-Суу, Соң-Көл, Ысык-Көл, Сары-Челек, Арстанбап, Ош) айкалыштырган жеке маршрут.",
           "difficulty": "Жеке тартипте",
           "comfort": "Комфорттуу",
@@ -3507,7 +3397,7 @@
           "transport": "4x4 + аттар (программага жараша)",
           "startingPoint": "Бишкек (же Ош)",
           "endingPoint": "Бишкек (же Ош)",
-          "whatsappMessage": "Салам! «Улуу Кыргызстан» жеке турун чогултким келет.\n\nКалаган күндөр:\nСаякатчылардын саны:\nМенин өлкөм:\nКаалаган жерлер/иш-аракеттер:",
+          "whatsappMessage": "Салам! Жеке тур алгым келет.\n\nКалаган күндөр:\nСаякатчылардын саны:\nМенин өлкөм:\nКаалаган жерлер/иш-аракеттер:",
           "faq": []
         }
       }
