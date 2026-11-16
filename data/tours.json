@@ -699,7 +699,7 @@
         "June",
         "October"
       ],
-      "priceFrom": 430,
+      "priceFrom": 485,
       "currency": "USD",
       "image": "/assets/images/destinations/kel-suu-valley.jpg",
       "gallery": [],
@@ -711,7 +711,7 @@
         "perDayBase": 236,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 1,
-        "displayFromPrice": 430
+        "displayFromPrice": 485
       },
       "i18n": {
         "en": {
@@ -936,7 +936,39 @@
             }
           ]
         }
-      }
+      },
+      "priceTable": [
+        {
+          "group": 1,
+          "perPerson": 1227,
+          "total": 1227
+        },
+        {
+          "group": 2,
+          "perPerson": 782,
+          "total": 1564
+        },
+        {
+          "group": 3,
+          "perPerson": 633,
+          "total": 1899
+        },
+        {
+          "group": 4,
+          "perPerson": 559,
+          "total": 2236
+        },
+        {
+          "group": 5,
+          "perPerson": 515,
+          "total": 2575
+        },
+        {
+          "group": 6,
+          "perPerson": 485,
+          "total": 2910
+        }
+      ]
     },
     {
       "id": "kazybek-tash-rabat-shaar-waterfall-horse",
