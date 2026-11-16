@@ -186,11 +186,6 @@
 }
 .hero-intro__lead { font-size: clamp(16px, 1.3vw, 19px); line-height: 1.6; color: var(--color-text-mute-2); margin: 0; max-width: 460px; }
 
-.hero-intro__pills { display: flex; flex-wrap: wrap; gap: 10px; }
-.hero-intro__pill {
-  display: inline-flex; align-items: center; height: 36px; padding: 0 16px; border-radius: 999px;
-  border: 1.5px solid var(--color-border); font: 600 13px var(--font-body); color: var(--color-text-mute-2);
-}
 
 .hero-intro__gallery {
   position: sticky; top: calc(var(--header-h) + 24px);
@@ -651,4 +646,13 @@
   .dest-tile__text { padding: 10px; }
   .dest-tile__text .name { font-size: 17px; }
   .dest-tile__text .explore { padding: 0 12px; min-height: 34px; font-size: 13px; }
+}
+
+/* Phones: keep both hero buttons on one row */
+@media (max-width: 520px) {
+  .hero-intro .hero__actions { flex-wrap: nowrap; gap: 8px; }
+  .hero-intro .hero__actions .btn { flex: 1 1 auto; padding: 0 14px; font-size: 15px; white-space: nowrap; }
+}
+@media (max-width: 400px) {
+  .hero-intro .hero__actions .btn { padding: 0 10px; font-size: 14px; height: 50px; }
 }

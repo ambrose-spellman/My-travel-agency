@@ -534,10 +534,7 @@ function buildHome(locale) {
       <p class="hero-intro__lead">${h.heroSubtitle}</p>
       <div class="hero__actions">
         <a href="${localePath(locale, '/tours/')}" class="btn btn--primary btn--lg">${h.heroCta} →</a>
-        <a href="#" data-wa-message="${attr(t(locale, 'common.waDefaultMessage'))}" target="_blank" rel="noopener" class="btn btn--outline btn--lg">${iconColor('whatsapp', 'currentColor', 18)}<span>${t(locale, 'common.chatOnWhatsapp')}</span></a>
-      </div>
-      <div class="hero-intro__pills">
-        ${h.heroPills.map(function (p) { return '<span class="hero-intro__pill">' + p + '</span>'; }).join('\n        ')}
+        <a href="#" data-wa-message="${attr(t(locale, 'common.waDefaultMessage'))}" target="_blank" rel="noopener" class="btn btn--outline btn--lg">${iconColor('whatsapp', 'currentColor', 18)}<span>${h.heroContact}</span></a>
       </div>
     </div>
     <div class="hero-intro__gallery">
