@@ -2073,19 +2073,19 @@
         "September",
         "October"
       ],
-      "priceFrom": 98,
+      "priceFrom": 178,
       "currency": "USD",
       "image": "/assets/images/destinations/song-kul-horseman.webp",
       "gallery": [],
       "groupSize": {
-        "min": 2,
+        "min": 1,
         "max": 10
       },
       "pricing": {
         "perDayBase": 100,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 4,
-        "displayFromPrice": 98
+        "displayFromPrice": 178
       },
       "i18n": {
         "en": {
@@ -2098,9 +2098,26 @@
             "Song-Kul alpine lake",
             "Jailoo pastures and yurts",
             "Sunrise/sunset viewpoints",
-            "Meet nomadic families"
+            "Meet nomadic families",
+            "Longer 5–8 day Song-Kul horse tours on request"
           ],
-          "itinerary": [],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Kyzart → Shilbili Jailoo",
+              "description": "Morning meeting in Kyzart village, horse preparation and safety briefing. Ride to Shilbili Jailoo, lunch there, then time to rest and see nomadic life. Dinner and night in a yurt at Shilbili."
+            },
+            {
+              "day": 2,
+              "title": "Shilbili → Song-Kul Lake",
+              "description": "After breakfast, ride on to Song-Kul Lake through mountain landscapes, with photo stops on the way. Time to relax on the lakeshore. Dinner and night in a yurt at Song-Kul."
+            },
+            {
+              "day": 3,
+              "title": "Song-Kul Lake → Kyzart",
+              "description": "Breakfast and farewell to the lake, then ride back to Kyzart village. End of the tour."
+            }
+          ],
           "included": [
             "Professional guide",
             "Horses and equipment",
@@ -2113,12 +2130,17 @@
             "Visa fees",
             "Personal expenses"
           ],
-          "accommodation": "Yurt camps",
+          "accommodation": "Yurts: one night at Shilbili Jailoo, one night at Song-Kul Lake",
           "transport": "Horseback",
           "startingPoint": "Kyzart",
-          "endingPoint": "Song-Kul",
+          "endingPoint": "Kyzart",
           "whatsappMessage": "Hello! I'm interested in the Kyzart – Song-Kul Horse Trek.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
-          "faq": []
+          "faq": [
+            {
+              "question": "Are there longer horse tours at Song-Kul?",
+              "answer": "Yes. We also run 5, 6, 7 and 8-day horse tours at Song-Kul. Write to us and we will send the program and price."
+            }
+          ]
         },
         "ru": {
           "title": "Кызарт – Сон-Куль: конный поход",
@@ -2130,9 +2152,26 @@
             "Альпийское озеро Сон-Куль",
             "Джайлоо-пастбища и юрты",
             "Смотровые точки рассвета и заката",
-            "Встреча с кочевыми семьями"
+            "Встреча с кочевыми семьями",
+            "Более длинные конные туры на Сон-Куль (5–8 дней) — по запросу"
           ],
-          "itinerary": [],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Кызарт → джайлоо Шилбили",
+              "description": "Утром встреча в селе Кызарт, подготовка лошадей и инструктаж по безопасности. Переход на джайлоо Шилбили, обед там, отдых и знакомство с бытом кочевников. Ужин и ночь в юрте на Шилбили."
+            },
+            {
+              "day": 2,
+              "title": "Шилбили → озеро Сон-Куль",
+              "description": "После завтрака переход к озеру Сон-Куль через горные пейзажи, с остановками для фото. Отдых на берегу озера. Ужин и ночь в юрте на Сон-Куле."
+            },
+            {
+              "day": 3,
+              "title": "Озеро Сон-Куль → Кызарт",
+              "description": "Завтрак, прощание с озером и обратный переход верхом в село Кызарт. Окончание тура."
+            }
+          ],
           "included": [
             "Профессиональный гид",
             "Лошади и снаряжение",
@@ -2145,12 +2184,17 @@
             "Визовые сборы",
             "Личные расходы"
           ],
-          "accommodation": "Юрточные лагеря",
+          "accommodation": "Юрты: одна ночь на джайлоо Шилбили, одна ночь на озере Сон-Куль",
           "transport": "Верхом на лошади",
           "startingPoint": "Кызарт",
-          "endingPoint": "Сон-Куль",
+          "endingPoint": "Кызарт",
           "whatsappMessage": "Здравствуйте! Меня интересует конный поход Кызарт – Сон-Куль.\n\nЖелаемые даты:\nКоличество путешественников:\nМоя страна:",
-          "faq": []
+          "faq": [
+            {
+              "question": "Есть ли более длинные конные туры на Сон-Куль?",
+              "answer": "Да. Есть также конные туры на Сон-Куль на 5, 6, 7 и 8 дней. Напишите нам, и мы пришлём программу и цену."
+            }
+          ]
         },
         "ky": {
           "title": "Кызарт – Соң-Көл: ат үстүндөгү саякат",
@@ -2162,9 +2206,26 @@
             "Альп бийиктигиндеги Соң-Көл",
             "Жайлоолор жана боз үйлөр",
             "Таң атыш/күн батыш көрүнүш жерлери",
-            "Көчмөн үй-бүлөлөр менен жолугушуу"
+            "Көчмөн үй-бүлөлөр менен жолугушуу",
+            "Соң-Көлгө узагыраак ат турлары (5–8 күн) — суроо боюнча"
           ],
-          "itinerary": [],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Кызарт → Шилбили жайлоосу",
+              "description": "Эртең менен Кызарт айылында жолугуу, аттарды даярдоо жана коопсуздук боюнча нускама. Шилбили жайлоосуна ат менен жүрүү, ошол жерде түшкү тамак, эс алуу жана көчмөн турмушу менен таанышуу. Кечки тамак жана Шилбилиде боз үйдө түнөө."
+            },
+            {
+              "day": 2,
+              "title": "Шилбили → Соң-Көл",
+              "description": "Эртең мененки тамактан кийин тоо көрүнүштөрү аркылуу Соң-Көлгө жүрүү, сүрөткө тартуу үчүн токтоолор менен. Көлдүн жээгинде эс алуу. Кечки тамак жана Соң-Көлдө боз үйдө түнөө."
+            },
+            {
+              "day": 3,
+              "title": "Соң-Көл → Кызарт",
+              "description": "Эртең мененки тамак, көл менен коштошуу жана Кызарт айылына ат менен кайтуу. Турдун аягы."
+            }
+          ],
           "included": [
             "Кесипкөй гид",
             "Аттар жана жабдуулар",
@@ -2177,14 +2238,71 @@
             "Виза төлөмдөрү",
             "Жеке чыгымдар"
           ],
-          "accommodation": "Боз үй лагерлери",
+          "accommodation": "Боз үйлөр: бир түн Шилбили жайлоосунда, бир түн Соң-Көлдө",
           "transport": "Ат үстүндө",
           "startingPoint": "Кызарт",
-          "endingPoint": "Соң-Көл",
+          "endingPoint": "Кызарт",
           "whatsappMessage": "Салам! Мени Кызарт – Соң-Көл ат үстүндөгү саякаты кызыктырат.\n\nКалаган күндөр:\nСаякатчылардын саны:\nМенин өлкөм:",
-          "faq": []
+          "faq": [
+            {
+              "question": "Соң-Көлгө узагыраак ат турлары барбы?",
+              "answer": "Ооба. Соң-Көлгө 5, 6, 7 жана 8 күндүк ат турлары да бар. Бизге жазыңыз, программасын жана баасын жөнөтөбүз."
+            }
+          ]
         }
-      }
+      },
+      "priceTable": [
+        {
+          "group": 1,
+          "perPerson": 286,
+          "total": 286
+        },
+        {
+          "group": 2,
+          "perPerson": 235,
+          "total": 469
+        },
+        {
+          "group": 3,
+          "perPerson": 217,
+          "total": 652
+        },
+        {
+          "group": 4,
+          "perPerson": 206,
+          "total": 823
+        },
+        {
+          "group": 5,
+          "perPerson": 190,
+          "total": 949
+        },
+        {
+          "group": 6,
+          "perPerson": 183,
+          "total": 1098
+        },
+        {
+          "group": 7,
+          "perPerson": 178,
+          "total": 1246
+        },
+        {
+          "group": 8,
+          "perPerson": 186,
+          "total": 1487
+        },
+        {
+          "group": 9,
+          "perPerson": 179,
+          "total": 1612
+        },
+        {
+          "group": 10,
+          "perPerson": 200,
+          "total": 2001
+        }
+      ]
     },
     {
       "id": "song-kul-kelsuu-roadtrip",
