@@ -22,7 +22,7 @@
         "September",
         "October"
       ],
-      "priceFrom": 935,
+      "priceFrom": 894,
       "currency": "USD",
       "image": "/assets/images/destinations/tash-rabat.jpg",
       "gallery": [],
@@ -42,7 +42,7 @@
         "perDayBase": 93,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 1,
-        "displayFromPrice": 935
+        "displayFromPrice": 894
       },
       "i18n": {
         "en": {
@@ -346,53 +346,53 @@
       "priceTable": [
         {
           "group": 1,
-          "perPerson": 3267,
-          "total": 3267
+          "perPerson": 3128,
+          "total": 3128
         },
         {
           "group": 2,
-          "perPerson": 1925,
-          "total": 3850
+          "perPerson": 1856,
+          "total": 3712
         },
         {
           "group": 3,
-          "perPerson": 1478,
-          "total": 4434
+          "perPerson": 1432,
+          "total": 4296
         },
         {
           "group": 4,
-          "perPerson": 1254,
-          "total": 5016
+          "perPerson": 1220,
+          "total": 4880
         },
         {
           "group": 5,
-          "perPerson": 1203,
-          "total": 6015
+          "perPerson": 1148,
+          "total": 5740
         },
         {
           "group": 6,
-          "perPerson": 1100,
-          "total": 6600
+          "perPerson": 1054,
+          "total": 6324
         },
         {
           "group": 7,
-          "perPerson": 1026,
-          "total": 7182
+          "perPerson": 987,
+          "total": 6909
         },
         {
           "group": 8,
-          "perPerson": 971,
-          "total": 7768
+          "perPerson": 936,
+          "total": 7488
         },
         {
           "group": 9,
-          "perPerson": 974,
-          "total": 8766
+          "perPerson": 928,
+          "total": 8352
         },
         {
           "group": 10,
-          "perPerson": 935,
-          "total": 9350
+          "perPerson": 894,
+          "total": 8940
         }
       ]
     },
