@@ -22,7 +22,7 @@
         "September",
         "October"
       ],
-      "priceFrom": 840,
+      "priceFrom": 935,
       "currency": "USD",
       "image": "/assets/images/destinations/tash-rabat.jpg",
       "gallery": [],
@@ -36,13 +36,13 @@
       ],
       "groupSize": {
         "min": 1,
-        "max": 8
+        "max": 10
       },
       "pricing": {
         "perDayBase": 93,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 1,
-        "displayFromPrice": 840
+        "displayFromPrice": 935
       },
       "i18n": {
         "en": {
@@ -346,43 +346,53 @@
       "priceTable": [
         {
           "group": 1,
-          "perPerson": 2590,
-          "total": 2590
+          "perPerson": 3267,
+          "total": 3267
         },
         {
           "group": 2,
-          "perPerson": 1590,
-          "total": 3180
+          "perPerson": 1925,
+          "total": 3850
         },
         {
           "group": 3,
-          "perPerson": 1260,
-          "total": 3780
+          "perPerson": 1478,
+          "total": 4434
         },
         {
           "group": 4,
-          "perPerson": 1090,
-          "total": 4360
+          "perPerson": 1254,
+          "total": 5016
         },
         {
           "group": 5,
-          "perPerson": 990,
-          "total": 4950
+          "perPerson": 1203,
+          "total": 6015
         },
         {
           "group": 6,
-          "perPerson": 930,
-          "total": 5580
+          "perPerson": 1100,
+          "total": 6600
         },
         {
           "group": 7,
-          "perPerson": 880,
-          "total": 6160
+          "perPerson": 1026,
+          "total": 7182
         },
         {
           "group": 8,
-          "perPerson": 840,
-          "total": 6720
+          "perPerson": 971,
+          "total": 7768
+        },
+        {
+          "group": 9,
+          "perPerson": 974,
+          "total": 8766
+        },
+        {
+          "group": 10,
+          "perPerson": 935,
+          "total": 9350
         }
       ]
     },
