@@ -656,3 +656,11 @@
 @media (max-width: 400px) {
   .hero-intro .hero__actions .btn { padding: 0 10px; font-size: 14px; height: 50px; }
 }
+
+/* Phones: fit all three price-table columns without sideways scrolling */
+@media (max-width: 600px) {
+  .price-table th, .price-table td { padding: 12px 8px; font-size: 14px; }
+  .price-table th { white-space: normal; }
+  .price-table th:first-child, .price-table td:first-child { padding-left: 12px; }
+  .price-table th:last-child, .price-table td:last-child { padding-right: 12px; }
+}

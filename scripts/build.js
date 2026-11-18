@@ -9,6 +9,8 @@
  * Run with: node scripts/build.js
  */
 'use strict';
+/* Exchange rate used for the som column in tour price tables. */
+const KGS_PER_USD = 87.45;
 const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
@@ -821,6 +823,8 @@ function buildTourDetail(tour, index, locale) {
 
   /* Price per person by group size (tour.priceTable: [{ group, perPerson, total }]) */
   const fmtUsd = function (n) { return currencySymbol + Number(n).toLocaleString('en-US'); };
+  /* Approximate price in Kyrgyz som, rounded to 100 som (rate set in KGS_PER_USD). */
+  const fmtKgs = function (usd) { return (Math.round(usd * KGS_PER_USD / 100) * 100).toLocaleString('en-US').replace(/,/g, ' '); };
   const priceTableHtml = tour.priceTable && tour.priceTable.length ? `
 <section class="section section--white">
   <div class="container max-w-800 stack">
@@ -830,7 +834,7 @@ function buildTourDetail(tour, index, locale) {
         <thead><tr><th>${td.priceTableGroup}</th><th>${td.priceTablePerPerson}</th><th>${td.priceTableTotal}</th></tr></thead>
         <tbody>
           ${tour.priceTable.map(function (row) {
-            return '<tr><td>' + td.travellersLabel(row.group) + '</td><td>' + fmtUsd(row.perPerson) + '</td><td>' + fmtUsd(row.total != null ? row.total : row.perPerson * row.group) + '</td></tr>';
+            return '<tr><td>' + td.travellersLabel(row.group) + '</td><td>' + fmtUsd(row.perPerson) + '</td><td>' + fmtKgs(row.perPerson) + '</td></tr>';
           }).join('\n          ')}
         </tbody>
       </table>
