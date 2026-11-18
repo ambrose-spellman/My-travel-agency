@@ -829,6 +829,7 @@ function buildTourDetail(tour, index, locale) {
 <section class="section section--white">
   <div class="container max-w-800 stack">
     <h2 class="text-center">${td.priceTableHeading}</h2>
+    ${tt.priceTableIntro ? '<p class="text-center" style="margin:0">' + tt.priceTableIntro + '</p>' : ''}
     <div class="price-table-wrap">
       <table class="price-table">
         <thead><tr><th>${td.priceTableGroup}</th><th>${td.priceTablePerPerson}</th><th>${td.priceTableTotal}</th></tr></thead>

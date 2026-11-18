@@ -142,7 +142,8 @@
               "question": "Do I need a visa?",
               "answer": "Many countries enter Kyrgyzstan visa-free. We issue invitation letters when needed."
             }
-          ]
+          ],
+          "priceTableIntro": "We run this tour for groups of 3 or more. On request we can also run it for 1 or 2 travellers if you pay the full cost of the tour, shown in the table for 1 and 2 travellers."
         },
         "ru": {
           "title": "9-дневный конный поход: от водопада Шаар до Таш-Рабата",
@@ -241,7 +242,8 @@
               "question": "Нужна ли виза?",
               "answer": "Многие страны въезжают в Кыргызстан без визы. При необходимости мы оформляем приглашения."
             }
-          ]
+          ],
+          "priceTableIntro": "Мы проводим этот тур для групп от 3 человек. По индивидуальному запросу проведём его и для 1–2 человек при оплате полной стоимости тура: она указана в таблице для 1 и 2 человек."
         },
         "ky": {
           "title": "9 күндүк ат жүрүшү: Шаар шаркыратмасынан Таш-Рабатка",
@@ -340,7 +342,8 @@
               "question": "Виза керекпи?",
               "answer": "Көп өлкөлөр Кыргызстанга визасыз кирет. Керек болсо чакыруу каттарын беребиз."
             }
-          ]
+          ],
+          "priceTableIntro": "Бул турду 3 жана андан көп адамдан турган топтор үчүн өткөрөбүз. Жеке суроо боюнча турдун толук баасын төлөсөңүз, 1–2 адам үчүн да өткөрөбүз: ал баа таблицада 1 жана 2 адам үчүн көрсөтүлгөн."
         }
       },
       "priceTable": [
