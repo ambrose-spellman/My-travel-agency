@@ -3,10 +3,18 @@ name: Build and deploy to GitHub Pages
 on:
   push:
     branches: [master]
+  # Every morning (08:00 Bishkek) pull client prices from the Google workbook.
+  schedule:
+    - cron: '0 2 * * *'
   workflow_dispatch:
+    inputs:
+      allow_big_change:
+        description: 'Accept price changes over 30% (after checking the workbook)'
+        type: boolean
+        default: false
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -15,11 +23,47 @@ concurrency:
   group: pages
   cancel-in-progress: true
 
+env:
+  # Published CSV of the «Сайт» sheet (client prices only). Empty = no sync.
+  PRICES_CSV_URL: ''
+
 jobs:
+  # Scheduled / manual runs: copy prices from the workbook into data/tours.json
+  # and commit them, so every price change is visible in the git history.
+  sync-prices:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.sync.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - id: sync
+        shell: bash  # pipefail: a failed sync fails the step despite tee
+        env:
+          ALLOW_BIG_CHANGE: ${{ inputs.allow_big_change && '1' || '0' }}
+        run: node scripts/sync-prices.js | tee sync.log && grep '^changed=' sync.log >> "$GITHUB_OUTPUT"
+      - if: steps.sync.outputs.changed == 'true'
+        run: |
+          git config user.name 'price-sync'
+          git config user.email 'price-sync@users.noreply.github.com'
+          git commit -am 'Prices from the calculation workbook'
+          git push
+
   build:
+    needs: sync-prices
+    # Push: always. Schedule: only when prices changed. Manual run: always.
+    if: >-
+      always() && needs.sync-prices.result != 'failure' &&
+      (github.event_name != 'schedule' || needs.sync-prices.outputs.changed == 'true')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # after a price commit, build that commit, not the one that started the run
+          ref: ${{ github.event_name == 'push' && github.sha || 'master' }}
 
       - uses: actions/setup-node@v4
         with:
