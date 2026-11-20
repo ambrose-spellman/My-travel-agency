@@ -408,8 +408,8 @@
         "Kel-Suu"
       ],
       "activity": "Horse",
-      "durationMin": 4,
-      "durationMax": 5,
+      "durationMin": 6,
+      "durationMax": 6,
       "durationUnit": "days",
       "format": [
         "Private",
@@ -419,7 +419,7 @@
         "June",
         "October"
       ],
-      "priceFrom": 487,
+      "priceFrom": 680,
       "currency": "USD",
       "image": "/assets/images/destinations/kel-suu-valley.jpg",
       "gallery": [],
@@ -431,21 +431,20 @@
         "perDayBase": 236,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 1,
-        "displayFromPrice": 487
+        "displayFromPrice": 680
       },
       "i18n": {
         "en": {
           "title": "Horseback Expedition: Kazybek – Tash-Rabat – Kel-Suu Lake",
-          "description": "A four-day horseback and 4x4 expedition from Naryn: ride over alpine passes to the 15th-century Tash-Rabat caravanserai, then continue by off-road vehicle into the Arpa and Aksai valleys to reach turquoise Kel-Suu lake, framed by sheer rock walls in the border zone near China. In late May – early June the first two days can instead be spent on a real spring cattle drive with local herders (on request).",
+          "description": "A six-day horseback and 4x4 expedition from Naryn. Ride from Kazybek village over the At-Bashy range to the 15th-century Tash-Rabat caravanserai and up to Panda Pass for a view over Chatyr-Kul lake. Then drive into the Arpa and Aksai valleys to turquoise Kel-Suu lake in the border zone near China, with two nights there, the second right by the lake. In late May – early June the first two days can instead be spent on a real spring cattle drive with local herders (on request).",
           "difficulty": "Challenging",
           "comfort": "Standard",
           "highlights": [
-            "Two full days on horseback through the At-Bashy range",
+            "Three riding days in the At-Bashy range",
             "Night by the 15th-century Tash-Rabat caravanserai",
+            "Panda Pass and the view over Chatyr-Kul lake",
             "Off-road drive through remote Arpa and Aksai valleys",
-            "Kel-Suu lake at 3,500 m, in a remote border zone near China",
-            "English-speaking guide and local horseman throughout",
-            "Optional 5th day: cultural programme in Naryn",
+            "Two nights at Kel-Suu lake (3,500 m), the second right by the lake",
             "In season (late May – early June) days 1–2 can be spent on a real cattle drive with herders — on request"
           ],
           "itinerary": [
@@ -457,24 +456,34 @@
             {
               "day": 2,
               "title": "Over the Pass to Tash-Rabat",
-              "description": "A full day on horseback over the pass to the 15th-century Tash-Rabat caravanserai. Explore the ancient halls before dinner and an overnight stay in a yurt camp nearby. In the afternoon you can ride or hike to Panda Pass for a view of Chatyr-Kul lake."
+              "description": "A full day on horseback over the pass to Tash-Rabat, the 15th-century Silk Road caravanserai. Dinner and night in the yurt camp next to it."
             },
             {
               "day": 3,
-              "title": "Road to Kel-Suu",
-              "description": "An off-road drive of 4–6 hours: via Aksai and Arpa if the Terek river ford is safe, otherwise via At-Bashy, Akmuz and Kyndy Pass. An evening walk, then dinner and night in a yurt camp near the lake."
+              "title": "Panda Pass and the Chatyr-Kul View",
+              "description": "Ride up to Panda Pass for a view over Chatyr-Kul lake, then time to explore the caravanserai. In the evening, transfer to At-Bashy village. Night at a guesthouse."
             },
             {
               "day": 4,
-              "title": "Kel-Suu Lake & Return",
-              "description": "Ride or hike to turquoise Kel-Suu lake (3,514 m) between sheer limestone cliffs. Time for photos and a boat ride, then transfer back to Naryn."
+              "title": "Road to Kel-Suu",
+              "description": "An off-road drive of 4–6 hours: via Aksai and Arpa if the Terek river ford is safe, otherwise via Akmuz and Kyndy Pass. Dinner and night in the yurt camp at Kel-Suu."
+            },
+            {
+              "day": 5,
+              "title": "Kel-Suu Lake",
+              "description": "Ride or hike to turquoise Kel-Suu lake (3,514 m) between sheer limestone cliffs. Time for photos and a boat ride. Night right by the lake."
+            },
+            {
+              "day": 6,
+              "title": "Back to Naryn",
+              "description": "Breakfast and a drive of about 6 hours back to Naryn, with lunch on the way. The tour ends in Naryn."
             }
           ],
           "included": [
             "Horses and saddlery",
             "English-speaking guide and local horseman",
             "Travel insurance",
-            "3 nights in yurts / homestays",
+            "5 nights: shepherd's yurt, yurt camp at Tash-Rabat, guesthouse in At-Bashy, 2 nights at Kel-Suu",
             "All meals",
             "All transfers (4x4)",
             "Kel-Suu border permit",
@@ -485,15 +494,15 @@
             "Alcohol",
             "Tips"
           ],
-          "accommodation": "Shepherd's yurt, yurt camp near Tash-Rabat, yurt camp near Kel-Suu",
-          "transport": "Horseback (days 1–2), 4x4 (days 3–4)",
+          "accommodation": "Shepherd's yurt (night 1), yurt camp at Tash-Rabat (night 2), guesthouse in At-Bashy (night 3), Kel-Suu yurt camp (night 4) and a night right by the lake (night 5)",
+          "transport": "Horseback on days 1–3; 4x4 on days 3–6",
           "startingPoint": "Naryn (pick-up), ride starts in Kazybek village",
           "endingPoint": "Naryn",
-          "whatsappMessage": "Hello! I'm interested in the Tash-Rabat & Kel-Suu Lake horseback expedition.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
+          "whatsappMessage": "Hello! I'm interested in the 6-day horseback expedition Kazybek – Tash-Rabat – Kel-Suu.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
           "faq": [
             {
-              "question": "Can we add an extra day?",
-              "answer": "Yes — an optional Day 5 cultural programme in Naryn city can be added before departure. Price and details on request."
+              "question": "Can we add an eagle hunter show?",
+              "answer": "Yes, an eagle hunter show in Naryn can be added on the last day. Price on request."
             },
             {
               "question": "Do I need a permit for Kel-Suu?",
@@ -511,16 +520,15 @@
         },
         "ru": {
           "title": "Конная экспедиция: Казыбек – Таш-Рабат – Кёль-Суу",
-          "description": "Четырёхдневная конно-автомобильная экспедиция из Нарына: верхом через альпийские перевалы до каравансарая Таш-Рабат XV века, затем на внедорожнике через долины Арпа и Аксай к бирюзовому озеру Кёль-Суу среди отвесных скал в приграничной зоне у Китая. В конце мая – начале июня первые два дня можно заменить настоящим весенним перегоном скота вместе с местными чабанами (по запросу).",
+          "description": "Шестидневная конно-автомобильная экспедиция из Нарына. Из села Казыбек через хребет Ат-Баши к караван-сараю Таш-Рабат XV века и на перевал Панда с видом на озеро Чатыр-Кёль. Затем на внедорожнике через долины Арпа и Аксай к бирюзовому озеру Кёль-Суу в приграничной зоне у Китая: две ночи там, вторая — прямо у озера. В конце мая – начале июня первые два дня можно заменить настоящим весенним перегоном скота вместе с местными чабанами (по запросу).",
           "difficulty": "Сложный",
           "comfort": "Стандартный",
           "highlights": [
-            "Два полных дня верхом через хребет Ат-Баши",
-            "Ночёвка у каравансарая Таш-Рабат XV века",
+            "Три дня верхом по хребту Ат-Баши",
+            "Ночь у караван-сарая Таш-Рабат XV века",
+            "Перевал Панда и вид на озеро Чатыр-Кёль",
             "Внедорожный переезд через удалённые долины Арпа и Аксай",
-            "Озеро Кёль-Суу на высоте 3500 м, в приграничной зоне у Китая",
-            "Англоговорящий гид и местный коневод на всём маршруте",
-            "Опциональный 5-й день: культурная программа в Нарыне",
+            "Две ночи у озера Кёль-Суу (3500 м), вторая — прямо на берегу",
             "В сезон (конец мая – начало июня) первые два дня можно провести на настоящем перегоне скота с чабанами — по запросу"
           ],
           "itinerary": [
@@ -532,24 +540,34 @@
             {
               "day": 2,
               "title": "Через перевал к Таш-Рабату",
-              "description": "Целый день верхом через перевал до каравансарая Таш-Рабат XV века. Осмотр древних залов, ужин и ночёвка в юрточном лагере неподалёку. Днём можно верхом или пешком подняться на перевал Панда — вид на озеро Чатыр-Кёль."
+              "description": "Целый день верхом через перевал к Таш-Рабату — караван-сараю Шёлкового пути XV века. Ужин и ночёвка в юрточном лагере рядом."
             },
             {
               "day": 3,
-              "title": "Дорога к Кёль-Суу",
-              "description": "Переезд на внедорожнике 4–6 часов: через Аксай и Арпу, если брод через реку Терек безопасен, иначе через Ат-Баши, Акмуз и перевал Кынды. Вечерняя прогулка, ужин и ночёвка в юрточном лагере у озера."
+              "title": "Перевал Панда и вид на Чатыр-Кёль",
+              "description": "Верхом на перевал Панда — вид на озеро Чатыр-Кёль, затем время осмотреть караван-сарай. Вечером трансфер в село Ат-Баши. Ночь в гестхаусе."
             },
             {
               "day": 4,
-              "title": "Озеро Кёль-Суу и возвращение",
-              "description": "Верхом или пешком к бирюзовому озеру Кёль-Суу (3514 м) среди отвесных известняковых скал. Время для фото и прогулки на лодке, затем трансфер в Нарын."
+              "title": "Дорога к Кёль-Суу",
+              "description": "Переезд на внедорожнике 4–6 часов: через Аксай и Арпу, если брод через реку Терек безопасен, иначе через Акмуз и перевал Кынды. Ужин и ночь в юрточном лагере у Кёль-Суу."
+            },
+            {
+              "day": 5,
+              "title": "Озеро Кёль-Суу",
+              "description": "Верхом или пешком к бирюзовому озеру Кёль-Суу (3514 м) среди отвесных известняковых скал. Время для фото и прогулки на лодке. Ночь прямо у озера."
+            },
+            {
+              "day": 6,
+              "title": "Возвращение в Нарын",
+              "description": "Завтрак и около 6 часов дороги обратно в Нарын, обед в пути. Окончание тура в Нарыне."
             }
           ],
           "included": [
             "Лошади и сбруя",
             "Англоговорящий гид и местный коневод",
             "Туристическая страховка",
-            "3 ночи в юртах / гостевых домах",
+            "5 ночей: юрта чабана, юрточный лагерь у Таш-Рабата, гестхаус в Ат-Баши, 2 ночи на Кёль-Суу",
             "Всё питание",
             "Все трансферы (4x4)",
             "Погранпропуск на Кёль-Суу",
@@ -560,15 +578,15 @@
             "Алкоголь",
             "Чаевые"
           ],
-          "accommodation": "Юрта чабана, юрточный лагерь у Таш-Рабата, юрточный лагерь у Кёль-Суу",
-          "transport": "Верхом (1–2 дни), на 4x4 (3–4 дни)",
+          "accommodation": "Юрта чабана (1-я ночь), юрточный лагерь у Таш-Рабата (2-я), гестхаус в Ат-Баши (3-я), юрточный лагерь у Кёль-Суу (4-я) и ночь прямо у озера (5-я)",
+          "transport": "Верхом в дни 1–3; внедорожник в дни 3–6",
           "startingPoint": "Нарын (встреча), старт верхом в селе Казыбек",
           "endingPoint": "Нарын",
-          "whatsappMessage": "Здравствуйте! Меня интересует конная экспедиция к Таш-Рабату и озеру Кёль-Суу.\n\nЖелаемые даты:\nКоличество путешественников:\nМоя страна:",
+          "whatsappMessage": "Здравствуйте! Меня интересует 6-дневная конная экспедиция Казыбек – Таш-Рабат – Кёль-Суу.\n\nЖелаемые даты:\nКоличество человек:\nМоя страна:",
           "faq": [
             {
-              "question": "Можно добавить дополнительный день?",
-              "answer": "Да — перед отъездом можно добавить опциональный 5-й день с культурной программой в городе Нарын. Цена и детали по запросу."
+              "question": "Можно добавить шоу беркутчи?",
+              "answer": "Да, в последний день можно добавить шоу беркутчи в Нарыне. Цена по запросу."
             },
             {
               "question": "Нужен ли погранпропуск для Кёль-Суу?",
@@ -586,16 +604,15 @@
         },
         "ky": {
           "title": "Ат үстүндөгү экспедиция: Казыбек – Таш-Рабат – Көл-Суу",
-          "description": "Нарындан башталуучу төрт күндүк ат жана 4x4 экспедициясы: альп ашуулары аркылуу ат менен XV кылымдагы Таш-Рабат кербен-сарайына, андан соң жол четинен сырткары унаа менен Арпа жана Аксай өрөөндөрү аркылуу Кытай чек арасынын жанындагы тик аскалар арасындагы түркүн-көк Көл-Суу көлүнө. Майдын аягы – июндун башында алгачкы эки күндү жергиликтүү чабандар менен чыныгы жазгы мал айдоого алмаштырса болот (суроо боюнча).",
+          "description": "Нарындан башталуучу алты күндүк ат жана 4x4 экспедициясы. Казыбек айылынан Ат-Башы кыркасы аркылуу XV кылымдагы Таш-Рабат кербен-сарайына жана Чатыр-Көл көрүнгөн Панда ашуусуна чыгабыз. Андан соң тандабас унаа менен Арпа жана Аксай өрөөндөрү аркылуу Кытай чек арасынын жанындагы түркүн-көк Көл-Суу көлүнө: ал жерде эки түн, экинчиси көлдүн жээгинде. Майдын аягы – июндун башында алгачкы эки күндү жергиликтүү чабандар менен чыныгы жазгы мал айдоого алмаштырса болот (суроо боюнча).",
           "difficulty": "Кыйын",
           "comfort": "Стандарттык",
           "highlights": [
-            "Ат-Башы кырка тоосу аркылуу эки толук күн ат үстүндө",
+            "Ат-Башы кыркасында ат үстүндө үч күн",
             "XV кылымдагы Таш-Рабат кербен-сарайынын жанында түнөө",
-            "Алыскы Арпа жана Аксай өрөөндөрү аркылуу жол четинен сырткары жол жүрүү",
-            "Кытай чек арасынын жанындагы алыскы аймактагы 3500 метрдеги Көл-Суу көлү",
-            "Бүт маршрутта англис тилдүү гид жана жергиликтүү ат айдоочу",
-            "Каалаган 5-күн: Нарында маданий программа",
+            "Панда ашуусу жана Чатыр-Көлдүн көрүнүшү",
+            "Алыскы Арпа жана Аксай өрөөндөрү аркылуу тандабас унаа менен жол",
+            "Көл-Суу көлүндө (3500 м) эки түн, экинчиси жээкте",
             "Мезгилинде (майдын аягы – июндун башы) алгачкы эки күндү чабандар менен чыныгы мал айдоодо өткөрсө болот — суроо боюнча"
           ],
           "itinerary": [
@@ -607,24 +624,34 @@
             {
               "day": 2,
               "title": "Ашуу аркылуу Таш-Рабатка",
-              "description": "Ашуу аркылуу XV кылымдагы Таш-Рабат кербен-сарайына чейин бүтүндөй күн ат үстүндө. Байыркы залдарды кыдыруу, кечки тамак жана жанындагы боз үй лагеринде түнөө. Түштөн кийин Чатыр-Көлдү көрүү үчүн Панда ашуусуна ат менен же жөө чыгууга болот."
+              "description": "Ашуу аркылуу Жибек жолунун XV кылымдагы кербен-сарайы Таш-Рабатка чейин күн бою ат үстүндө. Жанындагы боз үй лагеринде кечки тамак жана түнөө."
             },
             {
               "day": 3,
-              "title": "Көл-Сууга жол",
-              "description": "4–6 сааттык жол тандабас унаа менен: Терек дарыясынын кечүүсү коопсуз болсо Аксай жана Арпа аркылуу, болбосо Ат-Башы, Акмуз жана Кынды ашуусу аркылуу. Кечки сейилдөө, көлдүн жанындагы боз үй лагеринде кечки тамак жана түнөө."
+              "title": "Панда ашуусу жана Чатыр-Көлдүн көрүнүшү",
+              "description": "Чатыр-Көлдү көрүү үчүн Панда ашуусуна ат менен чыгып, андан соң кербен-сарайды кыдырабыз. Кечинде Ат-Башы айылына жеткирүү. Конок үйүндө түнөө."
             },
             {
               "day": 4,
-              "title": "Көл-Суу көлү жана кайтуу",
-              "description": "Тик акиташ аскалардын арасындагы түркүн-көк Көл-Суу көлүнө (3514 м) ат менен же жөө. Сүрөткө түшүү жана кайыкта сейилдөө, андан соң Нарынга трансфер."
+              "title": "Көл-Сууга жол",
+              "description": "4–6 сааттык жол тандабас унаа менен: Терек дарыясынын кечүүсү коопсуз болсо Аксай жана Арпа аркылуу, болбосо Акмуз жана Кынды ашуусу аркылуу. Көл-Суудагы боз үй лагеринде кечки тамак жана түнөө."
+            },
+            {
+              "day": 5,
+              "title": "Көл-Суу көлү",
+              "description": "Тик акиташ аскалардын арасындагы түркүн-көк Көл-Суу көлүнө (3514 м) ат менен же жөө. Сүрөткө түшүү жана кайыкта сейилдөө. Көлдүн жээгинде түнөө."
+            },
+            {
+              "day": 6,
+              "title": "Нарынга кайтуу",
+              "description": "Эртең мененки тамак жана Нарынга 6 саатка жакын жол, жолдо түшкү тамак. Тур Нарында аяктайт."
             }
           ],
           "included": [
             "Аттар жана эр-токум",
-            "Англис тилдүү гид жана жергиликтүү ат айдоочу",
+            "Англис тилдүү гид жана жергиликтүү атчы",
             "Саякат камсыздандыруусу",
-            "Боз үйлөрдө / конок үйлөрдө 3 түн",
+            "5 түн: чабандын боз үйү, Таш-Рабаттагы боз үй лагери, Ат-Башыдагы конок үйү, Көл-Сууда 2 түн",
             "Бардык тамактануу",
             "Бардык трансферлер (4x4)",
             "Көл-Сууга чек ара уруксаты",
@@ -635,15 +662,15 @@
             "Алкоголь",
             "Чай акы"
           ],
-          "accommodation": "Койчунун боз үйү, Таш-Рабаттын жанындагы боз үй лагери, Көл-Суунун жанындагы боз үй лагери",
-          "transport": "Ат менен (1-2 күн), 4x4 менен (3-4 күн)",
+          "accommodation": "Чабандын боз үйү (1-түн), Таш-Рабаттагы боз үй лагери (2-түн), Ат-Башыдагы конок үйү (3-түн), Көл-Суудагы боз үй лагери (4-түн) жана көлдүн жээгинде (5-түн)",
+          "transport": "1–3-күндөрү ат менен; 3–6-күндөрү тандабас унаа",
           "startingPoint": "Нарын (тосуп алуу), ат жүрүшү Казыбек айылынан башталат",
           "endingPoint": "Нарын",
-          "whatsappMessage": "Салам! Мени Таш-Рабат жана Көл-Суу көлүнө ат үстүндөгү экспедиция кызыктырат.\n\nКалаган күндөр:\nСаякатчылардын саны:\nМенин өлкөм:",
+          "whatsappMessage": "Салам! Мени 6 күндүк Казыбек – Таш-Рабат – Көл-Суу ат экспедициясы кызыктырат.\n\nКаалаган күндөр:\nАдамдардын саны:\nМенин өлкөм:",
           "faq": [
             {
-              "question": "Кошумча күн кошсок болобу?",
-              "answer": "Ооба — чыгаар алдында Нарын шаарында маданий программа менен каалаган 5-күндү кошсо болот. Баасы жана чоо-жайы сурам боюнча."
+              "question": "Бүркүтчүлөрдүн шоусун кошсо болобу?",
+              "answer": "Ооба, акыркы күнү Нарында бүркүтчүлөрдүн шоусун кошсо болот. Баасы суроо боюнча."
             },
             {
               "question": "Көл-Суу үчүн уруксат керекпи?",
@@ -663,53 +690,53 @@
       "priceTable": [
         {
           "group": 1,
-          "perPerson": 1311,
-          "total": 1311
+          "perPerson": 1774,
+          "total": 1774
         },
         {
           "group": 2,
-          "perPerson": 836,
-          "total": 1672
+          "perPerson": 1142,
+          "total": 2284
         },
         {
           "group": 3,
-          "perPerson": 677,
-          "total": 2031
+          "perPerson": 932,
+          "total": 2796
         },
         {
           "group": 4,
-          "perPerson": 677,
-          "total": 2708
+          "perPerson": 932,
+          "total": 3728
         },
         {
           "group": 5,
-          "perPerson": 643,
-          "total": 3215
+          "perPerson": 873,
+          "total": 4365
         },
         {
           "group": 6,
-          "perPerson": 616,
-          "total": 3696
+          "perPerson": 843,
+          "total": 5058
         },
         {
           "group": 7,
-          "perPerson": 580,
-          "total": 4060
+          "perPerson": 796,
+          "total": 5572
         },
         {
           "group": 8,
-          "perPerson": 503,
-          "total": 4024
+          "perPerson": 701,
+          "total": 5608
         },
         {
           "group": 9,
-          "perPerson": 487,
-          "total": 4383
+          "perPerson": 680,
+          "total": 6120
         },
         {
           "group": 10,
-          "perPerson": 487,
-          "total": 4870
+          "perPerson": 680,
+          "total": 6800
         }
       ]
     },
@@ -721,8 +748,8 @@
         "Naryn"
       ],
       "activity": "Horse",
-      "durationMin": 4,
-      "durationMax": 4,
+      "durationMin": 5,
+      "durationMax": 5,
       "durationUnit": "days",
       "format": [
         "Private",
@@ -735,7 +762,7 @@
         "September",
         "October"
       ],
-      "priceFrom": 348,
+      "priceFrom": 481,
       "currency": "USD",
       "image": "/assets/images/tours/kazybek-tash-rabat-hiking/kazybek.jpg",
       "gallery": [],
@@ -747,16 +774,16 @@
         "perDayBase": 94,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 1,
-        "displayFromPrice": 348
+        "displayFromPrice": 481
       },
       "i18n": {
         "en": {
-          "title": "At-Bashy Mountains, Tash-Rabat & Shaar Waterfall — 4 Days on Horseback",
-          "description": "Three riding days and one transfer day from Naryn. Ride from Kazybek village into the At-Bashy mountains, cross to the 15th-century Tash-Rabat caravanserai and climb to a viewpoint over Chatyr-Kul lake. On the third day ride up the green Bash-Kaindy gorge to Shaar Waterfall, which falls from the middle of a rock wall. No border permit is needed: we stop at the viewpoint and do not go as far as the checkpoint. In late May – early June the first two days can instead be spent on a real spring cattle drive with local herders (on request).",
+          "title": "At-Bashy Mountains, Tash-Rabat & Shaar Waterfall — 5 Days on Horseback",
+          "description": "Four riding days from Naryn. Ride from Kazybek village over the At-Bashy range to the 15th-century Tash-Rabat caravanserai and up to Panda Pass for a view over Chatyr-Kul lake. Then ride up the green Bash-Kaindy gorge to Shaar Waterfall, which falls from the middle of a rock wall, and finish with an eagle hunter show in Naryn. No border permit is needed: we stop at the viewpoint and do not go as far as the checkpoint. In late May – early June the first two days can instead be spent on a real spring cattle drive with local herders (on request).",
           "difficulty": "Moderate",
           "comfort": "Standard",
           "highlights": [
-            "Three riding days in the At-Bashy range",
+            "Four riding days in the At-Bashy range",
             "Tash-Rabat, a Silk Road stone caravanserai from the 15th century",
             "View over Chatyr-Kul lake from the pass",
             "Shaar Waterfall in the green Bash-Kaindy gorge",
@@ -767,47 +794,52 @@
           "itinerary": [
             {
               "day": 1,
-              "title": "Kazybek and the At-Bashy mountains",
-              "description": "Pick-up in Naryn, drive to Kazybek village. Meet the horses and ride into the At-Bashy mountains. Night in a yurt camp."
+              "title": "Kazybek and the At-Bashy Mountains",
+              "description": "Pick-up in Naryn and drive to Kazybek village. Meet your horse and horseman and ride through the summer pastures of the At-Bashy range. Dinner and night in a shepherd's yurt."
             },
             {
               "day": 2,
-              "title": "Tash-Rabat and the Chatyr-Kul view",
-              "description": "Ride to Tash-Rabat caravanserai, then up to the pass with a view over Chatyr-Kul lake. Transfer to At-Bashy village. Night at a guesthouse."
+              "title": "Over the Pass to Tash-Rabat",
+              "description": "A full day on horseback over the pass to Tash-Rabat, the 15th-century Silk Road caravanserai. Dinner and night in the yurt camp next to it."
             },
             {
               "day": 3,
-              "title": "Shaar Waterfall",
-              "description": "Transfer to Bash-Kaindy village. About 5 hours on horseback to Shaar Waterfall and back, with a picnic lunch. Night in a yurt or with a family in Bash-Kaindy."
+              "title": "Panda Pass and the Chatyr-Kul View",
+              "description": "Ride up to Panda Pass for a view over Chatyr-Kul lake, then time to explore the caravanserai. In the evening, transfer to At-Bashy village. Night at a guesthouse."
             },
             {
               "day": 4,
-              "title": "Back to Naryn",
-              "description": "Transfer to Naryn, lunch on the way."
+              "title": "Shaar Waterfall",
+              "description": "Morning transfer to Bash-Kaindy village. About 5 hours on horseback to Shaar Waterfall and back, with a picnic lunch. Night with a family in Bash-Kaindy."
+            },
+            {
+              "day": 5,
+              "title": "Eagle Show in Naryn",
+              "description": "Transfer to Naryn and an eagle hunter show. Lunch; the tour ends in Naryn."
             }
           ],
           "included": [
             "Horses and saddlery",
             "English-speaking guide",
-            "Horse wrangler, days 1–2",
+            "Horse wrangler, days 1–3",
             "Local guide at Shaar Waterfall",
-            "3 nights in a yurt camp / guesthouse / homestay",
+            "4 nights: shepherd's yurt, yurt camp at Tash-Rabat, guesthouse in At-Bashy, family in Bash-Kaindy",
             "All meals",
             "Tash-Rabat entrance",
+            "Eagle hunter show in Naryn",
             "Transfers (4WD) from and to Naryn",
             "Accident insurance during the tour (local)"
           ],
           "notIncluded": [
             "Riding clothes and boots",
-            "Cultural programme ($150 per group)",
             "Alcohol",
             "Tips"
           ],
-          "accommodation": "Yurt camp (night 1), guesthouse in At-Bashy (night 2), yurt or homestay in Bash-Kaindy (night 3)",
-          "transport": "Horseback on days 1–3; 4WD transfers Naryn – Kazybek, Tash-Rabat – At-Bashy, At-Bashy – Bash-Kaindy – Naryn",
+          "accommodation": "Shepherd's yurt (night 1), yurt camp at Tash-Rabat (night 2), guesthouse in At-Bashy (night 3), family in Bash-Kaindy (night 4)",
+          "transport": "Horseback on days 1–4; 4WD transfers Naryn – Kazybek, Tash-Rabat – At-Bashy – Bash-Kaindy – Naryn",
           "startingPoint": "Naryn (pick-up), ride starts in Kazybek village",
           "endingPoint": "Naryn",
-          "whatsappMessage": "Hello! I'm interested in the 4-day horse tour: At-Bashy Mountains, Tash-Rabat & Shaar Waterfall.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
+          "whatsappMessage": "Hello! I'm interested in the 5-day horse tour: At-Bashy Mountains, Tash-Rabat & Shaar Waterfall.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
           "faq": [
             {
               "question": "Do I need a border permit?",
@@ -819,7 +851,7 @@
             },
             {
               "question": "How fit do I need to be?",
-              "answer": "Moderate: three riding days in the mountains and cold nights at altitude. Good for active travellers."
+              "answer": "Moderate: four riding days in the mountains and cold nights at altitude. Good for active travellers."
             },
             {
               "question": "How big are the groups?",
@@ -832,12 +864,12 @@
           ]
         },
         "ru": {
-          "title": "Горы Ат-Баши, Таш-Рабат и водопад Шаар — 4 дня верхом",
-          "description": "Три дня верхом и день на дорогу, старт в Нарыне. Из села Казыбек едем в горы Ат-Баши, переходим к караван-сараю Таш-Рабат XV века и поднимаемся на смотровую над озером Чатыр-Кёль. На третий день едем по зелёному ущелью Баш-Кайынды к водопаду Шаар, который падает с середины скальной стены. Пограничный пропуск не нужен: мы останавливаемся на смотровой и не доезжаем до пункта контроля. В конце мая – начале июня первые два дня можно заменить настоящим весенним перегоном скота вместе с местными чабанами (по запросу).",
+          "title": "Горы Ат-Баши, Таш-Рабат и водопад Шаар — 5 дней верхом",
+          "description": "Четыре дня верхом, старт в Нарыне. Из села Казыбек через хребет Ат-Баши к караван-сараю Таш-Рабат XV века и на перевал Панда с видом на озеро Чатыр-Кёль. Затем по зелёному ущелью Баш-Кайынды к водопаду Шаар, который падает с середины скальной стены, а в последний день — шоу беркутчи в Нарыне. Пограничный пропуск не нужен: мы останавливаемся на смотровой и не доезжаем до пункта контроля. В конце мая – начале июня первые два дня можно заменить настоящим весенним перегоном скота вместе с местными чабанами (по запросу).",
           "difficulty": "Средний",
           "comfort": "Стандарт",
           "highlights": [
-            "Три дня верхом по хребту Ат-Баши",
+            "Четыре дня верхом по хребту Ат-Баши",
             "Таш-Рабат — каменный караван-сарай Шёлкового пути XV века",
             "Вид на озеро Чатыр-Кёль с перевала",
             "Водопад Шаар в зелёном ущелье Баш-Кайынды",
@@ -849,46 +881,51 @@
             {
               "day": 1,
               "title": "Казыбек и горы Ат-Баши",
-              "description": "Встреча в Нарыне, переезд в село Казыбек. Знакомство с лошадьми и выезд верхом в горы Ат-Баши. Ночь в юрточном лагере."
+              "description": "Встреча в Нарыне и переезд в село Казыбек. Знакомство с лошадью и коневодом, верхом по летним пастбищам хребта Ат-Баши. Ужин и ночёвка в юрте чабана."
             },
             {
               "day": 2,
-              "title": "Таш-Рабат и вид на Чатыр-Кёль",
-              "description": "Верхом к караван-сараю Таш-Рабат, затем подъём на перевал с видом на озеро Чатыр-Кёль. Трансфер в село Ат-Баши. Ночь в гестхаусе."
+              "title": "Через перевал к Таш-Рабату",
+              "description": "Целый день верхом через перевал к Таш-Рабату — караван-сараю Шёлкового пути XV века. Ужин и ночёвка в юрточном лагере рядом."
             },
             {
               "day": 3,
-              "title": "Водопад Шаар",
-              "description": "Трансфер в село Баш-Кайынды. Около 5 часов верхом до водопада Шаар и обратно, обед-пикник. Ночь в юрте или у семьи в Баш-Кайынды."
+              "title": "Перевал Панда и вид на Чатыр-Кёль",
+              "description": "Верхом на перевал Панда — вид на озеро Чатыр-Кёль, затем время осмотреть караван-сарай. Вечером трансфер в село Ат-Баши. Ночь в гестхаусе."
             },
             {
               "day": 4,
-              "title": "Возвращение в Нарын",
-              "description": "Трансфер в Нарын, обед по дороге."
+              "title": "Водопад Шаар",
+              "description": "Утром трансфер в село Баш-Кайынды. Около 5 часов верхом до водопада Шаар и обратно, обед-пикник. Ночь у семьи в Баш-Кайынды."
+            },
+            {
+              "day": 5,
+              "title": "Шоу беркутчи в Нарыне",
+              "description": "Трансфер в Нарын и шоу беркутчи. Обед; окончание тура в Нарыне."
             }
           ],
           "included": [
             "Лошади и снаряжение",
             "Англоговорящий гид",
-            "Коневод, дни 1–2",
+            "Коневод, дни 1–3",
             "Местный гид у водопада Шаар",
-            "3 ночи в юрте / гестхаусе / у семьи",
+            "4 ночи: юрта чабана, юрточный лагерь у Таш-Рабата, гестхаус в Ат-Баши, семья в Баш-Кайынды",
             "Всё питание",
             "Вход в Таш-Рабат",
+            "Шоу беркутчи в Нарыне",
             "Трансферы (4WD) из Нарына и обратно",
             "Страховка от несчастного случая на время тура (местная)"
           ],
           "notIncluded": [
             "Одежда и обувь для верховой езды",
-            "Культурная программа ($150 за группу)",
             "Алкоголь",
             "Чаевые"
           ],
-          "accommodation": "Юрточный лагерь (1-я ночь), гестхаус в Ат-Баши (2-я ночь), юрта или семья в Баш-Кайынды (3-я ночь)",
-          "transport": "Верхом в дни 1–3; трансферы 4WD Нарын – Казыбек, Таш-Рабат – Ат-Баши, Ат-Баши – Баш-Кайынды – Нарын",
+          "accommodation": "Юрта чабана (1-я ночь), юрточный лагерь у Таш-Рабата (2-я), гестхаус в Ат-Баши (3-я), семья в Баш-Кайынды (4-я)",
+          "transport": "Верхом в дни 1–4; трансферы 4WD Нарын – Казыбек, Таш-Рабат – Ат-Баши – Баш-Кайынды – Нарын",
           "startingPoint": "Нарын (встреча), старт верхом в селе Казыбек",
           "endingPoint": "Нарын",
-          "whatsappMessage": "Здравствуйте! Меня интересует тур «4 дня верхом: горы Ат-Баши, Таш-Рабат и водопад Шаар».\n\nЖелаемые даты:\nКоличество человек:\nМоя страна:",
+          "whatsappMessage": "Здравствуйте! Меня интересует тур «5 дней верхом: горы Ат-Баши, Таш-Рабат и водопад Шаар».\n\nЖелаемые даты:\nКоличество человек:\nМоя страна:",
           "faq": [
             {
               "question": "Нужен ли пограничный пропуск?",
@@ -900,7 +937,7 @@
             },
             {
               "question": "Какая нужна подготовка?",
-              "answer": "Средняя: три дня верхом в горах и холодные ночи на высоте. Подходит активным путешественникам."
+              "answer": "Средняя: четыре дня верхом в горах и холодные ночи на высоте. Подходит активным путешественникам."
             },
             {
               "question": "Какой размер группы?",
@@ -913,12 +950,12 @@
           ]
         },
         "ky": {
-          "title": "Ат-Башы тоолору, Таш-Рабат жана Шаар шаркыратмасы — ат үстүндө 4 күн",
-          "description": "Ат үстүндө үч күн жана жолго бир күн, Нарындан башталат. Казыбек айылынан Ат-Башы тоолоруна чыгып, XV кылымдагы Таш-Рабат кербен-сарайына өтөбүз жана Чатыр-Көлдү караган көрүү аянтчасына көтөрүлөбүз. Үчүнчү күнү жашыл Баш-Кайыңды капчыгайы менен аскалуу дубалдын ортосунан аккан Шаар шаркыратмасына барабыз. Чек ара уруксаты керек эмес: көрүү аянтчасында токтойбуз, текшерүү пунктуна чейин барбайбыз. Майдын аягы – июндун башында алгачкы эки күндү жергиликтүү чабандар менен чыныгы жазгы мал айдоого алмаштырса болот (суроо боюнча).",
+          "title": "Ат-Башы тоолору, Таш-Рабат жана Шаар шаркыратмасы — ат үстүндө 5 күн",
+          "description": "Ат үстүндө төрт күн, Нарындан башталат. Казыбек айылынан Ат-Башы кыркасы аркылуу XV кылымдагы Таш-Рабат кербен-сарайына жана Чатыр-Көл көрүнгөн Панда ашуусуна чыгабыз. Андан соң жашыл Баш-Кайыңды капчыгайы менен аскалуу дубалдын ортосунан аккан Шаар шаркыратмасына барабыз, акыркы күнү — Нарында бүркүтчүлөрдүн шоусу. Чек ара уруксаты керек эмес: көрүү аянтчасында токтойбуз, текшерүү пунктуна чейин барбайбыз. Майдын аягы – июндун башында алгачкы эки күндү жергиликтүү чабандар менен чыныгы жазгы мал айдоого алмаштырса болот (суроо боюнча).",
           "difficulty": "Орточо",
           "comfort": "Стандарт",
           "highlights": [
-            "Ат-Башы кыркасында ат үстүндө үч күн",
+            "Ат-Башы кыркасында ат үстүндө төрт күн",
             "Таш-Рабат — XV кылымдагы Жибек жолунун таш кербен-сарайы",
             "Ашуудан Чатыр-Көлдүн көрүнүшү",
             "Жашыл Баш-Кайыңды капчыгайындагы Шаар шаркыратмасы",
@@ -930,46 +967,51 @@
             {
               "day": 1,
               "title": "Казыбек жана Ат-Башы тоолору",
-              "description": "Нарындан тосуп алуу, Казыбек айылына баруу. Аттар менен таанышып, Ат-Башы тоолоруна ат менен чыгабыз. Боз үй лагеринде түнөө."
+              "description": "Нарындан тосуп алуу жана Казыбек айылына баруу. Ат жана атчы менен таанышып, Ат-Башы кыркасынын жайкы жайлоолору аркылуу ат менен жүрөбүз. Кечки тамак жана чабандын боз үйүндө түнөө."
             },
             {
               "day": 2,
-              "title": "Таш-Рабат жана Чатыр-Көлдүн көрүнүшү",
-              "description": "Таш-Рабат кербен-сарайына ат менен барып, Чатыр-Көл көрүнгөн ашууга чыгабыз. Ат-Башы айылына жеткирүү. Конок үйүндө түнөө."
+              "title": "Ашуу аркылуу Таш-Рабатка",
+              "description": "Ашуу аркылуу Жибек жолунун XV кылымдагы кербен-сарайы Таш-Рабатка чейин күн бою ат үстүндө. Жанындагы боз үй лагеринде кечки тамак жана түнөө."
             },
             {
               "day": 3,
-              "title": "Шаар шаркыратмасы",
-              "description": "Баш-Кайыңды айылына жеткирүү. Шаар шаркыратмасына чейин жана кайра ат менен 5 саатка жакын, пикник-түшкү тамак. Баш-Кайыңдыда боз үйдө же үй-бүлөдө түнөө."
+              "title": "Панда ашуусу жана Чатыр-Көлдүн көрүнүшү",
+              "description": "Чатыр-Көлдү көрүү үчүн Панда ашуусуна ат менен чыгып, андан соң кербен-сарайды кыдырабыз. Кечинде Ат-Башы айылына жеткирүү. Конок үйүндө түнөө."
             },
             {
               "day": 4,
-              "title": "Нарынга кайтуу",
-              "description": "Нарынга жеткирүү, жолдо түшкү тамак."
+              "title": "Шаар шаркыратмасы",
+              "description": "Эртең менен Баш-Кайыңды айылына жеткирүү. Шаар шаркыратмасына чейин жана кайра ат менен 5 саатка жакын, пикник-түшкү тамак. Баш-Кайыңдыда үй-бүлөдө түнөө."
+            },
+            {
+              "day": 5,
+              "title": "Нарында бүркүтчүлөрдүн шоусу",
+              "description": "Нарынга жеткирүү жана бүркүтчүлөрдүн шоусу. Түшкү тамак; тур Нарында аяктайт."
             }
           ],
           "included": [
             "Аттар жана ээр-токум",
             "Англисче сүйлөгөн гид",
-            "Атчы, 1–2-күндөр",
+            "Атчы, 1–3-күндөр",
             "Шаар шаркыратмасында жергиликтүү гид",
-            "Боз үйдө / конок үйүндө / үй-бүлөдө 3 түн",
+            "4 түн: чабандын боз үйү, Таш-Рабаттагы боз үй лагери, Ат-Башыдагы конок үйү, Баш-Кайыңдыдагы үй-бүлө",
             "Бардык тамак-аш",
             "Таш-Рабатка кирүү",
+            "Нарында бүркүтчүлөрдүн шоусу",
             "Нарындан жана Нарынга жеткирүү (4WD)",
             "Тур учурунда кырсыктан камсыздандыруу (жергиликтүү)"
           ],
           "notIncluded": [
             "Ат минүүгө кийим жана өтүк",
-            "Маданий программа (топко $150)",
             "Алкоголь",
             "Чай акы"
           ],
-          "accommodation": "Боз үй лагери (1-түн), Ат-Башыдагы конок үйү (2-түн), Баш-Кайыңдыда боз үй же үй-бүлө (3-түн)",
-          "transport": "1–3-күндөрү ат менен; 4WD менен Нарын – Казыбек, Таш-Рабат – Ат-Башы, Ат-Башы – Баш-Кайыңды – Нарын",
+          "accommodation": "Чабандын боз үйү (1-түн), Таш-Рабаттагы боз үй лагери (2-түн), Ат-Башыдагы конок үйү (3-түн), Баш-Кайыңдыдагы үй-бүлө (4-түн)",
+          "transport": "1–4-күндөрү ат менен; 4WD менен Нарын – Казыбек, Таш-Рабат – Ат-Башы – Баш-Кайыңды – Нарын",
           "startingPoint": "Нарын (тосуп алуу), ат жүрүшү Казыбек айылынан башталат",
           "endingPoint": "Нарын",
-          "whatsappMessage": "Салам! Мени «Ат-Башы тоолору, Таш-Рабат жана Шаар шаркыратмасы — ат үстүндө 4 күн» туру кызыктырат.\n\nКаалаган күндөр:\nАдамдардын саны:\nМенин өлкөм:",
+          "whatsappMessage": "Салам! Мени «Ат-Башы тоолору, Таш-Рабат жана Шаар шаркыратмасы — ат үстүндө 5 күн» туру кызыктырат.\n\nКаалаган күндөр:\nАдамдардын саны:\nМенин өлкөм:",
           "faq": [
             {
               "question": "Чек ара уруксаты керекпи?",
@@ -981,7 +1023,7 @@
             },
             {
               "question": "Кандай даярдык керек?",
-              "answer": "Орточо: тоолордо үч күн ат үстүндө жана бийиктикте суук түндөр. Активдүү саякатчыларга ылайыктуу."
+              "answer": "Орточо: тоолордо төрт күн ат үстүндө жана бийиктикте суук түндөр. Активдүү саякатчыларга ылайыктуу."
             },
             {
               "question": "Топтун өлчөмү кандай?",
@@ -997,53 +1039,53 @@
       "priceTable": [
         {
           "group": 1,
-          "perPerson": 919,
-          "total": 919
+          "perPerson": 1364,
+          "total": 1364
         },
         {
           "group": 2,
-          "perPerson": 588,
-          "total": 1176
+          "perPerson": 853,
+          "total": 1706
         },
         {
           "group": 3,
-          "perPerson": 477,
-          "total": 1431
+          "perPerson": 683,
+          "total": 2049
         },
         {
           "group": 4,
-          "perPerson": 477,
-          "total": 1908
+          "perPerson": 668,
+          "total": 2672
         },
         {
           "group": 5,
-          "perPerson": 435,
-          "total": 2175
+          "perPerson": 603,
+          "total": 3015
         },
         {
           "group": 6,
-          "perPerson": 426,
-          "total": 2556
+          "perPerson": 590,
+          "total": 3540
         },
         {
           "group": 7,
-          "perPerson": 402,
-          "total": 2814
+          "perPerson": 555,
+          "total": 3885
         },
         {
           "group": 8,
-          "perPerson": 359,
-          "total": 2872
+          "perPerson": 498,
+          "total": 3984
         },
         {
           "group": 9,
-          "perPerson": 348,
-          "total": 3132
+          "perPerson": 481,
+          "total": 4329
         },
         {
           "group": 10,
-          "perPerson": 348,
-          "total": 3480
+          "perPerson": 481,
+          "total": 4810
         }
       ]
     },
