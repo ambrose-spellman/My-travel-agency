@@ -1398,6 +1398,25 @@ function buildContact(locale) {
 }
 
 /* ------------------------------------------------------------------ */
+/* Redirects: old tour addresses (links already sent to clients) open the
+   tour that replaced them. GitHub Pages has no server redirects, so each old
+   address gets a tiny page that forwards the browser. */
+/* ------------------------------------------------------------------ */
+const TOUR_REDIRECTS = {
+  'mal-aidoo-kazybek-kelsuu-horse': 'tash-rabat-kel-suu-horse-expedition',
+  'mal-aidoo-kazybek-shaar-waterfall-horse': 'kazybek-tash-rabat-shaar-waterfall-horse'
+};
+function buildRedirects(locale) {
+  Object.keys(TOUR_REDIRECTS).forEach(function (from) {
+    const to = SITE.url + localePath(locale, '/tours/' + TOUR_REDIRECTS[from] + '/');
+    writeFile(localePath(locale, '/tours/' + from + '/'), '<!doctype html><html><head><meta charset="utf-8">' +
+      '<meta name="robots" content="noindex"><link rel="canonical" href="' + to + '">' +
+      '<meta http-equiv="refresh" content="0; url=' + to + '"></head>' +
+      '<body><a href="' + to + '">' + to + '</a></body></html>');
+  });
+}
+
+/* ------------------------------------------------------------------ */
 /* sitemap.xml & robots.txt (cover all locales) */
 /* ------------------------------------------------------------------ */
 function buildSitemapAndRobots() {
@@ -1490,6 +1509,7 @@ async function main() {
     buildHome(locale);
     buildToursIndex(locale);
     TOURS.forEach(function (tour, i) { buildTourDetail(tour, i, locale); });
+    buildRedirects(locale);
     buildDestinationsIndex(locale);
     DESTINATIONS.forEach(function (dest) { buildDestinationDetail(dest, locale); });
     buildAbout(locale);
