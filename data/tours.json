@@ -476,7 +476,7 @@
             {
               "day": 6,
               "title": "Back to Naryn",
-              "description": "Breakfast and a drive of about 6 hours back to Naryn, with lunch on the way. The tour ends in Naryn."
+              "description": "Breakfast and a drive of about 6 hours back to Naryn, with lunch on the way. The tour ends in Naryn. Optional: an eagle hunter show in Naryn, $150 per group, not included in the tour price."
             }
           ],
           "included": [
@@ -491,6 +491,7 @@
           ],
           "notIncluded": [
             "Riding clothes and boots",
+            "Eagle hunter show in Naryn ($150 per group)",
             "Alcohol",
             "Tips"
           ],
@@ -502,7 +503,7 @@
           "faq": [
             {
               "question": "Can we add an eagle hunter show?",
-              "answer": "Yes, an eagle hunter show in Naryn can be added on the last day. Price on request."
+              "answer": "Yes. On the last day in Naryn you can watch an eagle hunter show: $150 per group, not included in the tour price."
             },
             {
               "question": "Do I need a permit for Kel-Suu?",
@@ -560,7 +561,7 @@
             {
               "day": 6,
               "title": "Возвращение в Нарын",
-              "description": "Завтрак и около 6 часов дороги обратно в Нарын, обед в пути. Окончание тура в Нарыне."
+              "description": "Завтрак и около 6 часов дороги обратно в Нарын, обед в пути. Окончание тура в Нарыне. По желанию — шоу беркутчи в Нарыне: $150 за группу, в стоимость тура не входит."
             }
           ],
           "included": [
@@ -575,6 +576,7 @@
           ],
           "notIncluded": [
             "Одежда и обувь для верховой езды",
+            "Шоу беркутчи в Нарыне ($150 за группу)",
             "Алкоголь",
             "Чаевые"
           ],
@@ -586,7 +588,7 @@
           "faq": [
             {
               "question": "Можно добавить шоу беркутчи?",
-              "answer": "Да, в последний день можно добавить шоу беркутчи в Нарыне. Цена по запросу."
+              "answer": "Да. В последний день в Нарыне можно посмотреть шоу беркутчи: $150 за группу, в стоимость тура не входит."
             },
             {
               "question": "Нужен ли погранпропуск для Кёль-Суу?",
@@ -644,7 +646,7 @@
             {
               "day": 6,
               "title": "Нарынга кайтуу",
-              "description": "Эртең мененки тамак жана Нарынга 6 саатка жакын жол, жолдо түшкү тамак. Тур Нарында аяктайт."
+              "description": "Эртең мененки тамак жана Нарынга 6 саатка жакын жол, жолдо түшкү тамак. Тур Нарында аяктайт. Каалоо боюнча — Нарында бүркүтчүлөрдүн шоусу: топко $150, турдун баасына кирбейт."
             }
           ],
           "included": [
@@ -659,6 +661,7 @@
           ],
           "notIncluded": [
             "Атчан жүрүү үчүн кийим жана бут кийим",
+            "Нарында бүркүтчүлөрдүн шоусу (топко $150)",
             "Алкоголь",
             "Чай акы"
           ],
@@ -670,7 +673,7 @@
           "faq": [
             {
               "question": "Бүркүтчүлөрдүн шоусун кошсо болобу?",
-              "answer": "Ооба, акыркы күнү Нарында бүркүтчүлөрдүн шоусун кошсо болот. Баасы суроо боюнча."
+              "answer": "Ооба. Акыркы күнү Нарында бүркүтчүлөрдүн шоусун көрсө болот: топко $150, турдун баасына кирбейт."
             },
             {
               "question": "Көл-Суу үчүн уруксат керекпи?",
@@ -779,7 +782,7 @@
       "i18n": {
         "en": {
           "title": "At-Bashy Mountains, Tash-Rabat & Shaar Waterfall — 5 Days on Horseback",
-          "description": "Four riding days from Naryn. Ride from Kazybek village over the At-Bashy range to the 15th-century Tash-Rabat caravanserai and up to Panda Pass for a view over Chatyr-Kul lake. Then ride up the green Bash-Kaindy gorge to Shaar Waterfall, which falls from the middle of a rock wall, and finish with an eagle hunter show in Naryn. No border permit is needed: we stop at the viewpoint and do not go as far as the checkpoint. In late May – early June the first two days can instead be spent on a real spring cattle drive with local herders (on request).",
+          "description": "Four riding days from Naryn. Ride from Kazybek village over the At-Bashy range to the 15th-century Tash-Rabat caravanserai and up to Panda Pass for a view over Chatyr-Kul lake. Then ride up the green Bash-Kaindy gorge to Shaar Waterfall, which falls from the middle of a rock wall, and finish in Naryn with an eagle hunter show or a cultural programme. No border permit is needed: we stop at the viewpoint and do not go as far as the checkpoint. In late May – early June the first two days can instead be spent on a real spring cattle drive with local herders (on request).",
           "difficulty": "Moderate",
           "comfort": "Standard",
           "highlights": [
@@ -814,8 +817,8 @@
             },
             {
               "day": 5,
-              "title": "Eagle Show in Naryn",
-              "description": "Transfer to Naryn and an eagle hunter show. Lunch; the tour ends in Naryn."
+              "title": "Eagle Show or Cultural Programme in Naryn",
+              "description": "Transfer to Naryn. Choose an eagle hunter show or a cultural programme, both included; the two can be combined on request. Lunch; the tour ends in Naryn."
             }
           ],
           "included": [
@@ -826,7 +829,7 @@
             "4 nights: shepherd's yurt, yurt camp at Tash-Rabat, guesthouse in At-Bashy, family in Bash-Kaindy",
             "All meals",
             "Tash-Rabat entrance",
-            "Eagle hunter show in Naryn",
+            "Eagle hunter show or cultural programme in Naryn",
             "Transfers (4WD) from and to Naryn",
             "Accident insurance during the tour (local)"
           ],
@@ -865,7 +868,7 @@
         },
         "ru": {
           "title": "Горы Ат-Баши, Таш-Рабат и водопад Шаар — 5 дней верхом",
-          "description": "Четыре дня верхом, старт в Нарыне. Из села Казыбек через хребет Ат-Баши к караван-сараю Таш-Рабат XV века и на перевал Панда с видом на озеро Чатыр-Кёль. Затем по зелёному ущелью Баш-Кайынды к водопаду Шаар, который падает с середины скальной стены, а в последний день — шоу беркутчи в Нарыне. Пограничный пропуск не нужен: мы останавливаемся на смотровой и не доезжаем до пункта контроля. В конце мая – начале июня первые два дня можно заменить настоящим весенним перегоном скота вместе с местными чабанами (по запросу).",
+          "description": "Четыре дня верхом, старт в Нарыне. Из села Казыбек через хребет Ат-Баши к караван-сараю Таш-Рабат XV века и на перевал Панда с видом на озеро Чатыр-Кёль. Затем по зелёному ущелью Баш-Кайынды к водопаду Шаар, который падает с середины скальной стены, а в последний день — шоу беркутчи или культурная программа в Нарыне. Пограничный пропуск не нужен: мы останавливаемся на смотровой и не доезжаем до пункта контроля. В конце мая – начале июня первые два дня можно заменить настоящим весенним перегоном скота вместе с местными чабанами (по запросу).",
           "difficulty": "Средний",
           "comfort": "Стандарт",
           "highlights": [
@@ -900,8 +903,8 @@
             },
             {
               "day": 5,
-              "title": "Шоу беркутчи в Нарыне",
-              "description": "Трансфер в Нарын и шоу беркутчи. Обед; окончание тура в Нарыне."
+              "title": "Шоу беркутчи или культурная программа в Нарыне",
+              "description": "Трансфер в Нарын. На выбор шоу беркутчи или культурная программа, входит в стоимость; совместить оба можно по запросу. Обед; окончание тура в Нарыне."
             }
           ],
           "included": [
@@ -912,7 +915,7 @@
             "4 ночи: юрта чабана, юрточный лагерь у Таш-Рабата, гестхаус в Ат-Баши, семья в Баш-Кайынды",
             "Всё питание",
             "Вход в Таш-Рабат",
-            "Шоу беркутчи в Нарыне",
+            "Шоу беркутчи или культурная программа в Нарыне",
             "Трансферы (4WD) из Нарына и обратно",
             "Страховка от несчастного случая на время тура (местная)"
           ],
@@ -951,7 +954,7 @@
         },
         "ky": {
           "title": "Ат-Башы тоолору, Таш-Рабат жана Шаар шаркыратмасы — ат үстүндө 5 күн",
-          "description": "Ат үстүндө төрт күн, Нарындан башталат. Казыбек айылынан Ат-Башы кыркасы аркылуу XV кылымдагы Таш-Рабат кербен-сарайына жана Чатыр-Көл көрүнгөн Панда ашуусуна чыгабыз. Андан соң жашыл Баш-Кайыңды капчыгайы менен аскалуу дубалдын ортосунан аккан Шаар шаркыратмасына барабыз, акыркы күнү — Нарында бүркүтчүлөрдүн шоусу. Чек ара уруксаты керек эмес: көрүү аянтчасында токтойбуз, текшерүү пунктуна чейин барбайбыз. Майдын аягы – июндун башында алгачкы эки күндү жергиликтүү чабандар менен чыныгы жазгы мал айдоого алмаштырса болот (суроо боюнча).",
+          "description": "Ат үстүндө төрт күн, Нарындан башталат. Казыбек айылынан Ат-Башы кыркасы аркылуу XV кылымдагы Таш-Рабат кербен-сарайына жана Чатыр-Көл көрүнгөн Панда ашуусуна чыгабыз. Андан соң жашыл Баш-Кайыңды капчыгайы менен аскалуу дубалдын ортосунан аккан Шаар шаркыратмасына барабыз, акыркы күнү — Нарында бүркүтчүлөрдүн шоусу же маданий программа. Чек ара уруксаты керек эмес: көрүү аянтчасында токтойбуз, текшерүү пунктуна чейин барбайбыз. Майдын аягы – июндун башында алгачкы эки күндү жергиликтүү чабандар менен чыныгы жазгы мал айдоого алмаштырса болот (суроо боюнча).",
           "difficulty": "Орточо",
           "comfort": "Стандарт",
           "highlights": [
@@ -986,8 +989,8 @@
             },
             {
               "day": 5,
-              "title": "Нарында бүркүтчүлөрдүн шоусу",
-              "description": "Нарынга жеткирүү жана бүркүтчүлөрдүн шоусу. Түшкү тамак; тур Нарында аяктайт."
+              "title": "Нарында бүркүтчүлөрдүн шоусу же маданий программа",
+              "description": "Нарынга жеткирүү. Тандооңуз боюнча бүркүтчүлөрдүн шоусу же маданий программа, баага кирет; экөөнү бириктирүү суроо боюнча. Түшкү тамак; тур Нарында аяктайт."
             }
           ],
           "included": [
@@ -998,7 +1001,7 @@
             "4 түн: чабандын боз үйү, Таш-Рабаттагы боз үй лагери, Ат-Башыдагы конок үйү, Баш-Кайыңдыдагы үй-бүлө",
             "Бардык тамак-аш",
             "Таш-Рабатка кирүү",
-            "Нарында бүркүтчүлөрдүн шоусу",
+            "Нарында бүркүтчүлөрдүн шоусу же маданий программа",
             "Нарындан жана Нарынга жеткирүү (4WD)",
             "Тур учурунда кырсыктан камсыздандыруу (жергиликтүү)"
           ],
