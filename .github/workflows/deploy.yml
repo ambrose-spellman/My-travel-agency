@@ -25,7 +25,7 @@ concurrency:
 
 env:
   # Published CSV of the «Сайт» sheet (client prices only). Empty = no sync.
-  PRICES_CSV_URL: ''
+  PRICES_CSV_URL: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS9H6ef47IA_FCInrcMG9WjoHM2K9VUDcLX7m4tbTCbccpdyG9Wo8VupolN3DpITLcXYjNlLA_3Zl7Q/pub?gid=1808826977&single=true&output=csv'
 
 jobs:
   build:
