@@ -22,7 +22,7 @@
         "September",
         "October"
       ],
-      "priceFrom": 894,
+      "priceFrom": 993,
       "currency": "USD",
       "image": "/assets/images/destinations/tash-rabat.jpg",
       "gallery": [],
@@ -42,7 +42,7 @@
         "perDayBase": 93,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 1,
-        "displayFromPrice": 894
+        "displayFromPrice": 993
       },
       "i18n": {
         "en": {
@@ -364,38 +364,38 @@
         },
         {
           "group": 4,
-          "perPerson": 1220,
-          "total": 4880
+          "perPerson": 1267,
+          "total": 5068
         },
         {
           "group": 5,
-          "perPerson": 1148,
-          "total": 5740
+          "perPerson": 1130,
+          "total": 5650
         },
         {
           "group": 6,
-          "perPerson": 1054,
-          "total": 6324
+          "perPerson": 1130,
+          "total": 6780
         },
         {
           "group": 7,
-          "perPerson": 987,
-          "total": 6909
+          "perPerson": 1130,
+          "total": 7910
         },
         {
           "group": 8,
-          "perPerson": 936,
-          "total": 7488
-        },
-        {
-          "group": 9,
-          "perPerson": 928,
+          "perPerson": 1044,
           "total": 8352
         },
         {
+          "group": 9,
+          "perPerson": 993,
+          "total": 8937
+        },
+        {
           "group": 10,
-          "perPerson": 894,
-          "total": 8940
+          "perPerson": 993,
+          "total": 9930
         }
       ]
     },
@@ -418,19 +418,19 @@
       "season": [
         "June"
       ],
-      "priceFrom": 503,
+      "priceFrom": 518,
       "currency": "USD",
       "image": "/assets/images/tours/mal-aidoo-kazybek-kelsuu-horse/mal-aidoo2.jpg",
       "gallery": [],
       "groupSize": {
         "min": 1,
-        "max": 6
+        "max": 10
       },
       "pricing": {
         "perDayBase": 274,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 1,
-        "displayFromPrice": 503
+        "displayFromPrice": 518
       },
       "i18n": {
         "en": {
@@ -662,33 +662,53 @@
       "priceTable": [
         {
           "group": 1,
-          "perPerson": 1096,
-          "total": 1096
+          "perPerson": 1207,
+          "total": 1207
         },
         {
           "group": 2,
-          "perPerson": 740,
-          "total": 1481
+          "perPerson": 807,
+          "total": 1614
         },
         {
           "group": 3,
-          "perPerson": 622,
-          "total": 1866
+          "perPerson": 674,
+          "total": 2022
         },
         {
           "group": 4,
-          "perPerson": 563,
-          "total": 2251
+          "perPerson": 674,
+          "total": 2696
         },
         {
           "group": 5,
-          "perPerson": 527,
-          "total": 2636
+          "perPerson": 646,
+          "total": 3230
         },
         {
           "group": 6,
-          "perPerson": 503,
-          "total": 3021
+          "perPerson": 627,
+          "total": 3762
+        },
+        {
+          "group": 7,
+          "perPerson": 595,
+          "total": 4165
+        },
+        {
+          "group": 8,
+          "perPerson": 532,
+          "total": 4256
+        },
+        {
+          "group": 9,
+          "perPerson": 518,
+          "total": 4662
+        },
+        {
+          "group": 10,
+          "perPerson": 518,
+          "total": 5180
         }
       ]
     },
@@ -712,19 +732,19 @@
         "June",
         "October"
       ],
-      "priceFrom": 485,
+      "priceFrom": 487,
       "currency": "USD",
       "image": "/assets/images/destinations/kel-suu-valley.jpg",
       "gallery": [],
       "groupSize": {
         "min": 1,
-        "max": 6
+        "max": 10
       },
       "pricing": {
         "perDayBase": 236,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 1,
-        "displayFromPrice": 485
+        "displayFromPrice": 487
       },
       "i18n": {
         "en": {
@@ -953,33 +973,53 @@
       "priceTable": [
         {
           "group": 1,
-          "perPerson": 1227,
-          "total": 1227
+          "perPerson": 1311,
+          "total": 1311
         },
         {
           "group": 2,
-          "perPerson": 782,
-          "total": 1564
+          "perPerson": 836,
+          "total": 1672
         },
         {
           "group": 3,
-          "perPerson": 633,
-          "total": 1899
+          "perPerson": 677,
+          "total": 2031
         },
         {
           "group": 4,
-          "perPerson": 559,
-          "total": 2236
+          "perPerson": 677,
+          "total": 2708
         },
         {
           "group": 5,
-          "perPerson": 515,
-          "total": 2575
+          "perPerson": 643,
+          "total": 3215
         },
         {
           "group": 6,
-          "perPerson": 485,
-          "total": 2910
+          "perPerson": 616,
+          "total": 3696
+        },
+        {
+          "group": 7,
+          "perPerson": 580,
+          "total": 4060
+        },
+        {
+          "group": 8,
+          "perPerson": 503,
+          "total": 4024
+        },
+        {
+          "group": 9,
+          "perPerson": 487,
+          "total": 4383
+        },
+        {
+          "group": 10,
+          "perPerson": 487,
+          "total": 4870
         }
       ]
     },
@@ -1005,19 +1045,19 @@
         "September",
         "October"
       ],
-      "priceFrom": 327,
+      "priceFrom": 348,
       "currency": "USD",
       "image": "/assets/images/tours/kazybek-tash-rabat-hiking/kazybek.jpg",
       "gallery": [],
       "groupSize": {
         "min": 1,
-        "max": 6
+        "max": 10
       },
       "pricing": {
         "perDayBase": 94,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 1,
-        "displayFromPrice": 327
+        "displayFromPrice": 348
       },
       "i18n": {
         "en": {
@@ -1252,33 +1292,53 @@
       "priceTable": [
         {
           "group": 1,
-          "perPerson": 828,
-          "total": 828
+          "perPerson": 919,
+          "total": 919
         },
         {
           "group": 2,
-          "perPerson": 528,
-          "total": 1056
+          "perPerson": 588,
+          "total": 1176
         },
         {
           "group": 3,
-          "perPerson": 427,
-          "total": 1281
+          "perPerson": 477,
+          "total": 1431
         },
         {
           "group": 4,
-          "perPerson": 377,
-          "total": 1508
+          "perPerson": 477,
+          "total": 1908
         },
         {
           "group": 5,
-          "perPerson": 347,
-          "total": 1735
+          "perPerson": 435,
+          "total": 2175
         },
         {
           "group": 6,
-          "perPerson": 327,
-          "total": 1962
+          "perPerson": 426,
+          "total": 2556
+        },
+        {
+          "group": 7,
+          "perPerson": 402,
+          "total": 2814
+        },
+        {
+          "group": 8,
+          "perPerson": 359,
+          "total": 2872
+        },
+        {
+          "group": 9,
+          "perPerson": 348,
+          "total": 3132
+        },
+        {
+          "group": 10,
+          "perPerson": 348,
+          "total": 3480
         }
       ]
     },
@@ -1304,19 +1364,19 @@
         "August",
         "September"
       ],
-      "priceFrom": 661,
+      "priceFrom": 621,
       "currency": "USD",
       "image": "/assets/images/destinations/kel-suu-valley.jpg",
       "gallery": [],
       "groupSize": {
         "min": 1,
-        "max": 6
+        "max": 10
       },
       "pricing": {
         "perDayBase": 100,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 1,
-        "displayFromPrice": 661
+        "displayFromPrice": 621
       },
       "i18n": {
         "en": {
@@ -1587,33 +1647,53 @@
       "priceTable": [
         {
           "group": 1,
-          "perPerson": 2134,
-          "total": 2134
+          "perPerson": 2023,
+          "total": 2023
         },
         {
           "group": 2,
-          "perPerson": 1250,
-          "total": 2500
+          "perPerson": 1201,
+          "total": 2402
         },
         {
           "group": 3,
-          "perPerson": 956,
-          "total": 2868
+          "perPerson": 927,
+          "total": 2781
         },
         {
           "group": 4,
-          "perPerson": 809,
-          "total": 3236
+          "perPerson": 886,
+          "total": 3544
         },
         {
           "group": 5,
-          "perPerson": 720,
-          "total": 3600
+          "perPerson": 784,
+          "total": 3920
         },
         {
           "group": 6,
-          "perPerson": 661,
-          "total": 3966
+          "perPerson": 784,
+          "total": 4704
+        },
+        {
+          "group": 7,
+          "perPerson": 737,
+          "total": 5159
+        },
+        {
+          "group": 8,
+          "perPerson": 651,
+          "total": 5208
+        },
+        {
+          "group": 9,
+          "perPerson": 621,
+          "total": 5589
+        },
+        {
+          "group": 10,
+          "perPerson": 621,
+          "total": 6210
         }
       ]
     },
@@ -1639,20 +1719,20 @@
         "August",
         "September"
       ],
-      "priceFrom": 739,
+      "priceFrom": 688,
       "currency": "USD",
       "image": "/assets/images/destinations/song-kul-horseman.webp",
       "gallery": [],
       "photos": [],
       "groupSize": {
         "min": 1,
-        "max": 6
+        "max": 10
       },
       "pricing": {
         "perDayBase": 100,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 1,
-        "displayFromPrice": 739
+        "displayFromPrice": 688
       },
       "i18n": {
         "en": {
@@ -1944,33 +2024,53 @@
       "priceTable": [
         {
           "group": 1,
-          "perPerson": 2495,
-          "total": 2495
+          "perPerson": 2289,
+          "total": 2289
         },
         {
           "group": 2,
-          "perPerson": 1441,
-          "total": 2883
+          "perPerson": 1343,
+          "total": 2686
         },
         {
           "group": 3,
-          "perPerson": 1090,
-          "total": 3270
+          "perPerson": 1027,
+          "total": 3081
         },
         {
           "group": 4,
-          "perPerson": 914,
-          "total": 3658
+          "perPerson": 968,
+          "total": 3872
         },
         {
           "group": 5,
-          "perPerson": 809,
-          "total": 4045
+          "perPerson": 854,
+          "total": 4270
         },
         {
           "group": 6,
-          "perPerson": 739,
-          "total": 4433
+          "perPerson": 854,
+          "total": 5124
+        },
+        {
+          "group": 7,
+          "perPerson": 818,
+          "total": 5726
+        },
+        {
+          "group": 8,
+          "perPerson": 724,
+          "total": 5792
+        },
+        {
+          "group": 9,
+          "perPerson": 688,
+          "total": 6192
+        },
+        {
+          "group": 10,
+          "perPerson": 688,
+          "total": 6880
         }
       ]
     },
@@ -1996,51 +2096,71 @@
         "August",
         "September"
       ],
-      "priceFrom": 1068,
+      "priceFrom": 1007,
       "currency": "USD",
       "image": "/assets/images/destinations/kel-suu-valley.jpg",
       "gallery": [],
       "photos": [],
       "groupSize": {
         "min": 1,
-        "max": 6
+        "max": 10
       },
       "pricing": {
         "perDayBase": 97,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 1,
-        "displayFromPrice": 1068
+        "displayFromPrice": 1007
       },
       "priceTable": [
         {
           "group": 1,
-          "perPerson": 3346,
-          "total": 3346
+          "perPerson": 3477,
+          "total": 3477
         },
         {
           "group": 2,
-          "perPerson": 1979,
-          "total": 3958
+          "perPerson": 2072,
+          "total": 4144
         },
         {
           "group": 3,
-          "perPerson": 1524,
-          "total": 4572
+          "perPerson": 1604,
+          "total": 4812
         },
         {
           "group": 4,
-          "perPerson": 1296,
-          "total": 5184
+          "perPerson": 1604,
+          "total": 6416
         },
         {
           "group": 5,
-          "perPerson": 1159,
-          "total": 5795
+          "perPerson": 1604,
+          "total": 8020
         },
         {
           "group": 6,
-          "perPerson": 1068,
-          "total": 6408
+          "perPerson": 1448,
+          "total": 8688
+        },
+        {
+          "group": 7,
+          "perPerson": 1336,
+          "total": 9352
+        },
+        {
+          "group": 8,
+          "perPerson": 1049,
+          "total": 8392
+        },
+        {
+          "group": 9,
+          "perPerson": 1007,
+          "total": 9063
+        },
+        {
+          "group": 10,
+          "perPerson": 1007,
+          "total": 10070
         }
       ],
       "i18n": {
@@ -2526,51 +2646,71 @@
         "August",
         "September"
       ],
-      "priceFrom": 1660,
+      "priceFrom": 1578,
       "currency": "USD",
       "image": "/assets/images/general/camel-pastures.webp",
       "gallery": [],
       "photos": [],
       "groupSize": {
         "min": 1,
-        "max": 6
+        "max": 10
       },
       "pricing": {
         "perDayBase": 108,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 1,
-        "displayFromPrice": 1660
+        "displayFromPrice": 1578
       },
       "priceTable": [
         {
           "group": 1,
-          "perPerson": 5272,
-          "total": 5272
+          "perPerson": 5488,
+          "total": 5488
         },
         {
           "group": 2,
-          "perPerson": 3104,
-          "total": 6208
+          "perPerson": 3263,
+          "total": 6526
         },
         {
           "group": 3,
-          "perPerson": 2382,
-          "total": 7146
+          "perPerson": 2521,
+          "total": 7563
         },
         {
           "group": 4,
-          "perPerson": 2021,
-          "total": 8084
+          "perPerson": 2521,
+          "total": 10084
         },
         {
           "group": 5,
-          "perPerson": 1804,
-          "total": 9020
+          "perPerson": 2517,
+          "total": 12585
         },
         {
           "group": 6,
-          "perPerson": 1660,
-          "total": 9960
+          "perPerson": 2270,
+          "total": 13620
+        },
+        {
+          "group": 7,
+          "perPerson": 2094,
+          "total": 14658
+        },
+        {
+          "group": 8,
+          "perPerson": 1646,
+          "total": 13168
+        },
+        {
+          "group": 9,
+          "perPerson": 1578,
+          "total": 14202
+        },
+        {
+          "group": 10,
+          "perPerson": 1578,
+          "total": 15780
         }
       ],
       "i18n": {
@@ -3152,19 +3292,19 @@
       "season": [
         "June"
       ],
-      "priceFrom": 348,
+      "priceFrom": 401,
       "currency": "USD",
       "image": "/assets/images/tours/kazybek-tash-rabat-hiking/kazybek.jpg",
       "gallery": [],
       "groupSize": {
         "min": 1,
-        "max": 6
+        "max": 10
       },
       "pricing": {
         "perDayBase": 100,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 1,
-        "displayFromPrice": null
+        "displayFromPrice": 401
       },
       "i18n": {
         "en": {
@@ -3394,33 +3534,53 @@
       "priceTable": [
         {
           "group": 1,
-          "perPerson": 800,
-          "total": 800
+          "perPerson": 901,
+          "total": 901
         },
         {
           "group": 2,
-          "perPerson": 529,
-          "total": 1057
+          "perPerson": 609,
+          "total": 1218
         },
         {
           "group": 3,
-          "perPerson": 438,
-          "total": 1315
+          "perPerson": 512,
+          "total": 1536
         },
         {
           "group": 4,
-          "perPerson": 393,
-          "total": 1573
+          "perPerson": 512,
+          "total": 2048
         },
         {
           "group": 5,
-          "perPerson": 366,
-          "total": 1831
+          "perPerson": 477,
+          "total": 2385
         },
         {
           "group": 6,
-          "perPerson": 348,
-          "total": 2089
+          "perPerson": 471,
+          "total": 2826
+        },
+        {
+          "group": 7,
+          "perPerson": 449,
+          "total": 3143
+        },
+        {
+          "group": 8,
+          "perPerson": 411,
+          "total": 3288
+        },
+        {
+          "group": 9,
+          "perPerson": 401,
+          "total": 3609
+        },
+        {
+          "group": 10,
+          "perPerson": 401,
+          "total": 4010
         }
       ]
     },
@@ -3930,19 +4090,19 @@
         "August",
         "September"
       ],
-      "priceFrom": 407,
+      "priceFrom": 377,
       "currency": "USD",
       "image": "/assets/images/destinations/kel-suu-valley.jpg",
       "gallery": [],
       "groupSize": {
         "min": 2,
-        "max": 6
+        "max": 10
       },
       "pricing": {
         "perDayBase": 100,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 4,
-        "displayFromPrice": 407
+        "displayFromPrice": 377
       },
       "i18n": {
         "en": {
@@ -4045,33 +4205,53 @@
       "priceTable": [
         {
           "group": 1,
-          "perPerson": 1203,
-          "total": 1203
+          "perPerson": 1236,
+          "total": 1236
         },
         {
           "group": 2,
-          "perPerson": 726,
-          "total": 1452
+          "perPerson": 746,
+          "total": 1492
         },
         {
           "group": 3,
-          "perPerson": 566,
-          "total": 1698
+          "perPerson": 583,
+          "total": 1749
         },
         {
           "group": 4,
-          "perPerson": 487,
-          "total": 1948
+          "perPerson": 583,
+          "total": 2332
         },
         {
           "group": 5,
-          "perPerson": 439,
-          "total": 2195
+          "perPerson": 583,
+          "total": 2915
         },
         {
           "group": 6,
-          "perPerson": 407,
-          "total": 2442
+          "perPerson": 536,
+          "total": 3216
+        },
+        {
+          "group": 7,
+          "perPerson": 496,
+          "total": 3472
+        },
+        {
+          "group": 8,
+          "perPerson": 392,
+          "total": 3136
+        },
+        {
+          "group": 9,
+          "perPerson": 377,
+          "total": 3393
+        },
+        {
+          "group": 10,
+          "perPerson": 377,
+          "total": 3770
         }
       ]
     },
@@ -4233,19 +4413,19 @@
         "August",
         "September"
       ],
-      "priceFrom": 671,
+      "priceFrom": 673,
       "currency": "USD",
       "image": "/assets/images/tours/suusamyr-kyzyl-oy-son-kul-horse/suusamyr.jpg",
       "gallery": [],
       "groupSize": {
         "min": 2,
-        "max": 8
+        "max": 10
       },
       "pricing": {
         "perDayBase": 100,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 4,
-        "displayFromPrice": 671
+        "displayFromPrice": 673
       },
       "i18n": {
         "en": {
@@ -4477,33 +4657,53 @@
       "priceTable": [
         {
           "group": 1,
-          "perPerson": 2045,
-          "total": 2045
+          "perPerson": 2100,
+          "total": 2100
         },
         {
           "group": 2,
-          "perPerson": 1213,
-          "total": 2426
+          "perPerson": 1245,
+          "total": 2490
         },
         {
           "group": 3,
-          "perPerson": 935,
-          "total": 2805
+          "perPerson": 960,
+          "total": 2880
         },
         {
           "group": 4,
-          "perPerson": 797,
-          "total": 3188
+          "perPerson": 936,
+          "total": 3744
         },
         {
           "group": 5,
-          "perPerson": 729,
-          "total": 3645
+          "perPerson": 842,
+          "total": 4210
         },
         {
           "group": 6,
-          "perPerson": 671,
-          "total": 4026
+          "perPerson": 842,
+          "total": 5052
+        },
+        {
+          "group": 7,
+          "perPerson": 799,
+          "total": 5593
+        },
+        {
+          "group": 8,
+          "perPerson": 699,
+          "total": 5592
+        },
+        {
+          "group": 9,
+          "perPerson": 673,
+          "total": 6057
+        },
+        {
+          "group": 10,
+          "perPerson": 673,
+          "total": 6730
         }
       ]
     },
@@ -4529,19 +4729,19 @@
         "August",
         "September"
       ],
-      "priceFrom": 791,
+      "priceFrom": 710,
       "currency": "USD",
       "image": "/assets/images/tours/tash-rabat-arpa-aksay-kelsuu-4x4/mount1.jpg",
       "gallery": [],
       "groupSize": {
         "min": 2,
-        "max": 8
+        "max": 10
       },
       "pricing": {
         "perDayBase": 100,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 4,
-        "displayFromPrice": 791
+        "displayFromPrice": 710
       },
       "i18n": {
         "en": {
@@ -4650,33 +4850,53 @@
       "priceTable": [
         {
           "group": 1,
-          "perPerson": 2744,
-          "total": 2744
+          "perPerson": 2611,
+          "total": 2611
         },
         {
           "group": 2,
-          "perPerson": 1531,
-          "total": 3062
+          "perPerson": 1467,
+          "total": 2934
         },
         {
           "group": 3,
-          "perPerson": 1126,
-          "total": 3378
+          "perPerson": 1086,
+          "total": 3258
         },
         {
           "group": 4,
-          "perPerson": 924,
-          "total": 3696
+          "perPerson": 980,
+          "total": 3920
         },
         {
           "group": 5,
-          "perPerson": 886,
-          "total": 4430
+          "perPerson": 849,
+          "total": 4245
         },
         {
           "group": 6,
-          "perPerson": 791,
-          "total": 4746
+          "perPerson": 849,
+          "total": 5094
+        },
+        {
+          "group": 7,
+          "perPerson": 849,
+          "total": 5943
+        },
+        {
+          "group": 8,
+          "perPerson": 758,
+          "total": 6064
+        },
+        {
+          "group": 9,
+          "perPerson": 710,
+          "total": 6390
+        },
+        {
+          "group": 10,
+          "perPerson": 710,
+          "total": 7100
         }
       ]
     },
@@ -4702,19 +4922,19 @@
         "August",
         "September"
       ],
-      "priceFrom": 480,
+      "priceFrom": 436,
       "currency": "USD",
       "image": "/assets/images/tours/tash-rabat-arpa-aksay-kelsuu-4x4/mount1.jpg",
       "gallery": [],
       "groupSize": {
         "min": 2,
-        "max": 8
+        "max": 10
       },
       "pricing": {
         "perDayBase": 100,
         "organizerMarkup": 0.3,
         "minBillableParticipants": 4,
-        "displayFromPrice": 480
+        "displayFromPrice": 436
       },
       "i18n": {
         "en": {
@@ -4835,33 +5055,53 @@
       "priceTable": [
         {
           "group": 1,
-          "perPerson": 1619,
-          "total": 1619
+          "perPerson": 1548,
+          "total": 1548
         },
         {
           "group": 2,
-          "perPerson": 913,
-          "total": 1826
+          "perPerson": 880,
+          "total": 1760
         },
         {
           "group": 3,
-          "perPerson": 677,
-          "total": 2031
+          "perPerson": 658,
+          "total": 1974
         },
         {
           "group": 4,
-          "perPerson": 559,
-          "total": 2236
+          "perPerson": 591,
+          "total": 2364
         },
         {
           "group": 5,
-          "perPerson": 535,
-          "total": 2675
+          "perPerson": 515,
+          "total": 2575
         },
         {
           "group": 6,
-          "perPerson": 480,
-          "total": 2880
+          "perPerson": 515,
+          "total": 3090
+        },
+        {
+          "group": 7,
+          "perPerson": 515,
+          "total": 3605
+        },
+        {
+          "group": 8,
+          "perPerson": 464,
+          "total": 3712
+        },
+        {
+          "group": 9,
+          "perPerson": 436,
+          "total": 3924
+        },
+        {
+          "group": 10,
+          "perPerson": 436,
+          "total": 4360
         }
       ]
     },
