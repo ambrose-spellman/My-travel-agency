@@ -781,7 +781,7 @@
       },
       "i18n": {
         "en": {
-          "title": "At-Bashy Mountains, Tash-Rabat & Shaar Waterfall — 5 Days on Horseback",
+          "title": "Horseback Expedition: Kazybek – Tash-Rabat – Shaar Waterfall",
           "description": "Four riding days from Naryn. Ride from Kazybek village over the At-Bashy range to the 15th-century Tash-Rabat caravanserai and up to Panda Pass for a view over Chatyr-Kul lake. Then ride up the green Bash-Kaindy gorge to Shaar Waterfall, which falls from the middle of a rock wall, and finish in Naryn with an eagle hunter show or a cultural programme. No border permit is needed: we stop at the viewpoint and do not go as far as the checkpoint. In late May – early June the first two days can instead be spent on a real spring cattle drive with local herders (on request).",
           "difficulty": "Moderate",
           "comfort": "Standard",
@@ -842,7 +842,7 @@
           "transport": "Horseback on days 1–4; 4WD transfers Naryn – Kazybek, Tash-Rabat – At-Bashy – Bash-Kaindy – Naryn",
           "startingPoint": "Naryn (pick-up), ride starts in Kazybek village",
           "endingPoint": "Naryn",
-          "whatsappMessage": "Hello! I'm interested in the 5-day horse tour: At-Bashy Mountains, Tash-Rabat & Shaar Waterfall.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
+          "whatsappMessage": "Hello! I'm interested in the 5-day horseback expedition Kazybek – Tash-Rabat – Shaar Waterfall.\n\nPreferred dates:\nNumber of travelers:\nMy country:",
           "faq": [
             {
               "question": "Do I need a border permit?",
@@ -867,7 +867,7 @@
           ]
         },
         "ru": {
-          "title": "Горы Ат-Баши, Таш-Рабат и водопад Шаар — 5 дней верхом",
+          "title": "Конная экспедиция: Казыбек – Таш-Рабат – водопад Шаар",
           "description": "Четыре дня верхом, старт в Нарыне. Из села Казыбек через хребет Ат-Баши к караван-сараю Таш-Рабат XV века и на перевал Панда с видом на озеро Чатыр-Кёль. Затем по зелёному ущелью Баш-Кайынды к водопаду Шаар, который падает с середины скальной стены, а в последний день — шоу беркутчи или культурная программа в Нарыне. Пограничный пропуск не нужен: мы останавливаемся на смотровой и не доезжаем до пункта контроля. В конце мая – начале июня первые два дня можно заменить настоящим весенним перегоном скота вместе с местными чабанами (по запросу).",
           "difficulty": "Средний",
           "comfort": "Стандарт",
@@ -928,7 +928,7 @@
           "transport": "Верхом в дни 1–4; трансферы 4WD Нарын – Казыбек, Таш-Рабат – Ат-Баши – Баш-Кайынды – Нарын",
           "startingPoint": "Нарын (встреча), старт верхом в селе Казыбек",
           "endingPoint": "Нарын",
-          "whatsappMessage": "Здравствуйте! Меня интересует тур «5 дней верхом: горы Ат-Баши, Таш-Рабат и водопад Шаар».\n\nЖелаемые даты:\nКоличество человек:\nМоя страна:",
+          "whatsappMessage": "Здравствуйте! Меня интересует 5-дневная конная экспедиция Казыбек – Таш-Рабат – водопад Шаар.\n\nЖелаемые даты:\nКоличество человек:\nМоя страна:",
           "faq": [
             {
               "question": "Нужен ли пограничный пропуск?",
@@ -953,7 +953,7 @@
           ]
         },
         "ky": {
-          "title": "Ат-Башы тоолору, Таш-Рабат жана Шаар шаркыратмасы — ат үстүндө 5 күн",
+          "title": "Ат үстүндөгү экспедиция: Казыбек – Таш-Рабат – Шаар шаркыратмасы",
           "description": "Ат үстүндө төрт күн, Нарындан башталат. Казыбек айылынан Ат-Башы кыркасы аркылуу XV кылымдагы Таш-Рабат кербен-сарайына жана Чатыр-Көл көрүнгөн Панда ашуусуна чыгабыз. Андан соң жашыл Баш-Кайыңды капчыгайы менен аскалуу дубалдын ортосунан аккан Шаар шаркыратмасына барабыз, акыркы күнү — Нарында бүркүтчүлөрдүн шоусу же маданий программа. Чек ара уруксаты керек эмес: көрүү аянтчасында токтойбуз, текшерүү пунктуна чейин барбайбыз. Майдын аягы – июндун башында алгачкы эки күндү жергиликтүү чабандар менен чыныгы жазгы мал айдоого алмаштырса болот (суроо боюнча).",
           "difficulty": "Орточо",
           "comfort": "Стандарт",
@@ -1014,7 +1014,7 @@
           "transport": "1–4-күндөрү ат менен; 4WD менен Нарын – Казыбек, Таш-Рабат – Ат-Башы – Баш-Кайыңды – Нарын",
           "startingPoint": "Нарын (тосуп алуу), ат жүрүшү Казыбек айылынан башталат",
           "endingPoint": "Нарын",
-          "whatsappMessage": "Салам! Мени «Ат-Башы тоолору, Таш-Рабат жана Шаар шаркыратмасы — ат үстүндө 5 күн» туру кызыктырат.\n\nКаалаган күндөр:\nАдамдардын саны:\nМенин өлкөм:",
+          "whatsappMessage": "Салам! Мени 5 күндүк Казыбек – Таш-Рабат – Шаар шаркыратмасы ат экспедициясы кызыктырат.\n\nКаалаган күндөр:\nАдамдардын саны:\nМенин өлкөм:",
           "faq": [
             {
               "question": "Чек ара уруксаты керекпи?",
