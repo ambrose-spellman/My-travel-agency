@@ -521,7 +521,15 @@ function firstSentences(text, n) {
 function buildHome(locale) {
   const h = UI[locale].home;
   const featured = TOURS.slice(0, 3);
-  const gallery = IMAGE_POOL.slice(0, 6);
+  /* Life on the Trail: landscapes plus our own photos from the tours */
+  const gallery = IMAGE_POOL.slice(0, 6).concat([
+    '/assets/images/tours/bogoshtu-kelsuu-horse/img_3718.jpg',
+    '/assets/images/tours/kazybek-tash-rabat-shaar-waterfall-horse/ind05364.jpg',
+    '/assets/images/tours/kazybek-tash-rabat-shaar-waterfall-horse/mal-aidoo2.jpg',
+    '/assets/images/tours/kyzart-song-kul-horse/dsc_0362_2.jpg',
+    '/assets/images/tours/kyrgyzstan-grand-tour/dsc09989.jpg',
+    '/assets/images/tours/tash-rabat-song-kul-horse-expedition/ind04291.jpg'
+  ]);
   const masonryImages = IMAGE_POOL;
 
   const galleryCols = [
@@ -557,7 +565,7 @@ function buildHome(locale) {
 <section class="section founder">
   <div class="container founder__grid">
     <div class="founder__photo">
-      ${img('/assets/images/general/saikal-portrait.jpg', { preset: 'half', alt: h.founderName })}
+      ${img('/assets/images/general/saikal-horse.jpg', { preset: 'half', alt: h.founderName })}
     </div>
     <div class="founder__card">
       <span class="founder__quote-mark" aria-hidden="true">“</span>
