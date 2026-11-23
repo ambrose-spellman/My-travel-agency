@@ -512,6 +512,12 @@ function testimonialsHtml(locale) {
 /* ------------------------------------------------------------------ */
 /* Page: Home
 /* ------------------------------------------------------------------ */
+/* The first n sentences of a text (for a short pull quote). */
+function firstSentences(text, n) {
+  const parts = text.match(/[^.!?]+[.!?]+/g) || [text];
+  return parts.slice(0, n).join('').trim();
+}
+
 function buildHome(locale) {
   const h = UI[locale].home;
   const featured = TOURS.slice(0, 3);
@@ -524,8 +530,6 @@ function buildHome(locale) {
     masonryImages.filter(function (_, i) { return i % 3 === 2; })
   ];
   const founderFlowing = h.founderBio.slice(0, h.founderBio.length - 2);
-  const founderCard1Body = h.founderBio[h.founderBio.length - 2];
-  const founderCard2Body = h.founderBio[h.founderBio.length - 1];
 
   const body = `
 <section class="hero hero--intro">
@@ -550,44 +554,43 @@ function buildHome(locale) {
   </div>
 </section>
 
-<section class="section guide-section">
-  <div class="container guide-grid">
-    <div class="guide-grid__media">
-      ${img('/assets/images/general/saikal-portrait.jpg', { preset: 'portrait', alt: h.founderGreeting, class: 'guide-grid__photo' })}
-      ${img('/assets/images/general/saikal2.jpg', { preset: 'inset', alt: h.founderGreeting, class: 'guide-grid__photo-inset' })}
-      <div class="guide-grid__badge"><strong>${h.guideSeasonsBadge}</strong><span>${h.guideSeasonsLabel}</span></div>
+<section class="section founder">
+  <div class="container founder__grid">
+    <div class="founder__photo">
+      ${img('/assets/images/general/saikal-portrait.jpg', { preset: 'half', alt: h.founderName })}
     </div>
-    <div class="guide-grid__text">
-      <h2>${h.founderGreeting}</h2>
-      <p class="guide-grid__role">${h.founderRole}</p>
-      ${founderFlowing.map(function (p) { return '<p>' + p + '</p>'; }).join('\n      ')}
-      <div class="guide-grid__cards">
-        <div class="guide-card">
-          <span class="guide-card__icon">${iconColor('mountain', 'var(--color-accent-2)', 24)}</span>
-          <h3>${h.guideCardTitles[0]}</h3>
-          <p>${founderCard1Body}</p>
-        </div>
-        <div class="guide-card guide-card--dark">
-          <span class="guide-card__icon">${iconColor('heart', 'var(--color-accent-2)', 24)}</span>
-          <h3>${h.guideCardTitles[1]}</h3>
-          <p>${founderCard2Body}</p>
-        </div>
+    <div class="founder__card">
+      <span class="founder__quote-mark" aria-hidden="true">“</span>
+      <h2 class="founder__title">${h.founderGreeting}</h2>
+      ${founderFlowing.slice(0, 2).map(function (p) { return '<p>' + p + '</p>'; }).join('\n      ')}
+      <p class="founder__pull">${h.founderPull}</p>
+      <div class="founder__stats">
+        <div><strong>${h.guideSeasonsBadge}</strong><span>${h.guideSeasonsLabel}</span></div>
+        <div><strong>${h.languagesCount}</strong><span>${h.languagesLabel}</span></div>
       </div>
-      <div class="guide-grid__cta">
-        <a href="#" data-wa-message="${attr(t(locale, 'common.waDefaultMessage'))}" target="_blank" rel="noopener" class="btn btn--primary btn--lg">${h.guideCta} →</a>
-        <span class="guide-grid__languages">${h.guideLanguages}</span>
+      <div class="founder__foot">
+        <p class="founder__sign">${h.founderName}<br>${h.founderTitle}</p>
+        <a href="#" data-wa-message="${attr(t(locale, 'common.waDefaultMessage'))}" target="_blank" rel="noopener" class="btn btn--primary">${h.guideCta}</a>
       </div>
     </div>
   </div>
 </section>
 
-<section class="section section--bg">
-  <div class="container section-intro">
-    <h2 class="text-center">${h.chooseAdventureHeading}</h2>
-    <div class="grid-4">
+<section class="section adventure">
+  <div class="container">
+    <div class="adventure__head">
+      <h2 class="adventure__heading">${h.chooseAdventureHeading}</h2>
+      <p class="adventure__lead">${h.adventureLead}</p>
+    </div>
+    <div class="adventure__grid">
       ${h.categories.map(function (c, i) {
         const activityKey = ['Horse', '4x4', 'Hiking', 'Custom'][i];
-        return `<div class="value-card"><div class="t">${c.t}</div><div class="d">${c.d}</div><a href="${localePath(locale, '/tours/#' + activityKey)}" class="btn btn--outline" style="margin-top:auto">${h.heroCta}</a></div>`;
+        const photo = ['/assets/images/destinations/song-kul-horseman.webp', '/assets/images/general/mountain-lake-yurts.webp', '/assets/images/destinations/jomoksai.jpg', '/assets/images/general/camel-pastures.webp'][i];
+        return `<a href="${localePath(locale, '/tours/#' + activityKey)}" class="adventure-card${i % 2 ? ' adventure-card--low' : ''}">
+        ${img(photo, { preset: 'tile', alt: c.t })}
+        <span class="adventure-card__text"><span class="adventure-card__title">${c.t}</span><span class="adventure-card__desc">${c.d}</span></span>
+        <span class="adventure-card__btn${i === 3 ? ' adventure-card__btn--solid' : ''}">${h.categoryButtons[i]}</span>
+      </a>`;
       }).join('\n      ')}
     </div>
   </div>
@@ -625,12 +628,14 @@ ${SHOW_REGIONS_SECTION ? `
   </div>
 </section>
 
-<section class="section section--bg">
-  <div class="container stack">
-    <h2 class="text-center">${h.whatTravelersSayHeading}</h2>
-    <div class="testimonial-grid">${testimonialsHtml(locale)}</div>
+${h.testimonials.length ? `
+<section class="section section--white review-hero">
+  <div class="container review-hero__inner">
+    <p class="review-hero__eyebrow">${h.whatTravelersSayHeading}</p>
+    <blockquote class="review-hero__quote">“${firstSentences(h.testimonials[0].quote, 2)}”</blockquote>
+    <p class="review-hero__who">${h.testimonials[0].name} · ${h.testimonialTrip}</p>
   </div>
-</section>
+</section>` : ''}
 
 <section class="section section--black">
   <div class="container stack">
@@ -642,10 +647,12 @@ ${SHOW_REGIONS_SECTION ? `
 </section>
 
 <section class="section section--white">
-  <div class="container max-w-800 stack">
-    <h2 class="text-center">${h.commonQuestionsHeading}</h2>
-    ${faqBlock(h.faqHome, 'fh')}
-    <div class="text-center"><a href="${localePath(locale, '/practical-info/#info-getting')}" class="btn--link">${h.viewAllFaqs}</a></div>
+  <div class="container faq-split">
+    <div class="faq-split__head">
+      <h2 class="faq-split__heading">${h.commonQuestionsHeading}</h2>
+      <a href="${localePath(locale, '/practical-info/#info-getting')}" class="btn btn--outline">${h.viewAllFaqs}</a>
+    </div>
+    <div class="faq-split__list">${h.faqHome.map(function (f, i) { return accordionItem('fh', i, f.q, '<p style="margin:0">' + f.a + '</p>', true); }).join('\n')}</div>
   </div>
 </section>
 
